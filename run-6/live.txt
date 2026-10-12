@@ -1,0 +1,26 @@
+# live | run 6 | sha 6479c1292d49caefb28dced6cf45cdcf55c21744 | 2026-10-12T02:43:41Z
+## errors and key lines
+21:BUILD SUCCESSFUL in 30s
+
+## tail
+    LIVE-MEASURE implayer stable: implayer_416_official.apk file-sha256=3f3b347cbc829d572f7431768639791e050a24e08e2759ee73b50f0481300bbd pkg=com.myiptvonline.implayer version=4.1.6 code=486 minSdk=23 signers=[e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766]
+    LIVE-VERIFY nuvio-tv stable [arm64-v8a] app-full-arm64-v8a-release.apk: PASSED v1.0.0 (code 1062) pkg=com.nuvio.tv signer=NuvioTV release key (CN=NuvioTV, O=NuvioTV) sha256=b682c455ce3766bc…
+    LIVE-VERIFY nuvio-tv beta [arm64-v8a] app-full-arm64-v8a-release.apk: PASSED v1.1.0-beta.5 (code 1068) pkg=com.nuvio.tv signer=NuvioTV release key (CN=NuvioTV, O=NuvioTV) sha256=2e497b0c9703ad7c…
+    LIVE-VERIFY smarttube stable [arm64-v8a] SmartTube_stable_32.56_universal.apk: PASSED v32.56 (code 2446) pkg=org.smarttube.stable signer=SmartTube release key, issued 2025-11-27 (CN=Yurii L, O=SmartTube) sha256=4a35b90940612e04…
+    LIVE-VERIFY smarttube beta [arm64-v8a] SmartTube_beta_32.56_universal.apk: PASSED v32.56 (code 2446) pkg=org.smarttube.beta signer=SmartTube release key, issued 2025-11-27 (CN=Yurii L, O=SmartTube) sha256=3923606dbf893722…
+    LIVE nuvio-tv stable [arm64-v8a] OK 1.0.0 -> app-full-arm64-v8a-release.apk (arm64-v8a, 73 MB)
+    LIVE nuvio-tv stable [fire-tv-32bit] OK 1.0.0 -> app-full-armeabi-v7a-release.apk (armeabi-v7a, 72 MB)
+    LIVE nuvio-tv stable [x86_64-emulator] OK 1.0.0 -> app-full-x86_64-release.apk (x86_64, 77 MB)
+    LIVE nuvio-tv beta [arm64-v8a] OK 1.1.0-beta.5 -> app-full-arm64-v8a-release.apk (arm64-v8a, 54 MB)
+    LIVE nuvio-tv beta [fire-tv-32bit] OK 1.1.0-beta.5 -> app-full-armeabi-v7a-release.apk (armeabi-v7a, 52 MB)
+    LIVE nuvio-tv beta [x86_64-emulator] OK 1.1.0-beta.5 -> app-full-x86_64-release.apk (x86_64, 55 MB)
+    LIVE implayer stable [arm64-v8a] OK 4.1.6 -> implayer_416_official.apk (any, 98 MB)
+    LIVE implayer stable [fire-tv-32bit] OK 4.1.6 -> implayer_416_official.apk (any, 98 MB)
+    LIVE implayer stable [x86_64-emulator] OK 4.1.6 -> implayer_416_official.apk (any, 98 MB)
+    LIVE smarttube stable [arm64-v8a] OK 32.56 -> SmartTube_stable_32.56_universal.apk (universal, 34 MB)
+    LIVE smarttube stable [fire-tv-32bit] OK 32.56 -> SmartTube_stable_32.56_universal.apk (universal, 34 MB)
+    LIVE smarttube stable [x86_64-emulator] OK 32.56 -> SmartTube_stable_32.56_x86.apk (x86, 27 MB)
+    LIVE smarttube beta [arm64-v8a] OK 32.56 -> SmartTube_beta_32.56_universal.apk (universal, 34 MB)
+    LIVE smarttube beta [fire-tv-32bit] OK 32.56 -> SmartTube_beta_32.56_universal.apk (universal, 34 MB)
+    LIVE smarttube beta [x86_64-emulator] OK 32.56 -> SmartTube_beta_32.56_x86.apk (x86, 27 MB)
+BUILD SUCCESSFUL in 30s
