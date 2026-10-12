@@ -1,0 +1,126 @@
+# One-off reconnaissance: prints facts about build tooling and the three official
+# download sources so the app's resolvers are written against real data, not guesses.
+# It downloads public APKs only to read their manifests/signing certificates; nothing
+# downloaded is executed or published.
+name: recon
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/workflows/recon.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Google Maven - available versions
+        run: |
+          show() { # group artifact
+            local path; path="$(echo "$1" | tr . /)"
+            printf '%-52s' "$1:$2"
+            curl -fsS "https://dl.google.com/dl/android/maven2/$path/$2/maven-metadata.xml" \
+              | grep -oE '<version>[^<]+' | sed 's/<version>//' \
+              | grep -viE 'alpha|beta|rc|dev|snapshot' | sort -V | tail -4 | tr '\n' ' '
+            echo
+          }
+          show com.android.tools.build gradle
+          show androidx.compose compose-bom
+          show androidx.tv tv-material
+          show androidx.tv tv-foundation
+          show androidx.activity activity-compose
+          show androidx.lifecycle lifecycle-viewmodel-compose
+          show androidx.lifecycle lifecycle-runtime-compose
+          show androidx.datastore datastore-preferences
+          show androidx.core core-ktx
+          show androidx.core core-splashscreen
+          show androidx.test.ext junit
+          show androidx.test runner
+          show androidx.test.uiautomator uiautomator
+          show androidx.compose.ui ui-test-junit4
+          show androidx.navigation navigation-compose
+
+      - name: Runner toolchain
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"; ls "$ANDROID_HOME/build-tools" | sort -V | tail -3
+          ls "$ANDROID_HOME/platforms" | sort -V | tail -3
+          java -version 2>&1 | head -1; gradle --version 2>/dev/null | grep -E '^Gradle' || true
+
+      - name: GitHub API - Nuvio releases
+        run: |
+          gh api rate_limit -q '.resources.core | "core rate limit: \(.remaining)/\(.limit)"'
+          echo "== latest (what /releases/latest returns)"
+          gh api repos/NuvioMedia/NuvioTV/releases/latest -q '[.tag_name,.name,.prerelease,.published_at]|@tsv'
+          echo "== recent releases"
+          gh api 'repos/NuvioMedia/NuvioTV/releases?per_page=8' \
+            -q '.[] | "\(.tag_name)\tprerelease=\(.prerelease)\tdraft=\(.draft)\t\(.published_at)\tassets=\(.assets|length)"'
+          echo "== assets of latest (name size digest content_type url-host)"
+          gh api repos/NuvioMedia/NuvioTV/releases/latest \
+            -q '.assets[] | "\(.name)\t\(.size)\t\(.digest)\t\(.content_type)\t\(.browser_download_url)"'
+          echo "== assets of newest prerelease"
+          gh api 'repos/NuvioMedia/NuvioTV/releases?per_page=3' \
+            -q '.[0] | .tag_name, (.assets[] | "\(.name)\t\(.size)\t\(.digest)")'
+
+      - name: GitHub API - SmartTube releases
+        run: |
+          echo "== /releases/latest"
+          gh api repos/yuliskov/SmartTube/releases/latest -q '[.tag_name,.name,.prerelease,.published_at]|@tsv'
+          echo "== recent releases"
+          gh api 'repos/yuliskov/SmartTube/releases?per_page=12' \
+            -q '.[] | "\(.tag_name)\tname=\(.name)\tprerelease=\(.prerelease)\tdraft=\(.draft)\t\(.published_at)\tassets=\(.assets|length)"'
+          echo "== assets of every recent release"
+          gh api 'repos/yuliskov/SmartTube/releases?per_page=6' \
+            -q '.[] | "--- \(.tag_name) (\(.name))", (.assets[] | "   \(.name)\t\(.size)\t\(.digest)\t\(.updated_at)")'
+          echo "== body of newest release (first 40 lines)"
+          gh api 'repos/yuliskov/SmartTube/releases?per_page=1' -q '.[0].body' | head -40
+          echo "== release with tag 'latest'"
+          gh api repos/yuliskov/SmartTube/releases/tags/latest -q '[.tag_name,.name,.prerelease,.published_at]|@tsv, (.assets[]|"   \(.name)\t\(.size)\t\(.digest)")' || true
+
+      - name: implayer.tv - what does the official site serve?
+        run: |
+          UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
+          for h in https://implayer.tv/ https://www.implayer.tv/; do
+            echo "== HEAD $h"; curl -sSIL -m 30 -A "$UA" "$h" | grep -iE '^(HTTP|location|server|content-type|content-length|last-modified)' || true
+          done
+          curl -sSL -m 30 -A "$UA" -o implayer.html -D implayer.headers https://implayer.tv/ || true
+          echo "== size"; wc -c implayer.html
+          echo "== <title>"; grep -oiE '<title>[^<]*' implayer.html | head -2
+          echo "== all href/src/url values mentioning apk, download, or file hosts"
+          grep -oiE "(href|src|data-[a-z-]+)=[\"'][^\"']*[\"']" implayer.html | grep -iE 'apk|download|release|cdn|github|drive|mega|dropbox|bucket|s3|r2|files' | sort -u | head -60
+          echo "== context around 'Direct APK'"
+          grep -i -B3 -A3 'direct apk' implayer.html | head -60
+          echo "== context around 82375"
+          grep -i -B2 -A2 '82375' implayer.html | head -30
+          echo "== script bundles referenced"
+          grep -oiE "<script[^>]*src=[\"'][^\"']+" implayer.html | head
+      - name: implayer.tv - follow the Direct APK link (headers only) and measure it
+        run: |
+          UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
+          URL="$(grep -oiE "href=[\"'][^\"']*\.apk[^\"']*[\"']" implayer.html | head -1 | sed -E "s/^href=[\"']//; s/[\"']$//")"
+          echo "candidate .apk href: ${URL:-<none found in static HTML>}"
+          [ -z "$URL" ] && exit 0
+          case "$URL" in http*) ;; /*) URL="https://implayer.tv$URL";; *) URL="https://implayer.tv/$URL";; esac
+          echo "== redirect chain (hosts only, query stripped)"
+          curl -sSIL -m 60 -A "$UA" "$URL" -o /dev/null -w '%{url_effective}\n%{http_code} %{size_download} %{content_type}\n' | sed -E 's/\?.*//'
+          curl -sSIL -m 60 -A "$UA" "$URL" | grep -iE '^(HTTP|location|content-length|content-type|content-disposition|accept-ranges|last-modified|etag)' | sed -E 's/\?.*//'
+          mkdir -p dl_implayer && curl -sSL -m 600 -A "$UA" -o dl_implayer/implayer.apk "$URL" -w 'downloaded %{size_download} bytes\n'
+          file dl_implayer/implayer.apk; sha256sum dl_implayer/implayer.apk
+
+      - name: Measure official APKs with the Android SDK's own tools (canonical digests)
+        run: |
+          BT="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"; echo "build-tools: $BT"
+          mkdir -p apks
+          gh release download 1.0.0 -R NuvioMedia/NuvioTV -p 'app-full-arm64-v8a-release.apk' -D apks --clobber
+          curl -sSL -m 300 -o apks/smarttube_stable.apk https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_stable.apk
+          curl -sSL -m 300 -o apks/smarttube_beta.apk   https://github.com/yuliskov/SmartTube/releases/download/latest/smarttube_beta.apk
+          [ -f dl_implayer/implayer.apk ] && cp dl_implayer/implayer.apk apks/implayer.apk || true
+          for f in apks/*.apk; do
+            echo; echo "################ $f ($(stat -c %s "$f") bytes)"
+            file "$f" | cut -c1-110
+            "$BT/apksigner" verify --verbose --print-certs "$f" 2>&1 | grep -E 'Verifies|Verified using|Number of signers|certificate (DN|SHA-256|SHA-1)|WARNING|ERROR|DOES NOT' || true
+            "$BT/aapt2" dump badging "$f" 2>/dev/null | grep -E "^(package|sdkVersion|minSdkVersion|targetSdkVersion|native-code|application-label:|launchable-activity|leanback-launchable)|uses-feature(-not-required)?: name='android.(hardware|software)" | cut -c1-200 || true
+          done

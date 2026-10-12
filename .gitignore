@@ -1,0 +1,18 @@
+# Gradle / Android
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing material must NEVER be committed
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
