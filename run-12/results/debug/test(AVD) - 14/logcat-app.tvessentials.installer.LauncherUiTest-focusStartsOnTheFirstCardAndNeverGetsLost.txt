@@ -1,0 +1,212 @@
+10-12 14:40:59.686  4026  4211 I TestRunner: started: focusStartsOnTheFirstCardAndNeverGetsLost(app.tvessentials.installer.LauncherUiTest)
+10-12 14:40:59.792   483   718 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:40:59.822  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@fa5f33a in: DESTROYED
+10-12 14:40:59.823  4026  4026 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@f6545aa
+10-12 14:40:59.843   483  1326 W InputManager-JNI: Input channel object 'db36b54 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 14:41:00.049  4026  4026 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+10-12 14:41:00.519  1392  1597 D EGL_emulation: app_time_stats: avg=67.77ms min=28.88ms max=131.17ms count=16
+10-12 14:41:00.825  4026  4211 D UiDevice: Pressing home button.
+10-12 14:41:00.854   781   781 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:41:00.857   483   508 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:41:00.950  1392  1392 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:41:00.996   483  2973 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:41:01.004  4026  4211 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:41:01.007  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:01.031   382   382 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:41:01.271  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@bc79394 in: PRE_ON_CREATE
+10-12 14:41:01.298  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@bc79394 in: CREATED
+10-12 14:41:01.303  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@bc79394 in: STARTED
+10-12 14:41:01.383   483  1673 D ConnectivityService: requestNetwork for uid/pid:10122/4026 activeRequest: null callbackRequest: 108 [NetworkRequest [ REQUEST id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 14:41:01.387   483   719 D ConnectivityService: NetReassign [109 : null → 100] [c 0] [a 0] [i 0]
+10-12 14:41:01.389   483   718 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:01.389   483   718 D EthernetNetworkFactory: IpClient already started
+10-12 14:41:01.389   483   711 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:01.389   483   711 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:01.389   483   711 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:01.430  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@bc79394 in: RESUMED
+10-12 14:41:01.538  1392  1597 D EGL_emulation: app_time_stats: avg=55.78ms min=38.52ms max=89.08ms count=17
+10-12 14:41:01.924   483   507 W ziparchive: Unable to open '/data/app/~~kP1rPQwL1vDfchRxTHLqeg==/app.tvessentials.installer-dvqX9sxGGTq5zRxI_hBDxg==/base.dm': No such file or directory
+10-12 14:41:01.924   483   507 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +926ms
+10-12 14:41:02.066   483  1271 I ImeTracker: app.tvessentials.installer:2ecb2d96: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 14:41:02.066   483  1271 I ImeTracker: app.tvessentials.installer:2ecb2d96: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 14:41:02.070  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 14:41:02.071  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 14:41:02.071  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 14:41:02.071  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 14:41:02.071  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 14:41:02.321  4026  4093 I OpenGLRenderer: Davey! duration=702ms; Flags=0, FrameTimelineVsyncId=12498, IntendedVsync=343647415533, Vsync=344014082185, InputEventId=0, HandleInputStart=344030019483, AnimationStart=344030023101, PerformTraversalsStart=344075328938, DrawStart=344075898080, FrameDeadline=344030759912, FrameInterval=344029442316, FrameStartTime=16666666, SyncQueued=344085778612, SyncStart=344086240034, IssueDrawCommandsStart=344086295056, SwapBuffers=344117343079, FrameCompleted=344350641748, DequeueBufferDuration=5881, QueueBufferDuration=395358, GpuCompleted=344350641748, SwapBuffersCompleted=344348828380, DisplayPresentTime=0, CommandSubmissionCompleted=344117343079, 
+10-12 14:41:02.679  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:02.679  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:03.213  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:03.251  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:03.446  4026  4211 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 14:41:03.484   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:03.484   378   909 D audioserver: -129
+10-12 14:41:03.650   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:03.650   378   467 D audioserver: -129
+10-12 14:41:03.670  4026  4255 D EGL_emulation: app_time_stats: avg=438.73ms min=244.56ms max=891.11ms count=4
+10-12 14:41:03.852  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:03.856  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:03.873  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:03.892  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:04.259  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:04.259  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:04.264  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:04.274  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:04.623  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:04.623  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:04.653  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:04.691  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:04.899  4026  4211 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 14:41:04.932   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:04.932   378   909 D audioserver: -129
+10-12 14:41:04.987   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(37)
+10-12 14:41:04.988  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:04.988  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:05.012   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(11)
+10-12 14:41:05.123  4026  4255 D EGL_emulation: app_time_stats: avg=726.12ms min=210.66ms max=1241.57ms count=2
+10-12 14:41:05.140  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:05.181  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:05.221   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:05.221   378   467 D audioserver: -129
+10-12 14:41:05.622  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:05.622  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:05.627  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:05.636  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:05.977  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:05.977  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:05.982  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:05.991  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:06.340  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:06.340  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:06.345  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:06.353  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:06.706  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:06.706  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:06.742  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:06.780  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:06.958  4026  4211 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:41:06.978   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:06.978   378   909 D audioserver: -129
+10-12 14:41:07.033  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:07.039  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:07.208  4026  4255 D EGL_emulation: app_time_stats: avg=1042.57ms min=236.03ms max=1849.10ms count=2
+10-12 14:41:07.214   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:07.214   378   467 D audioserver: -129
+10-12 14:41:07.240  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:07.305  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:07.558  4026  4211 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 14:41:07.573   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:07.573   378   909 D audioserver: -129
+10-12 14:41:07.592  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:07.592  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:07.626  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:07.802   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:07.802   378   467 D audioserver: -129
+10-12 14:41:08.015  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:08.241  4026  4211 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 14:41:08.261   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:08.261   378   909 D audioserver: -129
+10-12 14:41:08.448  4026  4255 D EGL_emulation: app_time_stats: avg=309.95ms min=189.54ms max=449.24ms count=4
+10-12 14:41:08.451  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:08.451  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:08.459  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:08.489   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:08.489   378   467 D audioserver: -129
+10-12 14:41:08.506  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:08.719  4026  4211 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 14:41:08.744   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:08.744   378   909 D audioserver: -129
+10-12 14:41:08.773  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:08.774  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:09.132   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:09.132   378   467 D audioserver: -129
+10-12 14:41:09.181  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:09.235  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:09.447  4026  4211 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:41:09.478   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:09.478   378   909 D audioserver: -129
+10-12 14:41:09.634  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:09.637  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:09.705  4026  4255 D EGL_emulation: app_time_stats: avg=418.21ms min=203.97ms max=554.13ms count=3
+10-12 14:41:09.742  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:09.748   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:09.748   378   467 D audioserver: -129
+10-12 14:41:09.825  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:10.072  4026  4211 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 14:41:10.095   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:10.095   378   909 D audioserver: -129
+10-12 14:41:10.109   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(33)
+10-12 14:41:10.124  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:10.125  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:10.344   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:10.344   378   467 D audioserver: -129
+10-12 14:41:10.368  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:10.405  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:10.651  4026  4211 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 14:41:10.679   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:10.679   378   909 D audioserver: -129
+10-12 14:41:10.872  4026  4255 D EGL_emulation: app_time_stats: avg=290.98ms min=210.78ms max=374.29ms count=4
+10-12 14:41:10.874  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:10.874  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:10.903   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:10.903   378   467 D audioserver: -129
+10-12 14:41:10.936  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:10.969  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:11.231  4026  4211 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 14:41:11.254   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:11.254   378   909 D audioserver: -129
+10-12 14:41:11.266   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(28)
+10-12 14:41:11.287  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:11.288  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:11.469   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:11.469   378   467 D audioserver: -129
+10-12 14:41:11.573  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:11.715  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:11.922  4026  4211 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:41:11.948   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:11.948   378   909 D audioserver: -129
+10-12 14:41:12.167  4026  4255 D EGL_emulation: app_time_stats: avg=429.73ms min=214.15ms max=591.16ms count=3
+10-12 14:41:12.172  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:12.177  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:12.206   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:12.206   378   467 D audioserver: -129
+10-12 14:41:12.270  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:12.294  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:12.562  4026  4211 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 14:41:12.572   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:12.572   378   909 D audioserver: -129
+10-12 14:41:12.590   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(22)
+10-12 14:41:12.616  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:12.616  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:12.793   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:12.794   378   467 D audioserver: -129
+10-12 14:41:12.858  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:12.889  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:13.202  4026  4211 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 14:41:13.229   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:13.229   378   909 D audioserver: -129
+10-12 14:41:13.236  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:13.236  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:13.315  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:13.334  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:13.437  4026  4255 D EGL_emulation: app_time_stats: avg=317.58ms min=210.07ms max=417.19ms count=4
+10-12 14:41:13.472   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:13.472   378   467 D audioserver: -129
+10-12 14:41:13.578  4026  4211 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 14:41:13.591   378   909 D audioserver: FGS Logger Transaction failed
+10-12 14:41:13.591   378   909 D audioserver: -129
+10-12 14:41:13.604  4026  4211 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:41:13.604  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:13.644  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:41:13.814   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:41:13.814   378   467 D audioserver: -129
+10-12 14:41:13.925  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:14.192  4026  4211 D UiDevice: Pressing home button.
+10-12 14:41:14.212   781   781 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:41:14.214   483   508 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:41:14.234   382   382 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:41:14.242  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@bc79394 in: PAUSED
+10-12 14:41:14.277  1392  1392 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 14:41:14.278  1392  1392 W HomeController: onResume: List view global layout completed.
+10-12 14:41:14.285  4026  4211 I TestRunner: finished: focusStartsOnTheFirstCardAndNeverGetsLost(app.tvessentials.installer.LauncherUiTest)

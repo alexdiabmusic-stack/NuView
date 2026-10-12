@@ -1,0 +1,884 @@
+10-12 14:39:11.819  4026  4211 I TestRunner: started: installsSmartTubeEndToEndAndOpensIt(app.tvessentials.installer.InstallFlowTest)
+10-12 14:39:11.897   483   718 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=91, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:39:11.909  4026  4211 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 14:39:11.980  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@7f10462 in: DESTROYED
+10-12 14:39:11.983  4026  4026 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@5c51df4
+10-12 14:39:11.998   483  1326 W InputManager-JNI: Input channel object 'f941761 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 14:39:12.035  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:12.035  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:12.089  3528  3563 E IPCThreadState: Binder transaction failure: 252996/29201/-28
+10-12 14:39:12.089  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:12.089  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:12.089  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:12.089  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:12.095  4026  4211 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 14:39:12.288  4026  4211 D UiDevice: Pressing home button.
+10-12 14:39:12.405   781   781 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:39:12.410   483   508 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:39:12.559  1392  1392 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:39:12.586   483  1271 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:39:12.625  4026  4211 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:39:12.629  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:12.638   382   382 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:39:12.685  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@73367b4 in: PRE_ON_CREATE
+10-12 14:39:12.707  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@73367b4 in: CREATED
+10-12 14:39:12.716  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@73367b4 in: STARTED
+10-12 14:39:12.725  1392  1597 D EGL_emulation: app_time_stats: avg=63.48ms min=20.08ms max=179.56ms count=19
+10-12 14:39:12.784   483   504 D ConnectivityService: requestNetwork for uid/pid:10122/4026 activeRequest: null callbackRequest: 94 [NetworkRequest [ REQUEST id=95, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 14:39:12.792   483   711 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=95, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:39:12.798   483   711 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=95, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:39:12.799   483   718 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=95, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:39:12.799   483   718 D EthernetNetworkFactory: IpClient already started
+10-12 14:39:12.801   483   711 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=95, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:39:12.801   483   719 D ConnectivityService: NetReassign [95 : null → 100] [c 0] [a 0] [i 16]
+10-12 14:39:12.811  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@73367b4 in: RESUMED
+10-12 14:39:13.476   483   507 W ziparchive: Unable to open '/data/app/~~kP1rPQwL1vDfchRxTHLqeg==/app.tvessentials.installer-dvqX9sxGGTq5zRxI_hBDxg==/base.dm': No such file or directory
+10-12 14:39:13.480   483   507 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +891ms
+10-12 14:39:13.495  4026  4065 I OpenGLRenderer: Davey! duration=755ms; Flags=1, FrameTimelineVsyncId=6886, IntendedVsync=234780758769, Vsync=235030758744, InputEventId=0, HandleInputStart=235061136697, AnimationStart=235061142798, PerformTraversalsStart=235061145964, DrawStart=235314323468, FrameDeadline=234797425435, FrameInterval=235030872097, FrameStartTime=16666665, SyncQueued=235358513191, SyncStart=235358852485, IssueDrawCommandsStart=235358960536, SwapBuffers=235364363852, FrameCompleted=235536759061, DequeueBufferDuration=4198, QueueBufferDuration=347588, GpuCompleted=235536702505, SwapBuffersCompleted=235536759061, DisplayPresentTime=16013, CommandSubmissionCompleted=235364363852, 
+10-12 14:39:13.605  4026  4026 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+10-12 14:39:13.704   483  1271 I ImeTracker: app.tvessentials.installer:d8ed8d79: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 14:39:13.704   483  1271 I ImeTracker: app.tvessentials.installer:d8ed8d79: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 14:39:13.707  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 14:39:13.709  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 14:39:13.710  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 14:39:13.710  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 14:39:13.711  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 14:39:13.949  4026  4065 I OpenGLRenderer: Davey! duration=843ms; Flags=0, FrameTimelineVsyncId=6947, IntendedVsync=235130753207, Vsync=235664086519, InputEventId=0, HandleInputStart=235673444839, AnimationStart=235673449728, PerformTraversalsStart=235745151431, DrawStart=235745758404, FrameDeadline=235564092025, FrameInterval=235672795837, FrameStartTime=16666666, SyncQueued=235767760031, SyncStart=235767834933, IssueDrawCommandsStart=235768006112, SwapBuffers=235782054815, FrameCompleted=235974143193, DequeueBufferDuration=5881, QueueBufferDuration=1361671, GpuCompleted=235974077251, SwapBuffersCompleted=235974143193, DisplayPresentTime=0, CommandSubmissionCompleted=235782054815, 
+10-12 14:39:14.819  4026  4211 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:39:14.850   378   911 D audioserver: FGS Logger Transaction failed
+10-12 14:39:14.850   378   911 D audioserver: -129
+10-12 14:39:14.856   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(34)
+10-12 14:39:15.017   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:39:15.017   378   467 D audioserver: -129
+10-12 14:39:15.059  4026  4255 D EGL_emulation: app_time_stats: avg=397.40ms min=243.34ms max=631.25ms count=4
+10-12 14:39:15.183  4026  4211 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:39:15.335   378   911 D audioserver: FGS Logger Transaction failed
+10-12 14:39:15.335   378   911 D audioserver: -129
+10-12 14:39:15.510  4026  4211 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:39:15.513  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:39:15.551   378   467 D AudioFlinger: mixer(0xe915be20) throttle end: throttle time(62)
+10-12 14:39:15.642   378   467 D audioserver: FGS Logger Transaction failed
+10-12 14:39:15.642   378   467 D audioserver: -129
+10-12 14:39:15.725  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:39:15.756  4026  4211 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:15.853  4026  4061 I tials.installer: Background young concurrent copying GC freed 36750(1298KB) AllocSpace objects, 6(120KB) LOS objects, 6% free, 11MB/12MB, paused 111us,16us total 148.118ms
+10-12 14:39:16.014  4026  4211 D UiDevice: Waiting 60000ms for SearchCondition[hasObject=BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:39:16.014  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.127  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.236  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.403  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.512  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.622  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.663  3846  3873 I IPCThreadState: oneway function results for code 2 on binder at 0xf29b68b0 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-12 14:39:16.732  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.733  3819  3833 I IPCThreadState: oneway function results for code 2 on binder at 0xf29ba750 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-12 14:39:16.843  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:16.952  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.061  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.117  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:17.117  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:17.125  3528  3563 E IPCThreadState: Binder transaction failure: 255780/29201/-28
+10-12 14:39:17.126  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:17.126  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:17.126  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:17.126  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:17.171  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.280  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.390  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.500  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.609  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.718  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.828  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:17.937  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.047  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.156  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.266  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.434  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.543  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.554   328  1934 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 777920
+10-12 14:39:18.652  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.761  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.870  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:18.980  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.090  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.199  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.308  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.418  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.527  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.636  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.746  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.855  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:19.965  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.075  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.184  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.294  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.462  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.571  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.680  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.790  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:20.902  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.011  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.120  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.229  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.339  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.448  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.558  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.667  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.777  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.887  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:21.997  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.106  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.136  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:22.136  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:22.145  3528  3563 E IPCThreadState: Binder transaction failure: 256697/29201/-28
+10-12 14:39:22.145  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:22.145  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:22.145  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:22.145  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:22.215  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.324  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.487  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.606  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.715  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.824  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:22.933  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.042  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.152  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.261  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.370  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.479  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.589  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.698  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.808  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:23.918  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.027  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.136  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.247  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.357  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.520  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.629  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.738  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.848  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:24.957  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.066  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.175  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.285  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.394  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.503  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.614  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.723  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.833  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:25.942  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.051  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.161  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.270  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.379  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.569  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.678  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.788  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:26.898  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.007  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.116  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.150  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:27.150  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:27.157  3528  3563 E IPCThreadState: Binder transaction failure: 257794/29201/-28
+10-12 14:39:27.157  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:27.157  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:27.157  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:27.157  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:27.225  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.335  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.445  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.555  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.665  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.774  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.884  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:27.993  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.102  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.211  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.320  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.429  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.595  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.705  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.814  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:28.923  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.032  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.142  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.252  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.361  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.470  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.580  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.689  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.798  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:29.908  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.017  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.126  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.235  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.345  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.454  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.619  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.728  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.837  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:30.947  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.056  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.165  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.275  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.386  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.496  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.605  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.714  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.823  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:31.933  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.042  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.151  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.183  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:32.183  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:32.190  3528  3563 E IPCThreadState: Binder transaction failure: 258704/29201/-28
+10-12 14:39:32.190  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:32.190  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:32.190  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:32.190  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:32.264  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.374  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.482  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.646  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.755  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.865  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:32.974  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.084  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.193  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.303  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.412  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.521  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.631  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.740  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.850  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:33.959  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.068  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.177  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.287  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.396  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.505  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.670  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.779  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.888  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:34.998  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.106  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.216  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.325  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.434  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.543  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.651  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.760  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.869  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:35.978  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.090  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.199  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.308  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.417  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.526  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.693  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.802  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:36.911  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.020  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.129  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.207  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:37.207  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:37.215  3528  3563 E IPCThreadState: Binder transaction failure: 259824/29201/-28
+10-12 14:39:37.215  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:37.215  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:37.215  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:37.215  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:37.238  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.347  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.456  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.566  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.676  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.785  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:37.894  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.003  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.111  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.220  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.330  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.439  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.548  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.715  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.824  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:38.933  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.043  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.152  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.261  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.370  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.479  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.588  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.698  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.807  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:39.916  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.025  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.134  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.243  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.355  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.464  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.573  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.745  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.854  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:40.963  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.071  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.180  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.289  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.398  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.507  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.616  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.725  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.834  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:41.943  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.052  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.161  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.239  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:42.239  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:42.247  3528  3563 E IPCThreadState: Binder transaction failure: 260726/29201/-28
+10-12 14:39:42.247  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:42.247  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:42.247  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:42.247  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:42.272  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.381  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.491  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.600  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.765  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.874  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:42.984  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.093  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.202  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.312  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.421  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.530  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.639  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.748  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.857  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:43.966  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.075  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.184  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.295  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.403  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.512  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.621  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.814  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:44.923  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.031  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.140  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.249  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.359  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.468  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.577  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.686  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.796  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:45.905  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.014  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.123  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.232  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.342  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.451  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.560  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.669  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.847  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:46.956  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.065  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.174  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.276  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:47.276  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:47.284  3528  3563 E IPCThreadState: Binder transaction failure: 261748/29201/-28
+10-12 14:39:47.284  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:47.284  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:47.284  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:47.284  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:47.285  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.400  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.510  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.619  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.729  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.837  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:47.946  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.062  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.171  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.280  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.389  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.499  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.608  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.717  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.882  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:48.992  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.102  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.212  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.321  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.430  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.539  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.648  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.757  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.866  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:49.975  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.084  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.193  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.302  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.411  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.520  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.629  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.738  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:50.903  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.011  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.120  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.232  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.341  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.451  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.560  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.669  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.778  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.887  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:51.996  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.105  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.214  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.300  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:52.300  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:52.307  3528  3563 E IPCThreadState: Binder transaction failure: 262655/29201/-28
+10-12 14:39:52.307  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:52.307  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:52.307  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:52.307  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:52.323  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.432  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.541  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.650  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.759  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:52.924  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.033  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.142  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.251  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.360  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.469  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.578  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.689  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.798  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:53.907  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.016  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.125  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.234  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.343  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.452  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.566  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.675  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.784  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:54.947  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.056  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.165  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.274  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.384  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.493  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.601  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.710  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.819  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:55.928  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.037  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.146  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.255  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.364  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.473  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.582  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.691  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.800  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:56.964  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.073  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.185  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.294  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.333  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:39:57.333  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:39:57.340  3528  3563 E IPCThreadState: Binder transaction failure: 263759/29201/-28
+10-12 14:39:57.340  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:39:57.340  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:39:57.340  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:39:57.340  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:39:57.404  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.513  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.622  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.731  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.839  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:57.949  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.058  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.167  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.276  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.386  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.495  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.604  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.712  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.821  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:58.985  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.094  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.203  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.312  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.420  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.529  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.638  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.747  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.855  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:39:59.969  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.078  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.187  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.296  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.405  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.514  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.622  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.731  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:00.840  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.002  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.111  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.220  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.328  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.437  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.546  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.655  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.767  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.876  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:01.985  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.094  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.203  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.312  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.369  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:40:02.369  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:40:02.376  3528  3563 E IPCThreadState: Binder transaction failure: 264662/29201/-28
+10-12 14:40:02.376  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:40:02.376  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:40:02.376  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:40:02.376  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:40:02.424  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.532  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.641  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.750  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:02.859  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.022  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.131  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.240  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.351  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.460  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.569  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.677  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.787  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:03.895  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.004  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.113  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.222  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.331  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.439  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.549  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.661  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.770  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:04.879  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.037  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.146  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.255  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.364  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.473  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.582  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.691  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.802  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:05.911  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.020  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.130  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.238  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.348  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.457  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.566  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.678  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.788  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:06.897  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.055  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.164  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.273  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.382  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.403  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:40:07.403  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:40:07.410  3528  3563 E IPCThreadState: Binder transaction failure: 265715/29201/-28
+10-12 14:40:07.410  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:40:07.411  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:40:07.411  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:40:07.411  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:40:07.492  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.606  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.715  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.824  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:07.933  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.043  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.152  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.261  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.370  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.481  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.591  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.700  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.809  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:08.918  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.088  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.197  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.306  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.415  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.525  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.634  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.744  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.853  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:09.963  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.072  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.186  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.295  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.404  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.513  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.622  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.731  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.840  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:10.949  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.111  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.222  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.332  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.441  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.551  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.660  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.769  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.878  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:11.988  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.097  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.206  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.315  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.417  3585  3620 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 14:40:12.417  3585  3620 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 14:40:12.423  3528  3563 E IPCThreadState: Binder transaction failure: 266607/29201/-28
+10-12 14:40:12.423  3528  3563 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 14:40:12.424  3528  3563 W GmsClient: IGmsServiceBroker.getService failed
+10-12 14:40:12.424  3528  3563 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 14:40:12.424  3528  3563 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 14:40:12.424  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.533  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.642  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.751  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.860  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:12.969  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.143  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.252  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.361  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.470  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.579  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.688  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.798  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:13.907  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.016  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.125  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.234  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.344  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.453  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.562  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.671  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.780  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.889  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:14.998  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.158  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.267  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.378  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.487  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.597  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.705  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.814  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:15.923  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:16.032  4026  4211 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:40:16.042  4026  4211 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 14:40:16.056  4026  4211 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 14:40:16.070  4026  4211 D UiDevice: Pressing home button.
+10-12 14:40:16.091   781   781 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:40:16.094   483   508 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:40:16.107  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@73367b4 in: PAUSED
+10-12 14:40:16.114   382   382 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:40:16.155  1392  1392 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 14:40:16.155  1392  1392 W HomeController: onResume: List view global layout completed.
+10-12 14:40:16.241  1392  1392 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:40:16.328  4026  4211 E TestRunner: failed: installsSmartTubeEndToEndAndOpensIt(app.tvessentials.installer.InstallFlowTest)
+10-12 14:40:16.334  4026  4211 E TestRunner: ----- begin exception -----
+10-12 14:40:16.334  4026  4211 E TestRunner: java.lang.AssertionError: SmartTube becomes installable once the release is known
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.Assert.fail(Assert.java:89)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:42)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.installsSmartTubeEndToEndAndOpensIt(InstallFlowTest.kt:49)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 14:40:16.334  4026  4211 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 14:40:16.334  4026  4211 E TestRunner: ----- end exception -----
+10-12 14:40:16.355  1392  1392 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 14:40:16.367  4026  4211 I TestRunner: finished: installsSmartTubeEndToEndAndOpensIt(app.tvessentials.installer.InstallFlowTest)

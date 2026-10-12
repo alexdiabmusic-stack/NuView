@@ -1,0 +1,40 @@
+10-12 14:41:21.320  4026  4211 I TestRunner: started: appIsRegisteredAsALeanbackLauncherWithABanner(app.tvessentials.installer.LauncherUiTest)
+10-12 14:41:22.055  4026  4211 D UiDevice: Pressing home button.
+10-12 14:41:22.117   781   781 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:41:22.122  1392  1597 D EGL_emulation: app_time_stats: avg=49.14ms min=28.17ms max=100.95ms count=20
+10-12 14:41:22.125   483   508 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:41:22.177  1392  1392 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:41:22.221   483  1275 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:41:22.251  4026  4211 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:41:22.252  4026  4211 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:41:22.264   382   382 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:41:22.444  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2642372 in: PRE_ON_CREATE
+10-12 14:41:22.479  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2642372 in: CREATED
+10-12 14:41:22.488  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2642372 in: STARTED
+10-12 14:41:22.506   483   504 D ConnectivityService: requestNetwork for uid/pid:10122/4026 activeRequest: null callbackRequest: 112 [NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 14:41:22.507   483   719 D ConnectivityService: NetReassign [113 : null → 100] [c 0] [a 0] [i 1]
+10-12 14:41:22.507   483   718 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:22.507   483   718 D EthernetNetworkFactory: IpClient already started
+10-12 14:41:22.507   483   711 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:22.507   483   711 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:22.512   483   711 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:41:22.552  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2642372 in: RESUMED
+10-12 14:41:23.023   483   507 W ziparchive: Unable to open '/data/app/~~kP1rPQwL1vDfchRxTHLqeg==/app.tvessentials.installer-dvqX9sxGGTq5zRxI_hBDxg==/base.dm': No such file or directory
+10-12 14:41:23.023   483   507 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +802ms
+10-12 14:41:23.147   483   504 I ImeTracker: app.tvessentials.installer:55e06814: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 14:41:23.147   483   504 I ImeTracker: app.tvessentials.installer:55e06814: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 14:41:23.150  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 14:41:23.153  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 14:41:23.155  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 14:41:23.155  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 14:41:23.155  1036  1036 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 14:41:23.844  4026  4211 D UiDevice: Executing shell command: cmd package query-activities --brief -a android.intent.action.MAIN -c android.intent.category.LEANBACK_LAUNCHER
+10-12 14:41:24.274  4026  4211 D UiDevice: Pressing home button.
+10-12 14:41:24.293   781   781 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:41:24.293   483   508 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:41:24.325  4026  4026 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2642372 in: PAUSED
+10-12 14:41:24.331   382   382 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:41:24.345  1392  1392 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 14:41:24.345  1392  1392 W HomeController: onResume: List view global layout completed.
+10-12 14:41:24.512  1392  1392 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:41:24.588  4026  4211 I TestRunner: finished: appIsRegisteredAsALeanbackLauncherWithABanner(app.tvessentials.installer.LauncherUiTest)
