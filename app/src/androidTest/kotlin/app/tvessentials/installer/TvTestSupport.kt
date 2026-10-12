@@ -37,19 +37,31 @@ class TvDriver {
 
     fun hasText(text: String, timeoutMs: Long = 20_000) = device.wait(Until.hasObject(By.pkg(pkg).text(text)), timeoutMs)
 
+    /** Description (or text) of whichever focused node has one; the host view can be flagged focused too and has neither. */
     fun focusedDescription(timeoutMs: Long = 5_000): String? {
         device.wait(Until.hasObject(By.pkg(pkg).focused(true)), timeoutMs)
-        return device.findObject(By.pkg(pkg).focused(true))?.let { it.contentDescription ?: it.text }
+        return device.findObjects(By.pkg(pkg).focused(true)).firstNotNullOfOrNull { it.contentDescription ?: it.text }
     }
 
-    /** True once the focused element's description starts with [prefix]. */
+    /** True once a focused element's description starts with [prefix]. On failure the whole UI tree goes to logcat (tag TVE-TEST). */
     fun focusIs(prefix: String, timeoutMs: Long = 6_000): Boolean {
         val end = System.currentTimeMillis() + timeoutMs
         while (System.currentTimeMillis() < end) {
             if (focusedDescription(300)?.startsWith(prefix) == true) return true
             Thread.sleep(150)
         }
+        diagnose("focusIs($prefix)")
         return false
+    }
+
+    /** One logcat line per accessibility node: what a screen reader (and UiAutomator) actually sees. */
+    fun diagnose(tag: String) {
+        val out = java.io.ByteArrayOutputStream()
+        runCatching { device.dumpWindowHierarchy(out) }
+        val attr = Regex("(class|text|content-desc|focused|focusable|clickable|bounds)=\"([^\"]*)\"")
+        out.toString().split("<node").drop(1).forEach { n ->
+            android.util.Log.w("TVE-TEST", "[$tag] " + attr.findAll(n).joinToString(" ") { "${it.groupValues[1]}=${it.groupValues[2].take(90)}" })
+        }
     }
 
     fun cardDescription(name: String, timeoutMs: Long = 20_000): UiObject2? =

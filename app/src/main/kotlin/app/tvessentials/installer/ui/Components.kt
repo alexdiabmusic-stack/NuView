@@ -51,6 +51,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.focused
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
@@ -99,16 +100,21 @@ fun Modifier.tvFocusable(
     onClick: () -> Unit,
 ): Modifier {
     val source = remember { MutableInteractionSource() }
+    var hasFocus by remember { mutableStateOf(false) }
     return this
         .then(if (focusRequester != null) Modifier.focusRequester(focusRequester) else Modifier)
-        .onFocusChanged { onFocusChange(it.isFocused) }
+        .onFocusChanged { hasFocus = it.isFocused; onFocusChange(it.isFocused) }
         .onPreviewKeyEvent { e ->
             if (onMenu != null && e.key == Key.Menu) {
                 if (e.type == KeyEventType.KeyUp) onMenu()
                 true
             } else false
         }
-        .semantics(mergeDescendants = true) { if (description != null) contentDescription = description }
+        // The focus state is stated on the merged node itself so assistive tech and UI tests see it on cards and links too.
+        .semantics(mergeDescendants = true) {
+            if (description != null) contentDescription = description
+            focused = hasFocus
+        }
         .clickable(interactionSource = source, indication = null, enabled = enabled, role = role, onClick = onClick)
 }
 

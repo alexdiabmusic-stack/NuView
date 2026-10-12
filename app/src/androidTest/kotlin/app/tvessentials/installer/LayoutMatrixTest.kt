@@ -31,9 +31,9 @@ class LayoutMatrixTest {
         assertTrue("[$label] hero visible", tv.hasText("Everything you need. One place."))
         for (name in listOf("Nuvio TV", "iMPlayer", "SmartTube")) assertNotNull("[$label] card $name", tv.cardDescription(name))
         assertTrue("[$label] footer visible", tv.hasText("Only install apps from sources you trust."))
+        Thread.sleep(1_200) // let the focus animation settle before the picture is taken
+        tv.screenshot("layout_$label") // taken before the focus assertion so a failure still leaves evidence
         assertTrue("[$label] focus present", tv.focusIs("Nuvio TV"))
-        Thread.sleep(600) // let the focus animation settle before the picture is taken
-        tv.screenshot("layout_$label")
     }
 
     @Test fun at720p() = verify("720p", "1280x720", 213)
