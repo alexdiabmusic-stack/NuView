@@ -45,13 +45,28 @@ class InstallFlowTest {
         tv.screenshot("smarttube_ready")
     }
 
-    @Test fun installsSmartTubeEndToEndAndOpensIt() {
+    /**
+     * One realistic sequence, because the app (and its install state) lives in the same process as this test and carries over
+     * between tests: the person presses Install, changes their mind at Android's confirmation, presses again, confirms, and opens the app.
+     */
+    @Test fun cancelAtTheSystemDialogThenInstallEndToEndAndOpen() {
         waitForInstallable()
         tv.device.pressDPadCenter()
-        val confirm = tv.systemInstallButton("install")
-        assertNotNull("Android's install confirmation appeared (download + verification succeeded)", confirm)
+        assertNotNull("Android's install confirmation appeared (download + verification succeeded)", tv.systemInstallButton("install"))
         tv.screenshot("system_installer")
         assertFalse("nothing is installed before the user confirms", tv.isInstalled(smartTube))
+
+        // Changing their mind must never look like success and must stay recoverable.
+        tv.systemInstallButton("cancel", 10_000)!!.click()
+        assertTrue("card goes back to a recoverable ready state", tv.cardSays("SmartTube", "cancelled", 40_000))
+        assertFalse("not installed after cancelling", tv.isInstalled(smartTube))
+        tv.screenshot("smarttube_cancelled")
+
+        // One press on the same button finishes the job without downloading again.
+        assertTrue(tv.focusIs("SmartTube"))
+        tv.device.pressDPadCenter()
+        val confirm = tv.systemInstallButton("install")
+        assertNotNull("Android asks again", confirm)
         confirm!!.click()
 
         assertTrue("card reports success only after Android did", tv.cardSays("SmartTube", "Installed", 120_000))
@@ -61,24 +76,6 @@ class InstallFlowTest {
         assertTrue("card settles to a state with Open", tv.cardSays("SmartTube", "Open", 30_000))
         tv.device.pressDPadCenter()
         assertTrue("Open App launches the real SmartTube", tv.device.wait(Until.hasObject(By.pkg(smartTube)), 40_000))
-    }
-
-    @Test fun cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable() {
-        waitForInstallable()
-        tv.device.pressDPadCenter()
-        assertNotNull("system dialog", tv.systemInstallButton("install"))
-        tv.systemInstallButton("cancel", 10_000)!!.click()
-
-        assertTrue("card goes back to a recoverable ready state", tv.cardSays("SmartTube", "Installation cancelled", 40_000))
-        assertFalse("not installed", tv.isInstalled(smartTube))
-        tv.screenshot("smarttube_cancelled")
-
-        // One press on the focused Install button finishes the job without re-downloading.
-        assertTrue(tv.focusIs("SmartTube"))
-        tv.device.pressDPadCenter()
-        tv.systemInstallButton("install")!!.click()
-        assertTrue(tv.cardSays("SmartTube", "Installed", 120_000))
-        assertTrue(tv.isInstalled(smartTube))
     }
 
     // Not covered here on purpose: "install permission missing -> explained -> install resumes". Android kills an app's process
