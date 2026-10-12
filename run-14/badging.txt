@@ -1,0 +1,13 @@
+package: name='app.tvessentials.installer' versionCode='10000' versionName='1.0.0' platformBuildVersionName='17' platformBuildVersionCode='37' compileSdkVersion='37' compileSdkVersionCodename='17'
+minSdkVersion:'24'
+targetSdkVersion:'35'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.REQUEST_INSTALL_PACKAGES'
+uses-permission: name='app.tvessentials.installer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+application-label:'TV Essentials'
+launchable-activity: name='app.tvessentials.installer.MainActivity'  label='TV Essentials' icon='res/mipmap-anydpi-v26/ic_launcher.xml'
+leanback-launchable-activity: name='app.tvessentials.installer.MainActivity'  label='TV Essentials' icon='res/mipmap-anydpi-v26/ic_launcher.xml' banner='res/drawable-nodpi-v4/tv_banner.png'
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'
+V2 Signer: certificate DN: C=US, O=Android, CN=Android Debug
+V2 Signer: certificate SHA-256 digest: 70e0ca05d8f3afc8ebe5415ff58acbbe19468f4669faa9d6134abfa76ff62f71
