@@ -25,8 +25,10 @@ no channel lists and no paid-app unlocks, and it does nothing to bypass anyone's
 * **Handles "install unknown apps" for you.** If the permission is missing, it takes you to the right settings page and
   picks up where it left off when you return.
 * **Update checks** on launch (cached 15 min, manual refresh rate-limited, GitHub rate-limit aware).
-* **D-pad first.** Predictable focus, restored after dialogs and screens; Back always goes one step up; scales from 720p to 4K
-  with safe margins and honours the system's reduced-motion setting and font scale.
+* **D-pad first.** Predictable focus, restored after dialogs and screens; Back always goes one step up. The layout scales with the
+  screen (checked at 720p and 1080p at several densities on an emulator; a real 4K panel has not been seen), keeps TV-safe margins,
+  honours the reduced-motion setting, and follows the system text size up to Android TV's own maximum of 1.3× so the main action
+  is never pushed off a card.
 * **No accounts, ads, analytics, Google Play Services or tracking.** Three permissions: `INTERNET`, `ACCESS_NETWORK_STATE`,
   `REQUEST_INSTALL_PACKAGES` (plus the app-private, signature-level `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` that AndroidX adds
   automatically; no other app can hold it).
