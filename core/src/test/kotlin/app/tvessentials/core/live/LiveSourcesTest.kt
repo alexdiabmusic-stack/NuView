@@ -121,7 +121,29 @@ class LiveSourcesTest {
         assertTrue(failures == 0, "$failures real APK(s) failed verification against the catalog's trust policy")
     }
 
-    /** iMPlayer's official endpoint answers datacenter clients with a Cloudflare browser check; that is expected and must fail closed. */
+    /**
+     * Apps without a reviewed signing certificate are never installed by the app, but a maintainer needs the measured facts
+     * to review one. This only REPORTS what the official download contains (package id, version, signer); it never pins
+     * anything. A digest obtained from the same channel as the APK proves nothing about authenticity by itself.
+     */
+    @Test fun `unpinned apps are measured and reported but never trusted`() = runBlocking {
+        assumeTrue("live checks are opt-in (-Ptve.live=true)", live)
+        val downloader = ApkDownloader(http, StorageGateway { Long.MAX_VALUE / 4 })
+        for (app in catalog().filter { it.trust.signers.isEmpty() }) for (channel in app.supportedChannels) {
+            val r = (resolve(app, channel, arm64.second) as? SourceResult.Success)?.release
+            if (r == null) { println("LIVE-MEASURE ${app.id} ${channel.name.lowercase()}: could not resolve (fails closed)"); continue }
+            val dest = File(tmp.root, "${app.id}-measure.apk")
+            val dl = runCatching { downloader.download(DownloadRequest(r.asset.url, dest, r.asset.sizeBytes, r.asset.sha256, HostPolicy(app.allowedHosts))) {} }
+                .getOrElse { println("LIVE-MEASURE ${app.id} ${channel.name.lowercase()}: download refused: $it"); continue }
+            val info = archiveInfo(dl.file)
+            println("LIVE-MEASURE ${app.id} ${channel.name.lowercase()}: ${r.asset.fileName} file-sha256=${dl.sha256} pkg=${info?.packageId} version=${info?.versionName} code=${info?.versionCode} minSdk=${info?.minSdk} signers=${info?.signerSha256}")
+            summary.append("| ${app.displayName} | ${channel.name.lowercase()} | measured (NOT trusted) | pkg=${info?.packageId} v${info?.versionName} signers=${info?.signerSha256} |\n")
+            dest.delete()
+        }
+        publish()
+    }
+
+    /** iMPlayer's official endpoint may answer datacenter clients with a Cloudflare browser check; that is expected and must fail closed. */
     private fun expectedFailure(app: AppDefinition, f: SourceFailure) =
         app.id == "implayer" && (f is SourceFailure.BrowserCheckRequired || f is SourceFailure.InvalidResponse || f is SourceFailure.ServerError)
 

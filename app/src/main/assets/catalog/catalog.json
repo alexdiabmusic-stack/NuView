@@ -73,7 +73,7 @@
         "url": "https://implayer.tv/d",
         "abiPolicy": "prefer-device-abi"
       },
-      "allowedHosts": ["implayer.tv", "*.implayer.tv"],
+      "allowedHosts": ["implayer.tv", "*.implayer.tv", "implayer.nyc3.cdn.digitaloceanspaces.com"],
       "trust": {
         "signers": [],
         "revoked": [],

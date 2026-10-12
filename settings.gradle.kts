@@ -31,4 +31,10 @@ dependencyResolutionManagement {
 rootProject.name = "TvEssentials"
 
 include(":core")
-include(":app")
+
+// -Ptve.coreOnly=true: JVM-only build of :core (no Android Gradle Plugin, no Google Maven).
+if (providers.gradleProperty("tve.coreOnly").orNull == "true") {
+    rootProject.buildFileName = "build.core.gradle.kts"
+} else {
+    include(":app")
+}
