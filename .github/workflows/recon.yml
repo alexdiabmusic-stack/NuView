@@ -1,5 +1,6 @@
-# One-off reconnaissance (round 3): read the AFTVnews redirect interstitial for code 82375
-# and report the destination it declares, plus how that destination responds to a plain HTTP client.
+# One-off reconnaissance (round 4): signer continuity across channels/versions, and the
+# pre-rotation SmartTube signer (to populate the revocation list). Public APKs are downloaded
+# only to read their signing certificates; nothing is executed.
 name: recon
 on:
   push:
@@ -13,33 +14,35 @@ permissions:
 jobs:
   recon:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
-      - name: Extract destination URLs from the AFTVnews interstitial
+      - name: Measure signers
         run: |
-          UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
-          curl -sSL -m 30 -A "$UA" -o go.html https://go.aftvnews.com/82375
-          wc -c go.html
-          echo "== every absolute URL in the page (deduped), excluding aftvnews/google/favicons"
-          grep -oE "https?://[^\"'<> )\\\\]+" go.html | sort -u | grep -vE 'aftvnews\.com|aftv\.news|google\.com|gstatic|w3\.org|schema\.org' | head -40
-          echo "== lines mentioning redirect/destination/url/location (trimmed)"
-          grep -inE 'destination|redirect to|location\.href|window\.location|meta http-equiv="refresh"|data-url|id="(url|link|dest)' go.html | cut -c1-260 | head -30
-          echo "== visible text (tags stripped), first 60 non-empty lines after <body>"
-          sed -n '/<body/,$p' go.html | sed -E 's/<script[^>]*>.*<\/script>//g; s/<[^>]+>/ /g' | tr -s ' \t' | grep -vE '^\s*$' | head -60 | cut -c1-200
-      - name: Probe the declared destination with a plain HTTP client (headers only, no bypass attempted)
+          BT="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"
+          mkdir -p apks
+          measure() { # file label
+            echo "### $2"
+            "$BT/apksigner" verify --print-certs "$1" 2>&1 | grep -E 'certificate (DN|SHA-256)|DOES NOT|ERROR' | head -6
+            "$BT/aapt2" dump badging "$1" 2>/dev/null | grep -E "^package" | cut -c1-140
+          }
+          echo "== Nuvio: newest prerelease (beta channel) and an old stable-flagged tag"
+          gh release download 1.1.0-beta.5 -R NuvioMedia/NuvioTV -p 'app-full-arm64-v8a-release.apk' -D apks --clobber && mv apks/app-full-arm64-v8a-release.apk apks/nuvio_beta5.apk && measure apks/nuvio_beta5.apk "Nuvio 1.1.0-beta.5"
+          gh release download 0.9.5-beta -R NuvioMedia/NuvioTV -p 'app-full-arm64-v8a-release.apk' -D apks --clobber && mv apks/app-full-arm64-v8a-release.apk apks/nuvio_095.apk && measure apks/nuvio_095.apk "Nuvio 0.9.5-beta"
+          echo; echo "== SmartTube: which old releases still have assets?"
+          for tag in 31.94s 31.88 30.19s 29.97 28.99; do
+            echo "-- $tag"; gh api "repos/yuliskov/SmartTube/releases/tags/$tag" -q '.assets[]|"   \(.name)\t\(.size)"' 2>&1 | head -6
+          done
+      - name: Measure an old (pre-rotation) SmartTube build
         run: |
-          UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
-          curl -sSL -m 30 -A "$UA" -o go.html https://go.aftvnews.com/82375
-          DEST="$(grep -oE "https?://[^\"'<> )\\\\]+" go.html | sort -u | grep -vE 'aftvnews\.com|aftv\.news|google\.com|gstatic|w3\.org|schema\.org' | grep -iE 'implayer|\.apk|download' | head -1)"
-          echo "destination candidate: $(echo "${DEST:-<none>}" | sed -E 's/\?.*/?<q>/')"
-          [ -z "$DEST" ] && exit 0
-          curl -sSIL -m 60 -A "$UA" "$DEST" -D hdr.txt -o /dev/null -w 'final=%{url_effective} code=%{http_code} type=%{content_type} size=%{size_download}\n' | sed -E 's/\?[^ ]*/?<q>/'
-          grep -iE '^(HTTP|location|server|content-type|content-length|content-disposition|accept-ranges|cf-mitigated|last-modified|etag)' hdr.txt | sed -E 's/\?[^ ]*/?<q>/' | head -30
-          mkdir -p apks; curl -sSL -m 600 -A "$UA" -o apks/cand.bin "$DEST" -w 'downloaded=%{size_download}\n'
-          file apks/cand.bin | cut -c1-140
-          if unzip -tq apks/cand.bin >/dev/null 2>&1; then
-            BT="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"; cp apks/cand.bin apks/implayer.apk
-            echo "--- top-level zip entries"; unzip -l apks/implayer.apk | awk '{print $4}' | grep -vE '/' | head -20
-            "$BT/apksigner" verify --verbose --print-certs apks/implayer.apk 2>&1 | grep -vE '^WARNING' | grep -E 'Verifies|Verified using|Number of signers|certificate (DN|SHA-256|SHA-1)|DOES NOT|ERROR' || true
-            "$BT/aapt2" dump badging apks/implayer.apk 2>/dev/null | grep -E "^(package|sdkVersion|minSdkVersion|targetSdkVersion|native-code|application-label:|leanback-launchable)" | cut -c1-220 || true
-            sha256sum apks/implayer.apk; stat -c 'size=%s' apks/implayer.apk
-          else echo "not a zip/APK:"; head -c 400 apks/cand.bin | strings | head -8; fi
+          BT="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"
+          mkdir -p old
+          for tag in 31.94s 31.88 30.19s 29.97 28.99 27.99; do
+            a="$(gh api "repos/yuliskov/SmartTube/releases/tags/$tag" -q '[.assets[]|select(.name|test("universal|SmartYouTubeTV.*\\.apk$|\\.apk$"))][0].name' 2>/dev/null)"
+            [ -z "$a" ] && continue
+            echo "### $tag -> $a"
+            gh release download "$tag" -R yuliskov/SmartTube -p "$a" -D old --clobber || continue
+            "$BT/apksigner" verify --print-certs "old/$a" 2>&1 | grep -E 'certificate (DN|SHA-256)|DOES NOT|ERROR' | head -4
+            "$BT/aapt2" dump badging "old/$a" 2>/dev/null | grep -E "^package" | cut -c1-140
+            break
+          done
