@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "id": "nuvio-tv",
+      "displayName": "Nuvio TV",
+      "tagline": "Your media, beautifully organized",
+      "description": "A free, open-source media library for Android TV. Bring your own sources and Nuvio turns them into a library with artwork, ratings and subtitles.",
+      "publisher": "Nuvio Media",
+      "websiteUrl": "https://nuvio.tv",
+      "iconKey": "library",
+      "accentColor": "#7C8CFF",
+      "minAndroidSdk": 24,
+      "channels": {
+        "stable": { "packageId": "com.nuvio.tv" },
+        "beta": { "packageId": "com.nuvio.tv" }
+      },
+      "source": {
+        "type": "github-releases",
+        "owner": "NuvioMedia",
+        "repo": "NuvioTV",
+        "abiPolicy": "prefer-device-abi",
+        "universalAbis": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"],
+        "channelRules": {
+          "stable": {
+            "prerelease": "exclude",
+            "assetNamePattern": "^app-full-(arm64-v8a|armeabi-v7a|x86_64|x86|universal)-release\\.apk$"
+          },
+          "beta": {
+            "prerelease": "include",
+            "assetNamePattern": "^app-full-(arm64-v8a|armeabi-v7a|x86_64|x86|universal)-release\\.apk$"
+          }
+        }
+      },
+      "allowedHosts": ["api.github.com", "github.com", "*.githubusercontent.com"],
+      "trust": {
+        "signers": [
+          {
+            "sha256": "1cba06fbdf978d0e3f9ad58de6ba3d69e24a948384adde3aed95451e830e5210",
+            "label": "NuvioTV release key (CN=NuvioTV, O=NuvioTV)",
+            "since": "2026-10-12",
+            "note": "Measured with apksigner on official GitHub release assets 0.9.5-beta and 1.0.0; unchanged across both."
+          }
+        ],
+        "revoked": [],
+        "allowLineageRotation": false,
+        "review": "Pinned from the publisher's own GitHub release assets on 2026-10-12. Confirm out-of-band with the publisher before relying on it, and re-verify with scripts/measure-apk.sh before changing."
+      },
+      "guided": {
+        "officialUrl": "https://github.com/NuvioMedia/NuvioTV/releases",
+        "steps": [
+          "Open the official Nuvio TV releases page on another device.",
+          "Download the APK that matches your device (arm64-v8a for most newer devices, armeabi-v7a for older ones).",
+          "Transfer it to your TV and install it with a file manager."
+        ]
+      }
+    },
+    {
+      "id": "implayer",
+      "displayName": "iMPlayer",
+      "tagline": "A premium live TV experience",
+      "description": "An IPTV player for Android TV. It includes no channels or playlists; you add your own legal sources.",
+      "publisher": "iMPlayer",
+      "websiteUrl": "https://implayer.tv",
+      "iconKey": "antenna",
+      "accentColor": "#34D3C4",
+      "minAndroidSdk": 21,
+      "channels": {
+        "stable": { "packageId": "com.myiptvonline.implayer" }
+      },
+      "source": {
+        "type": "direct-apk",
+        "url": "https://implayer.tv/d",
+        "abiPolicy": "prefer-device-abi"
+      },
+      "allowedHosts": ["implayer.tv", "*.implayer.tv"],
+      "trust": {
+        "signers": [],
+        "revoked": [],
+        "allowLineageRotation": false,
+        "review": "NO REVIEWED CERTIFICATE YET. The official download (https://implayer.tv/d, the target of Downloader code 82375) answers non-browser clients with a Cloudflare browser check, so its signing certificate could not be measured. Until a maintainer verifies a copy obtained from implayer.tv and adds its SHA-256 here, this app is never installed automatically; the guided route is used instead."
+      },
+      "guided": {
+        "officialUrl": "https://implayer.tv/",
+        "downloaderCode": "82375",
+        "steps": [
+          "Install \"Downloader\" by AFTVnews from the Amazon Appstore.",
+          "Open Downloader and enter the code 82375.",
+          "Let the download finish, then choose Install when prompted.",
+          "Return to TV Essentials. iMPlayer will show as installed."
+        ]
+      }
+    },
+    {
+      "id": "smarttube",
+      "displayName": "SmartTube",
+      "tagline": "YouTube without interruptions",
+      "description": "An independent, open-source YouTube client for Android TV with ad blocking and SponsorBlock support.",
+      "publisher": "SmartTube project (yuliskov)",
+      "websiteUrl": "https://smarttubeapp.github.io/",
+      "disclosure": "SmartTube is an independent third-party YouTube client. It is not affiliated with, endorsed by, or sponsored by Google or YouTube.",
+      "iconKey": "play",
+      "accentColor": "#FF7A59",
+      "minAndroidSdk": 17,
+      "channels": {
+        "stable": { "packageId": "org.smarttube.stable" },
+        "beta": { "packageId": "org.smarttube.beta" }
+      },
+      "source": {
+        "type": "github-releases",
+        "owner": "yuliskov",
+        "repo": "SmartTube",
+        "abiPolicy": "prefer-universal",
+        "universalAbis": ["arm64-v8a", "armeabi-v7a"],
+        "channelRules": {
+          "stable": {
+            "prerelease": "exclude",
+            "tagPattern": "^\\d+(\\.\\d+)*s$",
+            "tagVersionPattern": "^(\\d+(?:\\.\\d+)*)s$",
+            "assetNamePattern": "^SmartTube_stable_\\d+(?:\\.\\d+)*_(arm64-v8a|armeabi-v7a|x86|universal)\\.apk$"
+          },
+          "beta": {
+            "prerelease": "only",
+            "tagPattern": "^\\d+(\\.\\d+)*$",
+            "tagVersionPattern": "^(\\d+(?:\\.\\d+)*)$",
+            "assetNamePattern": "^SmartTube_beta_\\d+(?:\\.\\d+)*_(arm64-v8a|armeabi-v7a|x86|universal)\\.apk$"
+          }
+        }
+      },
+      "allowedHosts": ["api.github.com", "github.com", "*.githubusercontent.com"],
+      "trust": {
+        "signers": [
+          {
+            "sha256": "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a",
+            "label": "SmartTube release key, issued 2025-11-27 (CN=Yurii L, O=SmartTube)",
+            "since": "2026-10-12",
+            "note": "Post-incident key. Measured with apksigner on official release assets 31.94s, 32.56s and 32.56 (stable and beta share it)."
+          }
+        ],
+        "revoked": [],
+        "allowLineageRotation": false,
+        "review": "The maintainer disclosed a compromised development environment and possible signing-key exposure and rotated to this certificate (created 2025-11-27). Pinned from the project's own GitHub release assets on 2026-10-12. The pre-rotation fingerprint was never published and its release assets are gone, so it cannot be listed under 'revoked'; it is rejected anyway because only the pinned certificate is trusted and lineage rotation is disabled. Confirm this fingerprint out-of-band before relying on it."
+      },
+      "guided": {
+        "officialUrl": "https://github.com/yuliskov/SmartTube/releases",
+        "downloaderCode": "28544",
+        "steps": [
+          "Install \"Downloader\" by AFTVnews from the Amazon Appstore.",
+          "Open Downloader and enter the code 28544 (stable) or 79015 (beta).",
+          "Let the download finish, then choose Install when prompted."
+        ]
+      }
+    }
+  ]
+}
