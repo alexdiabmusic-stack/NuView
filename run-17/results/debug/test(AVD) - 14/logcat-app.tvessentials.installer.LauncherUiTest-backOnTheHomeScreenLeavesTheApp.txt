@@ -1,0 +1,96 @@
+10-12 15:53:31.012  4138  4299 I TestRunner: started: backOnTheHomeScreenLeavesTheApp(app.tvessentials.installer.LauncherUiTest)
+10-12 15:53:31.014  4138  4138 I MonitoringInstr: Finishing activity: app.tvessentials.installer.MainActivity@99eeae6
+10-12 15:53:31.031  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:53:31.084  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:53:31.084  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:53:31.084  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:53:31.106  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:53:31.142  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: DESTROYED
+10-12 15:53:31.143  4138  4138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@bf8c3fb
+10-12 15:53:31.202   493   722 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:31.241   493  2939 W InputManager-JNI: Input channel object '8e296f0 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:53:31.674  4138  4299 D UiDevice: Pressing home button.
+10-12 15:53:31.812   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:53:31.814   493   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:31.903  1528  1656 D EGL_emulation: app_time_stats: avg=70.04ms min=32.35ms max=181.46ms count=15
+10-12 15:53:31.916  1528  1528 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:53:31.918  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:31.983  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:31.998   493  2939 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:32.011  4138  4299 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:53:32.011  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:32.017  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:32.020  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:32.022   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:53:32.069  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: PRE_ON_CREATE
+10-12 15:53:32.124  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: CREATED
+10-12 15:53:32.127  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: STARTED
+10-12 15:53:32.137   493  2864 D ConnectivityService: requestNetwork for uid/pid:10122/4138 activeRequest: null callbackRequest: 106 [NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:53:32.149   493   723 D ConnectivityService: NetReassign [107 : null → 100] [c 0] [a 0] [i 2]
+10-12 15:53:32.154   493   722 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:32.154   493   722 D EthernetNetworkFactory: IpClient already started
+10-12 15:53:32.154   493   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:32.154   493   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:32.154   493   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:32.171  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: RESUMED
+10-12 15:53:32.838   493   517 W ziparchive: Unable to open '/data/app/~~1u7paMKSZqqDpQftDJ-Jeg==/app.tvessentials.installer-sOMD1irthR97yjttXFwvfg==/base.dm': No such file or directory
+10-12 15:53:32.845   493   517 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +838ms
+10-12 15:53:32.848  4138  4322 I OpenGLRenderer: Davey! duration=710ms; Flags=1, FrameTimelineVsyncId=13749, IntendedVsync=270730162842, Vsync=270863496170, InputEventId=0, HandleInputStart=270870815118, AnimationStart=270870819586, PerformTraversalsStart=270870822702, DrawStart=271263744578, FrameDeadline=270746829508, FrameInterval=270870610817, FrameStartTime=16666666, SyncQueued=271278310739, SyncStart=271278624953, IssueDrawCommandsStart=271278764132, SwapBuffers=271283075873, FrameCompleted=271441269011, DequeueBufferDuration=5361, QueueBufferDuration=347999, GpuCompleted=271440829311, SwapBuffersCompleted=271441269011, DisplayPresentTime=0, CommandSubmissionCompleted=271283075873, 
+10-12 15:53:32.930  4138  4138 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+10-12 15:53:32.949  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:32.998  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:33.135   493   510 I ImeTracker: app.tvessentials.installer:dc93f14c: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:53:33.137   493   510 I ImeTracker: app.tvessentials.installer:dc93f14c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:53:33.142  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:53:33.146  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:53:33.146  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:53:33.146  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:53:33.176  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:53:33.223   332  1928 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 2461056
+10-12 15:53:33.457  4138  4322 I OpenGLRenderer: Davey! duration=1133ms; Flags=0, FrameTimelineVsyncId=13795, IntendedVsync=270913507249, Vsync=271530173891, InputEventId=0, HandleInputStart=271542917526, AnimationStart=271542922566, PerformTraversalsStart=271693633674, DrawStart=271694293645, FrameDeadline=271463496146, FrameInterval=271542518592, FrameStartTime=16666666, SyncQueued=271711871759, SyncStart=271711897076, IssueDrawCommandsStart=271711963741, SwapBuffers=271746666383, FrameCompleted=272046601717, DequeueBufferDuration=6332, QueueBufferDuration=553562, GpuCompleted=272046601717, SwapBuffersCompleted=272029933772, DisplayPresentTime=0, CommandSubmissionCompleted=271746666383, 
+10-12 15:53:33.823  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:34.305  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:34.514  4138  4299 D UiDevice: Pressing back button.
+10-12 15:53:34.523  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onKeyDown():2481 Received KEYCODE_BACK. isAllViewsInvisible=false
+10-12 15:53:34.545  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: PAUSED
+10-12 15:53:34.552   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:53:34.561  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:34.579  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:34.590  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:34.599  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:34.609  1528  1528 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:53:34.609  1528  1528 W HomeController: onResume: List view global layout completed.
+10-12 15:53:34.617  4138  4299 D UiDevice: Waiting 10000ms for SearchCondition[gone=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:53:34.621  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:34.665  1528  1528 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:53:34.715  1528  1528 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 15:53:34.790   493  1024 I ImeTracker: com.google.android.tvlauncher:7c007119: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:53:34.790   493  1024 I ImeTracker: com.google.android.tvlauncher:7c007119: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:53:34.794  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:53:34.800  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:53:34.800  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:53:34.800  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:53:34.801  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:53:34.967  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: STOPPED
+10-12 15:53:35.001  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:35.050  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:35.099   493   722 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=107, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:35.188  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@b5f956a in: DESTROYED
+10-12 15:53:35.189  4138  4138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@97c59c9
+10-12 15:53:35.238   493  1024 W InputManager-JNI: Input channel object 'c754086 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:53:35.787  1528  1656 D EGL_emulation: app_time_stats: avg=53.34ms min=26.89ms max=107.51ms count=19
+10-12 15:53:36.412  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:36.613  3625  4914 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+10-12 15:53:36.798  1528  1656 D EGL_emulation: app_time_stats: avg=48.08ms min=31.09ms max=60.56ms count=20
+10-12 15:53:37.046   899   905 I rkstack.process: Background young concurrent copying GC freed 41125(2373KB) AllocSpace objects, 0(0B) LOS objects, 46% free, 2706KB/5017KB, paused 30.633ms,10us total 69.465ms
+10-12 15:53:37.825  1528  1656 D EGL_emulation: app_time_stats: avg=55.06ms min=36.08ms max=71.19ms count=18
+10-12 15:53:38.507  4138  4299 D UiDevice: Pressing home button.
+10-12 15:53:38.603   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:53:38.656  2240  2316 I katniss_search_KatnissIpcConnection: Will disconnect service connection. .KatnissInteractorProcessService
+10-12 15:53:38.725  1225  4400 I katniss_interactor_KatnissIpcConnection: Will disconnect service connection. .KatnissSearchProcessService
+10-12 15:53:38.729  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:38.734   493   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:38.737  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:38.815  1528  1528 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:53:38.865  1528  1656 D EGL_emulation: app_time_stats: avg=49.10ms min=28.40ms max=89.83ms count=19
+10-12 15:53:38.872  4138  4299 I TestRunner: finished: backOnTheHomeScreenLeavesTheApp(app.tvessentials.installer.LauncherUiTest)

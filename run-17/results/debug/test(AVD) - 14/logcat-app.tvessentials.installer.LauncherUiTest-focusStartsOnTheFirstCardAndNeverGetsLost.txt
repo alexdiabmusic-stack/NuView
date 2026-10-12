@@ -1,0 +1,194 @@
+10-12 15:53:16.313  4138  4299 I TestRunner: started: focusStartsOnTheFirstCardAndNeverGetsLost(app.tvessentials.installer.LauncherUiTest)
+10-12 15:53:16.432   493   722 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=103, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:16.552  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f0bfa21 in: DESTROYED
+10-12 15:53:16.552  4138  4138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@87a578c
+10-12 15:53:16.577   493  2441 W InputManager-JNI: Input channel object '4f7dbe2 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:53:16.701  4138  4299 D UiDevice: Pressing home button.
+10-12 15:53:16.846   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:53:16.869   493   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:17.027  1528  1528 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:53:17.030  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:17.057   493  1359 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:17.062  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:17.071  1528  1656 D EGL_emulation: app_time_stats: avg=73.22ms min=43.92ms max=156.69ms count=15
+10-12 15:53:17.080  4138  4299 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:53:17.083  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:17.238   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:53:17.279  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: PRE_ON_CREATE
+10-12 15:53:17.302  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: CREATED
+10-12 15:53:17.310  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: STARTED
+10-12 15:53:17.328   493  2864 D ConnectivityService: requestNetwork for uid/pid:10122/4138 activeRequest: null callbackRequest: 104 [NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:53:17.369   493   722 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:17.380   493   722 D EthernetNetworkFactory: IpClient already started
+10-12 15:53:17.400   493   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:17.400   493   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:17.400   493   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:53:17.400   493   723 D ConnectivityService: NetReassign [105 : null → 100] [c 0] [a 0] [i 69]
+10-12 15:53:17.449  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: RESUMED
+10-12 15:53:17.599  3565  4609 I GMS_MM_Logger: Memory Metric Logging not allowed. Stopping.
+10-12 15:53:17.955   493   517 W ziparchive: Unable to open '/data/app/~~1u7paMKSZqqDpQftDJ-Jeg==/app.tvessentials.installer-sOMD1irthR97yjttXFwvfg==/base.dm': No such file or directory
+10-12 15:53:17.958   493   517 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +890ms
+10-12 15:53:18.074   493  2441 I ImeTracker: app.tvessentials.installer:71ec4292: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:53:18.074   493  2441 I ImeTracker: app.tvessentials.installer:71ec4292: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:53:18.083  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:53:18.084  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:53:18.084  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:53:18.084  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:53:18.086  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:53:18.576  4138  4526 I OpenGLRenderer: Davey! duration=778ms; Flags=0, FrameTimelineVsyncId=12655, IntendedVsync=256180163424, Vsync=256596830074, InputEventId=0, HandleInputStart=256607907713, AnimationStart=256607911039, PerformTraversalsStart=256661369252, DrawStart=256661971134, FrameDeadline=256596830074, FrameInterval=256607798890, FrameStartTime=16666666, SyncQueued=256679497421, SyncStart=256679566911, IssueDrawCommandsStart=256679639446, SwapBuffers=256728761394, FrameCompleted=256958940743, DequeueBufferDuration=5300, QueueBufferDuration=256509, GpuCompleted=256958882815, SwapBuffersCompleted=256958940743, DisplayPresentTime=0, CommandSubmissionCompleted=256728761394, 
+10-12 15:53:18.737  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:19.258  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:19.466  4138  4299 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:53:19.486   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:19.486   385   401 D audioserver: -129
+10-12 15:53:19.491   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(24)
+10-12 15:53:19.536   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(33)
+10-12 15:53:19.650   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:19.650   385   475 D audioserver: -129
+10-12 15:53:19.687  4138  4405 D EGL_emulation: app_time_stats: avg=436.21ms min=223.34ms max=886.56ms count=4
+10-12 15:53:19.713  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:19.745  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:19.974  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:19.979  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:19.989  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:19.992  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:20.223  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:20.233  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:20.594  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:20.665  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:20.894  4138  4299 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:53:20.917   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:20.918   385   401 D audioserver: -129
+10-12 15:53:21.075  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:21.122  4138  4405 D EGL_emulation: app_time_stats: avg=717.21ms min=198.76ms max=1235.65ms count=2
+10-12 15:53:21.146   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:21.146   385   475 D audioserver: -129
+10-12 15:53:21.178  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:21.662  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:21.673  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:22.048  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:22.059  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:22.195  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:22.199  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:22.416  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:22.427  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:22.793  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:22.860  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:23.075  4138  4299 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:53:23.102   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:23.102   385   401 D audioserver: -129
+10-12 15:53:23.202  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:23.322  4138  4405 D EGL_emulation: app_time_stats: avg=1099.48ms min=238.36ms max=1960.60ms count=2
+10-12 15:53:23.374  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:23.402   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:23.402   385   475 D audioserver: -129
+10-12 15:53:23.729  4138  4299 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:53:23.750   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:23.750   385   401 D audioserver: -129
+10-12 15:53:23.785   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(33)
+10-12 15:53:23.885  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:23.989   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:23.989   385   475 D audioserver: -129
+10-12 15:53:24.053  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:24.367  4138  4299 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:53:24.400   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:24.400   385   401 D audioserver: -129
+10-12 15:53:24.528  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:24.622  4138  4405 D EGL_emulation: app_time_stats: avg=324.57ms min=228.44ms max=412.64ms count=4
+10-12 15:53:24.640  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:24.642   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:24.642   385   475 D audioserver: -129
+10-12 15:53:24.923  4138  4299 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:53:24.951   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:24.951   385   401 D audioserver: -129
+10-12 15:53:24.981   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(33)
+10-12 15:53:25.229  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:25.271  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:25.342   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:25.342   385   475 D audioserver: -129
+10-12 15:53:25.627  4138  4299 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:53:25.649   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:25.649   385   401 D audioserver: -129
+10-12 15:53:25.661   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(22)
+10-12 15:53:25.852  4138  4405 D EGL_emulation: app_time_stats: avg=409.65ms min=254.23ms max=560.83ms count=3
+10-12 15:53:25.867   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:25.867   385   475 D audioserver: -129
+10-12 15:53:26.093  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:26.125  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:26.333  4138  4299 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:53:26.366   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:26.366   385   401 D audioserver: -129
+10-12 15:53:26.626  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:26.647   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(2)
+10-12 15:53:26.688  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:26.743   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:26.743   385   475 D audioserver: -129
+10-12 15:53:26.881  4138  4405 D EGL_emulation: app_time_stats: avg=343.07ms min=243.39ms max=527.78ms count=3
+10-12 15:53:27.000  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:27.005  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:27.106  4138  4299 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:53:27.127   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:27.127   385   401 D audioserver: -129
+10-12 15:53:27.155   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(11)
+10-12 15:53:27.291  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:27.371  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:27.373   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:27.373   385   475 D audioserver: -129
+10-12 15:53:27.582  4138  4299 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:53:27.603   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:27.603   385   401 D audioserver: -129
+10-12 15:53:27.622   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(29)
+10-12 15:53:27.744  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:27.826   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:27.826   385   475 D audioserver: -129
+10-12 15:53:27.852  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:28.063  4138  4405 D EGL_emulation: app_time_stats: avg=393.90ms min=264.15ms max=459.68ms count=3
+10-12 15:53:28.217  4138  4299 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:53:28.252   385   401 D audioserver: FGS Logger Transaction failed
+10-12 15:53:28.252   385   401 D audioserver: -129
+10-12 15:53:28.476  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:28.525   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:28.525   385   475 D audioserver: -129
+10-12 15:53:28.544  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:28.866  4138  4299 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:53:28.883   385   934 D audioserver: FGS Logger Transaction failed
+10-12 15:53:28.883   385   934 D audioserver: -129
+10-12 15:53:28.910   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(22)
+10-12 15:53:29.079  4138  4405 D EGL_emulation: app_time_stats: avg=338.62ms min=273.76ms max=401.79ms count=3
+10-12 15:53:29.092  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:29.117   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:29.117   385   475 D audioserver: -129
+10-12 15:53:29.230  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:29.515  4138  4299 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:53:29.533   385   934 D audioserver: FGS Logger Transaction failed
+10-12 15:53:29.533   385   934 D audioserver: -129
+10-12 15:53:29.648  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:29.783  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:29.850   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:29.850   385   475 D audioserver: -129
+10-12 15:53:30.002  4138  4299 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:53:30.031   385   934 D audioserver: FGS Logger Transaction failed
+10-12 15:53:30.031   385   934 D audioserver: -129
+10-12 15:53:30.059   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(27)
+10-12 15:53:30.223  4138  4405 D EGL_emulation: app_time_stats: avg=381.14ms min=216.03ms max=472.55ms count=3
+10-12 15:53:30.226  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:30.273  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:30.315   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:53:30.315   385   475 D audioserver: -129
+10-12 15:53:30.603  4138  4299 D UiDevice: Pressing home button.
+10-12 15:53:30.633   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:53:30.634   493   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:30.662  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:30.667  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: PAUSED
+10-12 15:53:30.670  2240  2349 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:30.671   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:53:30.695  2240  2240 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 15:53:30.724  2240  2348 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 15:53:30.747  1528  1528 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:53:30.747  1528  1528 W HomeController: onResume: List view global layout completed.
+10-12 15:53:30.805  1528  1528 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:53:30.833  1528  1528 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 15:53:30.977  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@99eeae6 in: STOPPED
+10-12 15:53:30.985   493   510 I ImeTracker: com.google.android.tvlauncher:65f09cb9: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:53:30.985   493   510 I ImeTracker: com.google.android.tvlauncher:65f09cb9: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:53:30.991  4138  4299 I TestRunner: finished: focusStartsOnTheFirstCardAndNeverGetsLost(app.tvessentials.installer.LauncherUiTest)

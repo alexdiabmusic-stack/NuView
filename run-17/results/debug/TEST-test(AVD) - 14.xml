@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="17" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-10-12T15:54:49" hostname="localhost">
+  <testsuite name="app.tvessentials.installer.InstallFlowTest" tests="1" failures="0" errors="0" skipped="0" time="53.397" timestamp="2026-10-12T15:54:49" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="cancelAtTheSystemDialogThenInstallEndToEndAndOpen" classname="app.tvessentials.installer.InstallFlowTest" time="53.397" />
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LauncherUiTest" tests="10" failures="0" errors="0" skipped="0" time="77.840" timestamp="2026-10-12T15:54:49" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="detailsOpensFromTheDetailsLinkAndFromTheMenuKey" classname="app.tvessentials.installer.LauncherUiTest" time="9.543" />
+    <testcase name="homeShowsHeroAndAllThreeCards" classname="app.tvessentials.installer.LauncherUiTest" time="4.174" />
+    <testcase name="iMPlayerIsOfferedForOnePressInstallAndKeepsTheGuidedRouteAsFallback" classname="app.tvessentials.installer.LauncherUiTest" time="7.433" />
+    <testcase name="settingsOpensAndBackRestoresFocusToTheSettingsButton" classname="app.tvessentials.installer.LauncherUiTest" time="6.665" />
+    <testcase name="headerButtonsAreReachableAndFocusReturnsToTheCards" classname="app.tvessentials.installer.LauncherUiTest" time="7.433" />
+    <testcase name="focusStartsOnTheFirstCardAndNeverGetsLost" classname="app.tvessentials.installer.LauncherUiTest" time="14.712" />
+    <testcase name="backOnTheHomeScreenLeavesTheApp" classname="app.tvessentials.installer.LauncherUiTest" time="7.696" />
+    <testcase name="appIsRegisteredAsALeanbackLauncherWithABanner" classname="app.tvessentials.installer.LauncherUiTest" time="2.766" />
+    <testcase name="dpadMovesAcrossTheCardsAndStopsAtTheEdges" classname="app.tvessentials.installer.LauncherUiTest" time="10.140" />
+    <testcase name="smartTubeDetailsShowTheDescriptionAndFacts" classname="app.tvessentials.installer.LauncherUiTest" time="7.278" />
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LayoutMatrixTest" tests="6" failures="0" errors="0" skipped="0" time="46.563" timestamp="2026-10-12T15:54:49" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="at720p" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.152" />
+    <testcase name="at720pWithLargestText" classname="app.tvessentials.installer.LayoutMatrixTest" time="8.176" />
+    <testcase name="at1080p" classname="app.tvessentials.installer.LayoutMatrixTest" time="8.274" />
+    <testcase name="at1080pAs960dp" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.222" />
+    <testcase name="at1080pAs1280dp" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.892" />
+    <testcase name="at1080pWithLargeText" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.847" />
+  </testsuite>
+</testsuites>

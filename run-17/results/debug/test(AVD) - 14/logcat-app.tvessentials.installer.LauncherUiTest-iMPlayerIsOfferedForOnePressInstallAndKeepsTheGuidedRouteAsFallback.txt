@@ -1,0 +1,123 @@
+10-12 15:52:53.499  4138  4299 I TestRunner: started: iMPlayerIsOfferedForOnePressInstallAndKeepsTheGuidedRouteAsFallback(app.tvessentials.installer.LauncherUiTest)
+10-12 15:52:53.568   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:52:53.666   493   722 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=97, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:52:53.745  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@90aa281 in: DESTROYED
+10-12 15:52:53.748  4138  4138 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8d0ef3b
+10-12 15:52:53.785   493  1629 W InputManager-JNI: Input channel object 'd0b7204 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:52:53.910  4138  4138 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+10-12 15:52:54.022  4138  4299 D UiDevice: Pressing home button.
+10-12 15:52:54.085   493   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:52:54.123   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:52:54.135  1528  1528 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:52:54.159   493  1629 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:52:54.166  4138  4299 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:52:54.166  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:52:54.308   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:52:54.313  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@be22a97 in: PRE_ON_CREATE
+10-12 15:52:54.345  1528  1656 D EGL_emulation: app_time_stats: avg=62.72ms min=29.16ms max=96.01ms count=17
+10-12 15:52:54.367  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@be22a97 in: CREATED
+10-12 15:52:54.375  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@be22a97 in: STARTED
+10-12 15:52:54.430   493  1629 D ConnectivityService: requestNetwork for uid/pid:10122/4138 activeRequest: null callbackRequest: 98 [NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:52:54.435   493   723 D ConnectivityService: NetReassign [99 : null → 100] [c 0] [a 0] [i 3]
+10-12 15:52:54.436   493   722 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:52:54.436   493   722 D EthernetNetworkFactory: IpClient already started
+10-12 15:52:54.436   493   715 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:52:54.436   493   715 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:52:54.436   493   715 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:52:54.461  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@be22a97 in: RESUMED
+10-12 15:52:55.030   493   517 W ziparchive: Unable to open '/data/app/~~1u7paMKSZqqDpQftDJ-Jeg==/app.tvessentials.installer-sOMD1irthR97yjttXFwvfg==/base.dm': No such file or directory
+10-12 15:52:55.031   493   517 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +864ms
+10-12 15:52:55.193   493  1629 I ImeTracker: app.tvessentials.installer:b57e2ca2: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:52:55.193   493  1629 I ImeTracker: app.tvessentials.installer:b57e2ca2: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:52:55.202  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:52:55.206  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:52:55.206  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:52:55.206  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:52:55.206  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:52:55.453  4138  4778 I OpenGLRenderer: Davey! duration=829ms; Flags=0, FrameTimelineVsyncId=10181, IntendedVsync=233230164342, Vsync=233680164324, InputEventId=0, HandleInputStart=233691835414, AnimationStart=233691838961, PerformTraversalsStart=233753862373, DrawStart=233757269085, FrameDeadline=233663497658, FrameInterval=233691721331, FrameStartTime=16666666, SyncQueued=233776366912, SyncStart=233776409912, IssueDrawCommandsStart=233776468793, SwapBuffers=233808806166, FrameCompleted=234059352538, DequeueBufferDuration=6132, QueueBufferDuration=5961525, GpuCompleted=234059352538, SwapBuffersCompleted=234030599005, DisplayPresentTime=-647975162396877823, CommandSubmissionCompleted=233808806166, 
+10-12 15:52:55.714   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:52:56.325  4138  4299 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:52:56.361   385   403 D audioserver: FGS Logger Transaction failed
+10-12 15:52:56.365   385   403 D audioserver: -129
+10-12 15:52:56.372   385   475 D AudioFlinger: mixer(0xf0aa6e20) throttle end: throttle time(22)
+10-12 15:52:56.531   385   475 D audioserver: FGS Logger Transaction failed
+10-12 15:52:56.531   385   475 D audioserver: -129
+10-12 15:52:56.563  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:52:56.637  4138  4405 D EGL_emulation: app_time_stats: avg=405.08ms min=237.09ms max=716.25ms count=4
+10-12 15:52:56.927  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:52:57.161  4138  4299 D UiDevice: Waiting 90000ms for SearchCondition[hasObject=BySelector [DESC='(?s)\QiMPlayer\E.*\QLatest 4.\E.*', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:52:57.162  4138  4299 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QiMPlayer\E.*\QLatest 4.\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:52:57.168  4138  4299 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [DESC='(?s)\QiMPlayer\E.*\QInstall\E.*', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:52:57.168  4138  4299 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QiMPlayer\E.*\QInstall\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:52:57.174  4138  4299 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_implayer_ready.png
+10-12 15:52:57.260  4861  4861 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:52:57.263  1219  4068 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:52:57.265  4861  4861 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:52:57.279   140   140 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:52:57.279  4861  4864 I Gralloc4: mapper 4.x is not supported
+10-12 15:52:57.391  3565  4849 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:52:57.401  3565  4849 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:52:57.922  1219  1399 D PickerSyncController: syncAllMedia
+10-12 15:52:57.923  1219  1399 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 15:52:57.923  1219  1399 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 15:52:57.930  1219  1399 D PickerSyncController:    Latest ID/Gen=1407:a2c319cf-1aff-4dd8-ab35-c047be40c715:external_primary/42
+10-12 15:52:57.930  1219  1399 D PickerSyncController:    Cached ID/Gen=1407:a2c319cf-1aff-4dd8-ab35-c047be40c715:external_primary/35
+10-12 15:52:57.931  1219  1399 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=35, latest=Bundle[{last_media_sync_generation=42, media_collection_id=1407:a2c319cf-1aff-4dd8-ab35-c047be40c715:external_primary}]}
+10-12 15:52:57.932  1219  1399 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:52:57.934  1219  1399 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=35}]. Result count: 1. Cursor count: 1
+10-12 15:52:57.935  1219  1399 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:52:57.937  1219  1399 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=35}]. Result count: 0. Cursor count: 0
+10-12 15:52:57.938  1219  1399 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 15:52:57.938  1219  1399 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 15:52:57.938  1219  1399 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 15:52:57.938  1219  1399 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 15:52:57.938  1219  1399 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 15:52:57.938  1219  1399 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 15:52:57.938  1219  1399 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 15:52:57.939  1219  1399 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 15:52:57.939  1219  1399 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 15:52:57.939  1219  1399 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 15:52:58.033   493  1359 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:52:58.043   493   517 I ActivityManager: Broadcast completed: result=0
+10-12 15:52:58.050  1219  1771 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:52:58.075  4138  4299 D UiDevice: Pressing menu button.
+10-12 15:52:58.081   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:52:58.086  1219  1771 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:52:58.136  3565  4816 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:52:58.163  3565  4609 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:52:58.181  4138  4138 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-12 15:52:58.181  4138  4138 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-12 15:52:58.209  4138  4299 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E']].
+10-12 15:52:58.209  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:52:58.669  4138  4405 D EGL_emulation: app_time_stats: avg=1015.72ms min=275.45ms max=1755.99ms count=2
+10-12 15:52:58.959  4138  4299 D UiDevice: Waiting 5000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QHow to install\E']].
+10-12 15:52:58.960  4138  4299 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QHow to install\E'].
+10-12 15:52:59.022  4138  4299 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_details_implayer.png
+10-12 15:52:59.134  4870  4870 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:52:59.136  1219  4068 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:52:59.139  4870  4870 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:52:59.156   140   140 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:52:59.156  4870  4873 I Gralloc4: mapper 4.x is not supported
+10-12 15:52:59.287  3565  4816 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:52:59.297  3565  4817 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:52:59.414   332  1928 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1448128
+10-12 15:52:59.643   493  1024 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:52:59.654   493   517 I ActivityManager: Broadcast completed: result=0
+10-12 15:52:59.658  1219  1771 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:52:59.685  4138  4299 D UiDevice: Pressing back button.
+10-12 15:52:59.701  1219  1771 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:52:59.721  1046  1046 I GoogleInputMethodService: GoogleInputMethodService.onKeyDown():2481 Received KEYCODE_BACK. isAllViewsInvisible=false
+10-12 15:52:59.783  3565  4816 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:52:59.801  3565  4609 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:53:00.072  4138  4405 D EGL_emulation: app_time_stats: avg=465.50ms min=149.16ms max=1081.07ms count=3
+10-12 15:53:00.267  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:53:00.290   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:53:00.543  4138  4299 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:53:00.767  4138  4299 D UiDevice: Pressing home button.
+10-12 15:53:00.810   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:53:00.831   493   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:53:00.861  4138  4138 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@be22a97 in: PAUSED
+10-12 15:53:00.868   389   389 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:53:00.927  1528  1528 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:53:00.927  1528  1528 W HomeController: onResume: List view global layout completed.
+10-12 15:53:00.932  4138  4299 I TestRunner: finished: iMPlayerIsOfferedForOnePressInstallAndKeepsTheGuidedRouteAsFallback(app.tvessentials.installer.LauncherUiTest)
