@@ -174,7 +174,7 @@ fun SettingsScreen(
                 SectionLabel("Downloads")
                 SettingRow("Automatic update checks", "Look for new versions when the app opens", toggle = ui.autoCheck, onClick = { onAutoCheck(!ui.autoCheck) })
                 SettingRow("Prefer stable releases", "Turn off to follow beta builds where an app offers them", toggle = ui.preferStable, onClick = { onPreferStable(!ui.preferStable) })
-                SettingRow("Clear downloaded APK cache", "Frees ${ui.cacheSize} of storage", onClick = onClearCache, glyph = Glyph.Stop)
+                SettingRow("Clear downloaded APK cache", "Frees ${ui.cacheSize} of storage", onClick = onClearCache, glyph = Glyph.Trash)
             }
             Column(Modifier.weight(1f)) {
                 SectionLabel("About")

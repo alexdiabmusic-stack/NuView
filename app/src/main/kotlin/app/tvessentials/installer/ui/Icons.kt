@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.Dp
 
 /** Every glyph in the product, drawn as vectors. Nothing here imitates a third-party brand mark. */
-enum class Glyph { Library, Antenna, Play, Refresh, Sliders, Online, Offline, Check, Warning, Download, Open, Info, Shield, Stop, Arrow, Logo }
+enum class Glyph { Library, Antenna, Play, Refresh, Sliders, Online, Offline, Check, Warning, Download, Open, Info, Shield, Stop, Trash, Arrow, Logo }
 
 @Composable
 fun GlyphIcon(glyph: Glyph, tint: Color, size: Dp, modifier: Modifier = Modifier) {
@@ -101,6 +101,11 @@ fun DrawScope.drawGlyph(glyph: Glyph, tint: Color) {
             drawPath(Path().apply { moveTo(0.34f * s, 0.5f * s); lineTo(0.46f * s, 0.62f * s); lineTo(0.68f * s, 0.38f * s) }, tint, style = stroke)
         }
         Glyph.Stop -> drawRoundRect(tint, p(0.24f, 0.24f), Size(0.52f * s, 0.52f * s), CornerRadius(0.08f * s), style = Fill)
+        Glyph.Trash -> {
+            drawLine(tint, p(0.2f, 0.28f), p(0.8f, 0.28f), w, StrokeCap.Round)
+            drawPath(Path().apply { moveTo(0.4f * s, 0.28f * s); lineTo(0.4f * s, 0.16f * s); lineTo(0.6f * s, 0.16f * s); lineTo(0.6f * s, 0.28f * s) }, tint, style = stroke)
+            drawPath(Path().apply { moveTo(0.28f * s, 0.28f * s); lineTo(0.32f * s, 0.84f * s); lineTo(0.68f * s, 0.84f * s); lineTo(0.72f * s, 0.28f * s) }, tint, style = stroke)
+        }
         Glyph.Arrow -> {
             drawLine(tint, p(0.18f, 0.5f), p(0.82f, 0.5f), w, StrokeCap.Round)
             drawPath(Path().apply { moveTo(0.58f * s, 0.26f * s); lineTo(0.82f * s, 0.5f * s); lineTo(0.58f * s, 0.74f * s) }, tint, style = stroke)
