@@ -1,0 +1,194 @@
+10-12 15:40:27.607  4164  4249 I TestRunner: started: at1080p(app.tvessentials.installer.LayoutMatrixTest)
+10-12 15:40:27.615  4164  4249 D UiDevice: Executing shell command: wm size 1920x1080
+10-12 15:40:27.702   496   724 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=117, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:40:27.784  4164  4249 D UiDevice: Executing shell command: wm density 213
+10-12 15:40:27.811  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@bcc7ceb in: DESTROYED
+10-12 15:40:27.838  4164  4164 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@3d8929e
+10-12 15:40:28.006  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.012  1188  1188 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1558 onConfigurationChanged() : NewConfig = {1.0 ?mcc0mnc [en_US] ldltr sw811dp w1442dp h811dp 213dpi xlrg long land television night finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mMaxBounds=Rect(0, 0 - 1920, 1080) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.498 fontWeightAdjustment=0}
+10-12 15:40:28.012  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1575 changedMask : 1d00
+10-12 15:40:28.012  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.019  1188  1188 I KeyboardModeManager: KeyboardModeManager.setInputView():460 setInputView() : supportsOneHandedMode=false
+10-12 15:40:28.019  1188  1188 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 15:40:28.019  1188  1188 I KeyboardModeManager: KeyboardModeManager.setInputView():451 setInputView() : entry=ecy@5a10abfe
+10-12 15:40:28.019  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1341 Apply keyboard theme: theme_default
+10-12 15:40:28.027  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.027  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.028  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.032  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.033  1437  1676 D EGL_emulation: app_time_stats: avg=61.24ms min=17.96ms max=219.35ms count=16
+10-12 15:40:28.053  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.053  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.058  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.063  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.063  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.064  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 15:40:28.068  1188  1188 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 15:40:28.074  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, true)
+10-12 15:40:28.074  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:40:28.075  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:40:28.075  1188  1188 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-12 15:40:28.127   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:40:28.127  4164  4249 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 15:40:28.155  1437  1437 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8ff2e96
+10-12 15:40:28.157   496  1477 W InputManager-JNI: Input channel object '9f56f1a app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:40:28.168   496  3591 W InputManager-JNI: Input channel object '13544d5 com.google.android.tvlauncher/com.google.android.tvlauncher.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:40:28.262  4164  4164 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+10-12 15:40:28.287  1437  1437 W ChimeRegistrationManage: Chime not initialized, cannot register for notifications.
+10-12 15:40:28.358  1437  1460 W roid.tvlauncher: Cleared Reference was only reachable from finalizer (only reported once)
+10-12 15:40:28.364  1437  1460 I roid.tvlauncher: Background concurrent copying GC freed 57649(2577KB) AllocSpace objects, 7(524KB) LOS objects, 49% free, 13MB/27MB, paused 28us,312us total 211.692ms
+10-12 15:40:28.373  1437  1437 W PhoneWindow: Previously focused view reported id 2131427802 during save, but can't be found during restore.
+10-12 15:40:28.388  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.422  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.425  1437  1462 W System  : A resource failed to call CursorWrapperInner.close. 
+10-12 15:40:28.426  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.436  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.440  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.445  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.451  1437  1437 W Glide   : Load failed for [null] with dimensions [0x0]
+10-12 15:40:28.451  1437  1437 W Glide   : class cwj: Received null model
+10-12 15:40:28.460  1437  1462 W System  : A resource failed to call AbstractCursor.close. 
+10-12 15:40:28.488  1437  1437 W Glide   : Load failed for [null] with dimensions [0x0]
+10-12 15:40:28.488  1437  1437 W Glide   : class cwj: Received null model
+10-12 15:40:28.521  1437  1437 W Glide   : Load failed for [null] with dimensions [0x0]
+10-12 15:40:28.521  1437  1437 W Glide   : class cwj: Received null model
+10-12 15:40:28.554  1437  1437 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:40:28.554  1437  1437 W HomeController: onResume: List view global layout completed.
+10-12 15:40:28.580  1437  1437 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:40:28.689  1437  1437 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 15:40:28.739   496  3591 I ImeTracker: com.google.android.tvlauncher:206414ce: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:40:28.739   496  3591 I ImeTracker: com.google.android.tvlauncher:206414ce: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:40:28.749  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:40:28.749  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:40:28.750  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:40:28.750  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:40:28.751  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:40:29.738  1437  1676 D EGL_emulation: app_time_stats: avg=59.59ms min=33.87ms max=133.13ms count=19
+10-12 15:40:29.766  4164  4249 D UiDevice: Pressing home button.
+10-12 15:40:29.825   788   788 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:40:29.835   496   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:40:29.904  1437  1437 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:40:29.947   496  1278 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:40:30.090  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:40:30.094  4164  4249 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:30.152   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:40:30.241  1146  1435 D PickerSyncController: syncAllMedia
+10-12 15:40:30.241  1146  1435 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 15:40:30.241  1146  1435 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 15:40:30.242  1146  1435 D PickerSyncController:    Latest ID/Gen=1407:31419282-9a00-41ae-a3bb-837119fb6fe4:external_primary/66
+10-12 15:40:30.242  1146  1435 D PickerSyncController:    Cached ID/Gen=1407:31419282-9a00-41ae-a3bb-837119fb6fe4:external_primary/59
+10-12 15:40:30.242  1146  1435 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=59, latest=Bundle[{last_media_sync_generation=66, media_collection_id=1407:31419282-9a00-41ae-a3bb-837119fb6fe4:external_primary}]}
+10-12 15:40:30.242  1146  1435 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:40:30.246  1146  1435 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=59}]. Result count: 1. Cursor count: 1
+10-12 15:40:30.247  1146  1435 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:40:30.279  1146  1435 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=59}]. Result count: 0. Cursor count: 0
+10-12 15:40:30.280  1146  1435 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 15:40:30.282  1146  1435 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 15:40:30.282  1146  1435 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 15:40:30.283  1146  1435 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 15:40:30.283  1146  1435 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 15:40:30.283  1146  1435 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 15:40:30.283  1146  1435 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 15:40:30.283  1146  1435 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 15:40:30.283  1146  1435 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 15:40:30.283  1146  1435 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 15:40:30.305  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@a9fe3a9 in: PRE_ON_CREATE
+10-12 15:40:30.336  3670  4886 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+10-12 15:40:30.342  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@a9fe3a9 in: CREATED
+10-12 15:40:30.353  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@a9fe3a9 in: STARTED
+10-12 15:40:30.398   496  1278 D ConnectivityService: requestNetwork for uid/pid:10122/4164 activeRequest: null callbackRequest: 118 [NetworkRequest [ REQUEST id=119, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:40:30.417   496   724 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=119, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:40:30.418   496   724 D EthernetNetworkFactory: IpClient already started
+10-12 15:40:30.418   496   717 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=119, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:40:30.418   496   717 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=119, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:40:30.418   496   725 D ConnectivityService: NetReassign [119 : null → 100] [c 0] [a 0] [i 11]
+10-12 15:40:30.418   496   717 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=119, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:40:30.443  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@a9fe3a9 in: RESUMED
+10-12 15:40:30.887   496   517 W ziparchive: Unable to open '/data/app/~~zIDz1H2IPqkc7qMahDolgg==/app.tvessentials.installer-j4Iec7siQAYFpfAXXZtGxw==/base.dm': No such file or directory
+10-12 15:40:30.888   496   517 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +937ms
+10-12 15:40:31.022   496  1477 I ImeTracker: app.tvessentials.installer:d054c809: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:40:31.023   496  1477 I ImeTracker: app.tvessentials.installer:d054c809: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:40:31.026  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:40:31.033  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:40:31.034  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:40:31.034  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:40:31.034  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:40:31.298  4164  4588 I OpenGLRenderer: Davey! duration=717ms; Flags=0, FrameTimelineVsyncId=17767, IntendedVsync=349389867302, Vsync=349773200620, InputEventId=0, HandleInputStart=349780410914, AnimationStart=349780414561, PerformTraversalsStart=349839944879, DrawStart=349840765993, FrameDeadline=349756533954, FrameInterval=349778921853, FrameStartTime=16666666, SyncQueued=349853485570, SyncStart=349854001093, IssueDrawCommandsStart=349855746904, SwapBuffers=349894487672, FrameCompleted=350107964356, DequeueBufferDuration=5250, QueueBufferDuration=674059, GpuCompleted=350107964356, SwapBuffersCompleted=350105001841, DisplayPresentTime=0, CommandSubmissionCompleted=349894487672, 
+10-12 15:40:31.656  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 15:40:31.658  4164  4249 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:40:32.159  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:40:32.159  4164  4249 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:32.170  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:40:32.171  4164  4249 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:32.185  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:40:32.185  4164  4249 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:32.202  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E']].
+10-12 15:40:32.202  4164  4249 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E'].
+10-12 15:40:33.430  4164  4249 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_layout_1080p.png
+10-12 15:40:33.508  4890  4890 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:40:33.510  1146  1738 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:40:33.513  4890  4890 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:40:33.528   141   141 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:40:33.530  4890  4893 I Gralloc4: mapper 4.x is not supported
+10-12 15:40:33.613  3624  4619 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:40:33.626  3624  4707 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:40:34.321   496  1477 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:40:34.329   496   517 I ActivityManager: Broadcast completed: result=0
+10-12 15:40:34.338  1146  1816 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:40:34.363  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:40:34.385  1146  1816 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:40:34.432  3624  4894 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:40:34.437  3624  3810 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:40:34.452  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:34.625  4164  4249 D UiDevice: Executing shell command: wm size reset
+10-12 15:40:34.646  4164  4249 D UiDevice: Executing shell command: wm density reset
+10-12 15:40:34.720  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.723  1188  1188 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1558 onConfigurationChanged() : NewConfig = {1.0 ?mcc0mnc [en_US] ldltr sw540dp w960dp h540dp 320dpi lrg long land television night finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mMaxBounds=Rect(0, 0 - 1920, 1080) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.545 fontWeightAdjustment=0}
+10-12 15:40:34.726  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1575 changedMask : 1d00
+10-12 15:40:34.728  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.739  1188  1188 I KeyboardModeManager: KeyboardModeManager.setInputView():460 setInputView() : supportsOneHandedMode=false
+10-12 15:40:34.743  1188  1188 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 15:40:34.744  1188  1188 I KeyboardModeManager: KeyboardModeManager.setInputView():451 setInputView() : entry=ecy@5a10abfe
+10-12 15:40:34.750  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1341 Apply keyboard theme: theme_default
+10-12 15:40:34.750  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.750  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.756  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.757  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.761  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.761  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.762  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.762  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.762  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.762  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.762  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.762  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.775  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.777  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.777  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.778  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.780  4164  4249 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 15:40:34.782  1188  1188 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 15:40:34.784  1188  1188 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 15:40:34.788   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:40:34.794  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, true)
+10-12 15:40:34.795  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:40:34.799  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:40:34.799  1188  1188 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-12 15:40:34.820  4164  4249 D UiDevice: Pressing home button.
+10-12 15:40:35.076  4164  4336 D EGL_emulation: app_time_stats: avg=1050.60ms min=228.92ms max=3336.98ms count=4
+10-12 15:40:35.137   788   788 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:40:35.145   496   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:40:35.172  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@a9fe3a9 in: PAUSED
+10-12 15:40:35.195   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:40:35.236  1437  1437 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@a97378a
+10-12 15:40:35.265   496  3174 W InputManager-JNI: Input channel object '6670cb9 com.google.android.tvlauncher/com.google.android.tvlauncher.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:40:35.285  1437  1437 W ChimeRegistrationManage: Chime not initialized, cannot register for notifications.
+10-12 15:40:35.327  1437  1437 W PhoneWindow: Previously focused view reported id 2131427802 during save, but can't be found during restore.
+10-12 15:40:35.353  4164  4249 I TestRunner: finished: at1080p(app.tvessentials.installer.LayoutMatrixTest)

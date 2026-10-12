@@ -1,0 +1,235 @@
+10-12 15:39:26.742  4164  4249 I TestRunner: started: focusStartsOnTheFirstCardAndNeverGetsLost(app.tvessentials.installer.LauncherUiTest)
+10-12 15:39:26.791  1437  1437 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 15:39:26.855   496  2363 I ImeTracker: com.google.android.tvlauncher:ea5727df: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:39:26.872   496  2363 I ImeTracker: com.google.android.tvlauncher:ea5727df: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:39:26.877  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:39:26.882  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:39:26.882  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:39:26.882  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:39:26.889  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:39:26.935   496   724 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=103, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:27.039  3670  3812 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:39:27.039  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@895e5c9 in: DESTROYED
+10-12 15:39:27.042  4164  4164 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c71f69a
+10-12 15:39:27.055  3670  3812 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:39:27.068   496  2911 W InputManager-JNI: Input channel object '886031a app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:39:27.116  3624  3660 E IPCThreadState: Binder transaction failure: 292150/29201/-28
+10-12 15:39:27.116  3624  3660 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:39:27.116  3624  3660 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:39:27.116  3624  3660 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:39:27.116  3624  3660 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:39:27.422  4164  4249 D UiDevice: Pressing home button.
+10-12 15:39:27.542   496   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:39:27.546   788   788 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:39:27.580  1437  1437 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:39:27.640   496  1278 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:39:27.665  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:39:27.668  4164  4249 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:27.680   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:39:27.830  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@34fc170 in: PRE_ON_CREATE
+10-12 15:39:27.895  1437  1676 D EGL_emulation: app_time_stats: avg=72.41ms min=35.47ms max=166.84ms count=16
+10-12 15:39:27.908  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@34fc170 in: CREATED
+10-12 15:39:27.915  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@34fc170 in: STARTED
+10-12 15:39:27.938   496  2911 D ConnectivityService: requestNetwork for uid/pid:10122/4164 activeRequest: null callbackRequest: 104 [NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:39:27.983   496   725 D ConnectivityService: NetReassign [105 : null → 100] [c 0] [a 0] [i 1]
+10-12 15:39:27.986   496   724 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:27.986   496   724 D EthernetNetworkFactory: IpClient already started
+10-12 15:39:27.986   496   717 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:27.986   496   717 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:27.986   496   717 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=105, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:28.019  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@34fc170 in: RESUMED
+10-12 15:39:28.596   496   517 W ziparchive: Unable to open '/data/app/~~zIDz1H2IPqkc7qMahDolgg==/app.tvessentials.installer-j4Iec7siQAYFpfAXXZtGxw==/base.dm': No such file or directory
+10-12 15:39:28.597   496   517 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +951ms
+10-12 15:39:28.639  4164  4164 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+10-12 15:39:28.823   496  3591 I ImeTracker: app.tvessentials.installer:f9a9740f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:39:28.826   496  3591 I ImeTracker: app.tvessentials.installer:f9a9740f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:39:28.827  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:39:28.830  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:39:28.830  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:39:28.830  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:39:28.833  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:39:29.099  4164  4200 I OpenGLRenderer: Davey! duration=919ms; Flags=0, FrameTimelineVsyncId=10064, IntendedVsync=286973203132, Vsync=287473203112, InputEventId=0, HandleInputStart=287475446640, AnimationStart=287475451058, PerformTraversalsStart=287622368875, DrawStart=287623041651, FrameDeadline=287456536446, FrameInterval=287474867458, FrameStartTime=16666666, SyncQueued=287651880876, SyncStart=287653527203, IssueDrawCommandsStart=287653610479, SwapBuffers=287673652442, FrameCompleted=287894432816, DequeueBufferDuration=6091, QueueBufferDuration=6319112, GpuCompleted=287894432816, SwapBuffersCompleted=287892846600, DisplayPresentTime=0, CommandSubmissionCompleted=287673652442, 
+10-12 15:39:29.471  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:30.015  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:30.228  4164  4249 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:39:30.253   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:30.253   389  1109 D audioserver: -129
+10-12 15:39:30.256   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(27)
+10-12 15:39:30.279  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:30.306   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(33)
+10-12 15:39:30.415   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:30.415   389   480 D audioserver: -129
+10-12 15:39:30.476  4164  4336 D EGL_emulation: app_time_stats: avg=473.96ms min=237.85ms max=925.69ms count=4
+10-12 15:39:30.599  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:31.017  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:31.027  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:31.399  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:31.409  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:31.770  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:31.780  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:32.140  3670  3812 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:39:32.140  3670  3812 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:39:32.148  3624  3660 E IPCThreadState: Binder transaction failure: 297434/29201/-28
+10-12 15:39:32.148  3624  3660 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:39:32.148  3624  3660 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:39:32.148  3624  3660 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:39:32.148  3624  3660 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:39:32.154  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:32.206  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:32.415  4164  4249 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:39:32.436   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:32.436   389  1109 D audioserver: -129
+10-12 15:39:32.616  4164  4336 D EGL_emulation: app_time_stats: avg=1070.02ms min=199.24ms max=1940.80ms count=2
+10-12 15:39:32.643  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:32.654   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:32.654   389   480 D audioserver: -129
+10-12 15:39:32.690  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:33.137  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:33.147  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:33.352  4164  4249 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:39:33.366   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:33.366   389  1109 D audioserver: -129
+10-12 15:39:33.380  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:33.582   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:33.582   389   480 D audioserver: -129
+10-12 15:39:33.618  4164  4336 D EGL_emulation: app_time_stats: avg=501.18ms min=229.89ms max=772.48ms count=2
+10-12 15:39:33.642  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:33.958  4164  4249 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:39:33.985   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:33.985   389  1109 D audioserver: -129
+10-12 15:39:34.217   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:34.217   389   480 D audioserver: -129
+10-12 15:39:34.364  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:34.480  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:34.692  4164  4249 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:39:34.726   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:34.726   389  1109 D audioserver: -129
+10-12 15:39:34.909  4164  4336 D EGL_emulation: app_time_stats: avg=322.10ms min=206.53ms max=495.48ms count=4
+10-12 15:39:34.917  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:34.944   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:34.944   389   480 D audioserver: -129
+10-12 15:39:34.953  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:35.191  4164  4249 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:39:35.213   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:35.215   389  1109 D audioserver: -129
+10-12 15:39:35.243  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:35.443   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:35.443   389   480 D audioserver: -129
+10-12 15:39:35.608  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:35.851  4164  4249 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:39:35.865   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:35.865   389  1109 D audioserver: -129
+10-12 15:39:35.873  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:36.098   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:36.098   389   480 D audioserver: -129
+10-12 15:39:36.114  4164  4336 D EGL_emulation: app_time_stats: avg=401.58ms min=245.79ms max=531.94ms count=3
+10-12 15:39:36.221  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:36.572  4164  4249 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:39:36.599   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:36.599   389  1109 D audioserver: -129
+10-12 15:39:36.643  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:36.826   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:36.826   389   480 D audioserver: -129
+10-12 15:39:36.901  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:37.177  3670  3812 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:39:37.177  3670  3812 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:39:37.187  3624  3660 E IPCThreadState: Binder transaction failure: 305231/29201/-28
+10-12 15:39:37.187  3624  3660 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:39:37.187  3624  3660 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:39:37.187  3624  3660 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:39:37.187  3624  3660 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:39:37.227  4164  4249 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:39:37.255   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:37.257   389  1109 D audioserver: -129
+10-12 15:39:37.288  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:37.407  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:37.484  4164  4336 D EGL_emulation: app_time_stats: avg=342.47ms min=233.57ms max=466.49ms count=4
+10-12 15:39:37.487   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:37.487   389   480 D audioserver: -129
+10-12 15:39:37.675  4164  4249 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:39:37.699   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:37.699   389  1109 D audioserver: -129
+10-12 15:39:37.723  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:37.730   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(24)
+10-12 15:39:37.934   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:37.934   389   480 D audioserver: -129
+10-12 15:39:38.019  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:38.336  4164  4249 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:39:38.366   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:38.366   389  1109 D audioserver: -129
+10-12 15:39:38.407  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:38.586  4164  4336 D EGL_emulation: app_time_stats: avg=363.40ms min=252.01ms max=425.78ms count=3
+10-12 15:39:38.705  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:38.711   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:38.711   389   480 D audioserver: -129
+10-12 15:39:38.992  4164  4249 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:39:39.012   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:39.012   389  1109 D audioserver: -129
+10-12 15:39:39.030   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(21)
+10-12 15:39:39.032  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:39.231   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:39.231   389   480 D audioserver: -129
+10-12 15:39:39.469  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:39.699  4164  4249 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:39:39.724   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:39.724   389  1109 D audioserver: -129
+10-12 15:39:39.843   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(19)
+10-12 15:39:39.921  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:39.935  4164  4336 D EGL_emulation: app_time_stats: avg=336.27ms min=207.85ms max=463.93ms count=4
+10-12 15:39:39.947  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:39.956   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:39.956   389   480 D audioserver: -129
+10-12 15:39:40.088  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:40.098  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:40.228  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:40.288  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:40.479  4164  4249 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:39:40.506   389  1109 D audioserver: FGS Logger Transaction failed
+10-12 15:39:40.506   389  1109 D audioserver: -129
+10-12 15:39:40.655  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:40.756  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:40.897   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:40.897   389   480 D audioserver: -129
+10-12 15:39:40.904  4164  4196 I tials.installer: Background young concurrent copying GC freed 133113(4748KB) AllocSpace objects, 0(0B) LOS objects, 30% free, 9822KB/13MB, paused 179us,16us total 384.367ms
+10-12 15:39:40.943  4164  4336 D EGL_emulation: app_time_stats: avg=503.98ms min=238.91ms max=769.05ms count=2
+10-12 15:39:41.101  4164  4249 D UiDevice: Pressing home button.
+10-12 15:39:41.115   788   788 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:39:41.118   496   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:39:41.141   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:39:41.143  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@34fc170 in: PAUSED
+10-12 15:39:41.168  1437  1437 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:39:41.168  1437  1437 W HomeController: onResume: List view global layout completed.
+10-12 15:39:41.181  4164  4249 I TestRunner: finished: focusStartsOnTheFirstCardAndNeverGetsLost(app.tvessentials.installer.LauncherUiTest)

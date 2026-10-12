@@ -1,0 +1,188 @@
+10-12 15:39:52.696  4164  4249 I TestRunner: started: dpadMovesAcrossTheCardsAndStopsAtTheEdges(app.tvessentials.installer.LauncherUiTest)
+10-12 15:39:52.755   496  3174 I ImeTracker: com.google.android.tvlauncher:c22a2655: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:39:52.756   496  3174 I ImeTracker: com.google.android.tvlauncher:c22a2655: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:39:52.758  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:39:52.764  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:39:52.764  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:39:52.764  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:39:52.767  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:39:52.852   496   724 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=109, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:52.894  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@4796780 in: DESTROYED
+10-12 15:39:52.894  4164  4164 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@937ed17
+10-12 15:39:52.947   496  3174 W InputManager-JNI: Input channel object '90169d app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:39:53.270  4164  4249 D UiDevice: Pressing home button.
+10-12 15:39:53.376   496   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:39:53.385   788   788 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:39:53.445  1437  1437 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:39:53.480   496  3174 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:39:53.491  4164  4249 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:39:53.494  4164  4249 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:53.611   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:39:53.672  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@3d879f0 in: PRE_ON_CREATE
+10-12 15:39:53.763  1437  1676 D EGL_emulation: app_time_stats: avg=83.16ms min=45.07ms max=154.93ms count=14
+10-12 15:39:53.808  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@3d879f0 in: CREATED
+10-12 15:39:53.811  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@3d879f0 in: STARTED
+10-12 15:39:53.832   496  3591 D ConnectivityService: requestNetwork for uid/pid:10122/4164 activeRequest: null callbackRequest: 110 [NetworkRequest [ REQUEST id=111, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:39:53.836   496   725 D ConnectivityService: NetReassign [111 : null → 100] [c 0] [a 1] [i 0]
+10-12 15:39:53.845   496   724 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=111, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:53.845   496   724 D EthernetNetworkFactory: IpClient already started
+10-12 15:39:53.846   496   717 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=111, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:53.846   496   717 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=111, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:53.846   496   717 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=111, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:39:53.869  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@3d879f0 in: RESUMED
+10-12 15:39:54.445   496   517 W ziparchive: Unable to open '/data/app/~~zIDz1H2IPqkc7qMahDolgg==/app.tvessentials.installer-j4Iec7siQAYFpfAXXZtGxw==/base.dm': No such file or directory
+10-12 15:39:54.467   496   517 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +961ms
+10-12 15:39:54.656   496  3591 I ImeTracker: app.tvessentials.installer:b7e2efad: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:39:54.656   496  3591 I ImeTracker: app.tvessentials.installer:b7e2efad: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:39:54.658  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:39:54.661  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:39:54.662  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:39:54.662  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:39:54.663  1188  1188 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:39:54.938  4164  4588 I OpenGLRenderer: Davey! duration=833ms; Flags=0, FrameTimelineVsyncId=13069, IntendedVsync=312906535428, Vsync=313306535412, InputEventId=0, HandleInputStart=313311310176, AnimationStart=313311313842, PerformTraversalsStart=313460486841, DrawStart=313461223918, FrameDeadline=313306535412, FrameInterval=313311191384, FrameStartTime=16666666, SyncQueued=313486305767, SyncStart=313486387507, IssueDrawCommandsStart=313486452208, SwapBuffers=313506471770, FrameCompleted=313740197394, DequeueBufferDuration=6171, QueueBufferDuration=818298, GpuCompleted=313740197394, SwapBuffersCompleted=313740103426, DisplayPresentTime=0, CommandSubmissionCompleted=313506471770, 
+10-12 15:39:55.309  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:55.838  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:56.049  4164  4249 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:39:56.072   389   403 D audioserver: FGS Logger Transaction failed
+10-12 15:39:56.073   389   403 D audioserver: -129
+10-12 15:39:56.248   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(33)
+10-12 15:39:56.274  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:56.301  4164  4336 D EGL_emulation: app_time_stats: avg=467.52ms min=224.19ms max=922.69ms count=4
+10-12 15:39:56.318   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:56.319   389   480 D audioserver: -129
+10-12 15:39:56.356  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:56.851  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:56.862  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:57.202  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:57.261  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:57.468  4164  4249 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:39:57.494   389   403 D audioserver: FGS Logger Transaction failed
+10-12 15:39:57.494   389   403 D audioserver: -129
+10-12 15:39:57.512  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:57.629   496   496 I ResourceTimer: GetResourceValue count=3481 pvalues=2000,11000,14000,65000
+10-12 15:39:57.629   496   496 I ResourceTimer: RetrieveAttributes count=6893 pvalues=1000,3000,4000,12000
+10-12 15:39:57.710   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:39:57.710   389   480 D audioserver: -129
+10-12 15:39:57.736  4164  4336 D EGL_emulation: app_time_stats: avg=716.70ms min=296.59ms max=1136.81ms count=2
+10-12 15:39:57.890  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:58.322  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:58.332  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:58.692  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:58.702  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:59.040  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:59.050  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:59.420  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:59.482  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:59.694  4164  4249 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 15:39:59.729  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:39:59.757  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:39:59.977  4164  4249 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_focus_smarttube.png
+10-12 15:40:00.064  4700  4700 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:40:00.067  1146  3082 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:40:00.070  4700  4700 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:40:00.086   141   141 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:40:00.087  4700  4703 I Gralloc4: mapper 4.x is not supported
+10-12 15:40:00.179  3624  3810 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:40:00.186  3624  3810 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:40:00.202  3624  4619 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:40:00.335  2803  2912 D TrafficStats: tagSocket(107) with statsTag=0x1809, statsUid=-1
+10-12 15:40:00.354  2803  2912 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+10-12 15:40:00.348  2803  2803 W binder:2803_4: type=1400 audit(0.0:52): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=292 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-12 15:40:00.360  2803  2912 W libc    : Access denied finding property "service.adb.tls.port"
+10-12 15:40:00.352  2803  2803 W binder:2803_4: type=1400 audit(0.0:53): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=59 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-12 15:40:00.370  3624  3650 W GmsUrlRequestImpl: Content-Type header is overwritten.
+10-12 15:40:00.405  3624  3902 D TrafficStats: tagSocket(72) with statsTag=0x401, statsUid=10084
+10-12 15:40:00.505  3624  3650 W GLSUser : [AppCertManager] Exception while requesting key: 
+10-12 15:40:00.505  3624  3650 W GLSUser : java.util.concurrent.ExecutionException: accy: Parse Proto Exception.
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at bjwy.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):21)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at bjwy.get(:com.google.android.gms@233515114@23.35.15 (180706-565551795):14)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at lqa.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):468)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at lpy.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):31)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at lpt.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at lpw.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):55)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at jdw.call(:com.google.android.gms@233515114@23.35.15 (180706-565551795):56)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at qqx.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):50)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at qqx.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):76)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at qvz.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):8)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at java.lang.Thread.run(Thread.java:1012)
+10-12 15:40:00.505  3624  3650 W GLSUser : Caused by: accy: Parse Proto Exception.
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at acdw.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):62)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at acgi.onSucceeded(:com.google.android.gms@233515114@23.35.15 (180706-565551795):23)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at m.jf.onSucceeded(:com.google.android.gms.dynamite_cronetdynamite@233515114@23.35.15 (180706-0):3)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at m.ie.run(:com.google.android.gms.dynamite_cronetdynamite@233515114@23.35.15 (180706-0):25)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	... 6 more
+10-12 15:40:00.505  3624  3650 W GLSUser : Caused by: brqn: Protocol message contained an invalid tag (zero).
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brnw.k(:com.google.android.gms@233515114@23.35.15 (180706-565551795):14)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brro.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):409)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brro.h(:com.google.android.gms@233515114@23.35.15 (180706-565551795):8)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brpw.y(:com.google.android.gms@233515114@23.35.15 (180706-565551795):22)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brpq.f(:com.google.android.gms@233515114@23.35.15 (180706-565551795):3)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brns.d(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brns.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):3)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at brns.n(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at acdw.h(:com.google.android.gms@233515114@23.35.15 (180706-565551795):92)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	at acdw.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):11)
+10-12 15:40:00.505  3624  3650 W GLSUser : 	... 9 more
+10-12 15:40:00.511  3624  4707 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:40:00.578   336  1957 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 2000832
+10-12 15:40:00.976   496  2363 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:40:00.984   496   517 I ActivityManager: Broadcast completed: result=0
+10-12 15:40:00.987  1146  1816 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:40:01.005  1146  1816 W ExifInterface: Invalid image: ExifInterface got an unsupported image format file(ExifInterface supports JPEG and some RAW image formats only) or a corrupted JPEG file to ExifInterface.
+10-12 15:40:01.005  1146  1816 W ExifInterface: java.io.IOException: Encountered corrupt PNG file.
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at android.media.ExifInterface.getPngAttributes(ExifInterface.java:3443)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at android.media.ExifInterface.loadAttributes(ExifInterface.java:2008)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1640)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at android.media.ExifInterface.<init>(ExifInterface.java:1591)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItemImage(ModernMediaScanner.java:1376)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanItem(ModernMediaScanner.java:1038)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.-$$Nest$smscanItem(ModernMediaScanner.java:0)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:839)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.visitFile(ModernMediaScanner.java:338)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2670)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at java.nio.file.Files.walkFileTree(Files.java:2742)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.walkFileTree(ModernMediaScanner.java:454)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.runInternal(ModernMediaScanner.java:417)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner$Scan.run(ModernMediaScanner.java:406)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.scan.ModernMediaScanner.scanFile(ModernMediaScanner.java:272)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.MediaProvider.scanFile(MediaProvider.java:1943)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.MediaService.onScanFile(MediaService.java:225)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at com.android.providers.media.MediaService.onHandleWork(MediaService.java:85)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:396)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at androidx.core.app.JobIntentService$CommandProcessor.doInBackground(JobIntentService.java:387)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 15:40:01.005  1146  1816 W ExifInterface: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 15:40:01.014  1146  1816 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:40:01.018  4164  4249 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:40:01.058  3624  4619 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:40:01.069  3624  4619 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:40:01.089   389   403 D audioserver: FGS Logger Transaction failed
+10-12 15:40:01.090   389   403 D audioserver: -129
+10-12 15:40:01.317  4164  4336 D EGL_emulation: app_time_stats: avg=1788.77ms min=222.16ms max=3355.38ms count=2
+10-12 15:40:01.374   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:40:01.374   389   480 D audioserver: -129
+10-12 15:40:01.386  4164  4249 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:40:01.623   389   403 D audioserver: FGS Logger Transaction failed
+10-12 15:40:01.623   389   403 D audioserver: -129
+10-12 15:40:01.641   389   480 D AudioFlinger: mixer(0xf6ea8e20) throttle end: throttle time(41)
+10-12 15:40:01.645  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:40:01.846   389   480 D audioserver: FGS Logger Transaction failed
+10-12 15:40:01.846   389   480 D audioserver: -129
+10-12 15:40:02.149  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:02.350  4164  4249 D UiDevice: Pressing keycodes [21] with modifier 0.
+10-12 15:40:02.392  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:40:02.419  4164  4249 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:40:02.609  4164  4249 D UiDevice: Pressing home button.
+10-12 15:40:02.628   788   788 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:40:02.645   496   518 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:40:02.685  4164  4164 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@3d879f0 in: PAUSED
+10-12 15:40:02.709   392   392 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:40:02.781  1437  1437 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:40:02.781  1437  1437 W HomeController: onResume: List view global layout completed.
+10-12 15:40:02.783  4164  4249 I TestRunner: finished: dpadMovesAcrossTheCardsAndStopsAtTheEdges(app.tvessentials.installer.LauncherUiTest)

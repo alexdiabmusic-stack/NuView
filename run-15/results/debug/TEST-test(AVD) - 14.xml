@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="17" failures="1" errors="0" skipped="0" time="0.000" timestamp="2026-10-12T15:41:00" hostname="localhost">
+  <testsuite name="app.tvessentials.installer.InstallFlowTest" tests="1" failures="1" errors="0" skipped="0" time="74.878" timestamp="2026-10-12T15:41:00" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="cancelAtTheSystemDialogThenInstallEndToEndAndOpen" classname="app.tvessentials.installer.InstallFlowTest" time="74.878">
+      <failure>java.lang.AssertionError: SmartTube becomes installable once the release is known
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+	at app.tvessentials.installer.InstallFlowTest.cancelAtTheSystemDialogThenInstallEndToEndAndOpen(InstallFlowTest.kt:53)
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LauncherUiTest" tests="10" failures="0" errors="0" skipped="0" time="81.981" timestamp="2026-10-12T15:41:00" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="detailsOpensFromTheDetailsLinkAndFromTheMenuKey" classname="app.tvessentials.installer.LauncherUiTest" time="12.109" />
+    <testcase name="homeShowsHeroAndAllThreeCards" classname="app.tvessentials.installer.LauncherUiTest" time="4.596" />
+    <testcase name="iMPlayerIsOfferedForOnePressInstallAndKeepsTheGuidedRouteAsFallback" classname="app.tvessentials.installer.LauncherUiTest" time="8.118" />
+    <testcase name="settingsOpensAndBackRestoresFocusToTheSettingsButton" classname="app.tvessentials.installer.LauncherUiTest" time="6.429" />
+    <testcase name="headerButtonsAreReachableAndFocusReturnsToTheCards" classname="app.tvessentials.installer.LauncherUiTest" time="8.046" />
+    <testcase name="focusStartsOnTheFirstCardAndNeverGetsLost" classname="app.tvessentials.installer.LauncherUiTest" time="14.404" />
+    <testcase name="backOnTheHomeScreenLeavesTheApp" classname="app.tvessentials.installer.LauncherUiTest" time="8.069" />
+    <testcase name="appIsRegisteredAsALeanbackLauncherWithABanner" classname="app.tvessentials.installer.LauncherUiTest" time="2.798" />
+    <testcase name="dpadMovesAcrossTheCardsAndStopsAtTheEdges" classname="app.tvessentials.installer.LauncherUiTest" time="10.080" />
+    <testcase name="smartTubeDetailsShowTheDescriptionAndFacts" classname="app.tvessentials.installer.LauncherUiTest" time="7.332" />
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LayoutMatrixTest" tests="6" failures="0" errors="0" skipped="0" time="46.018" timestamp="2026-10-12T15:41:00" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="at720p" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.407" />
+    <testcase name="at720pWithLargestText" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.051" />
+    <testcase name="at1080p" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.708" />
+    <testcase name="at1080pAs960dp" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.496" />
+    <testcase name="at1080pAs1280dp" classname="app.tvessentials.installer.LayoutMatrixTest" time="8.177" />
+    <testcase name="at1080pWithLargeText" classname="app.tvessentials.installer.LayoutMatrixTest" time="8.179" />
+  </testsuite>
+</testsuites>
