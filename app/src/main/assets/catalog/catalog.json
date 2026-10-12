@@ -64,7 +64,7 @@
       "websiteUrl": "https://implayer.tv",
       "iconKey": "antenna",
       "accentColor": "#34D3C4",
-      "minAndroidSdk": 21,
+      "minAndroidSdk": 23,
       "channels": {
         "stable": { "packageId": "com.myiptvonline.implayer" }
       },
@@ -78,7 +78,7 @@
         "signers": [],
         "revoked": [],
         "allowLineageRotation": false,
-        "review": "NO REVIEWED CERTIFICATE YET. The official download (https://implayer.tv/d, the target of Downloader code 82375) answers non-browser clients with a Cloudflare browser check, so its signing certificate could not be measured. Until a maintainer verifies a copy obtained from implayer.tv and adds its SHA-256 here, this app is never installed automatically; the guided route is used instead."
+        "review": "NO REVIEWED CERTIFICATE YET. iMPlayer's official download is https://implayer.tv/d (from some networks it answers non-browser clients with a Cloudflare browser check; from a GitHub Actions runner on 2026-10-12 it redirected to the vendor's own storage bucket and served a ~98 MB universal APK: package com.myiptvonline.implayer, version 4.1.6, versionCode 486, minSdk 23, signing certificate SHA-256 e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766). That is a single sample obtained from the same channel as the file, with no independently published fingerprint to corroborate it, so it is NOT pinned. Until a maintainer confirms it out-of-band and adds it under trust.signers, this app is never installed automatically; the guided route is used instead. The Downloader code 82375 shown in the guide was supplied by the project owner; this build does not vouch for what it resolves to."
       },
       "guided": {
         "officialUrl": "https://implayer.tv/",

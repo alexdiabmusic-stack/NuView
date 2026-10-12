@@ -76,9 +76,8 @@ jobs:
               c = collections.Counter(r.get("level", "?") for r in results)
               print("LINT SUMMARY:", dict(c))
               for r in results:
-                  if r.get("level") in ("error", "warning"):
-                      loc = (r.get("locations") or [{}])[0].get("physicalLocation", {})
-                      print(" -", r.get("level"), r.get("ruleId"), "|", r["message"]["text"][:140].replace("\n", " "), "|", loc.get("artifactLocation", {}).get("uri", "")[-70:])
+                  loc = (r.get("locations") or [{}])[0].get("physicalLocation", {})
+                  print(" -", r.get("level", "note"), r.get("ruleId"), "|", r["message"]["text"][:140].replace("\n", " "), "|", loc.get("artifactLocation", {}).get("uri", "")[-70:])
           PY
       - name: Publish log
         if: always()
