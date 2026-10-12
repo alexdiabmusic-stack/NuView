@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="17" failures="2" errors="0" skipped="0" time="0.000" timestamp="2026-10-12T14:55:42" hostname="localhost">
+  <testsuite name="app.tvessentials.installer.InstallFlowTest" tests="1" failures="1" errors="0" skipped="0" time="69.724" timestamp="2026-10-12T14:55:42" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="cancelAtTheSystemDialogThenInstallEndToEndAndOpen" classname="app.tvessentials.installer.InstallFlowTest" time="69.724">
+      <failure>java.lang.AssertionError: card goes back to a recoverable ready state
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.InstallFlowTest.cancelAtTheSystemDialogThenInstallEndToEndAndOpen(InstallFlowTest.kt:61)
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LauncherUiTest" tests="10" failures="1" errors="0" skipped="0" time="68.820" timestamp="2026-10-12T14:55:42" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="detailsOpensFromTheDetailsLinkAndFromTheMenuKey" classname="app.tvessentials.installer.LauncherUiTest" time="10.824" />
+    <testcase name="homeShowsHeroAndAllThreeCards" classname="app.tvessentials.installer.LauncherUiTest" time="4.809" />
+    <testcase name="smartTubeDetailsCarryTheIndependenceDisclosure" classname="app.tvessentials.installer.LauncherUiTest" time="6.043" />
+    <testcase name="iMPlayerIsOfferedForOnePressInstallAndKeepsTheGuidedRouteAsFallback" classname="app.tvessentials.installer.LauncherUiTest" time="6.861" />
+    <testcase name="settingsOpensAndBackRestoresFocusToTheSettingsButton" classname="app.tvessentials.installer.LauncherUiTest" time="5.971" />
+    <testcase name="headerButtonsAreReachableAndFocusReturnsToTheCards" classname="app.tvessentials.installer.LauncherUiTest" time="6.422" />
+    <testcase name="focusStartsOnTheFirstCardAndNeverGetsLost" classname="app.tvessentials.installer.LauncherUiTest" time="10.607">
+      <failure>java.lang.AssertionError: focus vanished after key 9
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertNotNull(Assert.java:713)
+	at app.tvessentials.installer.LauncherUiTest.focusStartsOnTheFirstCardAndNeverGetsLost(LauncherUiTest.kt:43)
+</failure>
+    </testcase>
+    <testcase name="backOnTheHomeScreenLeavesTheApp" classname="app.tvessentials.installer.LauncherUiTest" time="7.794" />
+    <testcase name="appIsRegisteredAsALeanbackLauncherWithABanner" classname="app.tvessentials.installer.LauncherUiTest" time="2.528" />
+    <testcase name="dpadMovesAcrossTheCardsAndStopsAtTheEdges" classname="app.tvessentials.installer.LauncherUiTest" time="6.961" />
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LayoutMatrixTest" tests="6" failures="0" errors="0" skipped="0" time="43.210" timestamp="2026-10-12T14:55:42" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="at720p" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.025" />
+    <testcase name="at720pWithLargestText" classname="app.tvessentials.installer.LayoutMatrixTest" time="6.639" />
+    <testcase name="at1080p" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.639" />
+    <testcase name="at1080pAs960dp" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.035" />
+    <testcase name="at1080pAs1280dp" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.331" />
+    <testcase name="at1080pWithLargeText" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.541" />
+  </testsuite>
+</testsuites>
