@@ -87,12 +87,15 @@ class LauncherUiTest {
         tv.device.pressBack()
     }
 
-    @Test fun smartTubeDetailsCarryTheIndependenceDisclosure() {
+    @Test fun smartTubeDetailsShowTheDescriptionAndFacts() {
         tv.focusCard(2); assertTrue(tv.focusIs("SmartTube"))
         tv.device.pressMenu()
-        assertTrue("disclosure", tv.device.wait(androidx.test.uiautomator.Until.hasObject(androidx.test.uiautomator.By.pkg(tv.pkg).textContains("not affiliated with, endorsed by, or sponsored by Google or YouTube")), 15_000))
+        assertTrue("details screen", tv.hasText("Latest verified version"))
+        assertTrue("description", tv.hasText("Enjoy YouTube videos without ads, with background playback and additional features.", 5_000))
+        assertTrue("package row", tv.hasText("org.smarttube.stable", 5_000))
         tv.screenshot("details_smarttube")
         tv.device.pressBack()
+        assertTrue("back on the card", tv.focusIs("SmartTube"))
     }
 
     @Test fun backOnTheHomeScreenLeavesTheApp() {

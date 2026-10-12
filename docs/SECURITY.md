@@ -85,7 +85,9 @@ key, and rotated to a new certificate (created 2025-11-27). Consequences for thi
   catalog's `allowedHosts` for it are GitHub's hosts only.
 * Rotating again requires: a maintainer announcement, measuring the new certificate from the official asset, adding it
   as a new `signers` entry (keep the old one only if existing installs must still update), and shipping a new installer.
-* The app shows the disclosure that SmartTube is an independent third-party client, not affiliated with Google/YouTube.
+* SmartTube is an independent third-party client, not affiliated with Google/YouTube (stated here and in the README; the in-app
+  details screen no longer carries a separate notice at the project owner's request, though Settings → About still says
+  TV Essentials is not affiliated with the publishers of the apps it lists).
 
 ### iMPlayer: an owner-approved pin with weaker provenance
 

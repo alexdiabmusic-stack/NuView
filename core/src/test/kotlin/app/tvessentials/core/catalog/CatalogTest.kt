@@ -27,9 +27,9 @@ class CatalogTest {
         assertEquals("com.myiptvonline.implayer", catalog.apps.first { it.id == "implayer" }.packageId(Channel.STABLE))
     }
 
-    @Test fun `smarttube carries the required independence disclosure`() {
-        val d = catalog.apps.first { it.id == "smarttube" }.disclosure.orEmpty()
-        assertTrue("not affiliated" in d && "Google" in d && "YouTube" in d)
+    @Test fun `only iMPlayer carries a details disclosure, and it says the app includes no content`() {
+        assertEquals(listOf("implayer"), catalog.apps.filter { it.disclosure != null }.map { it.id })
+        assertTrue("no channels or playlists" in catalog.apps.first { it.id == "implayer" }.disclosure.orEmpty())
     }
 
     @Test fun `sources point at the official repositories and no third party mirrors`() {

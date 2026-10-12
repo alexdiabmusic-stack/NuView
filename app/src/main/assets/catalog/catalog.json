@@ -106,7 +106,6 @@
       "description": "Enjoy YouTube videos without ads, with background playback and additional features.",
       "publisher": "SmartTube project (yuliskov)",
       "websiteUrl": "https://smarttubeapp.github.io/",
-      "disclosure": "SmartTube is an independent third-party YouTube client. It is not affiliated with, endorsed by, or sponsored by Google or YouTube.",
       "iconKey": "play",
       "accentColor": "#FF7A59",
       "minAndroidSdk": 17,

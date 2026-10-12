@@ -54,7 +54,7 @@ Android TV system image, API 34, x86, 1080p profile, GitHub-hosted runner. UI Au
 | Header buttons reachable; Down returns to a card | pass |
 | Settings opens; Back restores focus to the Settings button | pass |
 | Details opens from the link and from the Menu key; Back restores focus | pass |
-| SmartTube details carry the "not affiliated with Google/YouTube" disclosure | pass |
+| SmartTube details open from the Menu key and show the description and package | (updated after run 14; see the latest CI run) |
 | iMPlayer card offers Install; guided route stays on its details screen | pass |
 | Back on the home screen leaves the app | pass |
 | Layout at 720p, 1080p, 1080p@320 dpi (960×540 dp), 1080p@240 dpi (1280×720 dp), 1080p with system text 1.3×, 720p with system text 2.0× (the app caps text at 1.3×, Android TV's own maximum) | pass – no clipped actions, screenshots reviewed |
