@@ -1,0 +1,389 @@
+10-12 03:11:36.853  4291  4406 I TestRunner: started: homeShowsHeroAndAllThreeCards(app.tvessentials.installer.LauncherUiTest)
+10-12 03:11:36.984   485   498 I ImeTracker: com.google.android.tvlauncher:1e8cffc7: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:11:36.998   485   498 I ImeTracker: com.google.android.tvlauncher:1e8cffc7: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:11:37.004  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:11:37.012  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:11:37.012  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:11:37.012  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:11:37.015  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:11:37.080   485   711 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:37.145  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c3797b6 in: DESTROYED
+10-12 03:11:37.146  4291  4291 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@a482c68
+10-12 03:11:37.206   485   756 W InputManager-JNI: Input channel object 'c6fe45d app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:11:37.347  3422  4586 I PackageUpdateTaskChimer: (REDACTED) Scheduling Phenotype config package catchup updates to be %d seconds from now (%d)
+10-12 03:11:37.352  3422  4586 I HeterodyneSyncScheduler: (REDACTED) Scheduling adaptive one off task with window [%d, %d] in seconds
+10-12 03:11:37.362  1895  1895 I PGAPhenotypeBroadcastRe: Received Phenotype update.
+10-12 03:11:37.364  3652  3652 I PhenotypeBackgroundRecv: Skipping com.google.android.finsky.instantapps which doesn't use ProcessStable flags.
+10-12 03:11:37.374  4177  4177 D PhenotypeUpdateService: onCreate called
+10-12 03:11:37.375  4177  4209 D PhenotypeUpdateService: Updating Phenotype configs
+10-12 03:11:37.382  3652  3831 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.performance.primes#com.android.vending
+10-12 03:11:37.394  1128  1128 I PhenotypeBackgroundRecv: Skipping com.google.android.apps.tv.launcherx#com.google.android.katniss which doesn't use ProcessStable flags.
+10-12 03:11:37.437  3422  3573 I SQLiteConnection: /data/user/0/com.google.android.gms/databases/phenotype.db-wal 1520312 bytes: Bigger than 1048576; truncating
+10-12 03:11:37.509  4291  4406 D UiDevice: Pressing home button.
+10-12 03:11:37.539  2335  2399 I PhenotypeBackgroundRecv: Successfully updated snapshot for com.google.android.libraries.notifications.platform#com.google.android.syncadapters.calendar
+10-12 03:11:37.556  1128  1128 I PhenotypeBackgroundRecv: Skipping com.google.android.apps.chromecast.shared which doesn't use ProcessStable flags.
+10-12 03:11:37.613  1047  1047 I PhenotypeModule: PhenotypeModule.receiveBroadcast():390 onReceive() urgent = false
+10-12 03:11:37.614  1128  1128 I PhenotypeBackgroundRecv: Skipping com.google.android.gms.icing.mdd#com.google.android.katniss which doesn't use ProcessStable flags.
+10-12 03:11:37.615  1128  1128 I PhenotypeBackgroundRecv: Skipping com.google.android.apps.search.transcription.device#com.google.android.katniss which doesn't use ProcessStable flags.
+10-12 03:11:37.628  1047  1047 I PhenotypeModule: PhenotypeModule.maybeFetchAndUpdate():178 maybeFetchAndUpdate: start new task to fetch
+10-12 03:11:37.629  1047  1047 I PhenotypeBackgroundRecv: Skipping com.google.android.gms.icing.mdd#com.google.android.inputmethod.latin which doesn't use ProcessStable flags.
+10-12 03:11:37.631  3422  4586 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:37.661   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:11:37.677   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:11:37.697  1047  2072 E PhenotypeModule: PhenotypeModule.handlePhenotypeConfigurationUpdates():282 Get empty configurations.
+10-12 03:11:37.748  1047  2072 I PhenotypeModule: PhenotypeModule.lambda$fetchAndUpdate$2():232 fetchAndUpdate() : Success, hasFlags=false, fetchStatus=2026-10-12 03:11:37{reason=2, isFullFetch=false, success=true, isEmpty=true, isDelta=false, fetchedFlagsCount=0, deletedFlagsCount=0, updatedFlagsCount=0, totalTime=83}
+10-12 03:11:37.762  1518  1518 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:11:37.774  3422  4612 I apec    : updateFromConfigurations using legacy put method [CONTEXT service_id=204 ]
+10-12 03:11:37.796   485  2919 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:11:37.840  3422  4638 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:37.840  3422  4638 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:37.850  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:11:37.861  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:11:37.884   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:11:37.889  1518  1589 D EGL_emulation: app_time_stats: avg=46.49ms min=8.36ms max=142.57ms count=23
+10-12 03:11:37.972  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c2f4917 in: PRE_ON_CREATE
+10-12 03:11:38.001  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c2f4917 in: CREATED
+10-12 03:11:38.004  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c2f4917 in: STARTED
+10-12 03:11:38.017   485   498 D ConnectivityService: requestNetwork for uid/pid:10122/4291 activeRequest: null callbackRequest: 100 [NetworkRequest [ REQUEST id=101, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:11:38.035  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c2f4917 in: RESUMED
+10-12 03:11:38.039   485   704 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=101, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:38.039   485   711 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=101, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:38.039   485   711 D EthernetNetworkFactory: IpClient already started
+10-12 03:11:38.040   485   712 D ConnectivityService: NetReassign [101 : null → 100] [c 0] [a 0] [i 11]
+10-12 03:11:38.040   485   704 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=101, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:38.040   485   704 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=101, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:38.273  3422  4586 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.auth_account [CONTEXT service_id=204 ]
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.auth_account
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.280  3422  4612 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.281  3469  4679 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:38.282  3469  4679 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.location [CONTEXT service_id=204 ]
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.location
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.287  3422  4684 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.298  3469  4686 I SyncIntentOperation: (REDACTED) Handling the intent: %s.
+10-12 03:11:38.299  3469  4686 I MdiSyncModule: flag handling is skipping irrelevant intent.
+10-12 03:11:38.300  3469  4698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:38.301  3469  4698 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:38.301  3469  4698 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:38.301  3469  4698 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:38.304  3422  4682 I PTCommittedOperation: Receive new configuration for com.google.android.gms.auth_account
+10-12 03:11:38.304  3422  4687 I GCoreUlr: ULR code skipped on unsupported form factor.
+10-12 03:11:38.336  3422  4638 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:38.354  3469  4698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:38.359  3469  4679 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:38.359  3469  4698 I MdiSyncModule: flag handling is skipping irrelevant intent.
+10-12 03:11:38.362  3469  4696 I SyncIntentOperation: (REDACTED) Handling the intent: %s.
+10-12 03:11:38.366  3469  4696 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:38.388  3469  4698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:38.393  3422  4687 I PTCommittedOperation: Receive new configuration for com.google.android.gms.people
+10-12 03:11:38.394  3422  4612 I GCoreUlr: ULR code skipped on unsupported form factor.
+10-12 03:11:38.398  3469  4696 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:38.399  3469  4696 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:38.415  3469  3894 I ChimeraConfigurator: Starting update, reason: 1 urgentFeatures: 
+10-12 03:11:38.419  3469  3589 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:11:38.420  3469  3589 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:11:38.445  3422  3456 E IPCThreadState: Binder transaction failure: 255584/29201/-28
+10-12 03:11:38.445  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:11:38.445  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:11:38.445  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:38.445  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:38.451  3422  3466 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:38.459  3422  3428 I .gms.persistent: Background young concurrent copying GC freed 204991(8472KB) AllocSpace objects, 30(2288KB) LOS objects, 43% free, 12MB/22MB, paused 42us,23us total 146.392ms
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.nearby [CONTEXT service_id=204 ]
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.nearby
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.462  3422  4685 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.463  3422  4684 I NearbyConnections: Runtime state initialization complete. Nearby connections setting is disabled
+10-12 03:11:38.464  3469  4700 I NearbyFastPair: (REDACTED) TaskSchedulerUtils cancelTask %s success.
+10-12 03:11:38.465  3469  4700 I NearbyFastPair: TSS cancel footprints recon sync [CONTEXT service_id=265 ]
+10-12 03:11:38.466  3422  3571 I NearbyMediums: BluetoothAdapter's name was not set by Nearby Connections, ignoring call to restore default scan mode.
+10-12 03:11:38.467  3469  4700 I NearbyFastPair: (REDACTED) TaskSchedulerUtils cancelTask %s success.
+10-12 03:11:38.469  3422  3571 I NearbyMediums: BluetoothAdapter's name was not set by Nearby Connections, ignoring call to restore device name
+10-12 03:11:38.504  3469  4696 I NearbySharing: (REDACTED) Runtime state initialization complete. Sharing is disabled for reason %s.
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.icing.mdd [CONTEXT service_id=204 ]
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.icing.mdd
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.536  3422  4685 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.582  3469  3894 I ChimeraConfigurator: Update complete: success
+10-12 03:11:38.593  3469  3637 E MDD     : FileGroupManager: Trying to add expired group enpromo-state-config.
+10-12 03:11:38.594  3469  3637 W MDD     : MDDManager class ayhe
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.metrics [CONTEXT service_id=204 ]
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.metrics
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.600  3422  4702 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.613  3469  3894 I GmsModuleFndr: Beginning GMS chimera module scan
+10-12 03:11:38.624  3469  3894 I ModuleSetMgr: Computing pending module set with APKs: [[AdsFdrDynamite.integ:232400000100000], [Cronetdynamite:233515180706], [Dynamiteloader:233515180006], [Dynamitemodulesa:233515180006], [Dynamitemodulesc:233515180006], [Googlecertificates:233515180006], [Mapsdynamite:233515180006], [Measurementdynamite:233515180006]]
+10-12 03:11:38.624  3469  3894 I ModuleSetMgr: Pending container module APKs: []
+10-12 03:11:38.624  3469  3894 I ModuleSetMgr: Pending non-container module APKs: []
+10-12 03:11:38.639   485   501 W ziparchive: Unable to open '/data/app/~~t-0dyRYF8GpS3CNZgjpyZg==/app.tvessentials.installer-bpAb_NPSlcaJnh0SeY5xPg==/base.dm': No such file or directory
+10-12 03:11:38.660   485   501 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +831ms
+10-12 03:11:38.680  4291  4291 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms [CONTEXT service_id=204 ]
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.703  3422  4702 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.common.download [CONTEXT service_id=204 ]
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.common.download
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.708  3422  4684 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.736   485  2919 I ImeTracker: app.tvessentials.installer:5c608c31: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:11:38.744   485  2919 I ImeTracker: app.tvessentials.installer:5c608c31: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:11:38.766  3469  4696 I PhenotypeChangedIntOp: New flags committed. [CONTEXT service_id=247 ]
+10-12 03:11:38.776  3422  4703 I PTCommittedOperation: Receive new configuration for com.google.android.gms
+10-12 03:11:38.776  3422  4703 I PTCommittedOperation: Running Fixer Framework for com.google.android.gms
+10-12 03:11:38.787  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:11:38.790  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:11:38.790  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:11:38.790  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:11:38.790  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.security [CONTEXT service_id=204 ]
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.security
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.806  3422  4684 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.playlog.uploader [CONTEXT service_id=204 ]
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.playlog.uploader
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:38.840  3422  4685 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:38.951  4291  4412 I OpenGLRenderer: Davey! duration=740ms; Flags=0, FrameTimelineVsyncId=9385, IntendedVsync=169680132536, Vsync=170213465784, InputEventId=0, HandleInputStart=170237697477, AnimationStart=170237701263, PerformTraversalsStart=170251198264, DrawStart=170251626273, FrameDeadline=170196799182, FrameInterval=170229256467, FrameStartTime=16666664, SyncQueued=170275526200, SyncStart=170277143832, IssueDrawCommandsStart=170277197332, SwapBuffers=170281916962, FrameCompleted=170422469652, DequeueBufferDuration=8323, QueueBufferDuration=4560893, GpuCompleted=170422409603, SwapBuffersCompleted=170422469652, DisplayPresentTime=-647975162396877823, CommandSubmissionCompleted=170281916962, 
+10-12 03:11:39.007  3469  3579 W GmsClient: unable to connect to service: com.google.android.gms.findmydevice.spot.service.management.START on com.google.android.gms
+10-12 03:11:39.016  3469  3469 W MdmInitializer: SPOT API unavailable. [CONTEXT service_id=247 ]
+10-12 03:11:39.016  3469  3469 W MdmInitializer: pes: None of the queried APIs are available. Spot.API: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at pgd.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):38)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at pin.o(:com.google.android.gms@233515114@23.35.15 (180706-565551795):37)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at pin.g(:com.google.android.gms@233515114@23.35.15 (180706-565551795):29)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at pin.onConnectionFailed(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):86)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:39.016  3469  3469 W MdmInitializer: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:39.078  3469  3894 I ChimeraConfigService: (REDACTED) Scheduling checkin every %s seconds, with flex of %s seconds
+10-12 03:11:39.101  3422  4687 I PTCommittedOperation: Receive new configuration for com.google.android.gms.smartdevice
+10-12 03:11:39.101  3422  4612 I GCoreUlr: ULR code skipped on unsupported form factor.
+10-12 03:11:39.106  3469  4700 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:39.106  3469  4700 I SyncIntentOperation: (REDACTED) Handling the intent: %s.
+10-12 03:11:39.107  3469  4699 I MdiSyncModule: flag handling is skipping irrelevant intent.
+10-12 03:11:39.108  3469  4699 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:39.112  3469  4698 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+10-12 03:11:39.112  3469  4699 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:39.115  3469  4699 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:39.116  3469  4699 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.smartdevice [CONTEXT service_id=204 ]
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.smartdevice
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:39.118  3422  4685 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.phenotype [CONTEXT service_id=204 ]
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.phenotype
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:39.122  3422  4704 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.people [CONTEXT service_id=204 ]
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.people
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:39.124  3422  4704 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.westworld [CONTEXT service_id=204 ]
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.westworld
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:39.126  3422  4703 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:39.127  3422  3466 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: Update for unknown DeviceConfig package com.google.android.gms.icing.mdd#com.google.android.gms [CONTEXT service_id=204 ]
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: apei: No package exists for config package: com.google.android.gms.icing.mdd#com.google.android.gms
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at apej.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):6)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):170)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.gms.platformconfigurator.PhenotypeConfigurationUpdateListener.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):278)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at oah.onHandleIntent(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at emi.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):70)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at emh.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):152)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:39.153  3422  4704 W PhenotypeConfigurationU: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:39.296   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:39.366  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 03:11:39.370  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:11:39.910  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QInstall and keep your favourite TV apps up to date.\E']].
+10-12 03:11:39.910  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QInstall and keep your favourite TV apps up to date.\E'].
+10-12 03:11:39.916  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E']].
+10-12 03:11:39.916  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E'].
+10-12 03:11:39.942  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:11:39.942  4291  4406 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:11:39.944  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:11:39.945  4291  4406 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:11:39.947  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:11:39.948  4291  4406 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:11:39.950  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='^\Qv1.\E.*$'].
+10-12 03:11:39.954  4291  4406 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_home.png
+10-12 03:11:39.998  4711  4711 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 03:11:39.999  1130  1622 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10113; state: ENABLED
+10-12 03:11:40.003  1130  1622 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 03:11:40.005  4711  4711 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 03:11:40.008   383  1023 W ServiceManagerCppClient: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=4711
+10-12 03:11:40.008   383  1023 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (422 us)
+10-12 03:11:40.015   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 03:11:40.016  4711  4714 I Gralloc4: mapper 4.x is not supported
+10-12 03:11:40.035  3422  4586 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:40.079  3422  4614 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:40.721   485   498 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 03:11:40.728   485   501 I ActivityManager: Broadcast completed: result=0
+10-12 03:11:40.736  1130  1747 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 03:11:40.759  4291  4406 D UiDevice: Pressing home button.
+10-12 03:11:40.785  1130  1747 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 03:11:40.788   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:11:40.796   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:11:40.813  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c2f4917 in: PAUSED
+10-12 03:11:40.815   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:11:40.872  1518  1518 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:11:40.872  1518  1518 W HomeController: onResume: List view global layout completed.
+10-12 03:11:40.874  3422  4638 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:40.878  3422  4614 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:41.009  1518  1518 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:11:41.032  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c2f4917 in: STOPPED
+10-12 03:11:41.055  4291  4406 I TestRunner: finished: homeShowsHeroAndAllThreeCards(app.tvessentials.installer.LauncherUiTest)

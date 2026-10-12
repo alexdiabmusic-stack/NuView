@@ -1,0 +1,655 @@
+10-12 03:11:27.376  4291  4406 I TestRunner: started: detailsOpensFromTheDetailsLinkAndFromTheMenuKey(app.tvessentials.installer.LauncherUiTest)
+10-12 03:11:27.457   485   711 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=97, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:27.479  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@ffbfe7c in: DESTROYED
+10-12 03:11:27.481  4291  4291 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@2ce7b27
+10-12 03:11:27.503   485   853 W InputManager-JNI: Input channel object '452ae81 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:11:27.842  4291  4406 D UiDevice: Pressing home button.
+10-12 03:11:27.895   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:11:27.897   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:11:27.946  1518  1518 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:11:27.973   485   853 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:11:28.077  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:11:28.078  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:11:28.089  3483  3859 I katniss_search_KatnissIpcConnection: Will disconnect service connection. .LatencyLoggerService
+10-12 03:11:28.114   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:11:28.128  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c3797b6 in: PRE_ON_CREATE
+10-12 03:11:28.163  1518  1589 D EGL_emulation: app_time_stats: avg=55.37ms min=15.65ms max=175.36ms count=21
+10-12 03:11:28.208  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c3797b6 in: CREATED
+10-12 03:11:28.215  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c3797b6 in: STARTED
+10-12 03:11:28.228   485   853 D ConnectivityService: requestNetwork for uid/pid:10122/4291 activeRequest: null callbackRequest: 98 [NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:11:28.236   485   704 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:28.242   485   711 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:28.243   485   711 D EthernetNetworkFactory: IpClient already started
+10-12 03:11:28.262   485   704 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:28.265   485   704 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=99, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:11:28.265   485   712 D ConnectivityService: NetReassign [99 : null → 100] [c 0] [a 0] [i 37]
+10-12 03:11:28.291  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c3797b6 in: RESUMED
+10-12 03:11:28.365  3469  3589 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:11:28.365  3469  3589 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:11:28.387  3422  3456 E IPCThreadState: Binder transaction failure: 244195/29201/-28
+10-12 03:11:28.387  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:11:28.389  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:11:28.389  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:28.389  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:28.745   485   501 W ziparchive: Unable to open '/data/app/~~t-0dyRYF8GpS3CNZgjpyZg==/app.tvessentials.installer-bpAb_NPSlcaJnh0SeY5xPg==/base.dm': No such file or directory
+10-12 03:11:28.750   485   501 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +780ms
+10-12 03:11:28.989   485   966 I ImeTracker: app.tvessentials.installer:8d57ad7b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:11:28.989   485   966 I ImeTracker: app.tvessentials.installer:8d57ad7b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:11:29.001  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:11:29.002  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:11:29.002  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:11:29.004  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:11:29.011  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:11:30.103  4291  4406 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 03:11:30.133   380   380 D audioserver: FGS Logger Transaction failed
+10-12 03:11:30.133   380   380 D audioserver: -129
+10-12 03:11:30.295   380   472 D audioserver: FGS Logger Transaction failed
+10-12 03:11:30.295   380   472 D audioserver: -129
+10-12 03:11:30.296  4291  4429 D EGL_emulation: app_time_stats: avg=389.20ms min=207.02ms max=639.96ms count=4
+10-12 03:11:30.464  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:30.466  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:30.517  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:30.620  3469  3591 D TrafficStats: tagSocket(79) with statsTag=0x30001803, statsUid=-1
+10-12 03:11:30.622   321   349 E BpfHandler: Unsupported protocol: 1
+10-12 03:11:30.623  3469  3591 I TrafficStats: tagSocketFd(79, 805312515, -1) failed with errno-93
+10-12 03:11:30.624  3469  3590 I Fido    : [FidoInitIntentOperation] Initializing Fido module, InitRuntimeState=12
+10-12 03:11:30.625  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.authenticator.ui.AuthenticatorActivity
+10-12 03:11:30.627  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.fido2.ui.Fido2FullScreenActivity
+10-12 03:11:30.627  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.u2f.U2fService
+10-12 03:11:30.627  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.u2f.ui.AuthenticateActivity
+10-12 03:11:30.629  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.fido2.pollux.CableAuthenticatorService
+10-12 03:11:30.630  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.fido2.ui.PolluxActivity
+10-12 03:11:30.630  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.authenticator.service.cablev2.GcmReceiverService
+10-12 03:11:30.630  3469  3590 I Fido    : [FidoInitIntentOperation] Unable to enable the component com.google.android.gms.fido.authenticator.service.AuthenticatorService
+10-12 03:11:30.636  3469  3590 W SystemServiceRegistry: No service published for: fingerprint
+10-12 03:11:30.636  3469  3590 I Fido    : [FidoV2EnrollmentController] Attempting to enroll Autofill Keystore keys
+10-12 03:11:30.636  3469  3590 I Fido    : [FidoV2EnrollmentController] No screen lock set.
+10-12 03:11:30.641  3469  3590 I GamesModuleInitIntentOp: (REDACTED) onInitRuntimeState invoked with: %d
+10-12 03:11:30.650  3469  3579 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START throwing RemoteException due to Service without Chimera impl
+10-12 03:11:30.652  3469  3590 I GamesModuleInitIntentOp: (REDACTED) Check flag for %s is %s.
+10-12 03:11:30.655  3469  3590 I EditProfileActivityHelp: (REDACTED) Check flag for %s is %d.
+10-12 03:11:30.656  3469  3579 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:11:30.656  3469  3579 W GmsClient: android.os.RemoteException: Service without Chimera impl
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at eki.onTransact(:com.google.android.gms@233515114@23.35.15 (180706-565551795):217)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at android.os.Binder.transact(Binder.java:1183)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:30.656  3469  3579 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:30.659  3469  3590 I EditProfileActivityHelp: (REDACTED) Updated flag for %s to %d.
+10-12 03:11:30.664  3422  4586 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:30.672  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:30.672  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:30.675  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:30.686  3422  4614 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:30.689  3422  4586 I AlarmManager: setExactAndAllowWhileIdle [name: GCM_CONN_ALARM type: 2 triggerAtMillis: 188487]
+10-12 03:11:30.699  3469  3590 I MobileDataHub: Scheduling periodic tasks
+10-12 03:11:30.721  3469  3610 I Google Maps Android API: Validating conditions for requesting maps_core feature. [CONTEXT service_id=71 ]
+10-12 03:11:30.721  3469  3610 I Google Maps Android API: (REDACTED) Is maps_core feature installed? %d
+10-12 03:11:30.721  3469  3610 I Google Maps Android API: cutoffSize=2147483648, internalFreeBytes=5532856320
+10-12 03:11:30.721  3469  3610 I Google Maps Android API: Eligible to request maps_core feature. [CONTEXT service_id=71 ]
+10-12 03:11:30.726  3469  3610 I Google Maps Android API: maps_core feature request succeeded. [CONTEXT service_id=71 ]
+10-12 03:11:30.728  2733  2886 D TrafficStats: tagSocket(97) with statsTag=0x1803, statsUid=10084
+10-12 03:11:30.728  3469  3610 I MdiSyncModule: initializing module...
+10-12 03:11:30.730  3469  3590 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: maps_core:-1
+10-12 03:11:30.732  3469  3610 I MdiSyncModule: module initialization completed
+10-12 03:11:30.738  3422  3455 E apaa    : Phenotype API error. Event # btuz@89809b5a, EventCode: 5 [CONTEXT service_id=51 ]
+10-12 03:11:30.738  3422  3455 E apaa    : aoyp: 29501: Stale snapshot for com.google.android.gms.httpflags#com.google.android.gms(change count changed - expected 2  but was 0)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at apaf.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):873)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at apad.g(:com.google.android.gms@233515114@23.35.15 (180706-565551795):3)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at apaa.e(:com.google.android.gms@233515114@23.35.15 (180706-565551795):18)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at apaa.f(:com.google.android.gms@233515114@23.35.15 (180706-565551795):11)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at abzz.ea(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at acak.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):100)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at qqx.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):50)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at qqx.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):76)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at qvz.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):8)
+10-12 03:11:30.738  3422  3455 E apaa    : 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:30.740  3469  3590 I ChimeraConfigurator: Detected pending changes for urgent request: [maps_core]. Pending module sets: container:2335159180706
+10-12 03:11:30.742  3469  3610 W MDM     : [91] aeob.p: Q+ devices does not need device admin.
+10-12 03:11:30.742  3469  3590 I ChimeraConfigurator: Update complete: success
+10-12 03:11:30.746  3469  3590 I GmsModuleFndr: Beginning GMS chimera module scan
+10-12 03:11:30.746  3422  3455 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29501 [CONTEXT service_id=51 ]
+10-12 03:11:30.746  3422  3455 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.gms.httpflags#com.google.android.gms(change count changed - expected 2  but was 0), resolution=null}]
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at apaa.e(:com.google.android.gms@233515114@23.35.15 (180706-565551795):55)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at apaa.f(:com.google.android.gms@233515114@23.35.15 (180706-565551795):11)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at abzz.ea(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at acak.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):100)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at bgit.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):13)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at qqx.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):50)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at qqx.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):76)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at qvz.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):8)
+10-12 03:11:30.746  3422  3455 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:30.749  3469  3557 W MobStoreFlagStore: Failed to commit due to stale snapshot for com.google.android.gms.httpflags#com.google.android.gms, triggering flag update. Experiments may be delayed til next app start.
+10-12 03:11:30.755  3469  4608 I DeletedNullContactsCleanup: Scheduling the service.
+10-12 03:11:30.756  3469  3579 W GmsClient: unable to connect to service: com.google.android.gms.findmydevice.spot.service.management.START on com.google.android.gms
+10-12 03:11:30.759  3469  3590 I ModuleSetMgr: Computing pending module set with APKs: [[AdsFdrDynamite.integ:232400000100000], [Cronetdynamite:233515180706], [Dynamiteloader:233515180006], [Dynamitemodulesa:233515180006], [Dynamitemodulesc:233515180006], [Googlecertificates:233515180006], [Mapsdynamite:233515180006], [Measurementdynamite:233515180006]]
+10-12 03:11:30.760  3469  3590 I ModuleSetMgr: Pending container module APKs: []
+10-12 03:11:30.762  3469  4608 I BackupAndSyncValidation: Scheduling the service.
+10-12 03:11:30.762  3469  3590 I ModuleSetMgr: Pending non-container module APKs: []
+10-12 03:11:30.766  3469  4608 I PeopleInitIntentOp: Not initializing debuggability [CONTEXT service_id=5 ]
+10-12 03:11:30.767  3469  3469 W MdmInitializer: SPOT API unavailable. [CONTEXT service_id=247 ]
+10-12 03:11:30.767  3469  3469 W MdmInitializer: pes: None of the queried APIs are available. Spot.API: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at pgd.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):38)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at pin.o(:com.google.android.gms@233515114@23.35.15 (180706-565551795):37)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at pin.g(:com.google.android.gms@233515114@23.35.15 (180706-565551795):29)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at pin.onConnectionFailed(:com.google.android.gms@233515114@23.35.15 (180706-565551795):2)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):86)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:30.767  3469  3469 W MdmInitializer: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:30.769  3469  3637 I Icing   : MaintenanceDriver: Registering all GCM Tasks.
+10-12 03:11:30.775  3469  4608 I HeterodyneSyncScheduler: Cancel all previously scheduled polling [CONTEXT service_id=51 ]
+10-12 03:11:30.776  3469  4608 I HeterodyneSyncScheduler: (REDACTED) Scheduling Phenotype for first execution %d seconds from now (%d)
+10-12 03:11:30.776  3422  3455 I HeterodyneSyncScheduler: (REDACTED) Scheduling Phenotype for a %s(%d, %s) one off with window [%d, %d] in seconds
+10-12 03:11:30.779  3469  4608 W ChimeraUtils: Module com.google.android.gms.phonesky_recovery missing resource null(0)
+10-12 03:11:30.782  3469  3469 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 03:11:30.783  3469  3469 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 03:11:30.785  3469  3469 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 03:11:30.792  3469  3469 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 03:11:30.793  3469  3469 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 03:11:30.795  3469  3469 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 03:11:30.803  3469  3590 I ChimeraConfigurator: Checking 1 listeners. All downloaded: true
+10-12 03:11:30.806  3469  3590 I GmsDebugLogger: [83] 2 [maps_core]
+10-12 03:11:30.820  3469  4608 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:30.822  3469  4608 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:30.823   485   494 I system_server: Background young concurrent copying GC freed 580101(19MB) AllocSpace objects, 21(412KB) LOS objects, 47% free, 20MB/40MB, paused 67us,60us total 116.314ms
+10-12 03:11:30.831  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:30.832  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:30.834   485  1125 I RemoteProvisionSysSvc: getRegistration(android.hardware.security.keymint.IRemotelyProvisionedComponent/default)
+10-12 03:11:30.834  3469  4608 I GmsSyncPolicyEngine: (REDACTED) Periodic sync %d disabled by policy, cancelled.
+10-12 03:11:30.840  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:30.845   485   496 W System  : A resource failed to call release. 
+10-12 03:11:30.846   485   496 W System  : A resource failed to call release. 
+10-12 03:11:30.846   485   496 W System  : A resource failed to call release. 
+10-12 03:11:30.853   485   496 W System  : A resource failed to call release. 
+10-12 03:11:30.866   485   485 I RegistrationProxy: onServiceConnected: com.android.rkpdapp.service.RemoteProvisioningService
+10-12 03:11:30.870  3469  4608 W ChimeraUtils: Module com.google.android.gms.smartdevice missing resource null(0)
+10-12 03:11:30.873  3469  4608 I SmartDevice: [CleanBufferedLogsService] Periodic task upload_buffered_logs_periodic scheduled!
+10-12 03:11:30.874  3469  3590 I AppLinksModuleInit: onInitRuntimeState [CONTEXT service_id=244 ]
+10-12 03:11:30.876  3469  3590 I AppLinksModuleInit: verifying requested domain links post-boot [CONTEXT service_id=244 ]
+10-12 03:11:30.877  3469  3590 D CompatibilityChangeReporter: Compat change id reported: 263076149; UID 10084; state: DISABLED
+10-12 03:11:30.878  3469  3590 I AppLinksRequestHandler: (REDACTED) Processing %d input requests
+10-12 03:11:30.878  3469  3590 I AppLinksModuleInit: Rerunning all WIP verifications [CONTEXT service_id=244 ]
+10-12 03:11:30.881   485   853 I RegistrationProxy: IGetRegistrationCallback.onSuccess
+10-12 03:11:30.887   485   853 I RemoteProvisionSysSvc: Fetching key 10084 for client 168017538
+10-12 03:11:30.887   485   853 I RegistrationProxy: getKeyAsync operation started with callback 36694419
+10-12 03:11:30.887  2304  2347 I RkpdRegistrationBinder: Key requested for : android.hardware.security.keymint.IRemotelyProvisionedComponent/default, clientUid: 1017, keyId: 10084, callback: 40428942
+10-12 03:11:30.889  2304  2347 I RkpdRegistrationBinder: No key assigned, looking for an available key with expiry of 2026-10-15T03:11:30.888909Z
+10-12 03:11:30.890  2304  2347 I RkpdRegistrationBinder: No key assigned, looking for an available key with expiry of 2026-10-12T04:11:30.887969Z
+10-12 03:11:30.890  2304  2347 I RkpdRegistrationBinder: No keys are available, kicking off provisioning
+10-12 03:11:30.890   485   853 I RegistrationProxy: Provisioning required before keys are available for android.security.rkp.service.RegistrationProxy$2@22fe993
+10-12 03:11:30.890  2304  2347 V RkpdServerInterface: Requesting data from server. Attempt 1
+10-12 03:11:30.890  3469  3590 I AppLinksRequestHandler: (REDACTED) Processing %d WIP requests.
+10-12 03:11:30.891  3469  3590 I AppLinksModuleInit: Scheduling regular retry verifications. [CONTEXT service_id=244 ]
+10-12 03:11:30.892  3469  3590 I AppLinksVerRegularRetry: Retries scheduled. [CONTEXT service_id=244 ]
+10-12 03:11:30.918  2304  2347 V RkpdServerInterface: Network request completed successfully.
+10-12 03:11:30.918  2304  2347 I RkpdKeyPoolStats: PoolStats{keysInUse=0, idealTotalSignedKeys=12, keysToGenerate=12, keysUnassigned=0}
+10-12 03:11:30.918  2304  2347 I RkpdProvisioner: Requested number of keys for provisioning: 12
+10-12 03:11:30.928  2304  2347 W RkpdSystemInterface: HAL returned a batch size that's too small (20), defaulting to 20
+10-12 03:11:30.929  2304  2347 I RkpdServerInterface: request_id: 32bf8c6b-bff4-4df4-b4b9-1fe181942125
+10-12 03:11:30.929  2304  2347 V RkpdServerInterface: Requesting data from server. Attempt 1
+10-12 03:11:30.931  3469  3894 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+10-12 03:11:30.953  3469  4608 I SystemUpdate: [Installation,ReceiverIntentOperation] Received intent: Intent { act=com.google.android.gms.update.BASE_MODULE_INIT cat=[targeted_intent_op_prefix:.update.control.ReceiverIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService }.
+10-12 03:11:30.958  3422  4613 I UsageReportingOptionsSt: (REDACTED) User 0 is opted-in? %b
+10-12 03:11:30.958  3422  4613 I UsageReportingOptionsSt: Updating global setting to unknown [CONTEXT service_id=41 ]
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface: Server connection failed for url: https://remoteprovisioning.googleapis.com/v1:signCertificates?challenge=AAABoS4YDyMBILStY6iY2OGMh600KYNDL7FgwNA=&request_id=32bf8c6b-bff4-4df4-b4b9-1fe181942125, response code: 400
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface: Repeated failure count: 1
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface: {
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface:   "error": {
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface:     "code": 400,
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface:     "message": "Invalid request payload: vendor_patch_level`0` should be in the format YYYYMMDD or YYYYMM if present.\nRequestId: 32bf8c6b-bff4-4df4-b4b9-1fe181942125",
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface:     "status": "INVALID_ARGUMENT"
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface:   }
+10-12 03:11:30.964  2304  2347 E RkpdServerInterface: }
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: RKPD failed to provision keys
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: com.android.rkpdapp.RkpdException: HTTP error status encountered: 400
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.interfaces.ServerInterface.requestData(ServerInterface.java:341)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.interfaces.ServerInterface.connectAndGetData(ServerInterface.java:287)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.interfaces.ServerInterface.requestSignedCertificates(ServerInterface.java:121)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.provisioner.Provisioner.batchProvision(Provisioner.java:157)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.provisioner.Provisioner.fetchCertificates(Provisioner.java:136)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.provisioner.Provisioner.provisionKeys(Provisioner.java:89)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.fetchGeekAndProvisionKeys(RegistrationBinder.java:151)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.getKeyWorker(RegistrationBinder.java:117)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.getKeyThreadWorker(RegistrationBinder.java:235)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.lambda$getKey$3(RegistrationBinder.java:223)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.$r8$lambda$TliFA5y2_wUzHwCyn77kum7XL5E(RegistrationBinder.java:0)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder$$ExternalSyntheticLambda9.run(R8$$SyntheticClass:0)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:30.965  2304  2347 E RkpdRegistrationBinder: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:30.965   485   485 E RemoteProvisionSysSvc: RKP error fetching key for client 168017538: ERROR_UNKNOWN: HTTP error status encountered: 400
+10-12 03:11:30.967  3469  3894 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+10-12 03:11:30.972  3469  4626 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 1.
+10-12 03:11:30.989  3469  4608 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+10-12 03:11:30.990  3469  4608 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
+10-12 03:11:30.995  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:30.995  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.025  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.055  3469  3590 E WorkSourceUtil: Could not find package: com.google.android.gms.westworld
+10-12 03:11:31.110  3469  4608 I NewModuleComplete: Received com.google.android.chimera.IntentOperation.NEW_MODULE(com.google.android.gms.chimera.GmsIntentOperationService,1,true)
+10-12 03:11:31.111  3469  3590 I NewModuleHelper: Received com.google.android.chimera.container.NEW_MODULE_FINALIZE(2/0): com.google.android.gms.chimera.GmsIntentOperationService,1,true
+10-12 03:11:31.115  3422  4612 W ChimeraUtils: Module com.google.android.gms.location__nonwearable missing resource location_module_display_name(0)
+10-12 03:11:31.118  3469  4608 I Ads     : Initialized AdMob in container 23.35.15 (180706-565551795)
+10-12 03:11:31.118  3469  4608 I NewModuleComplete: Received com.google.android.chimera.IntentOperation.NEW_MODULE(com.google.android.gms.chimera.GmsIntentOperationService,2,false)
+10-12 03:11:31.119  3469  3590 I NewModuleHelper: Received com.google.android.chimera.container.NEW_MODULE_FINALIZE(2/1): com.google.android.gms.chimera.GmsIntentOperationService,2,false
+10-12 03:11:31.119  3469  3590 I NewModuleHelper: Completed all new module init intents for all processes.
+10-12 03:11:31.124  3422  4638 I GCoreUlr: WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction init
+10-12 03:11:31.125  3422  4638 I GCoreUlr: WorldUpdater:init: Ensuring that reporting is stopped because of reasons: (no Google accounts)
+10-12 03:11:31.128  3422  4638 I GCoreUlr: Unbound from all signal providers.
+10-12 03:11:31.130  3422  3422 I GCoreUlr: Unbound from all signal providers.
+10-12 03:11:31.130  3422  3422 I GCoreUlr: Stopping handler for UlrDispSvcFast
+10-12 03:11:31.149  3422  4614 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:31.166  2733  4617 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+10-12 03:11:31.166  2733  4617 W libc    : Access denied finding property "service.adb.tls.port"
+10-12 03:11:31.165  2733  2733 W IntentService[D: type=1400 audit(0.0:46): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=292 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-12 03:11:31.174  3422  4638 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:31.165  2733  2733 W IntentService[D: type=1400 audit(0.0:47): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=59 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-12 03:11:31.193  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:31.193  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.209  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.216  3422  4614 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:31.227  3422  4638 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:11:31.234  3469  3589 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:11:31.234  3469  3589 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:11:31.259  3422  3456 E IPCThreadState: Binder transaction failure: 248365/29201/-28
+10-12 03:11:31.259  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:11:31.260  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:11:31.260  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:31.260  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:31.348  2733  4617 W SystemServiceRegistry: No service published for: persistent_data_block
+10-12 03:11:31.349  2733  4617 D TrafficStats: tagSocket(119) with statsTag=0x1809, statsUid=-1
+10-12 03:11:31.350  2733  4617 D TrafficStats: tagSocket(119) with statsTag=0x1809, statsUid=-1
+10-12 03:11:31.351  2733  4617 D TrafficStats: tagSocket(119) with statsTag=0x1809, statsUid=-1
+10-12 03:11:31.384  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:31.384  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.392  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.440  2733  2739 W id.gms.unstable: Cleared Reference was only reachable from finalizer (only reported once)
+10-12 03:11:31.548  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:31.548  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.555  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.625   934   934 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-12 03:11:31.625   934   934 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-12 03:11:31.629   485   574 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-12 03:11:31.630   485   564 I RoleService: Granting default roles...
+10-12 03:11:31.631   485   512 W Searchables: No web search activity found
+10-12 03:11:31.633   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.633  3422  3422 W ChimeraUtils: Module com.google.android.gms.location__nonwearable missing resource location_module_display_name(0)
+10-12 03:11:31.635   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.636   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.636   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.637   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.637   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.640   380   380 D AF::TrackHandle: OpPlayAudio: track:55 usage:13 not muted
+10-12 03:11:31.641   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.641   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.641   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:31.644   780  4667 I PermissionControllerServiceImpl: Updating user sensitive for uid 10084
+10-12 03:11:31.647   780  4668 W Role    : Cannot get ApplicationInfo for default holder: com.android.messaging
+10-12 03:11:31.656   780  4668 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.gms.supervision
+10-12 03:11:31.661  3469  3637 E WakeLock: DG:service ** IS FORCE-RELEASED ON TIMEOUT **
+10-12 03:11:31.662   780  4668 W Role    : Cannot get ApplicationInfo for default holder: com.android.gallery3d
+10-12 03:11:31.711  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:31.711  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.715  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.872  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:31.873  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:31.879  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.037  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:32.037  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.043  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.122  1128  1128 I katniss_interactor_PackageCache: Rebuilding package cache for Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }
+10-12 03:11:32.123  3483  3483 I katniss_search_PackageCache: Rebuilding package cache for Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: Source not found for package: com.netflix.ninja
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: android.content.pm.PackageManager$NameNotFoundException: com.netflix.ninja
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:256)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:216)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:210)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at llh.a(PG:4)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at ante.next(PG:1)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:2)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:1)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at antb.f(PG:1)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at antb.b(PG:1)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.o(PG:3)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.n(PG:2)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at kne.handleMessage(PG:132)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-12 03:11:32.127  3483  3483 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-12 03:11:32.127  3469  3589 W PeopleGalProvider: Not enabled to outside of GmsCore.
+10-12 03:11:32.127  3469  3589 I PeopleGalProvider: Method 0 completed.
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: Source not found for package: com.netflix.ninja
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: android.content.pm.PackageManager$NameNotFoundException: com.netflix.ninja
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:256)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:216)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:210)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at llh.a(PG:4)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at ante.next(PG:1)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:2)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:1)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at antb.f(PG:1)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at antb.b(PG:1)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.o(PG:3)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.n(PG:7)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at kne.handleMessage(PG:132)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-12 03:11:32.128  3483  3483 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-12 03:11:32.128  1370  2372 I ContactDirectoryManager: Directory provider com.google.android.gms(com.google.android.gms.people.gal.provider) returned a NULL cursor.
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: Source not found for package: com.netflix.ninja
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: android.content.pm.PackageManager$NameNotFoundException: com.netflix.ninja
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:256)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:216)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:210)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at llh.a(PG:4)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at ante.next(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:2)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at antb.f(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at antb.b(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.o(PG:3)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.d(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at llf.a(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at llf.k(PG:1)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at llj.n(PG:20)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at kne.handleMessage(PG:132)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-12 03:11:32.132  3483  3483 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-12 03:11:32.137  3483  3532 I katniss_search_PackageCache: Apps for Intent { act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_LAUNCHER] }: [AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0), AppInfo(applicationLabel=Live TV, enabled=true, isSystemApp=true, longVersionCode=417000452, packageName=com.android.tv, uid=10078, versionCode=417000452, versionName=1.24-asop), AppInfo(applicationLabel=Google Play Store, enabled=true, isSystemApp=true, longVersionCode=85341728, packageName=com.android.vending, uid=10085, versionCode=85341728, versionName=53.4.17-34 [8] [PR] 988500596), AppInfo(applicationLabel=YouTube, enabled=true, isSystemApp=true, longVersionCode=218009360, packageName=com.google.android.youtube.tv, uid=10092, versionCode=218009360, versionName=2.18.009), AppInfo(applicationLabel=YouTube Music, enabled=true, isSystemApp=true, longVersionCode=110003320, packageName=com.google.android.youtube.tvmusic, uid=10089, versionCode=110003320, versionName=1.10.03), AppInfo(applicationLabel=Google Play Games, enabled=true, isSystemApp=true, longVersionCode=462434070, packageName=com.google.android.play.games, uid=10091, versionCode=462434070, versionName=2023.08.46243 (567560229.567560229-000700)), AppInfo(applicationLabel=TV Essentials, enabled=true, isSystemApp=false, longVersionCode=10000, packageName=app.tvessentials.installer, uid=10122, versionCode=10000, versionName=1.0.0)]
+10-12 03:11:32.140  3469  3893 I Icing   : updateResources: need to parse ycm{com.google.android.gms}
+10-12 03:11:32.142  1128  1374 I katniss_interactor_PackageCache: Apps for Intent { act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_LAUNCHER] }: [AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0), AppInfo(applicationLabel=Live TV, enabled=true, isSystemApp=true, longVersionCode=417000452, packageName=com.android.tv, uid=10078, versionCode=417000452, versionName=1.24-asop), AppInfo(applicationLabel=Google Play Store, enabled=true, isSystemApp=true, longVersionCode=85341728, packageName=com.android.vending, uid=10085, versionCode=85341728, versionName=53.4.17-34 [8] [PR] 988500596), AppInfo(applicationLabel=YouTube, enabled=true, isSystemApp=true, longVersionCode=218009360, packageName=com.google.android.youtube.tv, uid=10092, versionCode=218009360, versionName=2.18.009), AppInfo(applicationLabel=YouTube Music, enabled=true, isSystemApp=true, longVersionCode=110003320, packageName=com.google.android.youtube.tvmusic, uid=10089, versionCode=110003320, versionName=1.10.03), AppInfo(applicationLabel=Google Play Games, enabled=true, isSystemApp=true, longVersionCode=462434070, packageName=com.google.android.play.games, uid=10091, versionCode=462434070, versionName=2023.08.46243 (567560229.567560229-000700)), AppInfo(applicationLabel=TV Essentials, enabled=true, isSystemApp=false, longVersionCode=10000, packageName=app.tvessentials.installer, uid=10122, versionCode=10000, versionName=1.0.0)]
+10-12 03:11:32.143  3483  3532 I katniss_search_PackageCache: Apps for Intent { act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_SETTINGS] }: [AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0), AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0)]
+10-12 03:11:32.144  3483  3532 I katniss_search_PackageCache: Apps for Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] }: [AppInfo(applicationLabel=Android TV Home, enabled=true, isSystemApp=true, longVersionCode=1010919201, packageName=com.google.android.tvlauncher, uid=10079, versionCode=1010919201, versionName=6.4.6-580192592-f), AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0)]
+10-12 03:11:32.144  3483  3532 I katniss_search_PackageCache: Apps for Intent { act=com.google.assistant.DATA_SHARING_CONSENT }: [AppInfo(applicationLabel=Google, enabled=true, isSystemApp=true, longVersionCode=15000514, packageName=com.google.android.katniss, uid=10081, versionCode=15000514, versionName=7.9.20231101.4)]
+10-12 03:11:32.146  1128  1374 I katniss_interactor_PackageCache: Apps for Intent { act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_SETTINGS] }: [AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0), AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0)]
+10-12 03:11:32.147  1128  1374 I katniss_interactor_PackageCache: Apps for Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] }: [AppInfo(applicationLabel=Android TV Home, enabled=true, isSystemApp=true, longVersionCode=1010919201, packageName=com.google.android.tvlauncher, uid=10079, versionCode=1010919201, versionName=6.4.6-580192592-f), AppInfo(applicationLabel=Settings, enabled=true, isSystemApp=true, longVersionCode=1, packageName=com.android.tv.settings, uid=1000, versionCode=1, versionName=1.0)]
+10-12 03:11:32.151  3469  3637 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+10-12 03:11:32.152  1128  1374 I katniss_interactor_PackageCache: Apps for Intent { act=com.google.assistant.DATA_SHARING_CONSENT }: [AppInfo(applicationLabel=Google, enabled=true, isSystemApp=true, longVersionCode=15000514, packageName=com.google.android.katniss, uid=10081, versionCode=15000514, versionName=7.9.20231101.4)]
+10-12 03:11:32.172  3469  3893 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+10-12 03:11:32.173  3469  3893 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+10-12 03:11:32.174  3469  3893 I Icing   : Indexing done com.google.android.gms-apps
+10-12 03:11:32.205  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:32.205  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.215   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:32.217  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.378  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:32.378  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.382  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.537  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:32.537  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.541  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.696  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:32.696  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.700  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.765  3652  3697 I Finsky  : [45] Stats for Executor: LightweightExecutor oew@4d22687[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 835]
+10-12 03:11:32.854  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:32.854  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.858  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:32.919  3652  3697 I Finsky  : [45] Stats for Executor: BlockingExecutor oew@8a1b9b4[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 248]
+10-12 03:11:33.012  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.012  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.016  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.171  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.171  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.174   327  1856 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 783360
+10-12 03:11:33.176  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.300  3679  3703 I Finsky:background: [45] Stats for Executor: bgExecutor oew@960ad70[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 92]
+10-12 03:11:33.331  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.331  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.335  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.395  3469  3481 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:11:33.395  3469  3481 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:11:33.401  3422  3456 E IPCThreadState: Binder transaction failure: 250862/29201/-28
+10-12 03:11:33.401  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:11:33.402  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:11:33.402  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:33.402  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:33.415  3679  3703 I Finsky:background: [45] Stats for Executor: LightweightExecutor oew@7a228e9[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 137]
+10-12 03:11:33.490  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.490  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.493  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.495  3652  3697 I Finsky  : [45] Stats for Executor: bgExecutor oew@8a919dd[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 2536]
+10-12 03:11:33.649  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.649  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.652  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.810  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.810  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.814  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.969  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:33.969  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.973  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:33.975  3679  3703 I Finsky:background: [45] Stats for Executor: BlockingExecutor oew@5b8996e[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 36]
+10-12 03:11:34.129  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:34.129  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.132  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.287  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:34.287  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.289   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:34.310  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.468  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:34.468  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.471  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.626  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:34.626  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.630  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.787  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:34.787  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.791  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.947  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:34.947  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:34.951  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.105  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:35.106  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.109  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.264  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:35.264  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.268  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.423  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:35.423  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.427  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.582  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:35.582  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.585  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.740  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:35.740  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.744  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.904  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:35.904  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:35.907  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.062  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:36.062  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.067  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.206  3422  4614 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:11:36.213  3422  4586 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.apps.mediashell
+10-12 03:11:36.222  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:36.222  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.226  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.254  3422  4586 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.devicelockcontroller
+10-12 03:11:36.258  3422  4586 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.modulemetadata
+10-12 03:11:36.263  3469  3481 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:11:36.264  3469  3481 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:11:36.278  3422  3456 E IPCThreadState: Binder transaction failure: 252015/29201/-28
+10-12 03:11:36.278  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:11:36.278  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:11:36.278  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:11:36.278  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:11:36.286  3422  4586 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.google.android.gsf
+10-12 03:11:36.305  3422  4586 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.android.systemui
+10-12 03:11:36.351  3422  3430 W System  : A resource failed to call end. 
+10-12 03:11:36.354  3422  4586 I HeterodyneSyncer: (REDACTED) Removed %d invalid users
+10-12 03:11:36.363  3422  4586 I CompressionUtils: Compression error with Brotli, try to fall back to other compression algorithms.
+10-12 03:11:36.363  3422  4586 I CompressionUtils: aack: Native Brotli library does not exist
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at aacl.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):38)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at aacl.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):49)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at acff.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):113)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at vpv.b(:com.google.android.gms@233515114@23.35.15 (180706-565551795):24)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at acfp.o(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at apdk.a(:com.google.android.gms@233515114@23.35.15 (180706-565551795):290)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at apdg.H(:com.google.android.gms@233515114@23.35.15 (180706-565551795):234)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at apdg.q(:com.google.android.gms@233515114@23.35.15 (180706-565551795):884)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at apdg.z(:com.google.android.gms@233515114@23.35.15 (180706-565551795):10)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at apdg.p(:com.google.android.gms@233515114@23.35.15 (180706-565551795):11)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at com.google.android.gms.phenotype.sync.HeterodyneSyncTaskChimeraService.d(:com.google.android.gms@233515114@23.35.15 (180706-565551795):246)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at com.google.android.gms.phenotype.sync.HeterodyneSyncTaskChimeraService.fi(:com.google.android.gms@233515114@23.35.15 (180706-565551795):96)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at acim.call(:com.google.android.gms@233515114@23.35.15 (180706-565551795):32)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at qqx.c(:com.google.android.gms@233515114@23.35.15 (180706-565551795):50)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at qqx.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):76)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at qvz.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):8)
+10-12 03:11:36.363  3422  4586 I CompressionUtils: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:11:36.365  3422  4026 D TrafficStats: tagSocket(144) with statsTag=0x1203, statsUid=10084
+10-12 03:11:36.382  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:11:36.382  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.385   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:11:36.399  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:11:36.557  4291  4406 D UiDevice: Pressing home button.
+10-12 03:11:36.576   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:11:36.578   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:11:36.599   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:11:36.611  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c3797b6 in: PAUSED
+10-12 03:11:36.661  1518  1518 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:11:36.662  1518  1518 W HomeController: onResume: List view global layout completed.
+10-12 03:11:36.682  4291  4406 E TestRunner: failed: detailsOpensFromTheDetailsLinkAndFromTheMenuKey(app.tvessentials.installer.LauncherUiTest)
+10-12 03:11:36.689  4291  4406 E TestRunner: ----- begin exception -----
+10-12 03:11:36.689  4291  4406 E TestRunner: java.lang.AssertionError
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.Assert.fail(Assert.java:87)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:42)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:53)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at app.tvessentials.installer.LauncherUiTest.detailsOpensFromTheDetailsLinkAndFromTheMenuKey(LauncherUiTest.kt:77)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:11:36.689  4291  4406 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:11:36.689  4291  4406 E TestRunner: ----- end exception -----
+10-12 03:11:36.713  4291  4406 I TestRunner: finished: detailsOpensFromTheDetailsLinkAndFromTheMenuKey(app.tvessentials.installer.LauncherUiTest)

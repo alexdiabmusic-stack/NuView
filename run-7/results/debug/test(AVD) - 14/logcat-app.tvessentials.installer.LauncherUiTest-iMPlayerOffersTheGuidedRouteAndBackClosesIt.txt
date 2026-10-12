@@ -1,0 +1,282 @@
+10-12 03:12:36.270  4291  4406 I TestRunner: started: iMPlayerOffersTheGuidedRouteAndBackClosesIt(app.tvessentials.installer.LauncherUiTest)
+10-12 03:12:36.281  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:12:36.333  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:12:36.334  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:12:36.334  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:12:36.338  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:12:36.408   485   711 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=115, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:36.433  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@ba8fbdf in: DESTROYED
+10-12 03:12:36.435  4291  4291 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@74ed7d8
+10-12 03:12:36.441   485   498 W InputManager-JNI: Input channel object 'b6139ba app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:12:36.796  3469  3580 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:12:36.796  3469  3580 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:12:36.818  3422  3456 E IPCThreadState: Binder transaction failure: 283849/29201/-28
+10-12 03:12:36.818  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:12:36.823  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:12:36.823  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:12:36.823  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:12:36.899  4291  4406 D UiDevice: Pressing home button.
+10-12 03:12:36.956   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:12:36.983   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:12:37.057  1518  1518 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:12:37.095   485  2919 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:12:37.139  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:12:37.139  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:12:37.217   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:12:37.250  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@12424e3 in: PRE_ON_CREATE
+10-12 03:12:37.285  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@12424e3 in: CREATED
+10-12 03:12:37.293  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@12424e3 in: STARTED
+10-12 03:12:37.350  1518  1589 D EGL_emulation: app_time_stats: avg=44.52ms min=10.89ms max=123.29ms count=25
+10-12 03:12:37.351   485  2919 D ConnectivityService: requestNetwork for uid/pid:10122/4291 activeRequest: null callbackRequest: 116 [NetworkRequest [ REQUEST id=117, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:12:37.360   485   711 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=117, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:37.360   485   711 D EthernetNetworkFactory: IpClient already started
+10-12 03:12:37.360   485   712 D ConnectivityService: NetReassign [117 : null → 100] [c 0] [a 1] [i 5]
+10-12 03:12:37.360   485   704 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=117, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:37.361   485   704 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=117, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:37.361   485   704 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=117, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:37.375  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@12424e3 in: RESUMED
+10-12 03:12:37.546  4291  4298 I tials.installer: Background young concurrent copying GC freed 93542(3681KB) AllocSpace objects, 3(60KB) LOS objects, 19% free, 13MB/17MB, paused 43us,103us total 145.127ms
+10-12 03:12:37.740   485   501 W ziparchive: Unable to open '/data/app/~~t-0dyRYF8GpS3CNZgjpyZg==/app.tvessentials.installer-bpAb_NPSlcaJnh0SeY5xPg==/base.dm': No such file or directory
+10-12 03:12:37.756   485   501 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +642ms
+10-12 03:12:37.967   485  1108 I ImeTracker: app.tvessentials.installer:2e62e944: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:12:37.967   485  1108 I ImeTracker: app.tvessentials.installer:2e62e944: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:12:37.973  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:12:37.978  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:12:37.978  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:12:37.978  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:12:37.978  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:12:38.942  3469  3580 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:12:38.942  3469  3580 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:12:38.947  3422  3456 E IPCThreadState: Binder transaction failure: 284906/29201/-28
+10-12 03:12:38.947  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:12:38.948  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:12:38.948  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:12:38.948  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:12:39.083  4291  4406 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:12:39.112   380   399 D audioserver: FGS Logger Transaction failed
+10-12 03:12:39.112   380   399 D audioserver: -129
+10-12 03:12:39.190   380   472 D AudioFlinger: mixer(0xf06e1e20) throttle end: throttle time(22)
+10-12 03:12:39.270  4291  4429 D EGL_emulation: app_time_stats: avg=257.76ms min=153.92ms max=655.58ms count=6
+10-12 03:12:39.309   380   472 D audioserver: FGS Logger Transaction failed
+10-12 03:12:39.309   380   472 D audioserver: -129
+10-12 03:12:39.342  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:39.345  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.391  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.553  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:39.553  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.556  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.711  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:39.711  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.715  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.870  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:39.870  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:39.874  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.029  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:40.029  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.035  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.190  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:40.190  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.194  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.349  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:40.349  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.353  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.507  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:40.508  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.530  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.689  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:40.689  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.694  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.850  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:40.850  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:40.854  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.009  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.010  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.013  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.172  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.172  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.176  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.331  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.331  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.335  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.491  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.491  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.499  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.655  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.655  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.659  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.815  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.815  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.819  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.841  3469  3580 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:12:41.841  3469  3580 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:12:41.847  3422  3456 E IPCThreadState: Binder transaction failure: 285739/29201/-28
+10-12 03:12:41.847  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:12:41.848  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:12:41.848  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:12:41.848  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:12:41.974  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:41.974  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:41.979  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.135  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:42.135  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.140  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.193   327  1856 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1451392
+10-12 03:12:42.295  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:42.295  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.299  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.455  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:42.455  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.459  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.613  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:42.613  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.634  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.789  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:42.789  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.793  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.948  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:42.948  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:42.952  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.107  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:43.107  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.112  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.267  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:43.267  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.271  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.426  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:43.426  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.430  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.585  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:43.586  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.589  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.745  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:43.745  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.748  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.904  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:43.904  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.908  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:43.961  3469  3580 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:12:43.961  3469  3580 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:12:43.967  3422  3456 E IPCThreadState: Binder transaction failure: 286280/29201/-28
+10-12 03:12:43.967  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:12:43.967  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:12:43.967  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:12:43.967  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:12:44.062  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:44.063  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.066  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.222  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:44.222  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.226  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.384  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:44.384  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.387  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.543  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:44.543  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.546  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.702  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:44.702  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.723  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.878  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:44.878  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:44.882  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:45.037  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:45.038  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:45.041  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:45.196  4291  4406 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:12:45.197  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:45.200  4291  4406 D UiDevice: Retrieving node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:12:45.356  4291  4406 D UiDevice: Pressing home button.
+10-12 03:12:45.375   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:12:45.376   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:12:45.415  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@12424e3 in: PAUSED
+10-12 03:12:45.431   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:12:45.442  1518  1518 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:12:45.442  1518  1518 W HomeController: onResume: List view global layout completed.
+10-12 03:12:45.455  4291  4406 E TestRunner: failed: iMPlayerOffersTheGuidedRouteAndBackClosesIt(app.tvessentials.installer.LauncherUiTest)
+10-12 03:12:45.462  4291  4406 E TestRunner: ----- begin exception -----
+10-12 03:12:45.462  4291  4406 E TestRunner: java.lang.AssertionError
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.Assert.fail(Assert.java:87)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:42)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:53)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at app.tvessentials.installer.LauncherUiTest.iMPlayerOffersTheGuidedRouteAndBackClosesIt(LauncherUiTest.kt:106)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:12:45.462  4291  4406 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:12:45.462  4291  4406 E TestRunner: ----- end exception -----
+10-12 03:12:45.466  4291  4406 I TestRunner: finished: iMPlayerOffersTheGuidedRouteAndBackClosesIt(app.tvessentials.installer.LauncherUiTest)

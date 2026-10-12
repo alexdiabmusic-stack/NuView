@@ -1,0 +1,62 @@
+10-12 03:12:24.720  4291  4406 I TestRunner: started: appIsRegisteredAsALeanbackLauncherWithABanner(app.tvessentials.installer.LauncherUiTest)
+10-12 03:12:24.857   485   711 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=111, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:24.919  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@d078796 in: DESTROYED
+10-12 03:12:24.919  4291  4291 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8bdbe2e
+10-12 03:12:24.928   485   498 W InputManager-JNI: Input channel object '18f3683 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:12:25.206  4291  4406 D UiDevice: Pressing home button.
+10-12 03:12:25.261   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:12:25.268   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:12:25.283  1518  1518 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:12:25.345   485   498 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:12:25.363  4291  4406 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:12:25.388  4291  4406 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:12:25.489   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:12:25.498  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@eb3fcaa in: PRE_ON_CREATE
+10-12 03:12:25.549  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@eb3fcaa in: CREATED
+10-12 03:12:25.553  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@eb3fcaa in: STARTED
+10-12 03:12:25.571   485   498 D ConnectivityService: requestNetwork for uid/pid:10122/4291 activeRequest: null callbackRequest: 112 [NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:12:25.578   485   711 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:25.578   485   711 D EthernetNetworkFactory: IpClient already started
+10-12 03:12:25.578   485   704 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:25.578   485   712 D ConnectivityService: NetReassign [113 : null → 100] [c 0] [a 2] [i 1]
+10-12 03:12:25.578   485   704 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:25.579   485   704 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=113, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:12:25.615  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@eb3fcaa in: RESUMED
+10-12 03:12:25.648  1518  1589 D EGL_emulation: app_time_stats: avg=51.09ms min=13.04ms max=100.47ms count=20
+10-12 03:12:25.830  4291  4298 I tials.installer: Background young concurrent copying GC freed 129290(5059KB) AllocSpace objects, 7(140KB) LOS objects, 28% free, 12MB/17MB, paused 53us,20us total 131.134ms
+10-12 03:12:26.018   485   501 W ziparchive: Unable to open '/data/app/~~t-0dyRYF8GpS3CNZgjpyZg==/app.tvessentials.installer-bpAb_NPSlcaJnh0SeY5xPg==/base.dm': No such file or directory
+10-12 03:12:26.018   485   501 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +668ms
+10-12 03:12:26.248   485  1325 I ImeTracker: app.tvessentials.installer:356ed989: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:12:26.248   485  1325 I ImeTracker: app.tvessentials.installer:356ed989: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:12:26.257  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:12:26.259  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:12:26.259  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:12:26.259  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:12:26.262  1047  1047 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:12:26.736  3469  3589 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:12:26.736  3469  3589 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:12:26.743  3422  3456 E IPCThreadState: Binder transaction failure: 278629/29201/-28
+10-12 03:12:26.743  3422  3456 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:12:26.743  3422  3456 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:12:26.743  3422  3456 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:12:26.743  3422  3456 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:12:26.896  4291  4406 D UiDevice: Executing shell command: cmd package query-activities --brief -a android.intent.action.MAIN -c android.intent.category.LEANBACK_LAUNCHER
+10-12 03:12:27.355  4291  4406 D UiDevice: Pressing home button.
+10-12 03:12:27.376   779   779 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:12:27.380   485   502 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:12:27.402  4291  4291 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@eb3fcaa in: PAUSED
+10-12 03:12:27.415   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:12:27.460  1518  1518 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:12:27.460  1518  1518 W HomeController: onResume: List view global layout completed.
+10-12 03:12:27.487  4291  4406 I TestRunner: finished: appIsRegisteredAsALeanbackLauncherWithABanner(app.tvessentials.installer.LauncherUiTest)
