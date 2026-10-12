@@ -173,20 +173,25 @@ class InstallManager(
     fun checkApp(appId: String, force: Boolean) {
         val s = get(appId)
         if (!s.supported) return
-        val existing = checks[appId]
-        if (existing?.isActive == true) return
-        checks[appId] = scope.launch {
+        synchronized(checks) {
+            val previous = checks[appId]
+            // A check that is genuinely running absorbs the request. One that has already published its result may
+            // still be unwinding for a moment; a request in that window queues behind it instead of being lost.
+            if (previous?.isActive == true && s.checking) return
             modify(appId) { it.copy(checking = true) }
-            try {
-                refreshInstalled(appId)
-                val out = repository.check(s.app, s.channel, device, force)
-                modify(appId) {
-                    if (it.channel != s.channel) it.copy(checking = false)
-                    else it.copy(checking = false, release = out.release ?: it.release, releaseFailure = out.failure, checkedAtMs = out.checkedAtMs ?: it.checkedAtMs)
+            checks[appId] = scope.launch {
+                previous?.join()
+                try {
+                    refreshInstalled(appId)
+                    val out = repository.check(s.app, s.channel, device, force)
+                    modify(appId) {
+                        if (it.channel != s.channel) it.copy(checking = false)
+                        else it.copy(checking = false, release = out.release ?: it.release, releaseFailure = out.failure, checkedAtMs = out.checkedAtMs ?: it.checkedAtMs)
+                    }
+                } catch (e: CancellationException) {
+                    modify(appId) { it.copy(checking = false) }
+                    throw e
                 }
-            } catch (e: CancellationException) {
-                modify(appId) { it.copy(checking = false) }
-                throw e
             }
         }
     }

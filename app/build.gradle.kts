@@ -18,7 +18,7 @@ val versionParts = appVersionName.split(".").map { it.toInt() }
 
 android {
     namespace = "app.tvessentials.installer"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "app.tvessentials.installer"

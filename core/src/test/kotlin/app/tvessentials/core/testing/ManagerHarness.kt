@@ -148,8 +148,18 @@ class ManagerHarness(
     val history = CopyOnWriteArrayList<AppState>()
 
     init {
-        scope.launch { manager.effects.collect { effects += it } }
-        scope.launch { manager.state.collect { list -> list.firstOrNull { it.app.id == appId }?.let { history += it } } }
+        // Unconfined: record every emission as it happens instead of whatever a busy collector happens to catch up to.
+        scope.launch(Dispatchers.Unconfined) { manager.effects.collect { effects += it } }
+        scope.launch(Dispatchers.Unconfined) { manager.state.collect { list -> list.firstOrNull { it.app.id == appId }?.let { history += it } } }
+    }
+
+    /** Effects arrive through a separate collector; wait for the one the test expects instead of assuming ordering. */
+    suspend fun awaitEffect(timeoutMs: Long = 3_000, what: String = "effect", predicate: (Effect) -> Boolean) {
+        val deadline = System.currentTimeMillis() + timeoutMs
+        while (effects.none(predicate)) {
+            if (System.currentTimeMillis() > deadline) error("Timed out waiting for $what; saw ${effects.toList()}")
+            kotlinx.coroutines.delay(10)
+        }
     }
 
     fun state(): AppState = manager.state.value.first { it.app.id == appId }
@@ -159,6 +169,15 @@ class ManagerHarness(
         withTimeout(timeoutMs) { manager.state.first { l -> l.firstOrNull { it.app.id == appId }?.let(predicate) == true }.first { it.app.id == appId } }
     } catch (e: kotlinx.coroutines.TimeoutCancellationException) {
         error("Timed out waiting for $what. Last: phase=${state().phase} installed=${state().installed} release=${state().release?.versionName} history=${history.map { it.phase::class.simpleName }}")
+    }
+
+    /** `history` is filled by a separate collector, so tests that assert on it must wait for it to catch up. */
+    suspend fun awaitHistory(timeoutMs: Long = 3_000, what: String = "history", predicate: (List<AppState>) -> Boolean) {
+        val deadline = System.currentTimeMillis() + timeoutMs
+        while (!predicate(history.toList())) {
+            if (System.currentTimeMillis() > deadline) error("Timed out waiting for $what in ${history.map { it.phase::class.simpleName }}")
+            kotlinx.coroutines.delay(10)
+        }
     }
 
     fun close() { scope.cancel(); fx.close() }

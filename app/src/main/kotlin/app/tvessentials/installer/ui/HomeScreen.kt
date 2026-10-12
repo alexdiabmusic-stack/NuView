@@ -28,7 +28,9 @@ import androidx.compose.ui.unit.dp
 /** Requests focus once the target is actually on screen; retries for a few frames because layout may not have run yet. */
 suspend fun FocusRequester.requestWhenReady() {
     repeat(8) {
-        if (runCatching { requestFocus() }.isSuccess) return
+        // Newer Compose returns false when the node can't take focus yet (older returns Unit); either way: retry next frame.
+        val result: Any? = runCatching { requestFocus() }.getOrNull()
+        if (result != null && result != false) return
         withFrameNanos { }
     }
 }

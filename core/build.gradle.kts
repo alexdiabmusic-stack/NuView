@@ -43,6 +43,7 @@ tasks.test {
         showStandardStreams = false
         exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
     }
+    systemProperty("tve.live", providers.gradleProperty("tve.live").orNull ?: "")
     systemProperty("tve.manifest", rootProject.file("app/src/main/AndroidManifest.xml").absolutePath)
     // Optional local-only fixtures: directory of real, publicly released APKs (never committed).
     systemProperty("tve.fixtureApkDir", providers.gradleProperty("tve.fixtureApkDir").orNull ?: "")
