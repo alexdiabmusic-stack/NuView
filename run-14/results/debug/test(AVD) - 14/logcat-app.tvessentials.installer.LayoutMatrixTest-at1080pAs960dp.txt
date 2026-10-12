@@ -1,0 +1,151 @@
+10-12 15:10:41.079  4522  4600 I TestRunner: started: at1080pAs960dp(app.tvessentials.installer.LayoutMatrixTest)
+10-12 15:10:41.097  4522  4600 D UiDevice: Executing shell command: wm size 1920x1080
+10-12 15:10:41.276   484   715 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=122, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:10:41.404  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@38eadd0 in: DESTROYED
+10-12 15:10:41.406  4522  4522 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@aeeb5a7
+10-12 15:10:41.508   484  1964 W InputManager-JNI: Input channel object '9ad6ec8 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:10:41.534  4522  4600 D UiDevice: Executing shell command: wm density 320
+10-12 15:10:41.593  4522  4522 I Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+10-12 15:10:41.728  4522  4600 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 15:10:42.113  1373  1486 D EGL_emulation: app_time_stats: avg=72.20ms min=34.08ms max=210.35ms count=16
+10-12 15:10:43.120  1373  1486 D EGL_emulation: app_time_stats: avg=56.40ms min=45.05ms max=81.07ms count=17
+10-12 15:10:43.374  4522  4600 D UiDevice: Pressing home button.
+10-12 15:10:43.463   778   778 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:10:43.465   484   506 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:10:43.661  1373  1373 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:10:43.689   484   552 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:10:43.759  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:10:43.763  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:10:43.783   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:10:43.876  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@6d17715 in: PRE_ON_CREATE
+10-12 15:10:43.931  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@6d17715 in: CREATED
+10-12 15:10:43.942  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@6d17715 in: STARTED
+10-12 15:10:43.990   484  1783 D ConnectivityService: requestNetwork for uid/pid:10122/4522 activeRequest: null callbackRequest: 123 [NetworkRequest [ REQUEST id=124, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:10:44.075  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@6d17715 in: RESUMED
+10-12 15:10:44.141  1373  1486 D EGL_emulation: app_time_stats: avg=74.61ms min=38.86ms max=131.06ms count=13
+10-12 15:10:44.147  1133  1358 D PickerSyncController: syncAllMedia
+10-12 15:10:44.148  1133  1358 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 15:10:44.148  1133  1358 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 15:10:44.190   484   715 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=124, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:10:44.190   484   715 D EthernetNetworkFactory: IpClient already started
+10-12 15:10:44.204   484   716 D ConnectivityService: NetReassign [124 : null → 100] [c 0] [a 132] [i 14]
+10-12 15:10:44.207   484   708 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=124, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:10:44.208   484   708 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=124, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:10:44.210   484   708 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=124, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:10:44.230  1133  1358 D PickerSyncController:    Latest ID/Gen=1407:ab6779f9-cdb8-4a00-930a-608c70798e2a:external_primary/95
+10-12 15:10:44.230  1133  1358 D PickerSyncController:    Cached ID/Gen=1407:ab6779f9-cdb8-4a00-930a-608c70798e2a:external_primary/88
+10-12 15:10:44.230  1133  1358 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=88, latest=Bundle[{last_media_sync_generation=95, media_collection_id=1407:ab6779f9-cdb8-4a00-930a-608c70798e2a:external_primary}]}
+10-12 15:10:44.230  1133  1358 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: Failed to insert picker db media. ContentValues: standard_mime_type_extension=0 size_bytes=0 orientation=0 height=1080 date_taken_ms=1791817838000 duration_ms=0 sync_generation=95 mime_type=image/png width=1920 is_favorite=0 local_id=1000000031 is_visible=1
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: android.database.sqlite.SQLiteConstraintException: CHECK constraint failed: size_bytes > 0 (code 275 SQLITE_CONSTRAINT_CHECK)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.database.DatabaseUtils.executeInsert(DatabaseUtils.java:199)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteQueryBuilder.insert(SQLiteQueryBuilder.java:629)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.insertMedia(PickerDbFacade.java:476)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.upsertMedia(PickerDbFacade.java:490)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.executeInternal(PickerDbFacade.java:450)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$DbWriteOperation.execute(PickerDbFacade.java:335)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.executePagedSync(PickerSyncController.java:987)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.executeSyncAdd(PickerSyncController.java:719)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMediaFromProvider(PickerSyncController.java:643)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMediaFromLocalProvider(PickerSyncController.java:213)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMedia(PickerSyncController.java:197)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:10:44.235  1133  1358 V PickerDbFacade: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:10:44.236  1133  1358 V PickerDbFacade: Retrying failed insert as update. ContentValues: standard_mime_type_extension=0 size_bytes=0 orientation=0 height=1080 date_taken_ms=1791817838000 duration_ms=0 sync_generation=95 mime_type=image/png width=1920 is_favorite=0 local_id=1000000031 is_visible=1
+10-12 15:10:44.236  1133  1358 V PickerDbFacade: Failed to update picker db media. ContentValues: standard_mime_type_extension=0 size_bytes=0 orientation=0 height=1080 date_taken_ms=1791817838000 duration_ms=0 sync_generation=95 mime_type=image/png width=1920 is_favorite=0 local_id=1000000031 is_visible=1
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: Failed to insert picker db media. ContentValues: standard_mime_type_extension=0 size_bytes=0 orientation=0 height=1080 date_taken_ms=1791817838000 duration_ms=0 sync_generation=95 mime_type=image/png width=1920 is_favorite=0 local_id=1000000031 is_visible=1
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: android.database.sqlite.SQLiteConstraintException: CHECK constraint failed: size_bytes > 0 (code 275 SQLITE_CONSTRAINT_CHECK)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:961)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:790)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:89)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.database.DatabaseUtils.executeInsert(DatabaseUtils.java:199)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.database.sqlite.SQLiteQueryBuilder.insert(SQLiteQueryBuilder.java:629)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.insertMedia(PickerDbFacade.java:476)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.upsertMedia(PickerDbFacade.java:490)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.executeInternal(PickerDbFacade.java:467)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.data.PickerDbFacade$DbWriteOperation.execute(PickerDbFacade.java:335)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.executePagedSync(PickerSyncController.java:987)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.executeSyncAdd(PickerSyncController.java:719)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMediaFromProvider(PickerSyncController.java:643)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMediaFromLocalProvider(PickerSyncController.java:213)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMedia(PickerSyncController.java:197)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at com.android.providers.media.photopicker.PickerSyncController$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: Retrying failed insert as update. ContentValues: standard_mime_type_extension=0 size_bytes=0 orientation=0 height=1080 date_taken_ms=1791817838000 duration_ms=0 sync_generation=95 mime_type=image/png width=1920 is_favorite=0 local_id=1000000031 is_visible=1
+10-12 15:10:44.237  1133  1358 V PickerDbFacade: Failed to update picker db media. ContentValues: standard_mime_type_extension=0 size_bytes=0 orientation=0 height=1080 date_taken_ms=1791817838000 duration_ms=0 sync_generation=95 mime_type=image/png width=1920 is_favorite=0 local_id=1000000031 is_visible=1
+10-12 15:10:44.237  1133  1358 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=88}]. Result count: 0. Cursor count: 1
+10-12 15:10:44.237  1133  1358 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:10:44.246  1133  1358 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=88}]. Result count: 0. Cursor count: 0
+10-12 15:10:44.246  1133  1358 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 15:10:44.246  1133  1358 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 15:10:44.246  1133  1358 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 15:10:44.246  1133  1358 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 15:10:44.246  1133  1358 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 15:10:44.246  1133  1358 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 15:10:44.246  1133  1358 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 15:10:44.246  1133  1358 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 15:10:44.246  1133  1358 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 15:10:44.250  1133  1358 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 15:10:44.671  4522  4765 I OpenGLRenderer: Davey! duration=713ms; Flags=1, FrameTimelineVsyncId=22922, IntendedVsync=429558492688, Vsync=429908492674, InputEventId=0, HandleInputStart=429911003706, AnimationStart=429911008779, PerformTraversalsStart=429911013103, DrawStart=430069609242, FrameDeadline=429575159354, FrameInterval=429910829473, FrameStartTime=16666666, SyncQueued=430100598166, SyncStart=430100946670, IssueDrawCommandsStart=430101074375, SwapBuffers=430107772104, FrameCompleted=430272727021, DequeueBufferDuration=13535, QueueBufferDuration=2988840, GpuCompleted=430272591832, SwapBuffersCompleted=430272727021, DisplayPresentTime=0, CommandSubmissionCompleted=430107772104, 
+10-12 15:10:44.672   484   505 W ziparchive: Unable to open '/data/app/~~CHYhQ3sHiwfX2dzhqrVzlQ==/app.tvessentials.installer-fhrJuWJCV-QAEWojU_bs4g==/base.dm': No such file or directory
+10-12 15:10:44.701   484   505 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +971ms
+10-12 15:10:44.891   484  1022 I ImeTracker: app.tvessentials.installer:c1bd504b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:10:44.891   484  1022 I ImeTracker: app.tvessentials.installer:c1bd504b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:10:44.898  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:10:44.901  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:10:44.901  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:10:44.901  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:10:45.160  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:10:45.296  4522  4533 I OpenGLRenderer: Davey! duration=916ms; Flags=0, FrameTimelineVsyncId=22984, IntendedVsync=429941826006, Vsync=430325159324, InputEventId=0, HandleInputStart=430339781540, AnimationStart=430339785459, PerformTraversalsStart=430442368342, DrawStart=430445353958, FrameDeadline=430291825992, FrameInterval=430339630340, FrameStartTime=16666666, SyncQueued=430467085619, SyncStart=430477546262, IssueDrawCommandsStart=430477625841, SwapBuffers=430559381883, FrameCompleted=430868754577, DequeueBufferDuration=6859, QueueBufferDuration=4130597, GpuCompleted=430868674174, SwapBuffersCompleted=430868754577, DisplayPresentTime=0, CommandSubmissionCompleted=430559381883, 
+10-12 15:10:45.710  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 15:10:45.713  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:10:46.062  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:10:46.062  4522  4600 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:10:46.067  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:10:46.067  4522  4600 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:10:46.073  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:10:46.073  4522  4600 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:10:46.087  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E']].
+10-12 15:10:46.087  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E'].
+10-12 15:10:47.299  4522  4600 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_layout_1080p_320dpi.png
+10-12 15:10:47.403  5311  5311 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:10:47.407  1133  1522 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:10:47.409  5311  5311 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:10:47.425   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:10:47.425  5311  5314 I Gralloc4: mapper 4.x is not supported
+10-12 15:10:47.537  3672  5009 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:10:47.552  3672  5261 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:10:48.297   484  1022 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:10:48.309   484   505 I ActivityManager: Broadcast completed: result=0
+10-12 15:10:48.315  1133  1728 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:10:48.361  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:10:48.400  1133  1728 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:10:48.421  3672  5009 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:10:48.429  3672  5187 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:10:48.458  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:10:48.659  4522  4600 D UiDevice: Executing shell command: wm size reset
+10-12 15:10:48.692  4522  4600 D UiDevice: Executing shell command: wm density reset
+10-12 15:10:48.718  4522  4600 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 15:10:48.738  4522  4600 D UiDevice: Pressing home button.
+10-12 15:10:48.776   778   778 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:10:48.801   484   506 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:10:48.820   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:10:48.852  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@6d17715 in: PAUSED
+10-12 15:10:48.939  1373  1373 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:10:48.939  1373  1373 W HomeController: onResume: List view global layout completed.
+10-12 15:10:49.046  1373  1373 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:10:49.123  1373  1373 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 15:10:49.159  4522  4600 I TestRunner: finished: at1080pAs960dp(app.tvessentials.installer.LayoutMatrixTest)

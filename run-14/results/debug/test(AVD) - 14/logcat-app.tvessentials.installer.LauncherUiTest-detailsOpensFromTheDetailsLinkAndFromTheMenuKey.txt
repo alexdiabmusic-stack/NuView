@@ -1,0 +1,420 @@
+10-12 15:08:38.927  4522  4600 I TestRunner: started: detailsOpensFromTheDetailsLinkAndFromTheMenuKey(app.tvessentials.installer.LauncherUiTest)
+10-12 15:08:38.940  2292  2308 I .katniss:search: Background concurrent copying GC freed 39435(2618KB) AllocSpace objects, 4(144KB) LOS objects, 49% free, 5433KB/10MB, paused 45us,27us total 2.036s
+10-12 15:08:38.990  1373  1424 I OpenGLRenderer: Davey! duration=748ms; Flags=0, FrameTimelineVsyncId=9312, IntendedVsync=303841831050, Vsync=304358497696, InputEventId=0, HandleInputStart=304367154351, AnimationStart=304367155198, PerformTraversalsStart=304367469711, DrawStart=304482177421, FrameDeadline=304325164364, FrameInterval=304358708031, FrameStartTime=16666666, SyncQueued=304485620844, SyncStart=304485667600, IssueDrawCommandsStart=304489493347, SwapBuffers=304495710541, FrameCompleted=304590188193, DequeueBufferDuration=7076, QueueBufferDuration=5481644, GpuCompleted=304590108321, SwapBuffersCompleted=304590188193, DisplayPresentTime=0, CommandSubmissionCompleted=304495710541, 
+10-12 15:08:38.995   484   553 I ImeTracker: com.google.android.tvlauncher:d6d7b911: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:08:38.995   484   553 I ImeTracker: com.google.android.tvlauncher:d6d7b911: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:08:39.031  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:08:39.074  1373  1373 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 15:08:39.156  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:08:39.161  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:08:39.162  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:08:39.179  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:08:39.179  4522  4529 W tials.installer: Cleared Reference was only reachable from finalizer (only reported once)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: Source not found for package: com.netflix.ninja
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: android.content.pm.PackageManager$NameNotFoundException: com.netflix.ninja
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:256)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:216)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:210)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at llh.a(PG:4)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at ante.next(PG:1)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:2)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:1)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at antb.f(PG:1)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at antb.b(PG:1)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.o(PG:3)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.n(PG:2)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at kne.handleMessage(PG:132)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-12 15:08:39.334  2292  2292 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: Source not found for package: com.netflix.ninja
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: android.content.pm.PackageManager$NameNotFoundException: com.netflix.ninja
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:256)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:216)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:210)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at llh.a(PG:4)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at ante.next(PG:1)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:2)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:1)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at antb.f(PG:1)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at antb.b(PG:1)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.o(PG:3)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.n(PG:7)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at kne.handleMessage(PG:132)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-12 15:08:39.343  2292  2292 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: Source not found for package: com.netflix.ninja
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: android.content.pm.PackageManager$NameNotFoundException: com.netflix.ninja
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:256)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:216)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:210)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at llh.a(PG:4)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at ante.next(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:2)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.a(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at ansg.hasNext(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at antb.f(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at antb.b(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.o(PG:3)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.d(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at llf.a(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at llf.k(PG:1)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at llj.n(PG:20)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at kne.handleMessage(PG:132)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+10-12 15:08:39.349  2292  2292 W katniss_search_CloudSearchableSources: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+10-12 15:08:39.357   484   498 I system_server: Background concurrent copying GC freed 246524(11MB) AllocSpace objects, 39(1264KB) LOS objects, 49% free, 19MB/39MB, paused 81us,60.407ms total 2.567s
+10-12 15:08:39.382   484   500 W System  : A resource failed to call release. 
+10-12 15:08:39.408  4522  4529 I tials.installer: Background concurrent copying GC freed 141034(4638KB) AllocSpace objects, 6(360KB) LOS objects, 49% free, 6511KB/12MB, paused 36us,907us total 1.182s
+10-12 15:08:39.595   484   715 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:39.788  4522  4600 D UiDevice: Pressing home button.
+10-12 15:08:39.802  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@58c7e3b in: DESTROYED
+10-12 15:08:39.805  4522  4522 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@355ce52
+10-12 15:08:39.931   778   778 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:08:39.955   484   506 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:08:40.003   484  1466 W InputManager-JNI: Input channel object '4422fa9 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:08:40.054  1373  1486 D EGL_emulation: app_time_stats: avg=77.26ms min=33.60ms max=288.92ms count=17
+10-12 15:08:40.102  4522  4522 I Choreographer: Skipped 75 frames!  The application may be doing too much work on its main thread.
+10-12 15:08:40.141  3712  3855 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:08:40.143  3712  3855 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:08:40.177  1373  1373 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:08:40.193   484  2685 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:08:40.201  3672  3725 E IPCThreadState: Binder transaction failure: 271020/29201/-28
+10-12 15:08:40.215  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:08:40.219  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:40.233  3672  3725 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:08:40.233  3672  3725 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:08:40.233  3672  3725 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:40.233  3672  3725 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:08:40.263   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:40.327   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:08:40.469  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c725179 in: PRE_ON_CREATE
+10-12 15:08:40.520  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c725179 in: CREATED
+10-12 15:08:40.528  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c725179 in: STARTED
+10-12 15:08:40.558   484   553 D ConnectivityService: requestNetwork for uid/pid:10122/4522 activeRequest: null callbackRequest: 97 [NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:08:40.569   484   716 D ConnectivityService: NetReassign [98 : null → 100] [c 0] [a 1] [i 2]
+10-12 15:08:40.569   484   715 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:40.569   484   715 D EthernetNetworkFactory: IpClient already started
+10-12 15:08:40.569   484   708 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:40.569   484   708 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:40.569   484   708 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:40.606  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c725179 in: RESUMED
+10-12 15:08:41.405   484   505 W ziparchive: Unable to open '/data/app/~~CHYhQ3sHiwfX2dzhqrVzlQ==/app.tvessentials.installer-fhrJuWJCV-QAEWojU_bs4g==/base.dm': No such file or directory
+10-12 15:08:41.423   484   505 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +1s209ms
+10-12 15:08:41.428  4522  4534 I OpenGLRenderer: Davey! duration=887ms; Flags=1, FrameTimelineVsyncId=9793, IntendedVsync=306141830958, Vsync=306308497618, InputEventId=0, HandleInputStart=306309752936, AnimationStart=306309758117, PerformTraversalsStart=306309762163, DrawStart=306674654882, FrameDeadline=306158497624, FrameInterval=306309532015, FrameStartTime=16666666, SyncQueued=306712111038, SyncStart=306712571806, IssueDrawCommandsStart=306712729022, SwapBuffers=306843406986, FrameCompleted=307029560985, DequeueBufferDuration=23154, QueueBufferDuration=819681, GpuCompleted=307029560985, SwapBuffersCompleted=307015488973, DisplayPresentTime=-71578241344623802, CommandSubmissionCompleted=306843406986, 
+10-12 15:08:41.538  4522  4522 I Choreographer: Skipped 46 frames!  The application may be doing too much work on its main thread.
+10-12 15:08:41.745   484  1718 I ImeTracker: app.tvessentials.installer:99367dfe: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:08:41.748   484  1718 I ImeTracker: app.tvessentials.installer:99367dfe: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:08:41.756  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:08:41.766  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:08:41.772  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:08:41.773  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:08:41.773  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:08:41.976  4522  4534 I OpenGLRenderer: Davey! duration=1193ms; Flags=0, FrameTimelineVsyncId=9840, IntendedVsync=306391830948, Vsync=307158497584, InputEventId=0, HandleInputStart=307161661089, AnimationStart=307161665756, PerformTraversalsStart=307332129632, DrawStart=307333191044, FrameDeadline=307058497588, FrameInterval=307159341566, FrameStartTime=16666666, SyncQueued=307359126986, SyncStart=307359158569, IssueDrawCommandsStart=307359299088, SwapBuffers=307401828271, FrameCompleted=307585673962, DequeueBufferDuration=10157, QueueBufferDuration=1188917, GpuCompleted=307585673962, SwapBuffersCompleted=307574301351, DisplayPresentTime=-71162243697136305, CommandSubmissionCompleted=307401828271, 
+10-12 15:08:42.246  4905  4908 I AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+10-12 15:08:42.246  4905  4908 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+10-12 15:08:42.274  4905  4908 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+10-12 15:08:42.461   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:42.829  4522  4600 D UiDevice: Pressing keycodes [20] with modifier 0.
+10-12 15:08:42.879   376  4536 D audioserver: FGS Logger Transaction failed
+10-12 15:08:42.880   376  4536 D audioserver: -129
+10-12 15:08:42.884   376   471 D AudioFlinger: mixer(0xeda49e20) throttle end: throttle time(37)
+10-12 15:08:42.908  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:08:43.043   376   471 D audioserver: FGS Logger Transaction failed
+10-12 15:08:43.046   376   471 D audioserver: -129
+10-12 15:08:43.131  4522  4630 D EGL_emulation: app_time_stats: avg=434.46ms min=298.04ms max=570.60ms count=4
+10-12 15:08:43.332  3962  4409 I IPCThreadState: oneway function results for code 2 on binder at 0xf1ef3b90 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-12 15:08:43.354  3940  4356 I IPCThreadState: oneway function results for code 2 on binder at 0xd69003f0 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-12 15:08:43.406  3940  4346 I IPCThreadState: oneway function results for code 2 on binder at 0xf1ef5870 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-12 15:08:43.463  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:43.720  4522  4600 D UiDevice: Pressing keycodes [23] with modifier 0.
+10-12 15:08:43.760   376  4536 D audioserver: FGS Logger Transaction failed
+10-12 15:08:43.761   376  4536 D audioserver: -129
+10-12 15:08:43.777  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E']].
+10-12 15:08:43.777  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:43.791   376   471 D AudioFlinger: mixer(0xeda49e20) throttle end: throttle time(35)
+10-12 15:08:43.850  4522  4522 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-12 15:08:43.850  4522  4522 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-12 15:08:43.995   376   471 D audioserver: FGS Logger Transaction failed
+10-12 15:08:43.995   376   471 D audioserver: -129
+10-12 15:08:44.277  4522  4630 D EGL_emulation: app_time_stats: avg=381.03ms min=152.04ms max=768.48ms count=3
+10-12 15:08:44.342  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@b247; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:44.347  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:44.377  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@b247; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:44.382  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:44.504  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:44.510   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:44.551  4522  4600 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_details_nuvio.png
+10-12 15:08:44.665  4939  4939 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:08:44.672  1133  1816 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:08:44.675  4939  4939 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:08:44.696   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:08:44.697  4939  4943 I Gralloc4: mapper 4.x is not supported
+10-12 15:08:44.800  3672  4825 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:08:44.834  3672  4825 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:08:45.252   484  2685 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:08:45.269   484   505 I ActivityManager: Broadcast completed: result=0
+10-12 15:08:45.269  3712  4247 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:08:45.269  3712  4247 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:08:45.285  1133  1728 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:08:45.288  3672  3725 E IPCThreadState: Binder transaction failure: 273725/29201/-28
+10-12 15:08:45.288  3672  3725 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:08:45.289  3672  3725 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:08:45.289  3672  3725 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:45.289  3672  3725 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:08:45.315  1133  1728 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:08:45.333  4522  4600 D UiDevice: Pressing back button.
+10-12 15:08:45.368  3672  4759 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:08:45.372  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onKeyDown():2481 Received KEYCODE_BACK. isAllViewsInvisible=false
+10-12 15:08:45.382  3672  4732 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:08:45.810  4522  4630 D EGL_emulation: app_time_stats: avg=758.69ms min=177.88ms max=1339.49ms count=2
+10-12 15:08:45.954  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 15:08:45.954  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:08:46.049  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c588; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1048, 159 - 1824, 600); boundsInWindow: Rect(1048, 159 - 1824, 600); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.050  4522  4600 W ByMatcher: Skipping null child (6 of 19)
+10-12 15:08:46.064  4522  4600 W ByMatcher: Skipping null child (7 of 19)
+10-12 15:08:46.073  4522  4600 W ByMatcher: Skipping null child (8 of 19)
+10-12 15:08:46.075  4522  4600 W ByMatcher: Skipping null child (9 of 19)
+10-12 15:08:46.076  4522  4600 W ByMatcher: Skipping null child (10 of 19)
+10-12 15:08:46.079  4522  4600 W ByMatcher: Skipping null child (11 of 19)
+10-12 15:08:46.081  4522  4600 W ByMatcher: Skipping null child (12 of 19)
+10-12 15:08:46.083  4522  4600 W ByMatcher: Skipping null child (13 of 19)
+10-12 15:08:46.086  4522  4600 W ByMatcher: Skipping null child (14 of 19)
+10-12 15:08:46.087  4522  4600 W ByMatcher: Skipping null child (15 of 19)
+10-12 15:08:46.088  4522  4600 W ByMatcher: Skipping null child (16 of 19)
+10-12 15:08:46.089  4522  4600 W ByMatcher: Skipping null child (17 of 19)
+10-12 15:08:46.091  4522  4600 W ByMatcher: Skipping null child (18 of 19)
+10-12 15:08:46.094  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c262; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.094  4522  4600 W ByMatcher: Skipping null child (9 of 11)
+10-12 15:08:46.097  4522  4600 W ByMatcher: Skipping null child (10 of 11)
+10-12 15:08:46.105  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c588; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1048, 159 - 1824, 600); boundsInWindow: Rect(1048, 159 - 1824, 600); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.105  4522  4600 W ByMatcher: Skipping null child (6 of 19)
+10-12 15:08:46.107  4522  4600 W ByMatcher: Skipping null child (7 of 19)
+10-12 15:08:46.108  4522  4600 W ByMatcher: Skipping null child (8 of 19)
+10-12 15:08:46.109  4522  4600 W ByMatcher: Skipping null child (9 of 19)
+10-12 15:08:46.111  4522  4600 W ByMatcher: Skipping null child (10 of 19)
+10-12 15:08:46.112  4522  4600 W ByMatcher: Skipping null child (11 of 19)
+10-12 15:08:46.113  4522  4600 W ByMatcher: Skipping null child (12 of 19)
+10-12 15:08:46.115  4522  4600 W ByMatcher: Skipping null child (13 of 19)
+10-12 15:08:46.116  4522  4600 W ByMatcher: Skipping null child (14 of 19)
+10-12 15:08:46.119  4522  4600 W ByMatcher: Skipping null child (15 of 19)
+10-12 15:08:46.121  4522  4600 W ByMatcher: Skipping null child (16 of 19)
+10-12 15:08:46.122  4522  4600 W ByMatcher: Skipping null child (17 of 19)
+10-12 15:08:46.124  4522  4600 W ByMatcher: Skipping null child (18 of 19)
+10-12 15:08:46.126  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c262; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.126  4522  4600 W ByMatcher: Skipping null child (9 of 11)
+10-12 15:08:46.127  4522  4600 W ByMatcher: Skipping null child (10 of 11)
+10-12 15:08:46.231  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:08:46.240  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c588; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1048, 159 - 1824, 600); boundsInWindow: Rect(1048, 159 - 1824, 600); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.241  4522  4600 W ByMatcher: Skipping null child (6 of 19)
+10-12 15:08:46.243  4522  4600 W ByMatcher: Skipping null child (7 of 19)
+10-12 15:08:46.246  4522  4600 W ByMatcher: Skipping null child (8 of 19)
+10-12 15:08:46.247  4522  4600 W ByMatcher: Skipping null child (9 of 19)
+10-12 15:08:46.248  4522  4600 W ByMatcher: Skipping null child (10 of 19)
+10-12 15:08:46.249  4522  4600 W ByMatcher: Skipping null child (11 of 19)
+10-12 15:08:46.250  4522  4600 W ByMatcher: Skipping null child (12 of 19)
+10-12 15:08:46.251  4522  4600 W ByMatcher: Skipping null child (13 of 19)
+10-12 15:08:46.253  4522  4600 W ByMatcher: Skipping null child (14 of 19)
+10-12 15:08:46.254  4522  4600 W ByMatcher: Skipping null child (15 of 19)
+10-12 15:08:46.255  4522  4600 W ByMatcher: Skipping null child (16 of 19)
+10-12 15:08:46.256  4522  4600 W ByMatcher: Skipping null child (17 of 19)
+10-12 15:08:46.258  4522  4600 W ByMatcher: Skipping null child (18 of 19)
+10-12 15:08:46.260  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c262; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.260  4522  4600 W ByMatcher: Skipping null child (9 of 11)
+10-12 15:08:46.261  4522  4600 W ByMatcher: Skipping null child (10 of 11)
+10-12 15:08:46.265  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c588; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1048, 159 - 1824, 600); boundsInWindow: Rect(1048, 159 - 1824, 600); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.265  4522  4600 W ByMatcher: Skipping null child (6 of 19)
+10-12 15:08:46.269  4522  4600 W ByMatcher: Skipping null child (7 of 19)
+10-12 15:08:46.270  4522  4600 W ByMatcher: Skipping null child (8 of 19)
+10-12 15:08:46.272  4522  4600 W ByMatcher: Skipping null child (9 of 19)
+10-12 15:08:46.273  4522  4600 W ByMatcher: Skipping null child (10 of 19)
+10-12 15:08:46.278  4522  4600 W ByMatcher: Skipping null child (11 of 19)
+10-12 15:08:46.280  4522  4600 W ByMatcher: Skipping null child (12 of 19)
+10-12 15:08:46.281  4522  4600 W ByMatcher: Skipping null child (13 of 19)
+10-12 15:08:46.282  4522  4600 W ByMatcher: Skipping null child (14 of 19)
+10-12 15:08:46.288  4522  4600 W ByMatcher: Skipping null child (15 of 19)
+10-12 15:08:46.290  4522  4600 W ByMatcher: Skipping null child (16 of 19)
+10-12 15:08:46.293  4522  4600 W ByMatcher: Skipping null child (17 of 19)
+10-12 15:08:46.295  4522  4600 W ByMatcher: Skipping null child (18 of 19)
+10-12 15:08:46.298  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c262; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.298  4522  4600 W ByMatcher: Skipping null child (9 of 11)
+10-12 15:08:46.300  4522  4600 W ByMatcher: Skipping null child (10 of 11)
+10-12 15:08:46.401  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:08:46.409  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c588; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1048, 159 - 1824, 600); boundsInWindow: Rect(1048, 159 - 1824, 600); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.410  4522  4600 W ByMatcher: Skipping null child (6 of 19)
+10-12 15:08:46.413  4522  4600 W ByMatcher: Skipping null child (7 of 19)
+10-12 15:08:46.414  4522  4600 W ByMatcher: Skipping null child (8 of 19)
+10-12 15:08:46.416  4522  4600 W ByMatcher: Skipping null child (9 of 19)
+10-12 15:08:46.417  4522  4600 W ByMatcher: Skipping null child (10 of 19)
+10-12 15:08:46.418  4522  4600 W ByMatcher: Skipping null child (11 of 19)
+10-12 15:08:46.419  4522  4600 W ByMatcher: Skipping null child (12 of 19)
+10-12 15:08:46.421  4522  4600 W ByMatcher: Skipping null child (13 of 19)
+10-12 15:08:46.422  4522  4600 W ByMatcher: Skipping null child (14 of 19)
+10-12 15:08:46.423  4522  4600 W ByMatcher: Skipping null child (15 of 19)
+10-12 15:08:46.425  4522  4600 W ByMatcher: Skipping null child (16 of 19)
+10-12 15:08:46.426  4522  4600 W ByMatcher: Skipping null child (17 of 19)
+10-12 15:08:46.427  4522  4600 W ByMatcher: Skipping null child (18 of 19)
+10-12 15:08:46.428  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c262; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.429  4522  4600 W ByMatcher: Skipping null child (9 of 11)
+10-12 15:08:46.430  4522  4600 W ByMatcher: Skipping null child (10 of 11)
+10-12 15:08:46.434  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c588; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(1048, 159 - 1824, 600); boundsInWindow: Rect(1048, 159 - 1824, 600); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.434  4522  4600 W ByMatcher: Skipping null child (6 of 19)
+10-12 15:08:46.436  4522  4600 W ByMatcher: Skipping null child (7 of 19)
+10-12 15:08:46.437  4522  4600 W ByMatcher: Skipping null child (8 of 19)
+10-12 15:08:46.439  4522  4600 W ByMatcher: Skipping null child (9 of 19)
+10-12 15:08:46.440  4522  4600 W ByMatcher: Skipping null child (10 of 19)
+10-12 15:08:46.441  4522  4600 W ByMatcher: Skipping null child (11 of 19)
+10-12 15:08:46.442  4522  4600 W ByMatcher: Skipping null child (12 of 19)
+10-12 15:08:46.444  4522  4600 W ByMatcher: Skipping null child (13 of 19)
+10-12 15:08:46.445  4522  4600 W ByMatcher: Skipping null child (14 of 19)
+10-12 15:08:46.446  4522  4600 W ByMatcher: Skipping null child (15 of 19)
+10-12 15:08:46.447  4522  4600 W ByMatcher: Skipping null child (16 of 19)
+10-12 15:08:46.448  4522  4600 W ByMatcher: Skipping null child (17 of 19)
+10-12 15:08:46.449  4522  4600 W ByMatcher: Skipping null child (18 of 19)
+10-12 15:08:46.457  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@c262; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:46.457  4522  4600 W ByMatcher: Skipping null child (9 of 11)
+10-12 15:08:46.459  4522  4600 W ByMatcher: Skipping null child (10 of 11)
+10-12 15:08:46.560  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:08:46.577   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:46.584  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:08:46.643  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:46.862   327  1766 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1188096
+10-12 15:08:46.882  4522  4600 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 15:08:46.915   376  4536 D audioserver: FGS Logger Transaction failed
+10-12 15:08:46.916   376  4536 D audioserver: -129
+10-12 15:08:47.126  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:08:47.132   376   471 D audioserver: FGS Logger Transaction failed
+10-12 15:08:47.132   376   471 D audioserver: -129
+10-12 15:08:47.147  4522  4630 D EGL_emulation: app_time_stats: avg=668.00ms min=231.95ms max=1104.05ms count=2
+10-12 15:08:47.254  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:47.813  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:08:47.829  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:48.244  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:08:48.260  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:48.664  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 15:08:48.676   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:48.751  4522  4600 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:48.978  4522  4600 D UiDevice: Pressing menu button.
+10-12 15:08:49.066  4522  4522 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-12 15:08:49.066  4522  4522 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-12 15:08:49.294  4522  4630 D EGL_emulation: app_time_stats: avg=1073.31ms min=301.13ms max=1845.49ms count=2
+10-12 15:08:49.403  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E']].
+10-12 15:08:49.404  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:49.699  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:49.699  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:49.721  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:49.721  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:49.827  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:49.835  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:49.835  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:49.842  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:49.842  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:49.947  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:49.955  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:49.955  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:49.961  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:49.962  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:49.966   327  1766 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1332800
+10-12 15:08:50.066  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:50.073  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:50.073  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:50.079  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:50.079  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:50.183  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:50.191  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:50.191  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:50.197  4522  4600 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@ca22; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 15:08:50.197  4522  4600 W ByMatcher: Skipping null child (9 of 16)
+10-12 15:08:50.301  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QLatest verified version\E'].
+10-12 15:08:50.311  3712  4247 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:08:50.312  3712  4247 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:08:50.322  3672  3725 E IPCThreadState: Binder transaction failure: 278650/29201/-28
+10-12 15:08:50.322  3672  3725 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:08:50.323  3672  3725 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:08:50.323  3672  3725 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:50.323  3672  3725 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:08:50.340  1133  1358 D PickerSyncController: syncAllMedia
+10-12 15:08:50.340  1133  1358 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 15:08:50.340  1133  1358 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 15:08:50.342  1133  1358 D PickerSyncController:    Latest ID/Gen=1407:ab6779f9-cdb8-4a00-930a-608c70798e2a:external_primary/35
+10-12 15:08:50.342  1133  1358 D PickerSyncController:    Cached ID/Gen=1407:ab6779f9-cdb8-4a00-930a-608c70798e2a:external_primary/27
+10-12 15:08:50.342  1133  1358 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=27, latest=Bundle[{last_media_sync_generation=35, media_collection_id=1407:ab6779f9-cdb8-4a00-930a-608c70798e2a:external_primary}]}
+10-12 15:08:50.342  1133  1358 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:08:50.345  1133  1358 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=27}]. Result count: 1. Cursor count: 1
+10-12 15:08:50.345  1133  1358 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 15:08:50.346  4522  4600 D UiDevice: Pressing back button.
+10-12 15:08:50.346  1133  1358 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=27}]. Result count: 0. Cursor count: 0
+10-12 15:08:50.347  1133  1358 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 15:08:50.347  1133  1358 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 15:08:50.347  1133  1358 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 15:08:50.347  1133  1358 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 15:08:50.348  1133  1358 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 15:08:50.348  1133  1358 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 15:08:50.348  1133  1358 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 15:08:50.348  1133  1358 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 15:08:50.349  1133  1358 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 15:08:50.349  1133  1358 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 15:08:50.365  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onKeyDown():2481 Received KEYCODE_BACK. isAllViewsInvisible=false
+10-12 15:08:50.756  4522  4630 D EGL_emulation: app_time_stats: avg=485.90ms min=154.07ms max=1091.30ms count=3
+10-12 15:08:50.908   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:51.071  4522  4600 D UiDevice: Pressing home button.
+10-12 15:08:51.196   778   778 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:08:51.201   484   506 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:08:51.311   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:08:51.315  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c725179 in: PAUSED
+10-12 15:08:51.432  3940  3940 I Finsky  : [2] SCH: job service start with id 9159.
+10-12 15:08:51.444  1373  1373 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:08:51.444  1373  1373 W HomeController: onResume: List view global layout completed.
+10-12 15:08:51.467  4522  4600 I TestRunner: finished: detailsOpensFromTheDetailsLinkAndFromTheMenuKey(app.tvessentials.installer.LauncherUiTest)

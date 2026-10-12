@@ -1,0 +1,120 @@
+10-12 15:08:51.870  4522  4600 I TestRunner: started: homeShowsHeroAndAllThreeCards(app.tvessentials.installer.LauncherUiTest)
+10-12 15:08:51.940  3940  4058 I Finsky  : [54] SCH: Scheduling phonesky job Id: 1-1337, CT: 1791817639775, Constraints: [{ L: 23784995, D: 66984995, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 15:08:51.940  3940  4058 I Finsky  : [54] SCH: Scheduling phonesky job Id: 10-4, CT: 1791817639097, Constraints: [{ L: 1200000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 15:08:51.940  3940  4058 I Finsky  : [54] SCH: Scheduling phonesky job Id: 10-11, CT: 1791817639097, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 15:08:51.940  3940  4058 I Finsky  : [54] SCH: Scheduling phonesky job Id: 10-26, CT: 1791817639126, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 15:08:51.941  3940  4058 I Finsky  : [54] SCH: Scheduling phonesky job Id: 10-93, CT: 1791817639128, Constraints: [{ L: 300000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 15:08:51.941  3940  4058 I Finsky  : [54] SCH: Scheduling phonesky job Id: 10-123, CT: 1791817639128, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 15:08:51.987   484  1964 I ImeTracker: com.google.android.tvlauncher:549865b1: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:08:51.987   484  1964 I ImeTracker: com.google.android.tvlauncher:549865b1: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:08:51.991  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:08:51.998  3940  4002 I Finsky  : [52] SCH: Scheduling 1 system job(s)
+10-12 15:08:52.002  3940  4002 I Finsky  : [52] SCH: Scheduling system job Id: 9166, L: 207130, D: 66892772, C: false, I: false, N: 1
+10-12 15:08:52.003  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:08:52.004  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:08:52.007  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:08:52.011  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:08:52.050   484   715 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:52.082  3940  4951 I Finsky  : [190] SCH: job service finished with id 9159.
+10-12 15:08:52.394  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c725179 in: DESTROYED
+10-12 15:08:52.408  4522  4522 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@a72eead
+10-12 15:08:52.438  4522  4529 I tials.installer: Background young concurrent copying GC freed 130458(4775KB) AllocSpace objects, 0(0B) LOS objects, 37% free, 8175KB/12MB, paused 23.652ms,44us total 452.021ms
+10-12 15:08:52.470   484  1964 W InputManager-JNI: Input channel object '5894e91 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 15:08:52.511  4522  4600 D UiDevice: Pressing home button.
+10-12 15:08:52.662  4522  4522 I Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+10-12 15:08:52.711   484   506 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:08:52.740   778   778 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:08:52.834  1373  1486 D EGL_emulation: app_time_stats: avg=90.92ms min=19.71ms max=190.47ms count=13
+10-12 15:08:52.871  1373  1373 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:08:52.933   484  1466 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:08:52.965  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:08:52.985  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:53.121   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:53.181   484   484 I ResourceTimer: GetResourceValue count=3613 pvalues=3000,15000,22000,81000
+10-12 15:08:53.206   484   484 I ResourceTimer: RetrieveAttributes count=8337 pvalues=1000,2000,5000,19000
+10-12 15:08:53.214   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:08:53.240  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@d473777 in: PRE_ON_CREATE
+10-12 15:08:53.411  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@d473777 in: CREATED
+10-12 15:08:53.423  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@d473777 in: STARTED
+10-12 15:08:53.459   484   553 D ConnectivityService: requestNetwork for uid/pid:10122/4522 activeRequest: null callbackRequest: 99 [NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 15:08:53.469   484   715 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:53.469   484   715 D EthernetNetworkFactory: IpClient already started
+10-12 15:08:53.470   484   708 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:53.470   484   708 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:53.484   484   716 D ConnectivityService: NetReassign [100 : null → 100] [c 0] [a 1] [i 16]
+10-12 15:08:53.485   484   708 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 15:08:53.601  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@d473777 in: RESUMED
+10-12 15:08:53.653   780   800 W ssioncontroller: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Katniss/Katniss.apk' with 1 weak references
+10-12 15:08:54.146  4522  4765 I OpenGLRenderer: Davey! duration=731ms; Flags=1, FrameTimelineVsyncId=10773, IntendedVsync=319025163776, Vsync=319308497098, InputEventId=0, HandleInputStart=319328318409, AnimationStart=319328324116, PerformTraversalsStart=319328328250, DrawStart=319546166255, FrameDeadline=319041830442, FrameInterval=319323097979, FrameStartTime=16666666, SyncQueued=319571406460, SyncStart=319573737419, IssueDrawCommandsStart=319573973217, SwapBuffers=319580430017, FrameCompleted=319758644863, DequeueBufferDuration=12165, QueueBufferDuration=554832, GpuCompleted=319758644863, SwapBuffersCompleted=319752443363, DisplayPresentTime=0, CommandSubmissionCompleted=319580430017, 
+10-12 15:08:54.175   484   505 W ziparchive: Unable to open '/data/app/~~CHYhQ3sHiwfX2dzhqrVzlQ==/app.tvessentials.installer-fhrJuWJCV-QAEWojU_bs4g==/base.dm': No such file or directory
+10-12 15:08:54.202   484   505 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +1s243ms
+10-12 15:08:54.267  4522  4522 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+10-12 15:08:54.411   484  1618 I ImeTracker: app.tvessentials.installer:f4746e4b: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:08:54.411   484  1618 I ImeTracker: app.tvessentials.installer:f4746e4b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:08:54.416  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:08:54.423  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 15:08:54.423  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 15:08:54.423  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 15:08:54.431  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 15:08:54.692  4522  4765 I OpenGLRenderer: Davey! duration=933ms; Flags=0, FrameTimelineVsyncId=10829, IntendedVsync=319358497096, Vsync=319875163742, InputEventId=0, HandleInputStart=319889945502, AnimationStart=319889950618, PerformTraversalsStart=319992055281, DrawStart=319995705856, FrameDeadline=319791830412, FrameInterval=319885352284, FrameStartTime=16666666, SyncQueued=320021284632, SyncStart=320021876824, IssueDrawCommandsStart=320022039538, SwapBuffers=320046584424, FrameCompleted=320292572094, DequeueBufferDuration=13212, QueueBufferDuration=10016000, GpuCompleted=320292572094, SwapBuffersCompleted=320276478842, DisplayPresentTime=0, CommandSubmissionCompleted=320046584424, 
+10-12 15:08:55.429  3712  4247 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 15:08:55.487  3712  4247 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 15:08:55.522  3672  3725 E IPCThreadState: Binder transaction failure: 280836/29201/-28
+10-12 15:08:55.546  3672  3725 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 15:08:55.551  3672  3725 W GmsClient: IGmsServiceBroker.getService failed
+10-12 15:08:55.551  3672  3725 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 15:08:55.551  3672  3725 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 15:08:55.719  4522  4630 D EGL_emulation: app_time_stats: avg=315.62ms min=222.47ms max=523.98ms count=5
+10-12 15:08:55.743  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 15:08:55.744  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 15:08:55.751   780   780 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 15:08:56.048  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QInstall and keep your favourite TV apps up to date.\E']].
+10-12 15:08:56.049  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QInstall and keep your favourite TV apps up to date.\E'].
+10-12 15:08:56.055  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E']].
+10-12 15:08:56.055  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E'].
+10-12 15:08:56.117  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:08:56.117  4522  4600 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:56.124  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:08:56.124  4522  4600 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:56.130  4522  4600 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 15:08:56.130  4522  4600 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 15:08:56.137  4522  4600 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='^\Qv1.\E.*$'].
+10-12 15:08:56.149  4522  4600 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_home.png
+10-12 15:08:56.248  4958  4958 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 15:08:56.252  1133  1816 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 15:08:56.255  4958  4958 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 15:08:56.273   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 15:08:56.274  4958  4961 I Gralloc4: mapper 4.x is not supported
+10-12 15:08:56.363  3672  4962 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:08:56.382  3672  4732 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:08:57.131   484  1964 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 15:08:57.147   484   505 I ActivityManager: Broadcast completed: result=0
+10-12 15:08:57.150  1133  1728 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:08:57.186  1133  1728 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 15:08:57.202  4522  4600 D UiDevice: Pressing home button.
+10-12 15:08:57.251   484   506 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 15:08:57.271   778   778 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 15:08:57.305   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 15:08:57.339  4522  4522 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@d473777 in: PAUSED
+10-12 15:08:57.339  3672  4963 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:08:57.384  3672  4962 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 15:08:57.398  3940  3954 W android.vending: Suspending all threads took: 9.655ms
+10-12 15:08:57.457  1373  1373 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 15:08:57.457  1373  1373 W HomeController: onResume: List view global layout completed.
+10-12 15:08:57.536  3672  4963 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 15:08:57.676  1373  1373 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 15:08:57.937   484  1964 I ImeTracker: com.google.android.tvlauncher:be0a4e5: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 15:08:57.940   484  1964 I ImeTracker: com.google.android.tvlauncher:be0a4e5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 15:08:57.974  1029  1029 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 15:08:57.978  4522  4600 I TestRunner: finished: homeShowsHeroAndAllThreeCards(app.tvessentials.installer.LauncherUiTest)
