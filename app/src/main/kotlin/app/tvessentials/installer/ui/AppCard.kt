@@ -152,10 +152,10 @@ private fun CardBody(ui: AppCardUi, c: CardModel) {
             TvText(if (c.kind == CardKind.VERIFYING) "Checking the publisher's signature" else "Confirm in the Android window", type.caption, color = Palette.TextSecondary, maxLines = 1)
         }
         CardKind.READY_TO_INSTALL -> {
-            StatusPill("Download complete", Palette.Success)
+            if (c.afterCancel) StatusPill(UiText.statusLabel(c), Palette.Warning) else StatusPill("Download complete", Palette.Success)
             Spacer(Modifier.height(d.dp(6)))
-            TvText("Ready to install", type.bodyStrong, maxLines = 1)
-            TvText("Press Select to continue", type.caption, color = Palette.TextSecondary, maxLines = 1)
+            TvText(if (c.afterCancel) "Nothing was installed" else "Ready to install", type.bodyStrong, maxLines = 1)
+            TvText(if (c.afterCancel) "Press Select to continue; no new download" else "Press Select to continue", type.caption, color = Palette.TextSecondary, maxLines = 1)
         }
         CardKind.DOWNLOAD_FAILED, CardKind.INSTALL_FAILED, CardKind.SOURCE_UNAVAILABLE, CardKind.SIGNER_MISMATCH,
         CardKind.UNSUPPORTED_DEVICE, CardKind.NEEDS_PERMISSION, CardKind.GUIDED_ONLY -> {

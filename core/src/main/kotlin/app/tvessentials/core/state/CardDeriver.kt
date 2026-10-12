@@ -50,7 +50,7 @@ object CardDeriver {
                 error = p.error, secondary = guideIfAvailable(s),
             )
             is Phase.Verifying -> return model(CardKind.VERIFYING, CardAction.NONE, enabled = false)
-            is Phase.ReadyToInstall -> return model(CardKind.READY_TO_INSTALL, CardAction.INSTALL_NOW)
+            is Phase.ReadyToInstall -> return model(CardKind.READY_TO_INSTALL, CardAction.INSTALL_NOW).copy(afterCancel = p.afterCancel)
             is Phase.Installing -> return model(CardKind.INSTALLING, CardAction.NONE, enabled = false)
             is Phase.NeedsInstallPermission -> return model(CardKind.NEEDS_PERMISSION, CardAction.OPEN_INSTALL_SETTINGS, error = ErrorKind.PERMISSION_DENIED)
             is Phase.Failed -> return model(

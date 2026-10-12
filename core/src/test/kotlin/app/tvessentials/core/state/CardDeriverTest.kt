@@ -130,6 +130,8 @@ class CardDeriverTest {
     @Test fun `ready to install exposes the install button, and installing disables it`() {
         val staged = StagedApk(File("x.apk"), release(), ArchiveInfo("com.nuvio.tv", "1.0.0", 1062, 24, setOf(signer)), "ab")
         assertEquals(CardAction.INSTALL_NOW, card(state(release = release(), phase = Phase.ReadyToInstall(staged))).primary)
+        assertFalse(card(state(release = release(), phase = Phase.ReadyToInstall(staged))).afterCancel)
+        assertTrue(card(state(release = release(), phase = Phase.ReadyToInstall(staged, afterCancel = true))).afterCancel)
         val installing = card(state(release = release(), phase = Phase.Installing))
         assertEquals(CardKind.INSTALLING, installing.kind); assertFalse(installing.primaryEnabled)
         assertEquals(CardKind.VERIFYING, card(state(release = release(), phase = Phase.Verifying)).kind)

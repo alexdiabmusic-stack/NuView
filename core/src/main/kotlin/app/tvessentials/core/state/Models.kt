@@ -144,4 +144,6 @@ data class CardModel(
     val busyChecking: Boolean,
     /** The shown release data is cached and the last refresh failed. */
     val stale: Boolean,
+    /** The download is verified and waiting because the person declined Android's confirmation; nothing was installed. */
+    val afterCancel: Boolean = false,
 )

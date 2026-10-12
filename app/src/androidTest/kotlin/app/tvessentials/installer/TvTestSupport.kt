@@ -37,9 +37,21 @@ class TvDriver {
 
     fun hasText(text: String, timeoutMs: Long = 20_000) = device.wait(Until.hasObject(By.pkg(pkg).text(text)), timeoutMs)
 
-    /** Description (or text) of whichever focused node has one; the host view can be flagged focused too and has neither. */
+    /**
+     * Label of the focused element, retried for up to [timeoutMs] because the tree is briefly inconsistent while focus moves
+     * (an element is exposed as focused a frame before its label node is). Null only if nothing labelled is focused for the whole time.
+     */
     fun focusedDescription(timeoutMs: Long = 5_000): String? {
-        device.wait(Until.hasObject(By.pkg(pkg).focused(true)), timeoutMs)
+        val end = System.currentTimeMillis() + timeoutMs
+        do {
+            runCatching { focusedDescriptionOnce() }.getOrNull()?.let { return it }
+            Thread.sleep(120)
+        } while (System.currentTimeMillis() < end)
+        return null
+    }
+
+    /** Description (or text) of whichever focused node has one; the host view can be flagged focused too and has neither. */
+    private fun focusedDescriptionOnce(): String? {
         val focused = device.findObjects(By.pkg(pkg).focused(true))
         focused.firstNotNullOfOrNull { it.contentDescription ?: it.text }?.let { return it }
         // Compose exposes a card as a focusable box plus a sibling node that carries its label (a screen reader merges

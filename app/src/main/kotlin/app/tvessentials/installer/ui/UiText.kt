@@ -22,7 +22,7 @@ object UiText {
     const val INDEPENDENCE_NOTE =
         "TV Essentials is an independent installer. It is not affiliated with, endorsed by, or sponsored by the publishers of the apps it lists."
 
-    fun statusLabel(c: CardModel, afterCancel: Boolean = false): String = when (c.kind) {
+    fun statusLabel(c: CardModel): String = when (c.kind) {
         CardKind.CHECKING -> "Checking…"
         CardKind.INSTALL_AVAILABLE -> "Not installed"
         CardKind.GUIDED_ONLY -> "Not installed"
@@ -30,7 +30,7 @@ object UiText {
         CardKind.DOWNLOAD_PAUSED -> "Download paused"
         CardKind.DOWNLOAD_FAILED -> "Download interrupted"
         CardKind.VERIFYING -> "Verifying download"
-        CardKind.READY_TO_INSTALL -> if (afterCancel) "Installation cancelled" else "Ready to install"
+        CardKind.READY_TO_INSTALL -> if (c.afterCancel) "Installation cancelled" else "Ready to install"
         CardKind.INSTALLING -> "Installing"
         CardKind.NEEDS_PERMISSION -> "Permission needed"
         CardKind.INSTALL_FAILED -> c.error?.let { errorTitle(it) } ?: "Installation failed"

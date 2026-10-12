@@ -157,6 +157,7 @@ class InstallManagerTest {
         val s = h.awaitState(what = "ready after cancel") { (it.phase as? Phase.ReadyToInstall)?.afterCancel == true }
         assertEquals(CardKind.READY_TO_INSTALL, h.card().kind)
         assertEquals(CardAction.INSTALL_NOW, h.card().primary)
+        assertTrue(h.card().afterCancel, "the card says the installation was cancelled")
         assertNull(s.installed)
         assertFalse(h.history.any { it.phase is Phase.Succeeded })
         val before = h.requests
