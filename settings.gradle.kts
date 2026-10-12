@@ -31,5 +31,4 @@ dependencyResolutionManagement {
 rootProject.name = "TvEssentials"
 
 include(":core")
-include(":ui-preview")
 include(":app")

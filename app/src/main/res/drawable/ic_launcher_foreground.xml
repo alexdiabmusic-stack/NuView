@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Same mark as scripts/make-brand-assets.py: an arrow landing in a tray on the brand gradient. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M42,29 H66 A13,13 0 0 1 79,42 V66 A13,13 0 0 1 66,79 H42 A13,13 0 0 1 29,66 V42 A13,13 0 0 1 42,29 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="79"
+                android:endY="79"
+                android:startX="29"
+                android:startY="29"
+                android:type="linear">
+                <item android:color="#FF5B7CFF" android:offset="0" />
+                <item android:color="#FF2DD4BF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M54,43.5 L54,56.5 M47.8,51.5 L54,57.7 L60.2,51.5 M44.7,60.2 L44.7,63.3 L63.3,63.3 L63.3,60.2"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.3" />
+</vector>

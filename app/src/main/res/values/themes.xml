@@ -1,0 +1,10 @@
+<resources>
+    <!-- Dark from the very first frame, so there is no white flash before the UI draws. -->
+    <style name="Theme.TvEssentials" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
