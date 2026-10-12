@@ -1,0 +1,98 @@
+# android | run 13 | sha cbccc92c7e5e7bc9a67e4ba6c9e66cfd55922b20 | 2026-10-12T14:44:48Z
+## errors and key lines
+80:BUILD SUCCESSFUL in 27s
+
+## tail
+Starting a Gradle Daemon (subsequent builds will be faster)
+Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugResources FROM-CACHE
+> Task :app:packageDebugResources FROM-CACHE
+> Task :core:compileKotlin FROM-CACHE
+> Task :core:compileJava NO-SOURCE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :app:processDebugNavigationResources FROM-CACHE
+> Task :app:parseDebugLocalResources FROM-CACHE
+> Task :app:generateDebugRFile FROM-CACHE
+> Task :app:compileDebugKotlin FROM-CACHE
+> Task :app:javaPreCompileDebug FROM-CACHE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets FROM-CACHE
+> Task :app:generateDebugGlobalSynthetics FROM-CACHE
+> Task :app:processDebugJavaRes
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies FROM-CACHE
+> Task :app:mergeExtDexDebug FROM-CACHE
+> Task :app:mergeLibDexDebug FROM-CACHE
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:compileDebugNavigationResources FROM-CACHE
+> Task :app:mergeDebugResources FROM-CACHE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug FROM-CACHE
+> Task :app:processDebugMainManifest FROM-CACHE
+> Task :app:processDebugManifest FROM-CACHE
+> Task :app:processDebugManifestForPackage FROM-CACHE
+> Task :app:processDebugResources FROM-CACHE
+> Task :app:dexBuilderDebug FROM-CACHE
+> Task :app:mergeProjectDexDebug FROM-CACHE
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so. Run with --info option to learn more.
+
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:extractProguardFiles
+> Task :app:generateDebugLintReportModel
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:lintAnalyzeDebug FROM-CACHE
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:lintAnalyzeDebugUnitTest FROM-CACHE
+> Task :app:lintAnalyzeDebugAndroidTest
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///home/runner/work/NuView/NuView/app/build/reports/lint-results-debug.html
+Wrote SARIF report to file:///home/runner/work/NuView/NuView/app/build/reports/lint-results-debug.sarif
+
+> Task :app:lintDebug
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run-1791816262024.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/NuView/NuView/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 27s
+48 actionable tasks: 24 executed, 24 from cache
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.1/userguide/configuration_cache_enabling.html
+LINT SUMMARY: {'?': 10}
+ - note OldTargetApi | Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os. | app/build.gradle.kts
+ - note RedundantLabel | Redundant label can be removed | app/src/main/AndroidManifest.xml
+ - note DataExtractionRules | The attribute android:allowBackup is deprecated from Android 12 and higher and may be removed in future versions. Consider adding the attrib | app/src/main/AndroidManifest.xml
+ - note ObsoleteSdkInt | Unnecessary; SDK_INT is always >= 24 | in/kotlin/app/tvessentials/installer/platform/AndroidPackageGateway.kt
+ - note MonochromeLauncherIcon | The application adaptive icon is missing a monochrome tag | app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+ - note UseKtx | Use the KTX extension function String.toUri instead? | /kotlin/app/tvessentials/installer/platform/AndroidInstallerGateway.kt
+ - note UseKtx | Use the KTX extension function String.toUri instead? | in/kotlin/app/tvessentials/installer/platform/AndroidPackageGateway.kt
+ - note UseKtx | Use the KTX extension function Int.toDrawable instead? | app/src/main/kotlin/app/tvessentials/installer/MainActivity.kt
+ - note UseKtx | Use the KTX extension function String.toColorInt instead? | app/src/main/kotlin/app/tvessentials/installer/MainActivity.kt
+ - note UseKtx | Use the KTX extension function String.toUri instead? | app/src/main/kotlin/app/tvessentials/installer/MainViewModel.kt
