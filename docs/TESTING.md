@@ -54,7 +54,7 @@ Android TV system image, API 34, x86, 1080p profile, GitHub-hosted runner. UI Au
 | Header buttons reachable; Down returns to a card | pass |
 | Settings opens; Back restores focus to the Settings button | pass |
 | Details opens from the link and from the Menu key; Back restores focus | pass |
-| SmartTube details open from the Menu key and show the description and package | (updated after run 14; see the latest CI run) |
+| SmartTube details open from the Menu key and show the description and package | pass (run 15) |
 | iMPlayer card offers Install; guided route stays on its details screen | pass |
 | Back on the home screen leaves the app | pass |
 | Layout at 720p, 1080p, 1080p@320 dpi (960×540 dp), 1080p@240 dpi (1280×720 dp), 1080p with system text 1.3×, 720p with system text 2.0× (the app caps text at 1.3×, Android TV's own maximum) | pass – no clipped actions, screenshots reviewed |
@@ -62,6 +62,11 @@ Android TV system image, API 34, x86, 1080p profile, GitHub-hosted runner. UI Au
 
 In the install test it is the *test*, not the app, that taps the buttons on Android's confirmation screen, standing in for the person
 holding the remote. The app never presses them.
+
+**Known flake (environment, not product):** the live install test needs GitHub's *unauthenticated* API, which allows 60 requests per
+hour per IP, and CI runners share IPs. In run 15 the quota was already used up: the card correctly showed "Too many update checks"
+with Try Again, the other 16 tests passed, and the install test failed with a message saying exactly that. Run 14 had passed all 17.
+Re-running the job normally clears it. The app sends no credentials, so there is nothing to raise the limit for the test.
 
 ### 4. Not tested – please do not assume
 

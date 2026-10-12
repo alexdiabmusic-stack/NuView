@@ -96,9 +96,9 @@ class TvDriver {
         device.wait(Until.findObject(By.pkg(pkg).descStartsWith(name)), timeoutMs)
 
     /** True once the card named [name] describes itself with [fragment] (a selector may only carry one desc condition, so one regex). */
-    fun cardSays(name: String, fragment: String, timeoutMs: Long = 60_000): Boolean {
+    fun cardSays(name: String, fragment: String, timeoutMs: Long = 60_000, report: Boolean = true): Boolean {
         val ok = device.wait(Until.hasObject(By.pkg(pkg).desc(Pattern.compile("(?s)${Pattern.quote(name)}.*${Pattern.quote(fragment)}.*"))), timeoutMs)
-        if (!ok) { screenshot("card_never_said_${name}_${fragment}".replace(Regex("[^A-Za-z0-9_]"), "_")); diagnose("cardSays($name, $fragment)") }
+        if (!ok && report) { screenshot("card_never_said_${name}_${fragment}".replace(Regex("[^A-Za-z0-9_]"), "_")); diagnose("cardSays($name, $fragment)") }
         return ok
     }
 

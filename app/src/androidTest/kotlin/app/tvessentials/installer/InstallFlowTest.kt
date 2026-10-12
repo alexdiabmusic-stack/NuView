@@ -8,6 +8,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertTrue
+import org.junit.Assert.fail
 import org.junit.Assume.assumeTrue
 import org.junit.Before
 import org.junit.Test
@@ -41,7 +42,17 @@ class InstallFlowTest {
     }
 
     private fun waitForInstallable() {
-        assertTrue("SmartTube becomes installable once the release is known", tv.cardSays("SmartTube", "Not installed", 60_000) && tv.cardSays("SmartTube", "Latest 32.", 60_000))
+        val ready = tv.cardSays("SmartTube", "Not installed", 60_000, report = false) && tv.cardSays("SmartTube", "Latest 32.", 60_000, report = false)
+        if (!ready) {
+            val limited = tv.cardSays("SmartTube", "Too many update checks", 1_000, report = false)
+            tv.screenshot("smarttube_not_ready")
+            tv.diagnose("waitForInstallable")
+            fail(
+                if (limited) "GitHub's unauthenticated API rate limit was already used up on this shared CI runner. The app reported it correctly " +
+                    "('Too many update checks' with Try Again): an environment limit, not an app defect. Re-run the job."
+                else "SmartTube did not become installable once the release was known",
+            )
+        }
         tv.screenshot("smarttube_ready")
     }
 
