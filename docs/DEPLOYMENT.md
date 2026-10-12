@@ -84,8 +84,20 @@ With the repository **public**, GitHub serves these without any server of your o
 | A specific, immutable version | `https://github.com/<owner>/<repo>/releases/download/v<version>/TVEssentials-<version>.apk` |
 | Release list | `https://github.com/<owner>/<repo>/releases` |
 
-This repository is `alexdiabmusic-stack/nuview`; **no release has been published yet** (no tag was pushed and no signing key
-exists), so those URLs do not resolve until you complete steps 2–3.
+This repository is `alexdiabmusic-stack/NuView` (public). **No signed release exists yet** (no signing key has been created), so
+the three URLs above do not resolve until you complete steps 2–3.
+
+**Test build (exists now).** For trying the app before you have a signing key, the *Publish test build* workflow
+(*Actions → Publish test build → Run workflow*) builds the debug APK and publishes it as the pre-release `test-build`:
+
+| | |
+|---|---|
+| Fixed download link | `https://github.com/alexdiabmusic-stack/NuView/releases/download/test-build/TVEssentials-test.apk` |
+| Checksum / notes | `https://github.com/alexdiabmusic-stack/NuView/releases/tag/test-build` |
+
+It is signed with Android's public **debug** key, so it is for your own devices only. Because a later properly signed release uses
+a different key, Android will not update one over the other: uninstall the test build first when you switch. Each run replaces the
+file behind the same link.
 
 The stable name is the design point: the URL you put in front of people never changes, and old versions stay reachable by
 their versioned URL. If you later move off GitHub, keep the same two path shapes and put a redirect at the old location.
