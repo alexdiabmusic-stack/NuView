@@ -97,6 +97,29 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
 
+  live-sources:
+    name: Live official-source verification
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
+        with: { distribution: temurin, java-version: 17 }
+      - uses: gradle/actions/setup-gradle@v6
+        with: { add-job-summary: never }
+      - name: Resolve every app from its official source, download the real APKs, verify against the trust policy
+        run: ./gradlew :core:test -Ptve.live=true --tests '*LiveSourcesTest*' --console=plain -i 2>&1 | tee build.log
+      - name: Publish log
+        if: always()
+        env: { GITHUB_TOKEN: '${{ github.token }}' }
+        run: |
+          grep -E "^\s*LIVE|tests completed|BUILD|FAILED" build.log > live.log || true
+          .github/scripts/publish-log.sh live live.log
+
   emulator:
     name: Emulator E2E (Android TV, live install)
     runs-on: ubuntu-latest
