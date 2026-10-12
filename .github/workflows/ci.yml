@@ -131,6 +131,12 @@ jobs:
         with: { distribution: temurin, java-version: 17 }
       - uses: gradle/actions/setup-gradle@v6
         with: { add-job-summary: never }
+      - name: Free disk space (the Android TV image wants a ~7 GB data partition; the runner starts with ~3 GB free)
+        run: |
+          df -h / | tail -1
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/local/share/boost /usr/local/lib/node_modules /opt/hostedtoolcache/CodeQL /usr/local/julia* /usr/share/swift || true
+          sudo docker image prune --all --force >/dev/null 2>&1 || true
+          df -h / | tail -1
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -143,6 +149,9 @@ jobs:
           target: android-tv
           arch: x86
           profile: tv_1080p
+          disk-size: 4096M
+          ram-size: 3072M
+          emulator-boot-timeout: 420
           disable-animations: true
           emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
           script: bash .github/scripts/emulator-e2e.sh
