@@ -1,0 +1,220 @@
+10-12 03:40:23.047  4421  4469 I TestRunner: started: installsSmartTubeEndToEndAndOpensIt(app.tvessentials.installer.InstallFlowTest)
+10-12 03:40:23.084   488  3688 I ImeTracker: com.google.android.tvlauncher:ebca0ed8: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:40:23.087   488  3688 I ImeTracker: com.google.android.tvlauncher:ebca0ed8: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:40:23.088  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:40:23.102  4421  4469 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:40:23.102  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:40:23.103  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:40:23.103  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:40:23.108  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:40:23.199   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:23.234  4421  4469 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:40:23.259  4421  4421 I MonitoringInstr: Finishing activity: app.tvessentials.installer.MainActivity@f80068c
+10-12 03:40:23.440   488   717 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:23.520  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f80068c in: DESTROYED
+10-12 03:40:23.521  4421  4421 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@20a0250
+10-12 03:40:23.535   488  2536 W InputManager-JNI: Input channel object '499c0ce app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:40:23.628  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:23.903   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:23.925   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:24.053  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:40:24.072   488  2536 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:24.086  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:40:24.087  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:24.137  1510  1670 D EGL_emulation: app_time_stats: avg=77.41ms min=29.68ms max=205.53ms count=16
+10-12 03:40:24.221   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:24.272  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@1265782 in: PRE_ON_CREATE
+10-12 03:40:24.313  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@1265782 in: CREATED
+10-12 03:40:24.317  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@1265782 in: STARTED
+10-12 03:40:24.348   488  3509 D ConnectivityService: requestNetwork for uid/pid:10122/4421 activeRequest: null callbackRequest: 99 [NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:40:24.360   488   710 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:24.360   488   710 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:24.360   488   710 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:24.360   488   718 D ConnectivityService: NetReassign [100 : null → 100] [c 0] [a 0] [i 1]
+10-12 03:40:24.360   488   717 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=100, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:24.360   488   717 D EthernetNetworkFactory: IpClient already started
+10-12 03:40:24.420  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@1265782 in: RESUMED
+10-12 03:40:24.716   328  1921 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 447168
+10-12 03:40:24.756  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:24.763  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:24.796  4421  4440 I tials.installer: Background young concurrent copying GC freed 105141(3855KB) AllocSpace objects, 12(240KB) LOS objects, 33% free, 7280KB/10MB, paused 58us,16us total 188.405ms
+10-12 03:40:24.957  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:24.961  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:24.965  3513  4598 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:40:24.999  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:25.016  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:25.021  3513  4597 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:40:25.084  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:25.087  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:25.116  3513  4598 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:40:25.137  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:25.142  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:25.159  2751  2876 D TrafficStats: tagSocket(110) with statsTag=0x1803, statsUid=10085
+10-12 03:40:25.162  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:25.168  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:25.195  4421  4511 I OpenGLRenderer: Davey! duration=849ms; Flags=1, FrameTimelineVsyncId=7224, IntendedVsync=215101506924, Vsync=215251506918, InputEventId=0, HandleInputStart=215258698759, AnimationStart=215258703618, PerformTraversalsStart=215258706884, DrawStart=215750759934, FrameDeadline=215118173590, FrameInterval=215255284951, FrameStartTime=16666666, SyncQueued=215774136368, SyncStart=215775414272, IssueDrawCommandsStart=215775546428, SwapBuffers=215783284562, FrameCompleted=215952631554, DequeueBufferDuration=31188, QueueBufferDuration=223016, GpuCompleted=215952631554, SwapBuffersCompleted=215940063532, DisplayPresentTime=0, CommandSubmissionCompleted=215783284562, 
+10-12 03:40:25.197  4421  4421 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+10-12 03:40:25.201  3513  4597 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:40:25.210  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:25.212  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:25.235  3513  4597 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:40:25.253   488   509 W ziparchive: Unable to open '/data/app/~~w82y-PKZhZ6ZxfwcWcB01A==/app.tvessentials.installer-YGyLSbbU1PrgcGeq6sKRng==/base.dm': No such file or directory
+10-12 03:40:25.256   488   509 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +1s124ms
+10-12 03:40:25.521   488   876 I RemoteProvisionSysSvc: getRegistration(android.hardware.security.keymint.IRemotelyProvisionedComponent/default)
+10-12 03:40:25.541  4421  4511 I OpenGLRenderer: Davey! duration=1000ms; Flags=0, FrameTimelineVsyncId=7284, IntendedVsync=215318173582, Vsync=215968173556, InputEventId=0, HandleInputStart=215979062939, AnimationStart=215979067727, PerformTraversalsStart=216023473928, DrawStart=216026051707, FrameDeadline=215984840222, FrameInterval=215978561083, FrameStartTime=16666666, SyncQueued=216045148989, SyncStart=216045171421, IssueDrawCommandsStart=216045326169, SwapBuffers=216057520275, FrameCompleted=216318387673, DequeueBufferDuration=4509, QueueBufferDuration=159967, GpuCompleted=216318387673, SwapBuffersCompleted=216316833584, DisplayPresentTime=1371928999821506928, CommandSubmissionCompleted=216057520275, 
+10-12 03:40:25.548  3513  4607 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:40:25.551   488  2906 I ImeTracker: app.tvessentials.installer:4203589e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:40:25.551   488  2906 I ImeTracker: app.tvessentials.installer:4203589e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:40:25.642  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:40:25.643  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:40:25.645  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:40:25.645  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:40:25.645  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:40:25.667  3660  3976 I PlayCommon: [84] Preparing logs for uploading
+10-12 03:40:25.674  3513  4607 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:40:25.683  3660  3976 W PlayCommon: [84] No account for auth token provided
+10-12 03:40:25.683  3660  3976 I PlayCommon: [84] Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+10-12 03:40:25.701   488   488 I RegistrationProxy: onServiceConnected: com.android.rkpdapp.service.RemoteProvisioningService
+10-12 03:40:25.711   488   876 I RegistrationProxy: IGetRegistrationCallback.onSuccess
+10-12 03:40:25.716   488  1082 I RemoteProvisionSysSvc: Fetching key 10085 for client 206614966
+10-12 03:40:25.716   488  1082 I RegistrationProxy: getKeyAsync operation started with callback 222645943
+10-12 03:40:25.716  2192  2421 I RkpdRegistrationBinder: Key requested for : android.hardware.security.keymint.IRemotelyProvisionedComponent/default, clientUid: 1017, keyId: 10085, callback: 33514926
+10-12 03:40:25.732  2192  2421 I RkpdRegistrationBinder: No key assigned, looking for an available key with expiry of 2026-10-15T03:40:25.719609Z
+10-12 03:40:25.740  2192  2421 I RkpdRegistrationBinder: No key assigned, looking for an available key with expiry of 2026-10-12T04:40:25.716502Z
+10-12 03:40:25.743  2192  2421 I RkpdRegistrationBinder: No keys are available, kicking off provisioning
+10-12 03:40:25.744  2192  2421 V RkpdServerInterface: Requesting data from server. Attempt 1
+10-12 03:40:25.744   488  2536 I RegistrationProxy: Provisioning required before keys are available for android.security.rkp.service.RegistrationProxy$2@d454eb7
+10-12 03:40:25.791  2192  2421 V RkpdServerInterface: Network request completed successfully.
+10-12 03:40:25.795  2192  2421 I RkpdKeyPoolStats: PoolStats{keysInUse=0, idealTotalSignedKeys=12, keysToGenerate=12, keysUnassigned=0}
+10-12 03:40:25.795  2192  2421 I RkpdProvisioner: Requested number of keys for provisioning: 12
+10-12 03:40:25.796  3660  3976 I PlayCommon: [84] Successfully uploaded logs.
+10-12 03:40:25.864  2192  2421 W RkpdSystemInterface: HAL returned a batch size that's too small (20), defaulting to 20
+10-12 03:40:25.870  2192  2421 I RkpdServerInterface: request_id: 68dc9c72-8756-4c40-a9de-31cf43bfb055
+10-12 03:40:25.870  2192  2421 V RkpdServerInterface: Requesting data from server. Attempt 1
+10-12 03:40:25.880  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:25.882  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:25.889  3513  4457 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface: Server connection failed for url: https://remoteprovisioning.googleapis.com/v1:signCertificates?challenge=AAABoS4yh88BILStYyuAsxp1ThUSQoRiY_e-DmM=&request_id=68dc9c72-8756-4c40-a9de-31cf43bfb055, response code: 400
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface: Repeated failure count: 1
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface: {
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface:   "error": {
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface:     "code": 400,
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface:     "message": "Invalid request payload: vendor_patch_level`0` should be in the format YYYYMMDD or YYYYMM if present.\nRequestId: 68dc9c72-8756-4c40-a9de-31cf43bfb055",
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface:     "status": "INVALID_ARGUMENT"
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface:   }
+10-12 03:40:25.908  2192  2421 E RkpdServerInterface: }
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: RKPD failed to provision keys
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: com.android.rkpdapp.RkpdException: HTTP error status encountered: 400
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.interfaces.ServerInterface.requestData(ServerInterface.java:341)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.interfaces.ServerInterface.connectAndGetData(ServerInterface.java:287)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.interfaces.ServerInterface.requestSignedCertificates(ServerInterface.java:121)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.provisioner.Provisioner.batchProvision(Provisioner.java:157)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.provisioner.Provisioner.fetchCertificates(Provisioner.java:136)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.provisioner.Provisioner.provisionKeys(Provisioner.java:89)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.fetchGeekAndProvisionKeys(RegistrationBinder.java:151)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.getKeyWorker(RegistrationBinder.java:117)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.getKeyThreadWorker(RegistrationBinder.java:235)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.lambda$getKey$3(RegistrationBinder.java:223)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder.$r8$lambda$TliFA5y2_wUzHwCyn77kum7XL5E(RegistrationBinder.java:0)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at com.android.rkpdapp.service.RegistrationBinder$$ExternalSyntheticLambda9.run(R8$$SyntheticClass:0)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-12 03:40:25.911  2192  2421 E RkpdRegistrationBinder: 	at java.lang.Thread.run(Thread.java:1012)
+10-12 03:40:25.911   488   488 E RemoteProvisionSysSvc: RKP error fetching key for client 206614966: ERROR_UNKNOWN: HTTP error status encountered: 400
+10-12 03:40:25.975  3566  3622 E WakeLock: DG:service ** IS FORCE-RELEASED ON TIMEOUT **
+10-12 03:40:26.129  2751  4602 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+10-12 03:40:26.129  2751  4602 W libc    : Access denied finding property "service.adb.tls.port"
+10-12 03:40:26.129  2751  2751 W IntentService[D: type=1400 audit(0.0:48): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=292 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-12 03:40:26.129  2751  2751 W IntentService[D: type=1400 audit(0.0:49): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=59 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-12 03:40:26.139  2751  4602 W SystemServiceRegistry: No service published for: persistent_data_block
+10-12 03:40:26.143  2751  4602 D TrafficStats: tagSocket(121) with statsTag=0x1809, statsUid=-1
+10-12 03:40:26.146  2751  4602 D TrafficStats: tagSocket(121) with statsTag=0x1809, statsUid=-1
+10-12 03:40:26.147  2751  4602 D TrafficStats: tagSocket(121) with statsTag=0x1809, statsUid=-1
+10-12 03:40:26.150   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:26.387  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:26.400  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:26.608  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:26.611  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:26.770  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:26.813   376   932 D audioserver: FGS Logger Transaction failed
+10-12 03:40:26.813   376   932 D audioserver: -129
+10-12 03:40:26.972  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:26.976   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:26.976   376   473 D audioserver: -129
+10-12 03:40:27.047  4421  4488 D EGL_emulation: app_time_stats: avg=472.11ms min=252.66ms max=654.92ms count=4
+10-12 03:40:27.090   376   932 D audioserver: FGS Logger Transaction failed
+10-12 03:40:27.090   376   932 D audioserver: -129
+10-12 03:40:27.092   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(35)
+10-12 03:40:27.145   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(23)
+10-12 03:40:27.177  4421  4439 I tials.installer: Compiler allocated 4178KB to compile void app.tvessentials.installer.ui.HomeScreenKt.HomeScreen(app.tvessentials.installer.ui.HomeUi, app.tvessentials.installer.ui.HomeFocus, int, boolean, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, androidx.compose.runtime.Composer, int)
+10-12 03:40:27.260   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:27.260   376   473 D audioserver: -129
+10-12 03:40:27.656  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:40:27.656  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:27.855  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:27.967  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:27.979  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:27.991  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:28.154  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:40:28.155  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:28.158   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:28.225  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:28.239  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:28.482  4421  4469 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:40:28.497  4421  4469 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:40:28.511  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:28.537   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:28.543   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:28.554   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:28.558  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@1265782 in: PAUSED
+10-12 03:40:28.600  1510  1510 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:40:28.606  1510  1510 W HomeController: onResume: List view global layout completed.
+10-12 03:40:28.715  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:40:28.771  4421  4469 E TestRunner: failed: installsSmartTubeEndToEndAndOpensIt(app.tvessentials.installer.InstallFlowTest)
+10-12 03:40:28.795  4421  4469 E TestRunner: ----- begin exception -----
+10-12 03:40:28.795  4421  4469 E TestRunner: java.lang.IllegalStateException: Description selector is already defined
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.installsSmartTubeEndToEndAndOpensIt(InstallFlowTest.kt:49)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:40:28.795  4421  4469 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:40:28.808  4421  4469 E TestRunner: ----- end exception -----
+10-12 03:40:28.809  1510  1523 I roid.tvlauncher: Background concurrent copying GC freed 36169(1749KB) AllocSpace objects, 10(1000KB) LOS objects, 49% free, 5107KB/10214KB, paused 52us,20us total 239.298ms
+10-12 03:40:28.830  4421  4469 I TestRunner: finished: installsSmartTubeEndToEndAndOpensIt(app.tvessentials.installer.InstallFlowTest)

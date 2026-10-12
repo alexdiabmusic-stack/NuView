@@ -1,0 +1,243 @@
+10-12 03:40:51.017  4421  4469 I TestRunner: started: settingsOpensAndBackRestoresFocusToTheSettingsButton(app.tvessentials.installer.LauncherUiTest)
+10-12 03:40:51.095   488   717 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=106, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:51.178  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e621d3f in: DESTROYED
+10-12 03:40:51.179  4421  4421 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@775cb64
+10-12 03:40:51.195   488   760 W InputManager-JNI: Input channel object '33ed97f app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:40:51.440  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:51.564   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:51.589   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:51.655  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:40:51.718   488  1314 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:51.749  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:40:51.750  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:51.826   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:51.864  1510  1670 D EGL_emulation: app_time_stats: avg=61.80ms min=12.59ms max=106.90ms count=18
+10-12 03:40:51.914  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@56caf9a in: PRE_ON_CREATE
+10-12 03:40:51.946  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@56caf9a in: CREATED
+10-12 03:40:51.952  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@56caf9a in: STARTED
+10-12 03:40:51.969   488   554 D ConnectivityService: requestNetwork for uid/pid:10122/4421 activeRequest: null callbackRequest: 107 [NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:40:51.971   488   718 D ConnectivityService: NetReassign [108 : null → 100] [c 0] [a 0] [i 1]
+10-12 03:40:51.971   488   717 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:51.971   488   717 D EthernetNetworkFactory: IpClient already started
+10-12 03:40:51.971   488   710 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:51.971   488   710 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:51.971   488   710 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=108, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:52.015  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@56caf9a in: RESUMED
+10-12 03:40:52.602   488   509 W ziparchive: Unable to open '/data/app/~~w82y-PKZhZ6ZxfwcWcB01A==/app.tvessentials.installer-YGyLSbbU1PrgcGeq6sKRng==/base.dm': No such file or directory
+10-12 03:40:52.605   488   509 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +881ms
+10-12 03:40:52.610  4421  4513 I OpenGLRenderer: Davey! duration=785ms; Flags=1, FrameTimelineVsyncId=10366, IntendedVsync=242601505824, Vsync=242834839148, InputEventId=0, HandleInputStart=242837591412, AnimationStart=242837596030, PerformTraversalsStart=242837813386, DrawStart=243184301152, FrameDeadline=242618172490, FrameInterval=242837475827, FrameStartTime=16666666, SyncQueued=243215334687, SyncStart=243215548135, IssueDrawCommandsStart=243215672387, SwapBuffers=243219395131, FrameCompleted=243386949774, DequeueBufferDuration=4829, QueueBufferDuration=182540, GpuCompleted=243386949774, SwapBuffersCompleted=243377183817, DisplayPresentTime=0, CommandSubmissionCompleted=243219395131, 
+10-12 03:40:52.651  4421  4421 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+10-12 03:40:52.702   488   554 I ImeTracker: app.tvessentials.installer:8746b7b9: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:40:52.702   488   554 I ImeTracker: app.tvessentials.installer:8746b7b9: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:40:52.704  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:40:52.707  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:40:52.707  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:40:52.707  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:40:52.708  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:40:53.240  4421  4513 I OpenGLRenderer: Davey! duration=886ms; Flags=0, FrameTimelineVsyncId=10426, IntendedVsync=242868172480, Vsync=243418172458, InputEventId=0, HandleInputStart=243434297451, AnimationStart=243434302050, PerformTraversalsStart=243448453998, DrawStart=243451448674, FrameDeadline=243418172458, FrameInterval=243432641132, FrameStartTime=16666666, SyncQueued=243468496002, SyncStart=243468517302, IssueDrawCommandsStart=243468716434, SwapBuffers=243523505782, FrameCompleted=243754402005, DequeueBufferDuration=6271, QueueBufferDuration=4355204, GpuCompleted=243754336883, SwapBuffersCompleted=243754402005, DisplayPresentTime=0, CommandSubmissionCompleted=243523505782, 
+10-12 03:40:53.835  4421  4469 D UiDevice: Pressing keycodes [19] with modifier 0.
+10-12 03:40:53.862   376   392 D audioserver: FGS Logger Transaction failed
+10-12 03:40:53.862   376   392 D audioserver: -129
+10-12 03:40:53.919  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:54.017   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(33)
+10-12 03:40:54.088   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:54.088   376   473 D audioserver: -129
+10-12 03:40:54.097  4421  4488 D EGL_emulation: app_time_stats: avg=374.72ms min=216.04ms max=640.33ms count=4
+10-12 03:40:54.122   376   392 D audioserver: FGS Logger Transaction failed
+10-12 03:40:54.122   376   392 D audioserver: -129
+10-12 03:40:54.510   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:54.510   376   473 D audioserver: -129
+10-12 03:40:54.537  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:40:54.538  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:54.638  1175  1312 D PickerSyncController: syncAllMedia
+10-12 03:40:54.638  1175  1312 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 03:40:54.638  1175  1312 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 03:40:54.639  1175  1312 D PickerSyncController:    Latest ID/Gen=1407:8bb4048c-fb6d-47e4-a079-7b589c3bc8bc:external_primary/20
+10-12 03:40:54.639  1175  1312 D PickerSyncController:    Cached ID/Gen=1407:8bb4048c-fb6d-47e4-a079-7b589c3bc8bc:external_primary/13
+10-12 03:40:54.639  1175  1312 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=13, latest=Bundle[{last_media_sync_generation=20, media_collection_id=1407:8bb4048c-fb6d-47e4-a079-7b589c3bc8bc:external_primary}]}
+10-12 03:40:54.639  1175  1312 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 03:40:54.643  1175  1312 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=13}]. Result count: 1. Cursor count: 1
+10-12 03:40:54.644  1175  1312 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 03:40:54.644  1175  1312 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=13}]. Result count: 0. Cursor count: 0
+10-12 03:40:54.644  1175  1312 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 03:40:54.644  1175  1312 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 03:40:54.644  1175  1312 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 03:40:54.644  1175  1312 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 03:40:54.647  1175  1312 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 03:40:54.647  1175  1312 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 03:40:54.647  1175  1312 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 03:40:54.647  1175  1312 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 03:40:54.647  1175  1312 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 03:40:54.647  1175  1312 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 03:40:54.685  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:54.702  4421  4469 D UiDevice: Pressing keycodes [23] with modifier 0.
+10-12 03:40:54.765   376   392 D audioserver: FGS Logger Transaction failed
+10-12 03:40:54.765   376   392 D audioserver: -129
+10-12 03:40:54.790  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QSettings\E']].
+10-12 03:40:54.795  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QSettings\E'].
+10-12 03:40:54.816  4421  4421 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-12 03:40:54.816  4421  4421 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-12 03:40:54.818   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(2)
+10-12 03:40:54.977   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:54.977   376   473 D audioserver: -129
+10-12 03:40:55.150  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1ae29; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:55.150  4421  4469 W ByMatcher: Skipping null child (5 of 16)
+10-12 03:40:55.151  4421  4469 W ByMatcher: Skipping null child (6 of 16)
+10-12 03:40:55.153  4421  4469 W ByMatcher: Skipping null child (7 of 16)
+10-12 03:40:55.154  4421  4469 W ByMatcher: Skipping null child (8 of 16)
+10-12 03:40:55.154  4421  4469 W ByMatcher: Skipping null child (9 of 16)
+10-12 03:40:55.155  4421  4469 W ByMatcher: Skipping null child (10 of 16)
+10-12 03:40:55.160  4421  4469 W ByMatcher: Skipping null child (11 of 16)
+10-12 03:40:55.161  4421  4469 W ByMatcher: Skipping null child (12 of 16)
+10-12 03:40:55.163  4421  4469 W ByMatcher: Skipping null child (13 of 16)
+10-12 03:40:55.164  4421  4469 W ByMatcher: Skipping null child (14 of 16)
+10-12 03:40:55.164  4421  4469 W ByMatcher: Skipping null child (15 of 16)
+10-12 03:40:55.193  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QApplication version\E']].
+10-12 03:40:55.193  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QApplication version\E'].
+10-12 03:40:55.213  4421  4488 D EGL_emulation: app_time_stats: avg=223.01ms min=172.06ms max=280.43ms count=5
+10-12 03:40:55.437  4421  4469 D UiDevice: Searching for node with selector: BySelector [DESC='^\QAutomatic update checks\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:55.445  4421  4469 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_settings.png
+10-12 03:40:55.521  4680  4680 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 03:40:55.524  1175  1583 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 03:40:55.527  4680  4680 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 03:40:55.543   132   132 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 03:40:55.544  4680  4683 I Gralloc4: mapper 4.x is not supported
+10-12 03:40:55.569  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:55.573  3513  4457 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:40:55.618  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:55.652  3513  4457 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:40:55.662  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:55.687  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:56.025   488   760 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 03:40:56.036   488   509 I ActivityManager: Broadcast completed: result=0
+10-12 03:40:56.045  1175  1734 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 03:40:56.060  4421  4469 D UiDevice: Pressing back button.
+10-12 03:40:56.098  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onKeyDown():2481 Received KEYCODE_BACK. isAllViewsInvisible=false
+10-12 03:40:56.099  1175  1734 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 03:40:56.135  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:56.146  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:56.165  3513  4610 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:40:56.184  3513  4598 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:40:56.187  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:56.189  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:56.497  4421  4488 D EGL_emulation: app_time_stats: avg=1282.49ms min=1282.49ms max=1282.49ms count=1
+10-12 03:40:56.710  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 03:40:56.710  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:40:56.819  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:56.822  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:56.825  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:56.827  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:56.830  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:56.831  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:56.832  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:56.835  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:56.837  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:56.839  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:56.844  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:56.844  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:56.849  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:56.850  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:56.850  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:56.851  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:56.852  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:56.854  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:56.855  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:56.856  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:56.956  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:40:56.962  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:56.962  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:56.965  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:56.965  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:56.966  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:56.967  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:56.968  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:56.969  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:56.970  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:56.971  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:56.974  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:56.974  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:56.977  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:56.977  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:56.978  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:56.979  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:56.980  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:56.981  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:56.982  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:56.984  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.084  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:40:57.090  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:57.090  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:57.092  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:57.093  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:57.094  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:57.095  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:57.096  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:57.097  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:57.098  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:57.100  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.102  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:57.102  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:57.105  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:57.105  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:57.106  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:57.107  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:57.108  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:57.109  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:57.110  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:57.111  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.211  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:40:57.216  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:57.216  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:57.219  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:57.220  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:57.221  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:57.222  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:57.223  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:57.224  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:57.225  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:57.226  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.229  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:57.229  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:57.231  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:57.231  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:57.233  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:57.234  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:57.235  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:57.236  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:57.237  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:57.239  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.339  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:40:57.344  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:57.345  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:57.347  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:57.347  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:57.348  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:57.349  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:57.350  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:57.351  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:57.352  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:57.353  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.355  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bd2d; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(0, 0 - 1920, 1080); boundsInWindow: Rect(0, 0 - 1920, 1080); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]; isTextSelectable: false
+10-12 03:40:57.355  4421  4469 W ByMatcher: Skipping null child (3 of 11)
+10-12 03:40:57.357  4421  4469 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@1bff6; boundsInParent: Rect(0, 0 - 0, 0); boundsInScreen: Rect(96, 482 - 930, 582); boundsInWindow: Rect(96, 482 - 930, 582); packageName: app.tvessentials.installer; className: android.view.View; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null]; isTextSelectable: false
+10-12 03:40:57.358  4421  4469 W ByMatcher: Skipping null child (2 of 5)
+10-12 03:40:57.359  4421  4469 W ByMatcher: Skipping null child (3 of 5)
+10-12 03:40:57.360  4421  4469 W ByMatcher: Skipping null child (4 of 5)
+10-12 03:40:57.361  4421  4469 W ByMatcher: Skipping null child (7 of 11)
+10-12 03:40:57.363  4421  4469 W ByMatcher: Skipping null child (8 of 11)
+10-12 03:40:57.364  4421  4469 W ByMatcher: Skipping null child (9 of 11)
+10-12 03:40:57.365  4421  4469 W ByMatcher: Skipping null child (10 of 11)
+10-12 03:40:57.465  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:40:57.493  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:40:57.494  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:57.501  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:57.581  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:57.610   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:57.628   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:57.659   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:57.663  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@56caf9a in: PAUSED
+10-12 03:40:57.671  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:57.686  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:57.728  1510  1510 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:40:57.728  1510  1510 W HomeController: onResume: List view global layout completed.
+10-12 03:40:57.731  4421  4469 I TestRunner: finished: settingsOpensAndBackRestoresFocusToTheSettingsButton(app.tvessentials.installer.LauncherUiTest)

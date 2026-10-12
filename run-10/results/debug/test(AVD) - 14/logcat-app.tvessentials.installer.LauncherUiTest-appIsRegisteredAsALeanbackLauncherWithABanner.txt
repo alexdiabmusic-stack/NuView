@@ -1,0 +1,41 @@
+10-12 03:41:27.514  4421  4469 I TestRunner: started: appIsRegisteredAsALeanbackLauncherWithABanner(app.tvessentials.installer.LauncherUiTest)
+10-12 03:41:27.612  1510  1670 D EGL_emulation: app_time_stats: avg=54.96ms min=39.81ms max=81.06ms count=19
+10-12 03:41:28.188  4421  4469 D UiDevice: Pressing home button.
+10-12 03:41:28.331   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:41:28.333   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:41:28.386  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:41:28.439   488  2536 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:41:28.457  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:41:28.457  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:41:28.459   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:41:28.631  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c9a8fb8 in: PRE_ON_CREATE
+10-12 03:41:28.658  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c9a8fb8 in: CREATED
+10-12 03:41:28.664  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c9a8fb8 in: STARTED
+10-12 03:41:28.680   488  2536 D ConnectivityService: requestNetwork for uid/pid:10122/4421 activeRequest: null callbackRequest: 115 [NetworkRequest [ REQUEST id=116, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:41:28.685   488   718 D ConnectivityService: NetReassign [116 : null → 100] [c 0] [a 1] [i 0]
+10-12 03:41:28.685   488   717 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=116, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:28.685   488   717 D EthernetNetworkFactory: IpClient already started
+10-12 03:41:28.686  1510  1670 D EGL_emulation: app_time_stats: avg=51.60ms min=20.17ms max=89.41ms count=19
+10-12 03:41:28.686   488   710 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=116, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:28.686   488   710 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=116, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:28.686   488   710 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=116, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:28.762  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c9a8fb8 in: RESUMED
+10-12 03:41:29.317   488   509 W ziparchive: Unable to open '/data/app/~~w82y-PKZhZ6ZxfwcWcB01A==/app.tvessentials.installer-YGyLSbbU1PrgcGeq6sKRng==/base.dm': No such file or directory
+10-12 03:41:29.320   488   509 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +879ms
+10-12 03:41:29.417   488  1434 I ImeTracker: app.tvessentials.installer:fd7f1914: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:41:29.417   488  1434 I ImeTracker: app.tvessentials.installer:fd7f1914: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:41:29.420  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:41:29.421  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:41:29.421  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:41:29.427  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:41:29.427  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:41:29.695  4421  4445 I OpenGLRenderer: Davey! duration=745ms; Flags=0, FrameTimelineVsyncId=13993, IntendedVsync=279701504340, Vsync=280151504322, InputEventId=0, HandleInputStart=280160653473, AnimationStart=280160658212, PerformTraversalsStart=280175256370, DrawStart=280177755561, FrameDeadline=280134837656, FrameInterval=280160489327, FrameStartTime=16666666, SyncQueued=280190346277, SyncStart=280190386442, IssueDrawCommandsStart=280191758842, SwapBuffers=280195929381, FrameCompleted=280446968666, DequeueBufferDuration=6453, QueueBufferDuration=586143, GpuCompleted=280446968666, SwapBuffersCompleted=280437532866, DisplayPresentTime=0, CommandSubmissionCompleted=280195929381, 
+10-12 03:41:30.060  4421  4469 D UiDevice: Executing shell command: cmd package query-activities --brief -a android.intent.action.MAIN -c android.intent.category.LEANBACK_LAUNCHER
+10-12 03:41:30.545  4421  4469 D UiDevice: Pressing home button.
+10-12 03:41:30.568   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:41:30.574   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:41:30.603  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@c9a8fb8 in: PAUSED
+10-12 03:41:30.605   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:41:30.647  1510  1510 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:41:30.648  1510  1510 W HomeController: onResume: List view global layout completed.
+10-12 03:41:30.651  4421  4469 I TestRunner: finished: appIsRegisteredAsALeanbackLauncherWithABanner(app.tvessentials.installer.LauncherUiTest)

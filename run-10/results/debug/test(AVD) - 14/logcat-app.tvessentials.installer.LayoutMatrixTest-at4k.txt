@@ -1,0 +1,61 @@
+10-12 03:42:08.539  4421  4469 I TestRunner: started: at4k(app.tvessentials.installer.LayoutMatrixTest)
+10-12 03:42:08.559  4421  4469 D UiDevice: Executing shell command: wm size 3840x2160
+10-12 03:42:08.647  4421  4469 D UiDevice: Executing shell command: wm density 320
+10-12 03:42:08.842   488   717 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=126, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:42:08.905  4421  4469 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 03:42:08.912  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@6b910e3 in: DESTROYED
+10-12 03:42:08.913  4421  4421 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@5e1b91b
+10-12 03:42:08.935   488  1429 W InputManager-JNI: Input channel object '8416546 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:42:09.066  4421  4421 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+10-12 03:42:09.342  1510  1670 D EGL_emulation: app_time_stats: avg=68.77ms min=31.96ms max=149.87ms count=17
+10-12 03:42:10.352  1510  1670 D EGL_emulation: app_time_stats: avg=50.76ms min=30.24ms max=67.12ms count=19
+10-12 03:42:10.718  4421  4469 D UiDevice: Executing shell command: wm size reset
+10-12 03:42:10.948  4421  4469 D UiDevice: Executing shell command: wm density reset
+10-12 03:42:11.036  4421  4469 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 03:42:11.145  4421  4469 D UiDevice: Pressing home button.
+10-12 03:42:11.242   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:42:11.243   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:42:11.298  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:42:11.333  4421  4469 E TestRunner: assumption failed: at4k(app.tvessentials.installer.LayoutMatrixTest)
+10-12 03:42:11.377  4421  4469 E TestRunner: ----- begin exception -----
+10-12 03:42:11.377  4421  4469 E TestRunner: org.junit.AssumptionViolatedException: [4k] the display did not switch to 3840x2160 (is 1920px wide)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.Assume.assumeTrue(Assume.java:68)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:33)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at app.tvessentials.installer.LayoutMatrixTest.verify$default(LayoutMatrixTest.kt:25)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at app.tvessentials.installer.LayoutMatrixTest.at4k(LayoutMatrixTest.kt:46)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:42:11.377  4421  4469 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:42:11.378  4421  4469 E TestRunner: ----- end exception -----
+10-12 03:42:11.392  4421  4469 I TestRunner: finished: at4k(app.tvessentials.installer.LayoutMatrixTest)

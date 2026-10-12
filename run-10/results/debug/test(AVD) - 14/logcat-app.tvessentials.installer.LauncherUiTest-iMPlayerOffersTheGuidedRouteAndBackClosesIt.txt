@@ -1,0 +1,119 @@
+10-12 03:41:39.136  4421  4469 I TestRunner: started: iMPlayerOffersTheGuidedRouteAndBackClosesIt(app.tvessentials.installer.LauncherUiTest)
+10-12 03:41:39.296   488   717 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=118, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:39.327  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@df96eae in: DESTROYED
+10-12 03:41:39.328  4421  4421 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@fedd734
+10-12 03:41:39.344   488  1082 W InputManager-JNI: Input channel object '323c53 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:41:39.496  4421  4469 D UiDevice: Pressing home button.
+10-12 03:41:39.633   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:41:39.634   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:41:39.784  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:41:39.805   488  2906 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:41:39.879  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:41:39.879  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:41:39.944  1510  1670 D EGL_emulation: app_time_stats: avg=62.53ms min=36.12ms max=126.54ms count=18
+10-12 03:41:40.094   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:41:40.235  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e80d397 in: PRE_ON_CREATE
+10-12 03:41:40.285  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e80d397 in: CREATED
+10-12 03:41:40.306  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e80d397 in: STARTED
+10-12 03:41:40.325   488  2906 D ConnectivityService: requestNetwork for uid/pid:10122/4421 activeRequest: null callbackRequest: 119 [NetworkRequest [ REQUEST id=120, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:41:40.336   488   718 D ConnectivityService: NetReassign [120 : null → 100] [c 0] [a 1] [i 1]
+10-12 03:41:40.344  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e80d397 in: RESUMED
+10-12 03:41:40.336   488   717 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=120, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:40.353   488   710 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=120, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:40.356   488   710 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=120, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:40.357   488   710 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=120, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:41:40.357   488   717 D EthernetNetworkFactory: IpClient already started
+10-12 03:41:40.594   328  1921 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 2363136
+10-12 03:41:40.712   488   509 W ziparchive: Unable to open '/data/app/~~w82y-PKZhZ6ZxfwcWcB01A==/app.tvessentials.installer-YGyLSbbU1PrgcGeq6sKRng==/base.dm': No such file or directory
+10-12 03:41:40.724   488   509 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +903ms
+10-12 03:41:41.057   488  1082 I ImeTracker: app.tvessentials.installer:5313271c: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:41:41.057   488  1082 I ImeTracker: app.tvessentials.installer:5313271c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:41:41.068  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:41:41.072  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:41:41.072  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:41:41.072  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:41:41.072  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:41:42.186  1175  1312 D PickerSyncController: syncAllMedia
+10-12 03:41:42.186  1175  1312 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 03:41:42.186  1175  1312 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 03:41:42.187  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:41:42.188  1175  1312 D PickerSyncController:    Latest ID/Gen=1407:8bb4048c-fb6d-47e4-a079-7b589c3bc8bc:external_primary/34
+10-12 03:41:42.188  1175  1312 D PickerSyncController:    Cached ID/Gen=1407:8bb4048c-fb6d-47e4-a079-7b589c3bc8bc:external_primary/27
+10-12 03:41:42.189  1175  1312 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=27, latest=Bundle[{last_media_sync_generation=34, media_collection_id=1407:8bb4048c-fb6d-47e4-a079-7b589c3bc8bc:external_primary}]}
+10-12 03:41:42.189  1175  1312 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 03:41:42.191  1175  1312 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=27}]. Result count: 1. Cursor count: 1
+10-12 03:41:42.192  1175  1312 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 03:41:42.193  1175  1312 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=27}]. Result count: 0. Cursor count: 0
+10-12 03:41:42.193  1175  1312 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 03:41:42.193  1175  1312 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 03:41:42.193  1175  1312 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 03:41:42.193  1175  1312 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 03:41:42.193  1175  1312 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 03:41:42.193  1175  1312 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 03:41:42.193  1175  1312 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 03:41:42.194  1175  1312 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 03:41:42.194  1175  1312 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 03:41:42.194  1175  1312 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 03:41:42.235   376   392 D audioserver: FGS Logger Transaction failed
+10-12 03:41:42.235   376   392 D audioserver: -129
+10-12 03:41:42.284   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(33)
+10-12 03:41:42.400   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:41:42.400   376   473 D audioserver: -129
+10-12 03:41:42.440  4421  4488 D EGL_emulation: app_time_stats: avg=434.24ms min=309.94ms max=639.89ms count=4
+10-12 03:41:42.492  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:41:42.498  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:41:42.641  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:41:42.659  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:41:42.689  1175  1319 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.providers.media.module/shared_prefs/picker_sync_prefs.xml: [<1: 0, <2: 1, <4: 2, <8: 0, <16: 1, <32: 0, <64: 0, <128: 1, <256: 0, <512: 1, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+10-12 03:41:42.772  4421  4440 I tials.installer: Background concurrent copying GC freed 174996(6801KB) AllocSpace objects, 12(252KB) LOS objects, 49% free, 7784KB/15MB, paused 97us,11us total 102.929ms
+10-12 03:41:42.904  4421  4469 D UiDevice: Pressing home button.
+10-12 03:41:42.931   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:41:42.937   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:41:42.968  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e80d397 in: PAUSED
+10-12 03:41:42.971   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:41:42.997  1510  1510 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:41:43.000  1510  1510 W HomeController: onResume: List view global layout completed.
+10-12 03:41:43.002  4421  4469 E TestRunner: failed: iMPlayerOffersTheGuidedRouteAndBackClosesIt(app.tvessentials.installer.LauncherUiTest)
+10-12 03:41:43.014  4421  4469 E TestRunner: ----- begin exception -----
+10-12 03:41:43.014  4421  4469 E TestRunner: java.lang.IllegalStateException: Description selector is already defined
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at app.tvessentials.installer.LauncherUiTest.iMPlayerOffersTheGuidedRouteAndBackClosesIt(LauncherUiTest.kt:108)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:41:43.014  4421  4469 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:41:43.015  4421  4469 E TestRunner: ----- end exception -----
+10-12 03:41:43.039  4421  4469 I TestRunner: finished: iMPlayerOffersTheGuidedRouteAndBackClosesIt(app.tvessentials.installer.LauncherUiTest)

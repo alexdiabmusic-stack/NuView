@@ -1,0 +1,190 @@
+10-12 03:40:08.113  4421  4469 I TestRunner: started: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)
+10-12 03:40:08.120  4421  4469 I UiDevice: Creating a new instance, old instance exists: false
+10-12 03:40:08.122  4421  4469 I UiAutomation: Initialized for user 0 on display 0
+10-12 03:40:08.147  4421  4469 D UiDevice: Setting accessibility service flags: 65618
+10-12 03:40:08.152  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:08.155  1510  1510 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 03:40:08.200  1510  1670 D EGL_emulation: app_time_stats: avg=210.64ms min=44.89ms max=1144.10ms count=7
+10-12 03:40:08.322  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:08.338  4421  4469 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:40:08.334   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:08.493  4421  4469 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:40:08.920  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:09.049   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:09.086   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:09.230  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:40:09.242  1510  1670 D EGL_emulation: app_time_stats: avg=53.34ms min=26.30ms max=133.02ms count=18
+10-12 03:40:09.266   488  2906 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:09.302  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:40:09.303  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:09.452   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:09.509  4421  4490 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+10-12 03:40:09.525  4421  4490 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+10-12 03:40:09.554  4421  4490 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+10-12 03:40:09.665  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2bda63e in: PRE_ON_CREATE
+10-12 03:40:09.789  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2bda63e in: CREATED
+10-12 03:40:09.791  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2bda63e in: STARTED
+10-12 03:40:09.817   488  3688 D ConnectivityService: requestNetwork for uid/pid:10122/4421 activeRequest: null callbackRequest: 95 [NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:40:09.824   488   718 D ConnectivityService: NetReassign [96 : null → 100] [c 0] [a 0] [i 1]
+10-12 03:40:09.825   488   717 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:09.830   488   717 D EthernetNetworkFactory: IpClient already started
+10-12 03:40:09.830   488   710 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:09.830   488   710 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:09.830   488   710 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:09.862  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:09.866  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:09.875  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2bda63e in: RESUMED
+10-12 03:40:09.886  4421  4421 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10122; state: DISABLED
+10-12 03:40:09.888  4421  4421 W OpenGLRenderer: Unknown dataspace 0
+10-12 03:40:10.016  4421  4508 D TrafficStats: tagSocket(90) with statsTag=0xffffffff, statsUid=-1
+10-12 03:40:10.018  4421  4509 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 03:40:10.021  4421  4508 D TrafficStats: tagSocket(90) with statsTag=0xffffffff, statsUid=-1
+10-12 03:40:10.023  4421  4510 D TrafficStats: tagSocket(93) with statsTag=0xffffffff, statsUid=-1
+10-12 03:40:10.135  4421  4421 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10122; state: ENABLED
+10-12 03:40:10.322  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:10.325   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:10.461  4421  4508 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 03:40:10.466  4421  4512 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 03:40:10.488  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:10.570   381   396 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=4421
+10-12 03:40:10.570   381   396 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (6715 us)
+10-12 03:40:10.572   381   576 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:40:10.572   381   576 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (9579 us)
+10-12 03:40:10.573   381   576 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=0
+10-12 03:40:10.573   381   576 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (101 us)
+10-12 03:40:10.573   381   576 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:40:10.573   381   576 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (247 us)
+10-12 03:40:10.579   381   396 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=4421
+10-12 03:40:10.579   381   396 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (8924 us)
+10-12 03:40:10.611   132   132 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+10-12 03:40:10.614  4421  4488 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-12 03:40:10.621  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:10.678   132   132 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 03:40:10.678  4421  4488 I Gralloc4: mapper 4.x is not supported
+10-12 03:40:11.261  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:11.288  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:11.797  4421  4520 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#0) as ready
+10-12 03:40:11.803  4421  4520 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#1) as ready
+10-12 03:40:11.806   488  3688 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:40:11.806   488  3688 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (196 us)
+10-12 03:40:11.806   488  3688 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=0
+10-12 03:40:11.806   488  3688 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (30 us)
+10-12 03:40:11.806   488  3688 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:40:11.806   488  3688 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (15 us)
+10-12 03:40:11.846   488   509 W ziparchive: Unable to open '/data/app/~~w82y-PKZhZ6ZxfwcWcB01A==/app.tvessentials.installer-YGyLSbbU1PrgcGeq6sKRng==/base.dm': No such file or directory
+10-12 03:40:11.984   488   509 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +2s557ms
+10-12 03:40:12.480  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:12.501  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:13.475  4421  4421 W tials.installer: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+10-12 03:40:13.497  4421  4511 I OpenGLRenderer: Davey! duration=3566ms; Flags=1, FrameTimelineVsyncId=5733, IntendedVsync=200684840834, Vsync=200684840834, InputEventId=0, HandleInputStart=200687292725, AnimationStart=200687297074, PerformTraversalsStart=200687300210, DrawStart=201575411942, FrameDeadline=200701507500, FrameInterval=200687267759, FrameStartTime=16666666, SyncQueued=201634023871, SyncStart=201634536495, IssueDrawCommandsStart=201635850837, SwapBuffers=203993129042, FrameCompleted=204251486167, DequeueBufferDuration=6081, QueueBufferDuration=511675, GpuCompleted=204251417659, SwapBuffersCompleted=204251486167, DisplayPresentTime=0, CommandSubmissionCompleted=203993129042, 
+10-12 03:40:13.512  4421  4421 I Choreographer: Skipped 211 frames!  The application may be doing too much work on its main thread.
+10-12 03:40:13.735   488  3688 I ImeTracker: app.tvessentials.installer:ef6819ba: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:40:13.735   488  3688 I ImeTracker: app.tvessentials.installer:ef6819ba: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:40:13.740  3513  4159 I FontLog : (REDACTED) Received query %s, URI %s
+10-12 03:40:13.741  3513  4159 I FontLog : (REDACTED) Query [%s] resolved to %s
+10-12 03:40:13.742  4421  4511 I OpenGLRenderer: Davey! duration=3750ms; Flags=0, FrameTimelineVsyncId=5748, IntendedVsync=200768174164, Vsync=204284840690, InputEventId=0, HandleInputStart=204293356919, AnimationStart=204293361768, PerformTraversalsStart=204302250298, DrawStart=204302981371, FrameDeadline=204268174024, FrameInterval=204292760757, FrameStartTime=16666666, SyncQueued=204307804277, SyncStart=204307829174, IssueDrawCommandsStart=204307883926, SwapBuffers=204312350508, FrameCompleted=204518625053, DequeueBufferDuration=5720, QueueBufferDuration=164707, GpuCompleted=204518625053, SwapBuffersCompleted=204501396056, DisplayPresentTime=0, CommandSubmissionCompleted=204312350508, 
+10-12 03:40:13.748  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:13.752  4421  4525 D ProfileInstaller: Installing profile for app.tvessentials.installer
+10-12 03:40:13.756  4421  4440 I tials.installer: Background concurrent copying GC freed 193691(9984KB) AllocSpace objects, 40(8476KB) LOS objects, 49% free, 5492KB/10MB, paused 129us,17us total 274.668ms
+10-12 03:40:13.781  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:13.812  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:40:13.818  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:40:13.818  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:40:13.818  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:40:13.819  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:40:14.006  3513  4159 I FontLog : (REDACTED) Fetch %s end status %s
+10-12 03:40:14.015  3513  4159 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-12 03:40:14.020  3513  4159 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-12 03:40:14.535   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:14.621  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:14.810   376   932 D audioserver: FGS Logger Transaction failed
+10-12 03:40:14.813   376   932 D audioserver: -129
+10-12 03:40:14.824   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(34)
+10-12 03:40:14.983   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:14.983   376   473 D audioserver: -129
+10-12 03:40:15.012  4421  4488 D EGL_emulation: app_time_stats: avg=770.74ms min=249.89ms max=1291.58ms count=2
+10-12 03:40:15.262  3634  3678 I Finsky  : [46] Stats for Executor: BlockingExecutor noy@c2ccb3e[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 247]
+10-12 03:40:15.268  4421  4511 I OpenGLRenderer: Davey! duration=1517ms; Flags=0, FrameTimelineVsyncId=5859, IntendedVsync=204301507356, Vsync=204651507342, InputEventId=0, HandleInputStart=204661010776, AnimationStart=204661015234, PerformTraversalsStart=204859119008, DrawStart=204903486628, FrameDeadline=204551507346, FrameInterval=204660796486, FrameStartTime=16666666, SyncQueued=204920117599, SyncStart=204920170189, IssueDrawCommandsStart=204920247644, SwapBuffers=205615374687, FrameCompleted=205819294852, DequeueBufferDuration=8024, QueueBufferDuration=197979, GpuCompleted=205819294852, SwapBuffersCompleted=205793320109, DisplayPresentTime=0, CommandSubmissionCompleted=205615374687, 
+10-12 03:40:15.335  3634  3678 I Finsky  : [46] Stats for Executor: LightweightExecutor noy@4f39d9f[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 761]
+10-12 03:40:15.419  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:15.619  4421  4511 I OpenGLRenderer: Davey! duration=708ms; Flags=0, FrameTimelineVsyncId=5920, IntendedVsync=205651507302, Vsync=206068173952, InputEventId=0, HandleInputStart=206074588200, AnimationStart=206074593009, PerformTraversalsStart=206089598519, DrawStart=206089780358, FrameDeadline=206118173950, FrameInterval=206072333765, FrameStartTime=16666666, SyncQueued=206097786252, SyncStart=206099187308, IssueDrawCommandsStart=206099258851, SwapBuffers=206106209596, FrameCompleted=206361355960, DequeueBufferDuration=8024, QueueBufferDuration=19635376, GpuCompleted=206352611729, SwapBuffersCompleted=206361355960, DisplayPresentTime=0, CommandSubmissionCompleted=206106209596, 
+10-12 03:40:15.622   376   932 D audioserver: FGS Logger Transaction failed
+10-12 03:40:15.622   376   932 D audioserver: -129
+10-12 03:40:15.640   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(31)
+10-12 03:40:15.885   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:15.885   376   473 D audioserver: -129
+10-12 03:40:15.932  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:40:15.935  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:16.177  4421  4488 D EGL_emulation: app_time_stats: avg=291.29ms min=270.76ms max=326.38ms count=4
+10-12 03:40:16.257  3660  3691 I Finsky:background: [46] Stats for Executor: bgExecutor noy@d4fa306[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 107]
+10-12 03:40:16.372  3660  3691 I Finsky:background: [46] Stats for Executor: LightweightExecutor noy@b386dc7[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 157]
+10-12 03:40:16.386  3634  3678 I Finsky  : [46] Stats for Executor: bgExecutor noy@dbabeec[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 2510]
+10-12 03:40:16.528  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:16.551  4421  4469 W tials.installer: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blocked,test-api, reflection, allowed)
+10-12 03:40:16.576  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:16.667   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:17.024  4421  4469 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:40:17.041  4421  4469 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:40:17.056  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:17.088   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:17.092   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:17.110  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:17.115  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2bda63e in: PAUSED
+10-12 03:40:17.121   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:17.137  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:17.167  1510  1510 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:40:17.167  1510  1510 W HomeController: onResume: List view global layout completed.
+10-12 03:40:17.239  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:40:17.288  1510  1510 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 03:40:17.474  4421  4469 E TestRunner: failed: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)
+10-12 03:40:17.509   488  1082 I ImeTracker: com.google.android.tvlauncher:11bf6e5e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:40:17.509   488  1082 I ImeTracker: com.google.android.tvlauncher:11bf6e5e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:40:17.513  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:40:17.514  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:40:17.518  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:40:17.518  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:40:17.518  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:40:17.523  4421  4469 E TestRunner: ----- begin exception -----
+10-12 03:40:17.523  4421  4469 E TestRunner: java.lang.IllegalStateException: Description selector is already defined
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(InstallFlowTest.kt:85)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:40:17.523  4421  4469 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:40:17.524  4421  4469 E TestRunner: ----- end exception -----
+10-12 03:40:17.533  4421  4469 I TestRunner: finished: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)

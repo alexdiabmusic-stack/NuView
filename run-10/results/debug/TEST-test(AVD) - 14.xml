@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="18" failures="5" errors="0" skipped="0" time="0.000" timestamp="2026-10-12T03:42:20" hostname="localhost">
+  <testsuite name="app.tvessentials.installer.InstallFlowTest" tests="3" failures="3" errors="0" skipped="0" time="20.150" timestamp="2026-10-12T03:42:20" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically" classname="app.tvessentials.installer.InstallFlowTest" time="9.193">
+      <failure>java.lang.IllegalStateException: Description selector is already defined
+	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+	at app.tvessentials.installer.InstallFlowTest.missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(InstallFlowTest.kt:85)
+</failure>
+    </testcase>
+    <testcase name="cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable" classname="app.tvessentials.installer.InstallFlowTest" time="5.214">
+      <failure>java.lang.IllegalStateException: Description selector is already defined
+	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+	at app.tvessentials.installer.InstallFlowTest.cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable(InstallFlowTest.kt:67)
+</failure>
+    </testcase>
+    <testcase name="installsSmartTubeEndToEndAndOpensIt" classname="app.tvessentials.installer.InstallFlowTest" time="5.743">
+      <failure>java.lang.IllegalStateException: Description selector is already defined
+	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+	at app.tvessentials.installer.InstallFlowTest.installsSmartTubeEndToEndAndOpensIt(InstallFlowTest.kt:49)
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LauncherUiTest" tests="10" failures="1" errors="0" skipped="0" time="71.307" timestamp="2026-10-12T03:42:20" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="detailsOpensFromTheDetailsLinkAndFromTheMenuKey" classname="app.tvessentials.installer.LauncherUiTest" time="9.687" />
+    <testcase name="homeShowsHeroAndAllThreeCards" classname="app.tvessentials.installer.LauncherUiTest" time="4.672" />
+    <testcase name="smartTubeDetailsCarryTheIndependenceDisclosure" classname="app.tvessentials.installer.LauncherUiTest" time="6.794" />
+    <testcase name="settingsOpensAndBackRestoresFocusToTheSettingsButton" classname="app.tvessentials.installer.LauncherUiTest" time="6.697" />
+    <testcase name="headerButtonsAreReachableAndFocusReturnsToTheCards" classname="app.tvessentials.installer.LauncherUiTest" time="7.792" />
+    <testcase name="focusStartsOnTheFirstCardAndNeverGetsLost" classname="app.tvessentials.installer.LauncherUiTest" time="14.691" />
+    <testcase name="backOnTheHomeScreenLeavesTheApp" classname="app.tvessentials.installer.LauncherUiTest" time="6.088" />
+    <testcase name="appIsRegisteredAsALeanbackLauncherWithABanner" classname="app.tvessentials.installer.LauncherUiTest" time="3.133" />
+    <testcase name="dpadMovesAcrossTheCardsAndStopsAtTheEdges" classname="app.tvessentials.installer.LauncherUiTest" time="7.895" />
+    <testcase name="iMPlayerOffersTheGuidedRouteAndBackClosesIt" classname="app.tvessentials.installer.LauncherUiTest" time="3.858">
+      <failure>java.lang.IllegalStateException: Description selector is already defined
+	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+	at app.tvessentials.installer.LauncherUiTest.iMPlayerOffersTheGuidedRouteAndBackClosesIt(LauncherUiTest.kt:108)
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LayoutMatrixTest" tests="5" failures="1" errors="0" skipped="0" time="34.101" timestamp="2026-10-12T03:42:20" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="at720p" classname="app.tvessentials.installer.LayoutMatrixTest" time="8.276" />
+    <testcase name="at720pWithLargestText" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.385" />
+    <testcase name="at1080p" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.937" />
+    <testcase name="at4k" classname="app.tvessentials.installer.LayoutMatrixTest" time="2.848">
+      <failure>org.junit.AssumptionViolatedException: [4k] the display did not switch to 3840x2160 (is 1920px wide)
+	at org.junit.Assume.assumeTrue(Assume.java:68)
+	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:33)
+	at app.tvessentials.installer.LayoutMatrixTest.verify$default(LayoutMatrixTest.kt:25)
+	at app.tvessentials.installer.LayoutMatrixTest.at4k(LayoutMatrixTest.kt:46)
+</failure>
+    </testcase>
+    <testcase name="at1080pWithLargeText" classname="app.tvessentials.installer.LayoutMatrixTest" time="7.655" />
+  </testsuite>
+</testsuites>

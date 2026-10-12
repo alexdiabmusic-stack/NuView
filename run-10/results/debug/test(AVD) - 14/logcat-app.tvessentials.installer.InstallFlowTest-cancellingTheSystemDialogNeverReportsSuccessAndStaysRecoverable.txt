@@ -1,0 +1,160 @@
+10-12 03:40:17.752  4421  4469 I TestRunner: started: cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable(app.tvessentials.installer.InstallFlowTest)
+10-12 03:40:17.803  4421  4469 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:40:17.819  4421  4421 I MonitoringInstr: Finishing activity: app.tvessentials.installer.MainActivity@2bda63e
+10-12 03:40:17.867  3634  3634 I Finsky  : [2] SCH: job service start with id 9142.
+10-12 03:40:17.932  4421  4469 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 1-1337, CT: 1791776371408, Constraints: [{ L: 18412253, D: 61612253, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-4, CT: 1791776370709, Constraints: [{ L: 1200000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-11, CT: 1791776370711, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-26, CT: 1791776370719, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-93, CT: 1791776370723, Constraints: [{ L: 300000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-101, CT: 1791776370723, Constraints: [{ L: 60000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 10-123, CT: 1791776370723, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:17.969  3634  3719 I Finsky  : [58] SCH: Scheduling phonesky job Id: 12-1, CT: 1791776404416, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:18.009  3634  3787 I Finsky  : [65] SCH: Scheduling 1 system job(s)
+10-12 03:40:18.010  3634  3787 I Finsky  : [65] SCH: Scheduling system job Id: 9152, L: 1407, D: 61565652, C: false, I: false, N: 1
+10-12 03:40:18.033  3634  3879 I Finsky  : [108] SCH: job service finished with id 9142.
+10-12 03:40:18.257  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:18.344   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:18.345   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:18.379   488   717 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=96, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:18.470  1510  1670 D EGL_emulation: app_time_stats: avg=64.68ms min=25.77ms max=162.21ms count=17
+10-12 03:40:18.535  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@2bda63e in: DESTROYED
+10-12 03:40:18.536  4421  4421 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@5b80a15
+10-12 03:40:18.539  1510  1510 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:40:18.571   488  1082 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:18.585  4421  4469 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:40:18.590  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:18.600   488  1082 W InputManager-JNI: Input channel object 'c7c0581 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:40:18.608   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:18.613   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:18.615  4421  4421 I Choreographer: Skipped 46 frames!  The application may be doing too much work on its main thread.
+10-12 03:40:18.717   328  1921 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 303552
+10-12 03:40:18.750  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:18.759  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f80068c in: PRE_ON_CREATE
+10-12 03:40:18.778  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f80068c in: CREATED
+10-12 03:40:18.782  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f80068c in: STARTED
+10-12 03:40:18.804  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:18.810  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:18.815  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:18.832   488  3688 D ConnectivityService: requestNetwork for uid/pid:10122/4421 activeRequest: null callbackRequest: 97 [NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:40:18.844   488   718 D ConnectivityService: NetReassign [98 : null → 100] [c 0] [a 0] [i 1]
+10-12 03:40:18.849   488   717 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:18.849   488   717 D EthernetNetworkFactory: IpClient already started
+10-12 03:40:18.850   488   710 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:18.850   488   710 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:18.850   488   710 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=98, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:40:18.877  3660  3691 I Finsky:background: [46] Stats for Executor: BlockingExecutor noy@7638ff4[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 36]
+10-12 03:40:18.885  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f80068c in: RESUMED
+10-12 03:40:19.427  3634  3634 I Finsky  : [2] SCH: job service start with id 9152.
+10-12 03:40:19.431  3634  3816 I Finsky  : [82] SCH: Satisfied jobs for 9152 are: 12-1
+10-12 03:40:19.433  3634  3879 I Finsky  : [108] SCH: Job 12-1 starting
+10-12 03:40:19.434  3634  3634 I Finsky  : [2] WM::SCH: Logging work start for 12-1
+10-12 03:40:19.434  3634  3634 I Finsky  : [2] [ContentSync] job started
+10-12 03:40:19.597  3634  4560 E Finsky  : [181] [Counters] attempted to use a non-positive increment for: 9200
+10-12 03:40:19.597  3634  4560 I Finsky  : [181] App states replicator found 4 unowned apps
+10-12 03:40:19.614  3634  3787 I Finsky  : [65] Completed 0 account content syncs with 0 successful.
+10-12 03:40:19.615  3634  3634 I Finsky  : [2] [ContentSync] Installation state replication succeeded.
+10-12 03:40:19.615  3634  3634 I Finsky  : [2] SCH: jobFinished: 12-1. TimeElapsed: 181ms.
+10-12 03:40:19.620  3634  3634 I Finsky  : [2] WM::SCH: Logging work end for 12-1
+10-12 03:40:19.645  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 1-1337, CT: 1791776371408, Constraints: [{ L: 18412253, D: 61612253, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.645  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-4, CT: 1791776370709, Constraints: [{ L: 1200000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.647  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-11, CT: 1791776370711, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.647  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-26, CT: 1791776370719, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.647  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-93, CT: 1791776370723, Constraints: [{ L: 300000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.647  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-101, CT: 1791776370723, Constraints: [{ L: 60000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.647  3634  3787 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-123, CT: 1791776370723, Constraints: [{ L: 600000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+10-12 03:40:19.650  3634  3807 I Finsky  : [74] SCH: Scheduling 1 system job(s)
+10-12 03:40:19.650  3634  3807 I Finsky  : [74] SCH: Scheduling system job Id: 9160, L: 11073, D: 61564011, C: false, I: false, N: 1
+10-12 03:40:19.668  3634  3879 I Finsky  : [108] SCH: job service finished with id 9152.
+10-12 03:40:19.717   488   509 W ziparchive: Unable to open '/data/app/~~w82y-PKZhZ6ZxfwcWcB01A==/app.tvessentials.installer-YGyLSbbU1PrgcGeq6sKRng==/base.dm': No such file or directory
+10-12 03:40:19.721   488   509 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +1s132ms
+10-12 03:40:19.740  4421  4448 I OpenGLRenderer: Davey! duration=945ms; Flags=1, FrameTimelineVsyncId=6456, IntendedVsync=209534840480, Vsync=209684840474, InputEventId=0, HandleInputStart=209696281356, AnimationStart=209696288640, PerformTraversalsStart=209696731476, DrawStart=210185867464, FrameDeadline=209551507146, FrameInterval=209696091211, FrameStartTime=16666666, SyncQueued=210211410630, SyncStart=210217125872, IssueDrawCommandsStart=210217325605, SwapBuffers=210225962515, FrameCompleted=210486136410, DequeueBufferDuration=6332, QueueBufferDuration=1902078, GpuCompleted=210486136410, SwapBuffersCompleted=210473494248, DisplayPresentTime=-71578241344623802, CommandSubmissionCompleted=210225962515, 
+10-12 03:40:19.790  4421  4421 I Choreographer: Skipped 50 frames!  The application may be doing too much work on its main thread.
+10-12 03:40:19.866   488  3688 I ImeTracker: app.tvessentials.installer:69ad0c7f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:40:19.867   488  3688 I ImeTracker: app.tvessentials.installer:69ad0c7f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:40:19.907  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:40:19.909  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:40:19.909  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:40:19.910  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:40:19.914  1025  1025 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:40:20.208  4421  4448 I OpenGLRenderer: Davey! duration=1242ms; Flags=0, FrameTimelineVsyncId=6501, IntendedVsync=209734851561, Vsync=210568184861, InputEventId=0, HandleInputStart=210571828552, AnimationStart=210571833601, PerformTraversalsStart=210603639198, DrawStart=210606342992, FrameDeadline=210518173774, FrameInterval=210571270040, FrameStartTime=16666666, SyncQueued=210636446434, SyncStart=210636469276, IssueDrawCommandsStart=210636523237, SwapBuffers=210673487727, FrameCompleted=210977206896, DequeueBufferDuration=6914, QueueBufferDuration=2132698, GpuCompleted=210977206896, SwapBuffersCompleted=210960468041, DisplayPresentTime=-71162243697136305, CommandSubmissionCompleted=210673487727, 
+10-12 03:40:20.619  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:20.626  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:20.630  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:20.636  2235  2320 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:20.759  4421  4439 I tials.installer: Compiler allocated 4178KB to compile void app.tvessentials.installer.ui.HomeScreenKt.HomeScreen(app.tvessentials.installer.ui.HomeUi, app.tvessentials.installer.ui.HomeFocus, int, boolean, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, androidx.compose.runtime.Composer, int)
+10-12 03:40:21.074   783   783 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:40:21.333  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:21.359   376   932 D audioserver: FGS Logger Transaction failed
+10-12 03:40:21.359   376   932 D audioserver: -129
+10-12 03:40:21.408   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(33)
+10-12 03:40:21.470  2235  2235 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:40:21.496  2235  2319 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:40:21.504  4421  4469 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:40:21.520   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:21.520   376   473 D audioserver: -129
+10-12 03:40:21.619  4421  4488 D EGL_emulation: app_time_stats: avg=385.22ms min=264.46ms max=584.39ms count=5
+10-12 03:40:21.656   376   932 D audioserver: FGS Logger Transaction failed
+10-12 03:40:21.656   376   932 D audioserver: -129
+10-12 03:40:21.687   376   473 D AudioFlinger: mixer(0xf28b4e20) throttle end: throttle time(11)
+10-12 03:40:21.844   376   473 D audioserver: FGS Logger Transaction failed
+10-12 03:40:21.844   376   473 D audioserver: -129
+10-12 03:40:22.198  4421  4469 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:40:22.199  4421  4469 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:22.398  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:40:22.412  4421  4469 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:40:22.670  4421  4469 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:40:22.685  4421  4469 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:40:22.699  4421  4469 D UiDevice: Pressing home button.
+10-12 03:40:22.718   488   510 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:40:22.718   782   782 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:40:22.749  4421  4421 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@f80068c in: PAUSED
+10-12 03:40:22.756   381   381 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:40:22.794  1510  1510 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:40:22.794  1510  1510 W HomeController: onResume: List view global layout completed.
+10-12 03:40:22.864  4421  4469 E TestRunner: failed: cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable(app.tvessentials.installer.InstallFlowTest)
+10-12 03:40:22.887  4421  4469 E TestRunner: ----- begin exception -----
+10-12 03:40:22.887  4421  4469 E TestRunner: java.lang.IllegalStateException: Description selector is already defined
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.desc(BySelector.java:243)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.uiautomator.BySelector.descContains(BySelector.java:203)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at app.tvessentials.installer.TvDriver.cardSays(TvTestSupport.kt:87)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.waitForInstallable(InstallFlowTest.kt:44)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable(InstallFlowTest.kt:67)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:40:22.887  4421  4469 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:40:22.888  4421  4469 E TestRunner: ----- end exception -----
+10-12 03:40:22.899  4421  4469 I TestRunner: finished: cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable(app.tvessentials.installer.InstallFlowTest)
