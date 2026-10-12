@@ -1,0 +1,23 @@
+# core | run 7 | sha 6e490e13ca3d36fcfd4d00f16edec7f5d6f3faf5 | 2026-10-12T03:04:48Z
+## errors and key lines
+16:BUILD SUCCESSFUL in 8s
+
+## tail
+Starting a Gradle Daemon (subsequent builds will be faster)
+Configuration on demand is an incubating feature.
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:compileKotlin FROM-CACHE
+> Task :core:compileJava NO-SOURCE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :core:compileTestKotlin FROM-CACHE
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:processTestResources
+> Task :core:testClasses
+> Task :core:test FROM-CACHE
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run-1791774282467.json
+
+BUILD SUCCESSFUL in 8s
+5 actionable tasks: 2 executed, 3 from cache
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.1/userguide/configuration_cache_enabling.html
