@@ -1,0 +1,302 @@
+10-12 14:29:59.868  4489  4526 I TestRunner: started: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)
+10-12 14:29:59.874  4489  4526 I UiDevice: Creating a new instance, old instance exists: false
+10-12 14:29:59.876  4489  4526 I UiAutomation: Initialized for user 0 on display 0
+10-12 14:29:59.909  4489  4526 D UiDevice: Setting accessibility service flags: 65618
+10-12 14:29:59.916   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 14:29:59.928  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:29:59.955  4489  4526 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 14:29:59.961  1414  1414 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 14:30:00.018  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:00.041  1414  1614 D EGL_emulation: app_time_stats: avg=219.28ms min=34.32ms max=1068.57ms count=6
+10-12 14:30:00.105  2309  2331 I .katniss:search: CollectorTransition concurrent copying GC freed 30944(1921KB) AllocSpace objects, 4(144KB) LOS objects, 49% free, 5070KB/10141KB, paused 38us,26us total 165.381ms
+10-12 14:30:00.112  2309  2333 W .katniss:search: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~JVbD-0SbmBVgH_nCad7itg==/app.tvessentials.installer-HBFxgX6bj2EaacbhsUoHiQ==/base.apk' with 1 weak references
+10-12 14:30:00.158  4489  4526 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 14:30:00.402  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:00.406  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:00.541  4489  4526 D UiDevice: Pressing home button.
+10-12 14:30:00.570   787   787 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 14:30:00.579   487   511 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:30:00.586  1414  1414 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:30:00.586  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:00.610  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:00.617   487  2752 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 14:30:00.750  4489  4526 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:30:00.751  4489  4526 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:30:00.809   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:30:00.894  4489  4549 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+10-12 14:30:00.898  4489  4549 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+10-12 14:30:00.904  4489  4549 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+10-12 14:30:00.951  4489  4489 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e4843ed in: PRE_ON_CREATE
+10-12 14:30:01.073  1414  1614 D EGL_emulation: app_time_stats: avg=125.32ms min=45.72ms max=485.76ms count=8
+10-12 14:30:01.118  4489  4489 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e4843ed in: CREATED
+10-12 14:30:01.127  4489  4489 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e4843ed in: STARTED
+10-12 14:30:01.163   487   508 D ConnectivityService: requestNetwork for uid/pid:10122/4489 activeRequest: null callbackRequest: 92 [NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 14:30:01.164   487   721 D ConnectivityService: NetReassign [93 : null → 100] [c 0] [a 0] [i 1]
+10-12 14:30:01.165   487   720 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:30:01.165   487   720 D EthernetNetworkFactory: IpClient already started
+10-12 14:30:01.165   487   713 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:30:01.165   487   713 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:30:01.165   487   713 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:30:01.190  4489  4489 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@e4843ed in: RESUMED
+10-12 14:30:01.195  4489  4489 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10122; state: DISABLED
+10-12 14:30:01.196  4489  4489 W OpenGLRenderer: Unknown dataspace 0
+10-12 14:30:01.306  4489  4568 D TrafficStats: tagSocket(90) with statsTag=0xffffffff, statsUid=-1
+10-12 14:30:01.308  4489  4569 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 14:30:01.315  4489  4570 D TrafficStats: tagSocket(93) with statsTag=0xffffffff, statsUid=-1
+10-12 14:30:01.425  4489  4489 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10122; state: ENABLED
+10-12 14:30:01.577  4489  4568 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 14:30:01.759  4489  4526 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:30:01.818   383  1003 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=0
+10-12 14:30:01.818   383  1003 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (219 us)
+10-12 14:30:01.818   383   398 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=4489
+10-12 14:30:01.818   383   398 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (301 us)
+10-12 14:30:01.819   383   398 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=4489
+10-12 14:30:01.819   383   398 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (605 us)
+10-12 14:30:01.819   383  1003 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=0
+10-12 14:30:01.819   383  1003 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (1119 us)
+10-12 14:30:01.846   134   134 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+10-12 14:30:01.847  4489  4545 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-12 14:30:01.891  4489  4526 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:30:01.904   134   134 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 14:30:01.904  4489  4545 I Gralloc4: mapper 4.x is not supported
+10-12 14:30:02.028  4489  4568 D TrafficStats: tagSocket(103) with statsTag=0xffffffff, statsUid=-1
+10-12 14:30:02.278  4489  4570 D TrafficStats: tagSocket(109) with statsTag=0xffffffff, statsUid=-1
+10-12 14:30:02.419  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:02.439  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:02.505   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 14:30:03.009  4489  4580 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#0) as ready
+10-12 14:30:03.013  4489  4580 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#1) as ready
+10-12 14:30:03.014   487   559 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=0
+10-12 14:30:03.014   487   559 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (93 us)
+10-12 14:30:03.014   487   559 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=0
+10-12 14:30:03.014   487   559 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (31 us)
+10-12 14:30:03.014   487   559 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=0
+10-12 14:30:03.014   487   559 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (55 us)
+10-12 14:30:03.095   487   510 W ziparchive: Unable to open '/data/app/~~JVbD-0SbmBVgH_nCad7itg==/app.tvessentials.installer-HBFxgX6bj2EaacbhsUoHiQ==/base.dm': No such file or directory
+10-12 14:30:03.103   487   510 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +2s412ms
+10-12 14:30:03.365  3773  3809 I Finsky  : [46] Stats for Executor: LightweightExecutor oew@48a325b[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 807]
+10-12 14:30:03.447  3773  3809 I Finsky  : [46] Stats for Executor: BlockingExecutor oew@7915af8[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 260]
+10-12 14:30:03.762  3791  3831 I Finsky:background: [45] Stats for Executor: bgExecutor oew@61890c[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 105]
+10-12 14:30:03.767  3773  3809 I Finsky  : [46] Stats for Executor: bgExecutor oew@66b7bd1[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 2518]
+10-12 14:30:03.821  3791  3831 I Finsky:background: [45] Stats for Executor: LightweightExecutor oew@c913255[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 149]
+10-12 14:30:04.301  3791  3831 I Finsky:background: [45] Stats for Executor: BlockingExecutor oew@9e6846a[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 36]
+10-12 14:30:04.711  4489  4489 W tials.installer: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+10-12 14:30:04.740  4489  4574 I OpenGLRenderer: Davey! duration=3504ms; Flags=1, FrameTimelineVsyncId=5494, IntendedVsync=213596692940, Vsync=213596692940, InputEventId=0, HandleInputStart=213608637750, AnimationStart=213608642408, PerformTraversalsStart=213608645715, DrawStart=214380614158, FrameDeadline=213613359606, FrameInterval=213608611080, FrameStartTime=16666666, SyncQueued=214428505457, SyncStart=214428845255, IssueDrawCommandsStart=214429678611, SwapBuffers=216851702469, FrameCompleted=217101322487, DequeueBufferDuration=5160, QueueBufferDuration=320118, GpuCompleted=217101322487, SwapBuffersCompleted=217082630492, DisplayPresentTime=317928748, CommandSubmissionCompleted=216851702469, 
+10-12 14:30:04.764  4489  4489 I Choreographer: Skipped 207 frames!  The application may be doing too much work on its main thread.
+10-12 14:30:04.974   487   559 I ImeTracker: app.tvessentials.installer:e61aab32: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 14:30:04.974   487   559 I ImeTracker: app.tvessentials.installer:e61aab32: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 14:30:04.987  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 14:30:04.990  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 14:30:04.990  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 14:30:04.990  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 14:30:04.990  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 14:30:05.138  3694  3766 I FontLog : (REDACTED) Received query %s, URI %s
+10-12 14:30:05.141  3694  3766 I FontLog : (REDACTED) Query [%s] resolved to %s
+10-12 14:30:05.154  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:05.161  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:05.585  3694  3766 I FontLog : (REDACTED) Fetch %s end status %s
+10-12 14:30:05.593  3694  3766 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-12 14:30:05.599  3694  3766 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-12 14:30:05.647  4489  4575 I OpenGLRenderer: Davey! duration=4100ms; Flags=0, FrameTimelineVsyncId=5509, IntendedVsync=213680026270, Vsync=217130026132, InputEventId=0, HandleInputStart=217140175689, AnimationStart=217140179536, PerformTraversalsStart=217234616941, DrawStart=217235235626, FrameDeadline=217130026132, FrameInterval=217137830727, FrameStartTime=16666666, SyncQueued=217250297922, SyncStart=217250362145, IssueDrawCommandsStart=217250434640, SwapBuffers=217439442915, FrameCompleted=217780771952, DequeueBufferDuration=5641, QueueBufferDuration=222165, GpuCompleted=217780771952, SwapBuffersCompleted=217763286420, DisplayPresentTime=8191667579248079658, CommandSubmissionCompleted=217439442915, 
+10-12 14:30:05.856  4489  4489 I Choreographer: Skipped 47 frames!  The application may be doing too much work on its main thread.
+10-12 14:30:05.972  4489  4585 D ProfileInstaller: Installing profile for app.tvessentials.installer
+10-12 14:30:05.976  4489  4575 I OpenGLRenderer: Davey! duration=1106ms; Flags=0, FrameTimelineVsyncId=5626, IntendedVsync=217230026128, Vsync=217413359454, InputEventId=0, HandleInputStart=217428400141, AnimationStart=217428404088, PerformTraversalsStart=217604506673, DrawStart=217775551483, FrameDeadline=217813359438, FrameInterval=217426102841, FrameStartTime=16666666, SyncQueued=217815574350, SyncStart=217815596290, IssueDrawCommandsStart=217815687551, SwapBuffers=218020965529, FrameCompleted=218336374617, DequeueBufferDuration=5541, QueueBufferDuration=7372457, GpuCompleted=218336311810, SwapBuffersCompleted=218336374617, DisplayPresentTime=322234455, CommandSubmissionCompleted=218020965529, 
+10-12 14:30:06.123   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 14:30:06.125  4489  4526 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:30:06.182   379   933 D audioserver: FGS Logger Transaction failed
+10-12 14:30:06.182   379   933 D audioserver: -129
+10-12 14:30:06.230   379   472 D AudioFlinger: mixer(0xf442ce20) throttle end: throttle time(31)
+10-12 14:30:06.343   379   472 D audioserver: FGS Logger Transaction failed
+10-12 14:30:06.343   379   472 D audioserver: -129
+10-12 14:30:06.458  4489  4545 D EGL_emulation: app_time_stats: avg=583.09ms min=495.56ms max=680.64ms count=3
+10-12 14:30:06.469  4489  4526 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 14:30:06.577   379   933 D audioserver: FGS Logger Transaction failed
+10-12 14:30:06.577   379   933 D audioserver: -129
+10-12 14:30:06.809   379   472 D audioserver: FGS Logger Transaction failed
+10-12 14:30:06.809   379   472 D audioserver: -129
+10-12 14:30:07.137  4489  4526 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 14:30:07.138  4489  4526 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:30:07.383  4489  4526 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 14:30:07.398  4489  4526 W tials.installer: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blocked,test-api, reflection, allowed)
+10-12 14:30:07.406  4489  4526 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:30:07.418  4489  4505 I tials.installer: Background concurrent copying GC freed 215754(10MB) AllocSpace objects, 46(8596KB) LOS objects, 49% free, 7209KB/14MB, paused 3.328ms,687us total 1.617s
+10-12 14:30:07.683  4489  4545 D EGL_emulation: app_time_stats: avg=305.69ms min=242.64ms max=411.47ms count=4
+10-12 14:30:07.876  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:07.883  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.127   788   788 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 14:30:08.135  4489  4526 D UiDevice: Waiting 60000ms for SearchCondition[hasObject=BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:30:08.135  4489  4526 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QNot installed\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:30:08.215  4489  4526 D UiDevice: Waiting 60000ms for SearchCondition[hasObject=BySelector [DESC='(?s)\QSmartTube\E.*\QLatest 32.\E.*', PKG='\Qapp.tvessentials.installer\E']].
+10-12 14:30:08.216  4489  4526 D UiDevice: Searching for node with selector: BySelector [DESC='(?s)\QSmartTube\E.*\QLatest 32.\E.*', PKG='\Qapp.tvessentials.installer\E'].
+10-12 14:30:08.222  4489  4526 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_smarttube_ready.png
+10-12 14:30:08.289  4588  4588 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 14:30:08.292  1178  1719 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10114; state: ENABLED
+10-12 14:30:08.297  1178  1719 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 14:30:08.300  4588  4588 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 14:30:08.303   383   397 W ServiceManagerCppClient: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=4588
+10-12 14:30:08.304   383   397 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (1094 us)
+10-12 14:30:08.326   134   134 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 14:30:08.326  4588  4591 I Gralloc4: mapper 4.x is not supported
+10-12 14:30:08.412  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.424  3694  3729 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:08.427  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.434  3694  4393 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:08.438  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.440  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.465  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.467  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.473  3694  3796 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:08.483  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.485  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.492  3743  3867 I ChimeraConfigurator: Starting update, reason: 1 urgentFeatures: 
+10-12 14:30:08.498  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.500  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.509  3694  4592 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:08.523  3694  4517 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:08.525  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.527  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.534  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.536  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.555  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.557  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.567  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.569  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.583  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.585  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.592  3694  4592 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:08.598  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.601  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.607  3743  3867 I ChimeraConfigurator: Update complete: success
+10-12 14:30:08.611  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.612  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.620  3694  4592 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:08.624  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.626  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.633  3743  3867 I GmsModuleFndr: Beginning GMS chimera module scan
+10-12 14:30:08.643  3743  3867 I ModuleSetMgr: Computing pending module set with APKs: [[AdsFdrDynamite.integ:232400000100000], [Cronetdynamite:233515180706], [Dynamiteloader:233515180006], [Dynamitemodulesa:233515180006], [Dynamitemodulesc:233515180006], [Googlecertificates:233515180006], [Mapsdynamite:233515180006], [Measurementdynamite:233515180006]]
+10-12 14:30:08.650  3743  3867 I ModuleSetMgr: Pending container module APKs: []
+10-12 14:30:08.651  3743  3867 I ModuleSetMgr: Pending non-container module APKs: []
+10-12 14:30:08.654  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.656  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.674  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.675  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.681  3694  3796 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:08.775  3694  4592 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:08.778  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.780  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.807  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.809  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.817  3694  4517 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:08.832  3743  3867 I ChimeraConfigService: (REDACTED) Scheduling checkin every %s seconds, with flex of %s seconds
+10-12 14:30:08.839  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.841  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.848  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:08.849  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:08.850  3694  3702 W System  : A resource failed to call end. 
+10-12 14:30:08.858  3694  3796 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:08.863  3694  3796 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:09.172   487  3586 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 14:30:09.178   487   510 I ActivityManager: Broadcast completed: result=0
+10-12 14:30:09.178  1178  1829 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 14:30:09.196  4489  4526 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES deny
+10-12 14:30:09.205  1178  1829 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 14:30:09.219   487   887 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877418/cgroup.freeze
+10-12 14:30:09.219   487   887 W libprocessgroup: Failed to apply Frozen process profile: No such file or directory
+10-12 14:30:09.248  4455  4531 W Binder  : Caught a RuntimeException from the binder stub implementation.
+10-12 14:30:09.248  4455  4531 W Binder  : java.lang.SecurityException: Calling from not trusted UID!
+10-12 14:30:09.248  4455  4531 W Binder  : 	at android.app.UiAutomationConnection.throwIfCalledByNotTrustedUidLocked(UiAutomationConnection.java:651)
+10-12 14:30:09.248  4455  4531 W Binder  : 	at android.app.UiAutomationConnection.shutdown(UiAutomationConnection.java:552)
+10-12 14:30:09.248  4455  4531 W Binder  : 	at android.app.IUiAutomationConnection$Stub.onTransact(IUiAutomationConnection.java:402)
+10-12 14:30:09.248  4455  4531 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1344)
+10-12 14:30:09.248  4455  4531 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1275)
+10-12 14:30:09.260   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 14:30:09.268   323   323 I Zygote  : Process 4489 exited due to signal 9 (Killed)
+10-12 14:30:09.272   487   866 I ImeTracker: app.tvessentials.installer:767f0166: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_REMOVE_CLIENT
+10-12 14:30:09.273   487   721 D ConnectivityService: releasing NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ] (release request)
+10-12 14:30:09.274   487   720 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 14:30:09.274   487   866 I ImeTracker: app.tvessentials.installer:767f0166: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 14:30:09.275   487  1389 W InputManager-JNI: Input channel object 'b1ec518 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 14:30:09.302   487   887 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877418/cgroup.freeze
+10-12 14:30:09.305   487   887 W libprocessgroup: Failed to apply Unfrozen process profile: No such file or directory
+10-12 14:30:09.307  4455  4455 I app_process: System.exit called, status: 0
+10-12 14:30:09.307  4455  4455 I AndroidRuntime: VM exiting with result code 0.
+10-12 14:30:09.373  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:09.379  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:09.410  3694  4517 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 14:30:09.455  3694  4517 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 14:30:09.457  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:09.459  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:09.487  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:09.491  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:09.534  1414  1414 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 14:30:09.534  1414  1414 W HomeController: onResume: List view global layout completed.
+10-12 14:30:09.640  1414  1414 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 14:30:09.664   487  1569 I Process : Sending signal. PID: 4489 SIG: 9
+10-12 14:30:09.673   328  1939 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 304640
+10-12 14:30:09.693   383   383 E BpTransactionCompletedListener: Failed to transact (-32)
+10-12 14:30:09.737  1414  1414 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 14:30:09.862   487  1569 I ImeTracker: com.google.android.tvlauncher:f64c0649: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 14:30:09.862   487  1569 I ImeTracker: com.google.android.tvlauncher:f64c0649: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 14:30:09.866  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 14:30:09.872  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 14:30:09.872  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 14:30:09.872  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 14:30:09.877  1042  1042 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 14:30:10.193  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:10.220  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:10.423   487   521 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877418/cgroup.freeze
+10-12 14:30:10.424   487   521 W libprocessgroup: Failed to apply Frozen process profile: No such file or directory
+10-12 14:30:10.426   487   521 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877418/cgroup.freeze
+10-12 14:30:10.426   487   521 W libprocessgroup: Failed to apply Unfrozen process profile: No such file or directory
+10-12 14:30:10.635  4639  4639 I artd    : Starting artd
+10-12 14:30:10.638  4639  4639 I AidlLazyServiceRegistrar: Registering service artd
+10-12 14:30:10.700  4639  4640 I AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification artd has clients: 1
+10-12 14:30:10.823  1414  1614 D EGL_emulation: app_time_stats: avg=61.33ms min=9.80ms max=169.38ms count=18
+10-12 14:30:11.167   943   943 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_REMOVED
+10-12 14:30:11.168   943   943 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_REMOVED
+10-12 14:30:11.177  1178  1178 W MediaProvider: WorkProfileOwnerApps cache is empty
+10-12 14:30:11.190   788   788 D CompatibilityChangeReporter: Compat change id reported: 183155436; UID 10110; state: ENABLED
+10-12 14:30:11.219  3791  3791 I Finsky:background: [2] tdb - Received: android.intent.action.PACKAGE_REMOVED, [KB6-QTRDCkrGBwdeLwp2D8_tJp8MkL07eMDEsrRzFF0]
+10-12 14:30:11.223  3791  3791 I Finsky:background: [2] Package no longer installed: app.tvessentials.installer
+10-12 14:30:11.228  1178  1829 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+10-12 14:30:11.229  1178  1829 D MediaProvider: Deleted 0 Android/media items belonging to app.tvessentials.installer on /data/user/0/com.google.android.providers.media.module/databases/external.db
+10-12 14:30:11.230  1178  1829 D MediaGrants: Removed 0 media_grants for 0 user for app.tvessentials.installer. Reason: Package orphaned
+10-12 14:30:11.230  1178  1829 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package: flg=0x5000010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+10-12 14:30:11.238  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:11.238  3791  3791 I Finsky:background: [2] Package no longer installed: app.tvessentials.installer
+10-12 14:30:11.244  3791  3791 I Finsky:background: [2] tdb - Received: android.intent.action.PACKAGE_FULLY_REMOVED, [KB6-QTRDCkrGBwdeLwp2D8_tJp8MkL07eMDEsrRzFF0]
+10-12 14:30:11.247  3791  3791 I Finsky:background: [2] Package no longer installed: app.tvessentials.installer
+10-12 14:30:11.249  3791  3854 I Finsky:background: [60] IQ:PSL: skipping onPackageRemoved(replacing=false) for untracked package=app.tvessentials.installer
+10-12 14:30:11.249  3791  3791 I Finsky:background: [2] tdb - Deduping intent android.intent.action.PACKAGE_FULLY_REMOVED
+10-12 14:30:11.249  3791  3855 I Finsky:background: [61] RECEIVER_PACKAGE_MONITOR_BACKGROUND#logWorkEndAndFinishGoAsync: SUCCESS
+10-12 14:30:11.253  3791  4457 I Finsky:background: [98] Frosting DB delete succeeded: true
+10-12 14:30:11.253  3791  4457 I Finsky:background: [98] Frosting DB delete succeeded: false
+10-12 14:30:11.253  3791  4457 I Finsky:background: [98] Frosting DB delete succeeded: false
+10-12 14:30:11.328  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:11.349  2309  2417 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:11.354  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:11.361  3791  3855 I Finsky:background: [61] RECEIVER_ENGAGE_PACKAGE_CHANGED#logWorkEndAndFinishGoAsync: SUCCESS
+10-12 14:30:11.436  1156  1162 I niss:interactor: Background concurrent copying GC freed 19802(1444KB) AllocSpace objects, 2(104KB) LOS objects, 49% free, 4173KB/8347KB, paused 29us,15us total 297.515ms
+10-12 14:30:11.574  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:11.809   487   583 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-12 14:30:11.824  2309  2416 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 14:30:11.858  2309  2309 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 14:30:11.871   487   713 W WifiService: Couldn't get PackageInfo for package:app.tvessentials.installer
+10-12 14:30:11.871   487   713 D WifiService: Remove settings for package:app.tvessentials.installer
+10-12 14:30:11.871   487   713 D WifiConfigManager: Remove all networks for app ApplicationInfo{108ee0b app.tvessentials.installer}
+10-12 14:30:11.877  3773  3773 I Finsky  : [2] tdm - Received: android.intent.action.PACKAGE_REMOVED, [KB6-QTRDCkrGBwdeLwp2D8_tJp8MkL07eMDEsrRzFF0]
+10-12 14:30:11.879  3773  3773 I Finsky  : [2] AIM: AppInfoCacheUpdater -> invalidating apps: [app.tvessentials.installer]
+10-12 14:30:11.879  3773  3773 I Finsky  : [2] AIM: AppInfoManager-Perf > getApps > called for 1 apps
+10-12 14:30:11.879  3773  3865 I Finsky  : [62] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=0, cacheMissCount=1. Missed  in cache (limit 10) : [app.tvessentials.installer]
+10-12 14:30:11.880  3773  3773 I Finsky  : [2] Clearing split related stale data.
+10-12 14:30:11.882  3773  3925 I Finsky  : [83] [ContentSync] finished, scheduled=false
+10-12 14:30:11.884  3773  3865 I Finsky  : [62] AIM: Got app ownership map. App counts: . Unique apps: 0
+10-12 14:30:11.884  3773  3865 E Finsky  : [62] [Counters] attempted to use a non-positive increment for: 4752
+10-12 14:30:11.892  3743  3743 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 14:30:11.892  3743  3743 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-12 14:30:11.902  3773  3865 I Finsky  : [62] AIM: AppInfoManager-Perf > OnDeviceAppInfo > cacheHitCount=1, cacheMissCount=0. Missed  in cache (limit 10) : []
+10-12 14:30:11.902  3773  3865 I Finsky  : [62] AIM: Got app ownership map. App counts: . Unique apps: 0
+10-12 14:30:11.902  3773  3865 E Finsky  : [62] [Counters] attempted to use a non-positive increment for: 4752
+10-12 14:30:11.902  3773  3865 E Finsky  : [62] [Counters] attempted to use a non-positive increment for: 4753
+10-12 14:30:11.918  3773  3872 I Finsky  : [63] AIM: AppInfoManager-Perf > ItemModel > CacheSize=137, cacheHitCount=1, cacheMissCount=0, total appsWithNoServerDataCount=123. Missed  in cache (limit 10) : []
+10-12 14:30:11.920  3773  3865 I Finsky  : [62] AIM: AppInfoManager-Perf > ItemModel > CacheSize=137, cacheHitCount=1, cacheMissCount=0, total appsWithNoServerDataCount=123. Missed  in cache (limit 10) : []

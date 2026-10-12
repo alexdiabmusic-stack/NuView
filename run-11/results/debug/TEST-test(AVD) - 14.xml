@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="1" failures="1" errors="0" skipped="0" time="0.000" timestamp="2026-10-12T14:30:09" hostname="localhost">
+  <testsuite name="app.tvessentials.installer.InstallFlowTest" tests="1" failures="1" errors="0" skipped="0" time="9.136" timestamp="2026-10-12T14:30:09" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically" classname="app.tvessentials.installer.InstallFlowTest" time="9.136">
+      <failure></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
