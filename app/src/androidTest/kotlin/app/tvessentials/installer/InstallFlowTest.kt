@@ -81,20 +81,8 @@ class InstallFlowTest {
         assertTrue(tv.isInstalled(smartTube))
     }
 
-    @Test fun missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically() {
-        waitForInstallable()
-        tv.setInstallPermission(false)
-        tv.device.pressDPadCenter()
-        assertTrue("explains why", tv.device.wait(Until.hasObject(By.pkg(tv.pkg).textContains("Allow installs from")), 30_000))
-        assertTrue("offers Open Settings", tv.hasText("Open Settings", 3_000))
-        tv.screenshot("permission_dialog")
-
-        // The user goes to Settings, flips the switch, and returns (simulated with appops + relaunch).
-        tv.setInstallPermission(true)
-        tv.device.pressHome()
-        tv.bringBack()
-        assertNotNull("install resumed by itself and reached Android's confirmation", tv.systemInstallButton("install"))
-        tv.systemInstallButton("install", 5_000)!!.click()
-        assertTrue(tv.cardSays("SmartTube", "Installed", 120_000))
-    }
+    // Not covered here on purpose: "install permission missing -> explained -> install resumes". Android kills an app's process
+    // when its "install unknown apps" setting changes, and an instrumentation test runs inside that same process, so flipping the
+    // setting from the test ends the whole run (observed in CI). The flow, including the cold-start resume from the persisted
+    // pending install, is covered by InstallManagerTest in :core; it has not been exercised on a device or emulator.
 }
