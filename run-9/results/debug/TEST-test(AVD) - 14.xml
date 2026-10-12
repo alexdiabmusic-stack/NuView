@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="18" failures="15" errors="0" skipped="0" time="0.000" timestamp="2026-10-12T03:29:26" hostname="localhost">
+  <testsuite name="app.tvessentials.installer.InstallFlowTest" tests="3" failures="3" errors="0" skipped="0" time="33.498" timestamp="2026-10-12T03:29:26" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically" classname="app.tvessentials.installer.InstallFlowTest" time="12.850">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.InstallFlowTest.setUp(InstallFlowTest.kt:34)
+</failure>
+    </testcase>
+    <testcase name="cancellingTheSystemDialogNeverReportsSuccessAndStaysRecoverable" classname="app.tvessentials.installer.InstallFlowTest" time="10.082">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.InstallFlowTest.setUp(InstallFlowTest.kt:34)
+</failure>
+    </testcase>
+    <testcase name="installsSmartTubeEndToEndAndOpensIt" classname="app.tvessentials.installer.InstallFlowTest" time="10.566">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.InstallFlowTest.setUp(InstallFlowTest.kt:34)
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LauncherUiTest" tests="10" failures="7" errors="0" skipped="0" time="83.348" timestamp="2026-10-12T03:29:26" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="detailsOpensFromTheDetailsLinkAndFromTheMenuKey" classname="app.tvessentials.installer.LauncherUiTest" time="9.649">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.LauncherUiTest.detailsOpensFromTheDetailsLinkAndFromTheMenuKey(LauncherUiTest.kt:77)
+</failure>
+    </testcase>
+    <testcase name="homeShowsHeroAndAllThreeCards" classname="app.tvessentials.installer.LauncherUiTest" time="4.784" />
+    <testcase name="smartTubeDetailsCarryTheIndependenceDisclosure" classname="app.tvessentials.installer.LauncherUiTest" time="10.603">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.LauncherUiTest.smartTubeDetailsCarryTheIndependenceDisclosure(LauncherUiTest.kt:91)
+</failure>
+    </testcase>
+    <testcase name="settingsOpensAndBackRestoresFocusToTheSettingsButton" classname="app.tvessentials.installer.LauncherUiTest" time="7.308" />
+    <testcase name="headerButtonsAreReachableAndFocusReturnsToTheCards" classname="app.tvessentials.installer.LauncherUiTest" time="11.418">
+      <failure>java.lang.AssertionError: down returns to a card, not nowhere
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LauncherUiTest.headerButtonsAreReachableAndFocusReturnsToTheCards(LauncherUiTest.kt:61)
+</failure>
+    </testcase>
+    <testcase name="focusStartsOnTheFirstCardAndNeverGetsLost" classname="app.tvessentials.installer.LauncherUiTest" time="8.905">
+      <failure>java.lang.AssertionError: initial focus on first card
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LauncherUiTest.focusStartsOnTheFirstCardAndNeverGetsLost(LauncherUiTest.kt:37)
+</failure>
+    </testcase>
+    <testcase name="backOnTheHomeScreenLeavesTheApp" classname="app.tvessentials.installer.LauncherUiTest" time="9.192">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.LauncherUiTest.backOnTheHomeScreenLeavesTheApp(LauncherUiTest.kt:99)
+</failure>
+    </testcase>
+    <testcase name="appIsRegisteredAsALeanbackLauncherWithABanner" classname="app.tvessentials.installer.LauncherUiTest" time="3.205" />
+    <testcase name="dpadMovesAcrossTheCardsAndStopsAtTheEdges" classname="app.tvessentials.installer.LauncherUiTest" time="8.668">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.LauncherUiTest.dpadMovesAcrossTheCardsAndStopsAtTheEdges(LauncherUiTest.kt:48)
+</failure>
+    </testcase>
+    <testcase name="iMPlayerOffersTheGuidedRouteAndBackClosesIt" classname="app.tvessentials.installer.LauncherUiTest" time="9.616">
+      <failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at app.tvessentials.installer.LauncherUiTest.iMPlayerOffersTheGuidedRouteAndBackClosesIt(LauncherUiTest.kt:106)
+</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="app.tvessentials.installer.LayoutMatrixTest" tests="5" failures="5" errors="0" skipped="0" time="68.482" timestamp="2026-10-12T03:29:26" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="at720p" classname="app.tvessentials.installer.LayoutMatrixTest" time="13.518">
+      <failure>java.lang.AssertionError: [720p] focus present
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:36)
+	at app.tvessentials.installer.LayoutMatrixTest.verify$default(LayoutMatrixTest.kt:25)
+	at app.tvessentials.installer.LayoutMatrixTest.at720p(LayoutMatrixTest.kt:39)
+</failure>
+    </testcase>
+    <testcase name="at720pWithLargestText" classname="app.tvessentials.installer.LayoutMatrixTest" time="12.979">
+      <failure>java.lang.AssertionError: [720p_font2.0] focus present
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:36)
+	at app.tvessentials.installer.LayoutMatrixTest.at720pWithLargestText(LayoutMatrixTest.kt:43)
+</failure>
+    </testcase>
+    <testcase name="at1080p" classname="app.tvessentials.installer.LayoutMatrixTest" time="14.185">
+      <failure>java.lang.AssertionError: [1080p] focus present
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:36)
+	at app.tvessentials.installer.LayoutMatrixTest.verify$default(LayoutMatrixTest.kt:25)
+	at app.tvessentials.installer.LayoutMatrixTest.at1080p(LayoutMatrixTest.kt:40)
+</failure>
+    </testcase>
+    <testcase name="at4k" classname="app.tvessentials.installer.LayoutMatrixTest" time="13.436">
+      <failure>java.lang.AssertionError: [4k] focus present
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:36)
+	at app.tvessentials.installer.LayoutMatrixTest.verify$default(LayoutMatrixTest.kt:25)
+	at app.tvessentials.installer.LayoutMatrixTest.at4k(LayoutMatrixTest.kt:41)
+</failure>
+    </testcase>
+    <testcase name="at1080pWithLargeText" classname="app.tvessentials.installer.LayoutMatrixTest" time="14.364">
+      <failure>java.lang.AssertionError: [1080p_font1.3] focus present
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:36)
+	at app.tvessentials.installer.LayoutMatrixTest.at1080pWithLargeText(LayoutMatrixTest.kt:42)
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

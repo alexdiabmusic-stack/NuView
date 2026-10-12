@@ -1,0 +1,422 @@
+10-12 03:28:43.139  4462  4488 I TestRunner: started: at1080p(app.tvessentials.installer.LayoutMatrixTest)
+10-12 03:28:43.152  4462  4488 D UiDevice: Executing shell command: wm size 1920x1080
+10-12 03:28:43.165   484  2909 I ImeTracker: com.google.android.tvlauncher:8f3422ed: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:28:43.166   484  2909 I ImeTracker: com.google.android.tvlauncher:8f3422ed: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:28:43.174  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:28:43.177  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:28:43.178  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:28:43.178  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:28:43.178  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:28:43.215   484   715 D EthernetNetworkFactory: eth0: onNetworkUnneeded for request: NetworkRequest [ REQUEST id=121, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:28:43.363  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@cd47c91 in: DESTROYED
+10-12 03:28:43.368  4462  4462 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@fc54a89
+10-12 03:28:43.425  4462  4488 D UiDevice: Executing shell command: wm density 213
+10-12 03:28:43.450   484  1124 W InputManager-JNI: Input channel object '5befe63 app.tvessentials.installer/app.tvessentials.installer.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:28:43.715  1037  1037 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1558 onConfigurationChanged() : NewConfig = {1.0 ?mcc0mnc [en_US] ldltr sw811dp w1442dp h811dp 213dpi xlrg long land television night finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mMaxBounds=Rect(0, 0 - 1920, 1080) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.492 fontWeightAdjustment=0}
+10-12 03:28:43.716  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1575 changedMask : 1d00
+10-12 03:28:43.716  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 03:28:43.716  1037  1037 I KeyboardModeManager: KeyboardModeManager.setInputView():460 setInputView() : supportsOneHandedMode=false
+10-12 03:28:43.722  1037  1037 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 03:28:43.723  1037  1037 I KeyboardModeManager: KeyboardModeManager.setInputView():451 setInputView() : entry=ecy@5a10abfe
+10-12 03:28:43.723  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1341 Apply keyboard theme: theme_default
+10-12 03:28:43.723  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.723  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.726  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.726  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.727  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.728  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.728  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.737  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.737  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:43.738  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 03:28:43.738  1037  1037 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 03:28:43.744  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, true)
+10-12 03:28:43.744  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:28:43.744  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:28:43.744  1037  1037 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-12 03:28:43.748  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:811
+10-12 03:28:43.770  4462  4488 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 03:28:43.782   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:28:43.838  1585  1585 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@110376a
+10-12 03:28:43.843   484   556 W InputManager-JNI: Input channel object '5cf83e0 com.google.android.tvlauncher/com.google.android.tvlauncher.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:28:43.901  1585  1585 W ChimeRegistrationManage: Chime not initialized, cannot register for notifications.
+10-12 03:28:43.929  1037  1071 I putmethod.latin: Background concurrent copying GC freed 86519(3984KB) AllocSpace objects, 10(280KB) LOS objects, 49% free, 5205KB/10MB, paused 57us,11us total 195.921ms
+10-12 03:28:43.934  1037  1073 W SP      : File ref is being finalized but wasn't closed, file: main_en_us_2023020900_1[2]
+10-12 03:28:43.984  1585  1605 I roid.tvlauncher: Background young concurrent copying GC freed 96568(4733KB) AllocSpace objects, 7(476KB) LOS objects, 25% free, 14MB/19MB, paused 553us,19us total 160.919ms
+10-12 03:28:43.996  1585  1585 W PhoneWindow: Previously focused view reported id 2131427802 during save, but can't be found during restore.
+10-12 03:28:44.002  1585  1607 W System  : A resource failed to call AbstractCursor.close. 
+10-12 03:28:44.007  1585  1607 W System  : A resource failed to call CursorWrapperInner.close. 
+10-12 03:28:44.010  1585  1607 W System  : A resource failed to call AbstractCursor.close. 
+10-12 03:28:44.070  1585  1585 W Glide   : Load failed for [null] with dimensions [0x0]
+10-12 03:28:44.070  1585  1585 W Glide   : class cwj: Received null model
+10-12 03:28:44.110  1585  1585 W Glide   : Load failed for [null] with dimensions [0x0]
+10-12 03:28:44.110  1585  1585 W Glide   : class cwj: Received null model
+10-12 03:28:44.130  1585  1585 W Glide   : Load failed for [null] with dimensions [0x0]
+10-12 03:28:44.130  1585  1585 W Glide   : class cwj: Received null model
+10-12 03:28:44.168  1585  1585 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:28:44.168  1585  1585 W HomeController: onResume: List view global layout completed.
+10-12 03:28:44.198  1585  1585 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:28:44.216  1585  1585 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 03:28:44.298   484  1124 I ImeTracker: com.google.android.tvlauncher:bf948a34: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:28:44.298   484  1124 I ImeTracker: com.google.android.tvlauncher:bf948a34: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:28:44.367  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:28:44.368  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:28:44.368  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.tvlauncher fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:28:44.368  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:28:44.373  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:28:44.393  1585  1605 I roid.tvlauncher: Background young concurrent copying GC freed 35935(1844KB) AllocSpace objects, 14(1464KB) LOS objects, 18% free, 16MB/19MB, paused 5.090ms,16us total 154.529ms
+10-12 03:28:45.321  1585  1685 D EGL_emulation: app_time_stats: avg=55.93ms min=26.14ms max=100.56ms count=19
+10-12 03:28:45.393  4462  4488 D UiDevice: Pressing home button.
+10-12 03:28:45.478   780   780 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:28:45.498   484   507 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:28:45.602  1585  1585 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:28:45.620   484  3354 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:28:45.636  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:28:45.641  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:28:45.689   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:28:45.851  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@9f67e10 in: PRE_ON_CREATE
+10-12 03:28:45.878  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@9f67e10 in: CREATED
+10-12 03:28:45.890  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@9f67e10 in: STARTED
+10-12 03:28:45.974   484   758 D ConnectivityService: requestNetwork for uid/pid:10122/4462 activeRequest: null callbackRequest: 122 [NetworkRequest [ REQUEST id=123, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:28:45.978   484   716 D ConnectivityService: NetReassign [123 : null → 100] [c 1] [a 0] [i 1]
+10-12 03:28:45.989   484   715 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=123, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:28:45.991   484   715 D EthernetNetworkFactory: IpClient already started
+10-12 03:28:45.991   484   708 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=123, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:28:45.992   484   708 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=123, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:28:45.992   484   708 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=123, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:28:45.995  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@9f67e10 in: RESUMED
+10-12 03:28:46.266  4462  4470 I tials.installer: Background young concurrent copying GC freed 117956(4464KB) AllocSpace objects, 7(184KB) LOS objects, 29% free, 10MB/14MB, paused 31us,77us total 114.299ms
+10-12 03:28:46.536   484   506 W ziparchive: Unable to open '/data/app/~~2LkUw-o_RUbLgB2-5kVS2g==/app.tvessentials.installer-tOTHES_QSyNcqIgeF3hnOw==/base.dm': No such file or directory
+10-12 03:28:46.537   484   506 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +916ms
+10-12 03:28:46.781   484  3354 I ImeTracker: app.tvessentials.installer:cb85c372: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:28:46.781   484  3354 I ImeTracker: app.tvessentials.installer:cb85c372: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:28:46.791  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:28:46.792  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:28:46.792  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:28:46.792  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:28:46.792  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:28:46.841  4462  4492 I OpenGLRenderer: Davey! duration=770ms; Flags=0, FrameTimelineVsyncId=17835, IntendedVsync=354623021161, Vsync=355106354475, InputEventId=0, HandleInputStart=355121591018, AnimationStart=355121594495, PerformTraversalsStart=355136793801, DrawStart=355137214496, FrameDeadline=355139687807, FrameInterval=355121482235, FrameStartTime=16666666, SyncQueued=355140996183, SyncStart=355144747574, IssueDrawCommandsStart=355144793269, SwapBuffers=355163134466, FrameCompleted=355397404412, DequeueBufferDuration=4870, QueueBufferDuration=139841, GpuCompleted=355397404412, SwapBuffersCompleted=355373331128, DisplayPresentTime=0, CommandSubmissionCompleted=355163134466, 
+10-12 03:28:47.654  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E']].
+10-12 03:28:47.656  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QEverything you need. One place.\E'].
+10-12 03:28:48.071  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:28:48.071  4462  4488 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QNuvio TV\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:28:48.081  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:28:48.082  4462  4488 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QiMPlayer\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:28:48.096  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[findObject=BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:28:48.097  4462  4488 D UiDevice: Retrieving node with selector: BySelector [DESC='^\QSmartTube\E.*$', PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:28:48.114  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E']].
+10-12 03:28:48.114  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', TEXT='\QOnly install apps from sources you trust.\E'].
+10-12 03:28:49.332  4462  4488 D UiDevice: Executing shell command: screencap -p /sdcard/Download/tve_layout_1080p.png
+10-12 03:28:49.409  4894  4894 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+10-12 03:28:49.411  1225  4652 W MediaProvider: isAppCloneUserPair for user 0: false
+10-12 03:28:49.415  4894  4894 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+10-12 03:28:49.429   134   134 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 03:28:49.432  4894  4897 I Gralloc4: mapper 4.x is not supported
+10-12 03:28:49.557  3367  4645 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:28:49.565  3367  4645 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:28:50.201   484   758 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+10-12 03:28:50.212   484   506 I ActivityManager: Broadcast completed: result=0
+10-12 03:28:50.218  1225  1831 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 03:28:50.239  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:50.239  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.267  1225  1831 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.google.android.providers.media.module/com.android.providers.media.MediaService }
+10-12 03:28:50.287  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.301  3367  4898 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+10-12 03:28:50.305  3367  4645 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+10-12 03:28:50.477  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:50.478  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.483  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.643  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:50.643  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.648  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.807  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:50.808  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.813  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.972  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:50.973  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:50.978  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.137  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:51.137  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.143  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.302  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:51.302  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.307  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.360  3407  4903 I GmscoreIpa: Starting mediastore instant index [CONTEXT service_id=255 ]
+10-12 03:28:51.466  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:51.466  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.472  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.631  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:51.632  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.637  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.797  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:51.798  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.803  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.962  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:51.962  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:51.967  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.127  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:52.127  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.132  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.291  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:52.292  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.317  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.507  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:52.507  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.513  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.672  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:52.672  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.677  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.837  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:52.838  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:52.844  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.003  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.004  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.009  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.169  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.169  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.174  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.334  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.334  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.339  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.498  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.499  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.504  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.663  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.664  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.669  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.829  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.830  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.835  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.994  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:53.994  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:53.999  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.158  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:54.159  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.164  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.323  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:54.323  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.352  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.536  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:54.536  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.541  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.700  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:54.701  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.706  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.865  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:54.865  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:54.870  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.029  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:55.029  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.034  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.193  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:55.193  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.198  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.288  1225  1409 D PickerSyncController: syncAllMedia
+10-12 03:28:55.288  1225  1409 D PickerSyncController: syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+10-12 03:28:55.288  1225  1409 D PickerSyncController: getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+10-12 03:28:55.290  1225  1409 D PickerSyncController:    Latest ID/Gen=1407:0931eef6-e905-45e5-b0a0-1c959febbc07:external_primary/34
+10-12 03:28:55.290  1225  1409 D PickerSyncController:    Cached ID/Gen=1407:0931eef6-e905-45e5-b0a0-1c959febbc07:external_primary/27
+10-12 03:28:55.290  1225  1409 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_INCREMENTAL, gen=27, latest=Bundle[{last_media_sync_generation=34, media_collection_id=1407:0931eef6-e905-45e5-b0a0-1c959febbc07:external_primary}]}
+10-12 03:28:55.290  1225  1409 I PickerSyncController: Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 03:28:55.291  1225  1409 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=27}]. Result count: 1. Cursor count: 1
+10-12 03:28:55.292  1225  1409 I PickerSyncController: Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+10-12 03:28:55.293  1225  1409 I PickerSyncController: Paged sync successful. QueryArgs: Bundle[{android.provider.extra.SYNC_GENERATION=27}]. Result count: 0. Cursor count: 0
+10-12 03:28:55.293  1225  1409 D PickerSyncController: syncAllMediaFromProvider() CLOUD, auth=null, retry=true
+10-12 03:28:55.293  1225  1409 D PickerSyncController: getSyncRequestParams() CLOUD, auth=null
+10-12 03:28:55.293  1225  1409 D PickerSyncController:    RESULT=SyncRequestParams{type=MEDIA_RESET, gen=0, latest=null}
+10-12 03:28:55.293  1225  1409 I PickerSyncController: Executing SyncReset. isLocal: false. authority: null
+10-12 03:28:55.293  1225  1409 I PickerSyncController: SyncReset. isLocal:false. authority: null. result count: 0
+10-12 03:28:55.293  1225  1409 D PickerSyncController: Ignoring cache media info for null authority with bundle: null
+10-12 03:28:55.293  1225  1409 I PickerSyncController: Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+10-12 03:28:55.293  1225  1409 I PickerSyncController: Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+10-12 03:28:55.294  1225  1409 I PickerSyncController: Executing SyncAlbumReset. isLocal: false. authority: null. albumId: null
+10-12 03:28:55.294  1225  1409 I PickerSyncController: Successfully executed SyncResetAlbum. authority: null. albumId: null. Result count: 0
+10-12 03:28:55.358  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:55.358  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.363  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.522  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:55.523  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.528  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.687  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:55.687  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.694  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.853  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:55.853  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:55.858  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:56.017  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:56.018  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:56.023  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:56.183  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:28:56.183  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:56.187  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:28:56.347  4462  4488 D UiDevice: Dumping window hierarchy to .
+10-12 03:28:56.428  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.FrameLayout content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.429  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.LinearLayout content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.430  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.FrameLayout content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.431  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=androidx.compose.ui.platform.ComposeView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.432  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.433  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.434  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:28:56.435  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,56][165,125]
+10-12 03:28:56.435  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=TV Essentials class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[186,58][386,97]
+10-12 03:28:56.436  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Your apps, made simple. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[186,97][422,123]
+10-12 03:28:56.437  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1515,59][1623,122]
+10-12 03:28:56.438  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Online class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1560,78][1623,104]
+10-12 03:28:56.439  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc=Refresh clickable=true focusable=true focused=false clickable=false bounds=[1665,54][1737,126]
+10-12 03:28:56.440  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc=Settings clickable=true focusable=true focused=false clickable=false bounds=[1752,54][1824,126]
+10-12 03:28:56.441  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Everything you need. One place. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,159][978,232]
+10-12 03:28:56.442  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Install and keep your favourite TV apps up to date. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,241][758,276]
+10-12 03:28:56.442  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[299,926][442,990]
+10-12 03:28:56.443  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc=Details clickable=false focusable=false focused=false clickable=false bounds=[299,931][442,985]
+10-12 03:28:56.444  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Details class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[320,945][388,971]
+10-12 03:28:56.445  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[299,931][442,985]
+10-12 03:28:56.446  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=true focusable=true focused=true clickable=false bounds=[96,312][644,919]
+10-12 03:28:56.447  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc=Nuvio TV, Not installed. Latest 1.0.0 · 73 MB. Install clickable=false focusable=false focused=false clickable=false bounds=[96,312][644,919]
+10-12 03:28:56.448  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,345][246,459]
+10-12 03:28:56.449  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Nuvio TV class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,480][293,526]
+10-12 03:28:56.450  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Your media, beautifully organized class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,532][531,564]
+10-12 03:28:56.450  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[108,708][171,771]
+10-12 03:28:56.451  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Not installed class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[159,726][283,752]
+10-12 03:28:56.452  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Latest 1.0.0 · 73 MB class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,764][324,790]
+10-12 03:28:56.453  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,811][608,886]
+10-12 03:28:56.454  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Install class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[355,832][433,865]
+10-12 03:28:56.455  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,312][644,919]
+10-12 03:28:56.456  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[686,312][1234,919]
+10-12 03:28:56.457  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc=iMPlayer, Not installed. Latest 4.1.6 · 94 MB. How to install clickable=false focusable=false focused=false clickable=false bounds=[686,312][1234,919]
+10-12 03:28:56.458  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,345][836,459]
+10-12 03:28:56.459  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=iMPlayer class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,480][875,526]
+10-12 03:28:56.459  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=A premium live TV experience class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,532][1079,564]
+10-12 03:28:56.460  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[698,651][761,714]
+10-12 03:28:56.461  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Not installed class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[749,669][873,695]
+10-12 03:28:56.462  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=We haven't verified iMPlayer's official signing key yet, so we won't install it automatica class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,704][1198,790]
+10-12 03:28:56.463  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,811][1198,886]
+10-12 03:28:56.464  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=How to install class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[897,832][1071,865]
+10-12 03:28:56.465  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[686,312][1234,919]
+10-12 03:28:56.466  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[889,926][1032,990]
+10-12 03:28:56.466  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc=Details clickable=false focusable=false focused=false clickable=false bounds=[889,931][1032,985]
+10-12 03:28:56.467  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Details class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[910,945][978,971]
+10-12 03:28:56.468  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[889,931][1032,985]
+10-12 03:28:56.469  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[1276,312][1824,919]
+10-12 03:28:56.470  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc=SmartTube, Not installed. Latest 32.56 · 33 MB. Install clickable=false focusable=false focused=false clickable=false bounds=[1276,312][1824,919]
+10-12 03:28:56.471  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,345][1426,459]
+10-12 03:28:56.472  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=SmartTube class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,480][1506,526]
+10-12 03:28:56.473  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=YouTube without interruptions class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,532][1673,564]
+10-12 03:28:56.474  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1288,708][1351,771]
+10-12 03:28:56.475  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Not installed class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1339,726][1463,752]
+10-12 03:28:56.476  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Latest 32.56 · 33 MB class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,764][1510,790]
+10-12 03:28:56.476  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,811][1788,886]
+10-12 03:28:56.477  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Install class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1535,832][1613,865]
+10-12 03:28:56.478  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1276,312][1824,919]
+10-12 03:28:56.479  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[1479,926][1622,990]
+10-12 03:28:56.480  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.view.View content-desc=Details clickable=false focusable=false focused=false clickable=false bounds=[1479,931][1622,985]
+10-12 03:28:56.481  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Details class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1500,945][1568,971]
+10-12 03:28:56.482  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1479,931][1622,985]
+10-12 03:28:56.483  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=Only install apps from sources you trust. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,1000][482,1026]
+10-12 03:28:56.483  4462  4488 W TVE-TEST: [focusIs(Nuvio TV)] text=v1.0.0 class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1765,1000][1824,1026]
+10-12 03:28:56.486  4462  4488 D UiDevice: Executing shell command: wm size reset
+10-12 03:28:56.505  4462  4488 D UiDevice: Executing shell command: wm density reset
+10-12 03:28:56.604  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.617  1037  1037 W GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1558 onConfigurationChanged() : NewConfig = {1.0 ?mcc0mnc [en_US] ldltr sw540dp w960dp h540dp 320dpi lrg long land television night finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 1080) mMaxBounds=Rect(0, 0 - 1920, 1080) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.539 fontWeightAdjustment=0}
+10-12 03:28:56.621  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onConfigurationChanged():1575 changedMask : 1d00
+10-12 03:28:56.625  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.625  1037  1037 I KeyboardModeManager: KeyboardModeManager.setInputView():460 setInputView() : supportsOneHandedMode=false
+10-12 03:28:56.627  1037  1037 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 03:28:56.628  1037  1037 I KeyboardModeManager: KeyboardModeManager.setInputView():451 setInputView() : entry=ecy@5a10abfe
+10-12 03:28:56.634  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.initializeKeyboardTheme():1341 Apply keyboard theme: theme_default
+10-12 03:28:56.635  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.635  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.640  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.640  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.644  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.644  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.645  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.645  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.645  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.645  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.652  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.652  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.653  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.653  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.654  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.654  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.662  1037  1037 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode tv by ui mode:4 and smallestScreenWidthDp:540
+10-12 03:28:56.663   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:28:56.672  1037  1037 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():137 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+10-12 03:28:56.675  4462  4488 D UiDevice: Executing shell command: settings put system font_scale 1.0
+10-12 03:28:56.684  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, true)
+10-12 03:28:56.684  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:28:56.687  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:28:56.688  1037  1037 W SessionManager: SessionManager.beginSession():53 Try to begin an already begun session [INPUT_SESSION], end it first
+10-12 03:28:56.730  4462  4488 D UiDevice: Pressing home button.
+10-12 03:28:56.828   484   499 I system_server: Background concurrent copying GC freed 529874(18MB) AllocSpace objects, 39(780KB) LOS objects, 49% free, 18MB/36MB, paused 56us,40us total 310.180ms
+10-12 03:28:56.857   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.859   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.862   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.864   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.864   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.865   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.865   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.866   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.866   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.867   484   501 W System  : A resource failed to call release. 
+10-12 03:28:56.871   484   501 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/TvProvision/TvProvision.apk' with 1 weak references
+10-12 03:28:56.993  4462  4507 D EGL_emulation: app_time_stats: avg=1743.19ms min=201.27ms max=9230.43ms count=6
+10-12 03:28:57.057   780   780 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:28:57.090   484   507 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:28:57.113   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:28:57.125  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@9f67e10 in: PAUSED
+10-12 03:28:57.150  1585  1585 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@3eb2a3a
+10-12 03:28:57.162   484  3362 W InputManager-JNI: Input channel object 'c5c5f00 com.google.android.tvlauncher/com.google.android.tvlauncher.MainActivity (client)' was disposed without first being removed with the input manager!
+10-12 03:28:57.191  1585  1585 W ChimeRegistrationManage: Chime not initialized, cannot register for notifications.
+10-12 03:28:57.262  1585  1585 W PhoneWindow: Previously focused view reported id 2131427802 during save, but can't be found during restore.
+10-12 03:28:57.297  4462  4488 E TestRunner: failed: at1080p(app.tvessentials.installer.LayoutMatrixTest)
+10-12 03:28:57.308  4462  4488 E TestRunner: ----- begin exception -----
+10-12 03:28:57.308  4462  4488 E TestRunner: java.lang.AssertionError: [1080p] focus present
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.Assert.fail(Assert.java:89)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:42)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at app.tvessentials.installer.LayoutMatrixTest.verify(LayoutMatrixTest.kt:36)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at app.tvessentials.installer.LayoutMatrixTest.verify$default(LayoutMatrixTest.kt:25)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at app.tvessentials.installer.LayoutMatrixTest.at1080p(LayoutMatrixTest.kt:40)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:28:57.308  4462  4488 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:28:57.311  4462  4488 E TestRunner: ----- end exception -----
+10-12 03:28:57.322  4462  4488 I TestRunner: finished: at1080p(app.tvessentials.installer.LayoutMatrixTest)

@@ -1,0 +1,392 @@
+10-12 03:26:14.420  4462  4488 I TestRunner: started: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)
+10-12 03:26:14.426  4462  4488 I UiDevice: Creating a new instance, old instance exists: false
+10-12 03:26:14.428  4462  4488 I UiAutomation: Initialized for user 0 on display 0
+10-12 03:26:14.452  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:14.455  2120  2285 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:14.468  1585  1585 E Clearcut-EventLogger: Unexpected log parameter tray_notification_count
+10-12 03:26:14.492  2120  2134 W .katniss:search: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~2LkUw-o_RUbLgB2-5kVS2g==/app.tvessentials.installer-tOTHES_QSyNcqIgeF3hnOw==/base.apk' with 1 weak references
+10-12 03:26:14.499  4462  4488 D UiDevice: Setting accessibility service flags: 65618
+10-12 03:26:14.534  1585  1685 D EGL_emulation: app_time_stats: avg=154.91ms min=24.84ms max=813.85ms count=7
+10-12 03:26:14.550  4462  4488 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:26:14.558   781   781 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:26:14.655  4462  4488 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:26:14.917  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:14.920  2120  2285 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:15.064  4462  4488 D UiDevice: Pressing home button.
+10-12 03:26:15.097   780   780 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:26:15.109   484   507 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:26:15.126  1585  1585 E Clearcut-EventLogger: Unexpected log parameter shown_channel_count
+10-12 03:26:15.127  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:15.132  2120  2284 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:15.171   484  3354 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:26:15.221  4462  4488 D UiDevice: Waiting 20000ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E']].
+10-12 03:26:15.221  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:26:15.331  4462  4508 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+10-12 03:26:15.333   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:26:15.339  4462  4508 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+10-12 03:26:15.341  4462  4508 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+10-12 03:26:15.420  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@5b22945 in: PRE_ON_CREATE
+10-12 03:26:15.527  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@5b22945 in: CREATED
+10-12 03:26:15.531  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@5b22945 in: STARTED
+10-12 03:26:15.571   484  1025 D ConnectivityService: requestNetwork for uid/pid:10122/4462 activeRequest: null callbackRequest: 92 [NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+10-12 03:26:15.572   484   716 D ConnectivityService: NetReassign [93 : null → 100] [c 0] [a 0] [i 1]
+10-12 03:26:15.577   484   715 D EthernetNetworkFactory: eth0: onNetworkNeeded for request: NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:26:15.577   484   715 D EthernetNetworkFactory: IpClient already started
+10-12 03:26:15.577   484   708 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:26:15.577   484   708 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:26:15.577   484   708 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=93, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10122 RequestorUid: 10122 RequestorPkg: app.tvessentials.installer UnderlyingNetworks: Null] ]
+10-12 03:26:15.594  1585  1685 D EGL_emulation: app_time_stats: avg=150.22ms min=46.56ms max=334.71ms count=7
+10-12 03:26:15.654  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@5b22945 in: RESUMED
+10-12 03:26:15.662  4462  4462 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10122; state: DISABLED
+10-12 03:26:15.666  4462  4462 W OpenGLRenderer: Unknown dataspace 0
+10-12 03:26:15.721  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:15.746  2120  2285 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:15.809  4462  4528 D TrafficStats: tagSocket(90) with statsTag=0xffffffff, statsUid=-1
+10-12 03:26:15.811  4462  4529 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 03:26:15.820  4462  4528 D TrafficStats: tagSocket(95) with statsTag=0xffffffff, statsUid=-1
+10-12 03:26:15.831  4462  4528 D TrafficStats: tagSocket(97) with statsTag=0xffffffff, statsUid=-1
+10-12 03:26:15.929  4462  4462 D CompatibilityChangeReporter: Compat change id reported: 193247900; UID 10122; state: ENABLED
+10-12 03:26:16.060  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:16.062  2120  2284 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:16.232  4462  4529 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 03:26:16.237  4462  4531 D TrafficStats: tagSocket(92) with statsTag=0xffffffff, statsUid=-1
+10-12 03:26:16.302  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:26:16.373   383   404 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:26:16.373   383   404 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (221 us)
+10-12 03:26:16.373   383   404 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=0
+10-12 03:26:16.373   383   404 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (156 us)
+10-12 03:26:16.374   383   451 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=4462
+10-12 03:26:16.374   383   404 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:26:16.374   383   451 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (692 us)
+10-12 03:26:16.374   383   404 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (793 us)
+10-12 03:26:16.386   134   134 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+10-12 03:26:16.389  4462  4507 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-12 03:26:16.419  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E'].
+10-12 03:26:16.424   134   134 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-12 03:26:16.424  4462  4507 I Gralloc4: mapper 4.x is not supported
+10-12 03:26:16.967  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:16.997  2120  2285 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:17.040  3407  3692 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:26:17.044  3407  3692 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:26:17.060  3367  3408 E IPCThreadState: Binder transaction failure: 243205/29201/-28
+10-12 03:26:17.064  3367  3408 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:26:17.065  3367  3408 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:26:17.065  3367  3408 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:26:17.065  3367  3408 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:26:17.093   781   781 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:26:17.608  4462  4541 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#0) as ready
+10-12 03:26:17.614  4462  4541 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#1) as ready
+10-12 03:26:17.616   484  1025 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:26:17.616   484  1025 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10122 => denied (188 us)
+10-12 03:26:17.616   484  1025 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10122 pid=0
+10-12 03:26:17.616   484  1025 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10122 => denied (25 us)
+10-12 03:26:17.616   484  1025 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10122 pid=0
+10-12 03:26:17.616   484  1025 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10122 => denied (18 us)
+10-12 03:26:17.641   484   506 W ziparchive: Unable to open '/data/app/~~2LkUw-o_RUbLgB2-5kVS2g==/app.tvessentials.installer-tOTHES_QSyNcqIgeF3hnOw==/base.dm': No such file or directory
+10-12 03:26:17.669   484   506 I ActivityTaskManager: Displayed app.tvessentials.installer/.MainActivity for user 0: +2s464ms
+10-12 03:26:18.469  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:18.474  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:18.484  2120  2284 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:18.487  2120  2284 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:19.074  4462  4462 W tials.installer: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+10-12 03:26:19.093  4462  4534 I OpenGLRenderer: Davey! duration=3382ms; Flags=1, FrameTimelineVsyncId=5590, IntendedVsync=204256360509, Vsync=204256360509, InputEventId=0, HandleInputStart=204260195666, AnimationStart=204260200445, PerformTraversalsStart=204260203561, DrawStart=205165950798, FrameDeadline=204273027175, FrameInterval=204260174586, FrameStartTime=16666666, SyncQueued=205231687942, SyncStart=205232577870, IssueDrawCommandsStart=205235404294, SwapBuffers=207406961899, FrameCompleted=207639838433, DequeueBufferDuration=4849, QueueBufferDuration=179345, GpuCompleted=207639838433, SwapBuffersCompleted=207629747714, DisplayPresentTime=2649950196, CommandSubmissionCompleted=207406961899, 
+10-12 03:26:19.131  4462  4462 I Choreographer: Skipped 200 frames!  The application may be doing too much work on its main thread.
+10-12 03:26:19.314   484  3354 I ImeTracker: app.tvessentials.installer:8831818f: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+10-12 03:26:19.314   484  3354 I ImeTracker: app.tvessentials.installer:8831818f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-12 03:26:19.347  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+10-12 03:26:19.363  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+10-12 03:26:19.371  3367  4238 I FontLog : (REDACTED) Received query %s, URI %s
+10-12 03:26:19.372  3367  4238 I FontLog : (REDACTED) Query [%s] resolved to %s
+10-12 03:26:19.372  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.tvessentials.installer fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+10-12 03:26:19.372  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+10-12 03:26:19.423  1037  1037 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+10-12 03:26:19.461  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:19.519  2120  2284 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:19.631  4462  4534 I OpenGLRenderer: Davey! duration=3801ms; Flags=0, FrameTimelineVsyncId=5605, IntendedVsync=204356360505, Vsync=207689693705, InputEventId=0, HandleInputStart=207694495800, AnimationStart=207694500168, PerformTraversalsStart=207780595202, DrawStart=207781300869, FrameDeadline=207673027039, FrameInterval=207691529244, FrameStartTime=16666666, SyncQueued=207819601272, SyncStart=207819685662, IssueDrawCommandsStart=207819762265, SwapBuffers=208025028837, FrameCompleted=208157552012, DequeueBufferDuration=5581, QueueBufferDuration=6167570, GpuCompleted=208157552012, SwapBuffersCompleted=208156291608, DisplayPresentTime=8173530037768319786, CommandSubmissionCompleted=208025028837, 
+10-12 03:26:19.793  4462  4547 D ProfileInstaller: Installing profile for app.tvessentials.installer
+10-12 03:26:19.985  3367  4238 I FontLog : (REDACTED) Fetch %s end status %s
+10-12 03:26:19.990  3367  4238 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-12 03:26:20.004  3367  4238 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+10-12 03:26:20.126  4462  4488 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:26:20.126   781   781 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:26:20.176   379   392 D audioserver: FGS Logger Transaction failed
+10-12 03:26:20.176   379   392 D audioserver: -129
+10-12 03:26:20.347   379   470 D audioserver: FGS Logger Transaction failed
+10-12 03:26:20.347   379   470 D audioserver: -129
+10-12 03:26:20.574  4462  4534 I OpenGLRenderer: Davey! duration=1121ms; Flags=0, FrameTimelineVsyncId=5746, IntendedVsync=207789693701, Vsync=207889693697, InputEventId=0, HandleInputStart=208003478672, AnimationStart=208003482980, PerformTraversalsStart=208169356518, DrawStart=208176846486, FrameDeadline=208189693685, FrameInterval=207895376659, FrameStartTime=16666666, SyncQueued=208198854425, SyncStart=208198877789, IssueDrawCommandsStart=208198926289, SwapBuffers=208714630406, FrameCompleted=208911558901, DequeueBufferDuration=11492, QueueBufferDuration=471881, GpuCompleted=208911558901, SwapBuffersCompleted=208899894413, DisplayPresentTime=2654527351, CommandSubmissionCompleted=208714630406, 
+10-12 03:26:20.698  4462  4488 D UiDevice: Pressing keycodes [22] with modifier 0.
+10-12 03:26:20.838  4462  4507 D EGL_emulation: app_time_stats: avg=441.31ms min=233.41ms max=745.13ms count=4
+10-12 03:26:20.888   379   392 D audioserver: FGS Logger Transaction failed
+10-12 03:26:20.888   379   392 D audioserver: -129
+10-12 03:26:20.908   379   470 D AudioFlinger: mixer(0xf2863e20) throttle end: throttle time(37)
+10-12 03:26:21.087  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:21.088  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:21.116   379   470 D audioserver: FGS Logger Transaction failed
+10-12 03:26:21.116   379   470 D audioserver: -129
+10-12 03:26:21.540  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:21.556  4462  4488 W tials.installer: Accessing hidden method Landroid/view/MotionEvent;->setDisplayId(I)V (blocked,test-api, reflection, allowed)
+10-12 03:26:21.584  4462  4470 I tials.installer: Background concurrent copying GC freed 223779(10MB) AllocSpace objects, 46(8632KB) LOS objects, 49% free, 6251KB/12MB, paused 21.323ms,33us total 1.031s
+10-12 03:26:21.718  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:21.719  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:21.768  3658  3887 I PlayCommon: [82] Preparing logs for uploading
+10-12 03:26:21.774  3658  3887 W PlayCommon: [82] No account for auth token provided
+10-12 03:26:21.775  3658  3887 I PlayCommon: [82] Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+10-12 03:26:21.813  3658  3887 I PlayCommon: [82] Successfully uploaded logs.
+10-12 03:26:21.898  4462  4507 D EGL_emulation: app_time_stats: avg=353.43ms min=245.12ms max=473.97ms count=3
+10-12 03:26:21.928  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.101  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:22.103  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.129  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.138   781   781 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:26:22.143  3407  3692 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:26:22.143  3407  3692 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:26:22.167  3367  3408 E IPCThreadState: Binder transaction failure: 244671/29201/-28
+10-12 03:26:22.167  3367  3408 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:26:22.168  3367  3408 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:26:22.168  3367  3408 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:26:22.168  3367  3408 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:26:22.431  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:22.431  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.439  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.601  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:22.602  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.609  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.771  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:22.772  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.782  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.944  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:22.945  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:22.952  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.114  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:23.115  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.122  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.287  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:23.288  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.295  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.459  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:23.459  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.466  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.629  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:23.629  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.637  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.799  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:23.799  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.807  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.969  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:23.969  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.977  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:23.991   325  1961 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 323136
+10-12 03:26:24.140  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:24.140  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.148  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.150   781   781 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:26:24.394  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:24.394  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.402  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.563  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:24.564  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.573  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.591  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:24.595  2120  2284 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:24.734  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:24.735  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.742  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.903  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:24.903  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:24.912  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.072  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:25.073  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.079  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.240  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:25.241  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.247  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.297  2120  2120 I katniss_search_TvSearchApp: onTrimMemory level=40
+10-12 03:26:25.299  2120  2285 I katniss_search_GlobalEnvironmentProvider: Retrieved zero Google account from GMS.
+10-12 03:26:25.345   781   800 W ssioncontroller: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Katniss/Katniss.apk' with 1 weak references
+10-12 03:26:25.409  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:25.409  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.416  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.579  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:25.580  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.586  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.748  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:25.748  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.755  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.916  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:25.916  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:25.923  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.085  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:26.085  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.092  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.253  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:26.253  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.255   781   781 V SafetyCenterAccessibilityListener: accessibility event occurred, safety center feature not enabled.
+10-12 03:26:26.331  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.496  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:26.496  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.503  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.663  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:26.664  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.670  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.832  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:26.832  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:26.839  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:27.001  4462  4488 D UiDevice: Waiting 300ms for SearchCondition[hasObject=BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true']].
+10-12 03:26:27.001  4462  4488 D UiDevice: Searching for node with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:27.008  4462  4488 D UiDevice: Retrieving nodes with selector: BySelector [PKG='\Qapp.tvessentials.installer\E', FOCUSED='true'].
+10-12 03:26:27.170  4462  4488 D UiDevice: Dumping window hierarchy to .
+10-12 03:26:27.178  3407  3692 I ChimeraSrvcProxy: NullBinder for com.google.android.gms.auth.cryptauth.cryptauthservice.START triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-12 03:26:27.179  3407  3692 W gle.android.gms: Large reply transaction of 1056768 bytes, interface descriptor , code 46
+10-12 03:26:27.189  3367  3408 E IPCThreadState: Binder transaction failure: 246163/29201/-28
+10-12 03:26:27.190  3367  3408 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 536)
+10-12 03:26:27.191  3367  3408 W GmsClient: IGmsServiceBroker.getService failed
+10-12 03:26:27.191  3367  3408 W GmsClient: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died, but this could also be caused by running out of binder buffer space
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.BinderProxy.transactNative(Native Method)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.BinderProxy.transact(BinderProxy.java:584)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at qcj.fg(:com.google.android.gms@233515114@23.35.15 (180706-565551795):33)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at qaq.s(:com.google.android.gms@233515114@23.35.15 (180706-565551795):133)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at pip.run(:com.google.android.gms@233515114@23.35.15 (180706-565551795):54)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.Handler.handleCallback(Handler.java:958)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at acgy.hv(:com.google.android.gms@233515114@23.35.15 (180706-565551795):1)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at acgy.dispatchMessage(:com.google.android.gms@233515114@23.35.15 (180706-565551795):143)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.Looper.loopOnce(Looper.java:205)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.Looper.loop(Looper.java:294)
+10-12 03:26:27.191  3367  3408 W GmsClient: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-12 03:26:27.241  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.FrameLayout content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.242  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.LinearLayout content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.243  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.FrameLayout content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.244  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=androidx.compose.ui.platform.ComposeView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.245  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.246  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.247  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[0,0][1920,1080]
+10-12 03:26:27.248  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[83,43][179,139]
+10-12 03:26:27.249  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=TV Essentials class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[186,58][385,97]
+10-12 03:26:27.251  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Your apps, made simple. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[186,97][422,123]
+10-12 03:26:27.252  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1515,43][1623,139]
+10-12 03:26:27.253  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Online class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1560,78][1623,104]
+10-12 03:26:27.254  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc=Refresh clickable=true focusable=true focused=false clickable=false bounds=[1653,42][1740,138]
+10-12 03:26:27.255  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc=Settings clickable=true focusable=true focused=false clickable=false bounds=[1740,42][1836,138]
+10-12 03:26:27.256  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Everything you need. One place. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,159][965,232]
+10-12 03:26:27.257  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Install and keep your favourite TV apps up to date. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,241][758,276]
+10-12 03:26:27.258  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[96,312][644,919]
+10-12 03:26:27.259  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc=Nuvio TV, Not installed. Latest 1.0.0 · 73 MB. Install clickable=false focusable=false focused=false clickable=false bounds=[96,312][644,919]
+10-12 03:26:27.260  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,345][246,459]
+10-12 03:26:27.261  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Nuvio TV class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,480][292,526]
+10-12 03:26:27.262  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Your media, beautifully organized class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,532][531,564]
+10-12 03:26:27.263  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[92,692][188,788]
+10-12 03:26:27.265  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Not installed class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[159,726][283,752]
+10-12 03:26:27.266  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Latest 1.0.0 · 73 MB class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,764][324,790]
+10-12 03:26:27.267  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[132,801][608,897]
+10-12 03:26:27.268  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Install class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[355,832][434,865]
+10-12 03:26:27.269  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,312][644,919]
+10-12 03:26:27.270  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[299,910][442,1000]
+10-12 03:26:27.271  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc=Details clickable=false focusable=false focused=false clickable=false bounds=[299,931][442,985]
+10-12 03:26:27.272  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Details class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[320,945][388,971]
+10-12 03:26:27.273  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[299,931][442,985]
+10-12 03:26:27.274  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[686,312][1234,919]
+10-12 03:26:27.275  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc=iMPlayer, Not installed. Latest 4.1.6 · 94 MB. How to install clickable=false focusable=false focused=false clickable=false bounds=[686,312][1234,919]
+10-12 03:26:27.276  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,345][836,459]
+10-12 03:26:27.278  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=iMPlayer class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,480][874,526]
+10-12 03:26:27.279  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=A premium live TV experience class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,532][1079,564]
+10-12 03:26:27.280  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[682,635][778,731]
+10-12 03:26:27.281  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Not installed class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[749,669][873,695]
+10-12 03:26:27.282  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=We haven't verified iMPlayer's official signing key yet, so we won't install it automatica class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,704][1198,790]
+10-12 03:26:27.283  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[722,801][1198,897]
+10-12 03:26:27.284  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=How to install class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[897,832][1072,865]
+10-12 03:26:27.285  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[686,312][1234,919]
+10-12 03:26:27.286  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[889,910][1032,1006]
+10-12 03:26:27.287  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc=Details clickable=false focusable=false focused=false clickable=false bounds=[889,931][1032,985]
+10-12 03:26:27.289  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Details class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[910,945][978,971]
+10-12 03:26:27.290  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[889,931][1032,985]
+10-12 03:26:27.291  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=true focusable=true focused=false clickable=false bounds=[1479,919][1622,1006]
+10-12 03:26:27.292  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc=Details clickable=false focusable=false focused=false clickable=false bounds=[1479,931][1622,985]
+10-12 03:26:27.294  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Details class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1500,945][1568,971]
+10-12 03:26:27.295  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1479,931][1622,985]
+10-12 03:26:27.296  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=true focusable=true focused=true clickable=false bounds=[1276,312][1824,919]
+10-12 03:26:27.297  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc=SmartTube, Not installed. Latest 32.56 · 33 MB. Install clickable=false focusable=false focused=false clickable=false bounds=[1276,312][1824,919]
+10-12 03:26:27.298  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,345][1426,459]
+10-12 03:26:27.300  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=SmartTube class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,480][1504,526]
+10-12 03:26:27.301  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=YouTube without interruptions class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,532][1673,564]
+10-12 03:26:27.301  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1272,692][1368,788]
+10-12 03:26:27.303  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Not installed class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1339,726][1463,752]
+10-12 03:26:27.304  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Latest 32.56 · 33 MB class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,764][1510,790]
+10-12 03:26:27.305  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.view.View content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1312,801][1788,897]
+10-12 03:26:27.307  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Install class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1535,832][1614,865]
+10-12 03:26:27.309  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text= class=android.widget.Button content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1276,312][1824,919]
+10-12 03:26:27.310  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=Only install apps from sources you trust. class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[96,1000][482,1026]
+10-12 03:26:27.312  4462  4488 W TVE-TEST: [focusIs(SmartTube)] text=v1.0.0 class=android.widget.TextView content-desc= clickable=false focusable=false focused=false clickable=false bounds=[1765,1000][1824,1026]
+10-12 03:26:27.314  4462  4488 D UiDevice: Executing shell command: appops set app.tvessentials.installer REQUEST_INSTALL_PACKAGES allow
+10-12 03:26:27.336  4462  4488 D UiDevice: Executing shell command: pm uninstall org.smarttube.stable
+10-12 03:26:27.352  4462  4488 D UiDevice: Pressing home button.
+10-12 03:26:27.378   780   780 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-12 03:26:27.386   484   507 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-12 03:26:27.431  4462  4462 D LifecycleMonitor: Lifecycle status change: app.tvessentials.installer.MainActivity@5b22945 in: PAUSED
+10-12 03:26:27.463   383   383 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-12 03:26:27.475  1585  1585 E Clearcut-EventLogger: Unexpected log parameter home_selected_row_position
+10-12 03:26:27.475  1585  1585 W HomeController: onResume: List view global layout completed.
+10-12 03:26:27.478  4462  4488 E TestRunner: failed: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)
+10-12 03:26:27.485  4462  4488 E TestRunner: ----- begin exception -----
+10-12 03:26:27.485  4462  4488 E TestRunner: java.lang.AssertionError
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.Assert.fail(Assert.java:87)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:42)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.Assert.assertTrue(Assert.java:53)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at app.tvessentials.installer.InstallFlowTest.setUp(InstallFlowTest.kt:34)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at java.lang.reflect.Method.invoke(Native Method)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+10-12 03:26:27.485  4462  4488 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2402)
+10-12 03:26:27.485  4462  4488 E TestRunner: ----- end exception -----
+10-12 03:26:27.494  4462  4488 I TestRunner: finished: missingInstallPermissionIsExplainedThenTheInstallResumesAutomatically(app.tvessentials.installer.InstallFlowTest)
