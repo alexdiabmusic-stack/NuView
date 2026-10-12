@@ -3,6 +3,39 @@
 **Your apps, made simple.** A small, focused installer and updater for Amazon Fire TV and Android TV that manages exactly
 three apps from their official sources, with a remote-friendly interface and a strict, fail-closed security model.
 
+## Download
+
+<p align="center">
+  <a href="https://github.com/alexdiabmusic-stack/NuView/releases/download/test-build/TVEssentials-test.apk">
+    <img alt="Download the TV Essentials APK" src="https://img.shields.io/badge/%E2%AC%87%20Download-TV%20Essentials%20APK-2ea44f?style=for-the-badge" />
+  </a>
+</p>
+
+**[Download TVEssentials-test.apk](https://github.com/alexdiabmusic-stack/NuView/releases/download/test-build/TVEssentials-test.apk)** ·
+[release notes and SHA-256](https://github.com/alexdiabmusic-stack/NuView/releases/tag/test-build)
+
+This is a **test build**, signed with Android's public debug key: fine for trying the app on your own Fire Stick or TV, not for
+passing around. The link never changes; the file behind it is replaced each time a fresh build is published
+(*Actions → "Publish test build" → Run workflow*).
+
+> **This repository is private**, so the button works while you are signed in to GitHub as its owner (on a phone or computer).
+> A Fire Stick cannot sign in, so the *Downloader* app cannot fetch it directly until the repository (or just a copy of the
+> APK) is public. Until then, use one of the first two routes below.
+
+### Put it on your Fire Stick
+
+1. **Download on a phone or computer** with the button above, then send it to the stick:
+   * **Send Files to TV** (free app on the Amazon Appstore and Google Play): send the APK from your phone, then open it on the stick; or
+   * **adb over the network**: on the stick enable *Settings → My Fire TV → Developer Options → ADB debugging*, find its IP under
+     *About → Network*, then `adb connect <ip>:5555` and `adb install -r TVEssentials-test.apk`.
+2. **Downloader app (once the repository or release is public):** install *Downloader* by AFTVnews from the Amazon Appstore, allow it
+   under *Settings → My Fire TV → Developer Options → Install unknown apps*, open it and enter the button's link.
+3. Open **TV Essentials** from the Apps row. The first time it installs something it asks you to allow installs from the app (it
+   takes you to the right setting and carries on when you return); Android then asks you to confirm each install.
+
+Check the file with the SHA-256 on the release page (`sha256sum TVEssentials-test.apk`). Not yet tried on physical Fire TV hardware –
+see [docs/TESTING.md](docs/TESTING.md).
+
 | App | What it is | Official source |
 |---|---|---|
 | **Nuvio TV** | Media app for Android TV (`com.nuvio.tv`) | [NuvioMedia/NuvioTV](https://github.com/NuvioMedia/NuvioTV) releases |

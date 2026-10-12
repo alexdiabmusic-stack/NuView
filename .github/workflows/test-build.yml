@@ -1,0 +1,77 @@
+name: Publish test build
+
+# Builds the debug APK from the chosen ref and publishes it as the pre-release "test-build" under a FIXED file name,
+# so the download link in the README never changes. Run it from the Actions tab ("Run workflow") whenever you want a fresh APK.
+#
+# The APK is signed with Android's public debug key: fine for trying the app on your own TV or Fire Stick, not for
+# distributing to other people. A properly signed release is produced by release.yml once you have your own key
+# (see docs/DEPLOYMENT.md).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: test-build
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Build and publish the test APK
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
+        with: { distribution: temurin, java-version: 17 }
+      - uses: gradle/actions/setup-gradle@v6
+        with: { add-job-summary: never }
+
+      - name: Run the unit tests
+        run: ./gradlew :core:test --console=plain
+
+      - name: Build the debug APK
+        run: ./gradlew :app:assembleDebug --console=plain
+
+      - name: Verify, name and checksum the APK
+        run: |
+          set -euo pipefail
+          SRC=$(ls app/build/outputs/apk/debug/*.apk | head -1)
+          BT="$ANDROID_HOME/build-tools/$(ls "$ANDROID_HOME"/build-tools | sort -V | tail -1)"
+          "$BT/apksigner" verify --print-certs "$SRC" | tee verify.txt          # non-zero exit if the signature is invalid
+          VERSION=$("$BT/aapt2" dump badging "$SRC" | sed -n "s/^package: .*versionName='\([^']*\)'.*/\1/p")
+          PACKAGE=$("$BT/aapt2" dump badging "$SRC" | sed -n "s/^package: name='\([^']*\)'.*/\1/p")
+          CERT=$(grep -m1 "certificate SHA-256" verify.txt | sed 's/.*: //')
+          mkdir -p dist
+          cp "$SRC" dist/TVEssentials-test.apk
+          ( cd dist && sha256sum TVEssentials-test.apk > SHA256SUMS.txt )
+          APKSHA=$(cut -d' ' -f1 dist/SHA256SUMS.txt)
+          SIZE=$(stat -c %s dist/TVEssentials-test.apk)
+          {
+            echo "Test build of **TV Essentials $VERSION** (\`$PACKAGE\`), built from commit \`${GITHUB_SHA::7}\` on $(date -u +%Y-%m-%d)."
+            echo
+            echo "* **File:** \`TVEssentials-test.apk\` ($((SIZE / 1024 / 1024)) MB)"
+            echo "* **SHA-256:** \`$APKSHA\`"
+            echo "* **Signed with Android's debug key** (certificate \`$CERT\`). Good for testing on your own devices; not for distribution."
+            echo "* Needs Android 7.0 / Fire OS 6 or newer. Not tested on physical Fire TV hardware."
+            echo
+            echo "Install on a Fire Stick: see the README (Downloader, adb or a file manager). On first use the app asks you to allow"
+            echo "installs from this app, then asks Android to confirm each install."
+          } > notes.md
+          cat notes.md
+
+      - name: Publish the pre-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh release delete test-build --cleanup-tag --yes || true
+          gh release create test-build dist/TVEssentials-test.apk dist/SHA256SUMS.txt \
+            --target "$GITHUB_SHA" --prerelease \
+            --title "TV Essentials - test build" \
+            --notes-file notes.md
+          echo "### Test build published" >> "$GITHUB_STEP_SUMMARY"
+          echo "https://github.com/${GITHUB_REPOSITORY}/releases/download/test-build/TVEssentials-test.apk" >> "$GITHUB_STEP_SUMMARY"
