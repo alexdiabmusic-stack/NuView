@@ -49,4 +49,21 @@ class RemoteApkProbeTest {
         assertNull(probe(10))
         assertNull(probe(10_000_000_000))
     }
+
+    /** Optional ground truth: a real, publicly released AGP-built APK (has an APK Signing Block before the central directory). */
+    @Test fun `reads the manifest of a real released apk over ranges when a fixture is provided`() {
+        val dir = System.getProperty("tve.fixtureApkDir").orEmpty()
+        val f = java.io.File(dir, "smarttube_stable.apk")
+        if (dir.isBlank() || !f.isFile) return
+        val bytes = f.readBytes()
+        var served = 0L
+        fx.dispatch { req -> rangeDispatch(bytes)(req).also { served += it.body?.contentLength ?: 0 } }
+        val m = probe(bytes.size.toLong())
+        assertEquals("org.smarttube.stable", m?.packageId)
+        assertEquals("32.56", m?.versionName)
+        assertEquals(2446L, m?.versionCode)
+        assertEquals(17, m?.minSdk)
+        assertTrue(served < 400_000, "read $served of ${bytes.size} bytes")
+        println("RemoteApkProbe ground-truth: read the manifest of a ${bytes.size / 1_000_000} MB real APK using $served bytes")
+    }
 }

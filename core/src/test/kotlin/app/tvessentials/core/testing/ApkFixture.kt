@@ -30,7 +30,8 @@ object ApkFixture {
             if (withDex) put("classes.dex", ByteArray(64) { 7 })
             put("resources.arsc", ByteArray(32) { 1 }, stored = true)
             for (abi in abis) put("lib/$abi/libnative.so", ByteArray(48) { 3 })
-            if (padding > 0) put("assets/blob.bin", ByteArray(padding) { (it * 31).toByte() })
+            // Random + STORED so the file really is `padding` bytes bigger; a repeating pattern would deflate to almost nothing.
+            if (padding > 0) put("assets/blob.bin", ByteArray(padding).also { java.util.Random(42).nextBytes(it) }, stored = true)
         }
         return file
     }
