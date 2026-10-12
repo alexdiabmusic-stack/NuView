@@ -16,6 +16,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
@@ -91,6 +93,8 @@ class Type(d: Dimens) {
 
 val LocalType = staticCompositionLocalOf<Type> { error("TvTheme missing") }
 
+const val MAX_FONT_SCALE = 1.3f
+
 /** Wraps the whole UI: backdrop, scale, typography, motion. */
 @Composable
 fun TvTheme(motion: MotionPrefs = MotionPrefs(false), content: @Composable () -> Unit) {
@@ -104,7 +108,11 @@ fun TvTheme(motion: MotionPrefs = MotionPrefs(false), content: @Composable () ->
         val h = maxHeight.value
         val dims = remember(w, h) { Dimens((minOf(w / 1280f, h / 720f)).coerceIn(0.7f, 1.7f), w, h) }
         val type = remember(dims) { Type(dims) }
-        CompositionLocalProvider(LocalDimens provides dims, LocalType provides type, LocalMotion provides motion) {
+        // The layout is a fixed 10-foot composition. Android TV's own text-size setting tops out at 1.3x, so that is
+        // honoured in full; anything beyond it (phone-style 2.0x) would push the primary action off the card.
+        val density = LocalDensity.current
+        val tvDensity = remember(density) { Density(density.density, density.fontScale.coerceAtMost(MAX_FONT_SCALE)) }
+        CompositionLocalProvider(LocalDensity provides tvDensity, LocalDimens provides dims, LocalType provides type, LocalMotion provides motion) {
             content()
         }
     }

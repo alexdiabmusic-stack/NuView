@@ -21,6 +21,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.geometry.Offset
@@ -84,16 +85,19 @@ fun AppCard(
             ),
     ) {
         Column(Modifier.fillMaxSize().padding(horizontal = d.dp(24), vertical = d.dp(22))) {
-            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
-                AppIconTile(ui, d.dp(76))
-                Spacer(Modifier.weight(1f))
-                if (ui.channelLabel.isNotEmpty()) ChannelBadge(ui.channelLabel)
+            // Identity block takes whatever height is left; the status and the action below are measured first, so
+            // however tight the screen or large the text, what the card says and does is never clipped.
+            Column(Modifier.weight(1f).fillMaxWidth().clipToBounds()) {
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
+                    AppIconTile(ui, d.dp(76))
+                    Spacer(Modifier.weight(1f))
+                    if (ui.channelLabel.isNotEmpty()) ChannelBadge(ui.channelLabel)
+                }
+                Spacer(Modifier.height(d.dp(14)))
+                TvText(ui.name, type.cardTitle, maxLines = 1)
+                Spacer(Modifier.height(d.dp(4)))
+                TvText(ui.tagline, type.body, color = Palette.TextSecondary, maxLines = 2)
             }
-            Spacer(Modifier.height(d.dp(14)))
-            TvText(ui.name, type.cardTitle, maxLines = 1)
-            Spacer(Modifier.height(d.dp(4)))
-            TvText(ui.tagline, type.body, color = Palette.TextSecondary, maxLines = 2)
-            Spacer(Modifier.weight(1f))
             Spacer(Modifier.height(d.dp(10)))
             CardBody(ui, c)
             Spacer(Modifier.height(d.dp(14)))

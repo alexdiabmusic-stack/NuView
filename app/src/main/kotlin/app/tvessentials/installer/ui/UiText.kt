@@ -134,7 +134,7 @@ object UiText {
         ErrorKind.WRONG_PACKAGE -> "The downloaded file doesn't belong to $app, so it was discarded. Nothing was installed."
         ErrorKind.SIGNATURE_FAILED -> "This file isn't signed by $app's publisher, so it was blocked and discarded. Nothing was installed."
         ErrorKind.SIGNER_MISMATCH -> "The copy of $app on this device was signed with a different key than the official one. To install the official version, uninstall the current copy first (Settings › Applications)."
-        ErrorKind.NOT_REVIEWED -> "We haven't verified $app's official signing key yet, so we won't install it automatically. Use the guided steps instead."
+        ErrorKind.NOT_REVIEWED -> "We can't verify $app's signing key yet, so it isn't installed automatically. Use the guided steps."
         ErrorKind.UNSUPPORTED_DEVICE -> "$app can't run on this device."
         ErrorKind.PERMISSION_DENIED -> "Allow TV Essentials to install apps, then come back to continue."
         ErrorKind.INSTALL_BLOCKED -> "Your device blocked the installation. Check Settings › Security for restrictions on installing apps."

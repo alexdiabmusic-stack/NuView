@@ -40,7 +40,23 @@ class TvDriver {
     /** Description (or text) of whichever focused node has one; the host view can be flagged focused too and has neither. */
     fun focusedDescription(timeoutMs: Long = 5_000): String? {
         device.wait(Until.hasObject(By.pkg(pkg).focused(true)), timeoutMs)
-        return device.findObjects(By.pkg(pkg).focused(true)).firstNotNullOfOrNull { it.contentDescription ?: it.text }
+        val focused = device.findObjects(By.pkg(pkg).focused(true))
+        focused.firstNotNullOfOrNull { it.contentDescription ?: it.text }?.let { return it }
+        // Compose exposes a card as a focusable box plus a sibling node that carries its label (a screen reader merges
+        // them). The label of the focused area is the largest described node lying inside the focused node's bounds.
+        val all = device.findObjects(By.pkg(pkg))
+        for (f in focused) {
+            val area = runCatching { f.visibleBounds }.getOrNull() ?: continue
+            val inside = all.mapNotNull { n ->
+                runCatching {
+                    val b = n.visibleBounds
+                    val label = n.contentDescription?.takeIf { it.isNotBlank() } ?: return@runCatching null
+                    if (area.contains(b)) label to (b.width().toLong() * b.height()) else null
+                }.getOrNull()
+            }
+            inside.maxByOrNull { it.second }?.let { return it.first }
+        }
+        return null
     }
 
     /** True once a focused element's description starts with [prefix]. On failure the whole UI tree goes to logcat (tag TVE-TEST). */

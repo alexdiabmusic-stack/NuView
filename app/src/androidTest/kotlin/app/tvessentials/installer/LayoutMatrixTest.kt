@@ -27,6 +27,11 @@ class LayoutMatrixTest {
         if (density != null) tv.shell("wm density $density") else tv.shell("wm density reset")
         tv.shell("settings put system font_scale $fontScale")
         Thread.sleep(1_500)
+        // Be honest about what was exercised: an emulator may refuse a mode (the TV image caps the panel at 1080p).
+        size?.let { wanted ->
+            val width = wanted.substringBefore('x').toInt()
+            org.junit.Assume.assumeTrue("[$label] the display did not switch to $wanted (is ${tv.device.displayWidth}px wide)", tv.device.displayWidth == width)
+        }
         tv.launchFresh()
         assertTrue("[$label] hero visible", tv.hasText("Everything you need. One place."))
         for (name in listOf("Nuvio TV", "iMPlayer", "SmartTube")) assertNotNull("[$label] card $name", tv.cardDescription(name))
