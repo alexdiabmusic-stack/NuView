@@ -1,6 +1,5 @@
-# One-off reconnaissance (round 2): resolve the iMPlayer Downloader code through AFTVnews'
-# public shortener and report what the official endpoint is and how it behaves.
-# Public files are downloaded only to read their manifest/signing certificate; nothing is executed.
+# One-off reconnaissance (round 3): read the AFTVnews redirect interstitial for code 82375
+# and report the destination it declares, plus how that destination responds to a plain HTTP client.
 name: recon
 on:
   push:
@@ -15,42 +14,32 @@ jobs:
   recon:
     runs-on: ubuntu-latest
     steps:
-      - name: Resolve Downloader code 82375 (redirect chain, query strings stripped)
+      - name: Extract destination URLs from the AFTVnews interstitial
         run: |
           UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
-          for u in https://aftv.news/82375 https://aftv.news/82375/ http://aftv.news/82375; do
-            echo "=================== $u"
-            curl -sS -m 30 -A "$UA" -D - -o body.html "$u" -w 'effective=%{url_effective} code=%{http_code} redirects=%{num_redirects}\n' -L 2>&1 \
-              | sed -E 's/\?[^ ]*//' | grep -iE '^(HTTP|location|server|content-type|content-length|content-disposition|cf-|effective|curl:|refresh|set-cookie: __cf)' || true
-            echo "--- body head"; head -c 1500 body.html | tr -s '\n' | head -40
-          done
-      - name: Follow the chain manually, hop by hop (no challenge bypass attempted)
+          curl -sSL -m 30 -A "$UA" -o go.html https://go.aftvnews.com/82375
+          wc -c go.html
+          echo "== every absolute URL in the page (deduped), excluding aftvnews/google/favicons"
+          grep -oE "https?://[^\"'<> )\\\\]+" go.html | sort -u | grep -vE 'aftvnews\.com|aftv\.news|google\.com|gstatic|w3\.org|schema\.org' | head -40
+          echo "== lines mentioning redirect/destination/url/location (trimmed)"
+          grep -inE 'destination|redirect to|location\.href|window\.location|meta http-equiv="refresh"|data-url|id="(url|link|dest)' go.html | cut -c1-260 | head -30
+          echo "== visible text (tags stripped), first 60 non-empty lines after <body>"
+          sed -n '/<body/,$p' go.html | sed -E 's/<script[^>]*>.*<\/script>//g; s/<[^>]+>/ /g' | tr -s ' \t' | grep -vE '^\s*$' | head -60 | cut -c1-200
+      - name: Probe the declared destination with a plain HTTP client (headers only, no bypass attempted)
         run: |
           UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
-          url=https://aftv.news/82375
-          for i in 1 2 3 4 5 6 7 8; do
-            echo "hop $i: $(echo "$url" | sed -E 's/\?.*/?<q>/')"
-            hdr="$(curl -sS -m 30 -A "$UA" -I "$url" 2>&1 || true)"
-            echo "$hdr" | sed -E 's/\?[^ ]*/?<q>/' | grep -iE '^(HTTP|location|server|content-type|content-length|accept-ranges|content-disposition|cf-mitigated|last-modified|etag)' || true
-            next="$(echo "$hdr" | tr -d '\r' | awk 'tolower($1)=="location:"{print $2}' | tail -1)"
-            [ -z "$next" ] && break
-            case "$next" in http*) url="$next";; /*) url="$(echo "$url" | sed -E 's#(https?://[^/]+).*#\1#')$next";; esac
-            echo "$url" > last_url.txt
-          done
-          echo; echo "FINAL (host + path only):"; sed -E 's/\?.*//' last_url.txt 2>/dev/null || echo "(no redirect)"
-      - name: If the endpoint is an APK, download and measure it with the SDK tools
-        run: |
-          UA='Mozilla/5.0 (Linux; Android 9; AFTMM Build/PS7233) AppleWebKit/537.36 Chrome/120 Safari/537.36'
-          mkdir -p apks
-          curl -sSL -m 600 -A "$UA" -o apks/implayer_candidate.bin -D apks/h.txt -w 'code=%{http_code} size=%{size_download} type=%{content_type} final=%{url_effective}\n' https://aftv.news/82375 | sed -E 's/\?[^ ]*//'
-          file apks/implayer_candidate.bin | cut -c1-140
-          if unzip -tq apks/implayer_candidate.bin >/dev/null 2>&1; then
-            BT="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"
-            echo "--- zip entries (top level)"; unzip -l apks/implayer_candidate.bin | awk '{print $4}' | grep -vE '/' | head -20
-            cp apks/implayer_candidate.bin apks/implayer.apk
+          curl -sSL -m 30 -A "$UA" -o go.html https://go.aftvnews.com/82375
+          DEST="$(grep -oE "https?://[^\"'<> )\\\\]+" go.html | sort -u | grep -vE 'aftvnews\.com|aftv\.news|google\.com|gstatic|w3\.org|schema\.org' | grep -iE 'implayer|\.apk|download' | head -1)"
+          echo "destination candidate: $(echo "${DEST:-<none>}" | sed -E 's/\?.*/?<q>/')"
+          [ -z "$DEST" ] && exit 0
+          curl -sSIL -m 60 -A "$UA" "$DEST" -D hdr.txt -o /dev/null -w 'final=%{url_effective} code=%{http_code} type=%{content_type} size=%{size_download}\n' | sed -E 's/\?[^ ]*/?<q>/'
+          grep -iE '^(HTTP|location|server|content-type|content-length|content-disposition|accept-ranges|cf-mitigated|last-modified|etag)' hdr.txt | sed -E 's/\?[^ ]*/?<q>/' | head -30
+          mkdir -p apks; curl -sSL -m 600 -A "$UA" -o apks/cand.bin "$DEST" -w 'downloaded=%{size_download}\n'
+          file apks/cand.bin | cut -c1-140
+          if unzip -tq apks/cand.bin >/dev/null 2>&1; then
+            BT="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)"; cp apks/cand.bin apks/implayer.apk
+            echo "--- top-level zip entries"; unzip -l apks/implayer.apk | awk '{print $4}' | grep -vE '/' | head -20
             "$BT/apksigner" verify --verbose --print-certs apks/implayer.apk 2>&1 | grep -vE '^WARNING' | grep -E 'Verifies|Verified using|Number of signers|certificate (DN|SHA-256|SHA-1)|DOES NOT|ERROR' || true
             "$BT/aapt2" dump badging apks/implayer.apk 2>/dev/null | grep -E "^(package|sdkVersion|minSdkVersion|targetSdkVersion|native-code|application-label:|leanback-launchable)" | cut -c1-220 || true
             sha256sum apks/implayer.apk; stat -c 'size=%s' apks/implayer.apk
-          else
-            echo "not a zip/APK - first bytes:"; head -c 600 apks/implayer_candidate.bin | strings | head -15
-          fi
+          else echo "not a zip/APK:"; head -c 400 apks/cand.bin | strings | head -8; fi
