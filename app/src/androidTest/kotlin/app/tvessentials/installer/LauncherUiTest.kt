@@ -102,15 +102,17 @@ class LauncherUiTest {
         assertEquals(false, tv.device.hasObject(androidx.test.uiautomator.By.pkg(tv.pkg).depth(0)))
     }
 
-    @Test fun iMPlayerOffersTheGuidedRouteAndBackClosesIt() {
+    @Test fun iMPlayerIsOfferedForOnePressInstallAndKeepsTheGuidedRouteAsFallback() {
         tv.focusCard(1); assertTrue(tv.focusIs("iMPlayer"))
-        // The card first checks the official site; it offers the guided route once it knows (browser check, or no reviewed key).
-        assertTrue("card offers the guided route", tv.cardSays("iMPlayer", "How to install", 90_000))
-        tv.device.pressDPadCenter()
-        assertTrue("guided install dialog", tv.device.wait(androidx.test.uiautomator.Until.hasObject(androidx.test.uiautomator.By.pkg(tv.pkg).textContains("Downloader code")), 30_000))
-        assertTrue("shows the real code", tv.hasText("82375", 3_000))
-        tv.screenshot("guide_implayer")
+        // The card first checks the official site; once it knows the release it offers Install, exactly like the other two.
+        // (Pressing it would download ~98 MB; the live install path is exercised with SmartTube in InstallFlowTest.)
+        assertTrue("card offers Install for the official file", tv.cardSays("iMPlayer", "Latest 4.", 90_000) && tv.cardSays("iMPlayer", "Install", 5_000))
+        tv.screenshot("implayer_ready")
+        tv.device.pressMenu()
+        assertTrue("details screen", tv.hasText("Latest verified version"))
+        assertTrue("the guided route remains available as a fallback", tv.hasText("How to install", 5_000))
+        tv.screenshot("details_implayer")
         tv.device.pressBack()
-        assertTrue("dialog closed, focus back on the card", tv.focusIs("iMPlayer"))
+        assertTrue("back on the card", tv.focusIs("iMPlayer"))
     }
 }

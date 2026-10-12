@@ -83,8 +83,9 @@ class TvDriver {
     fun cardDescription(name: String, timeoutMs: Long = 20_000): UiObject2? =
         device.wait(Until.findObject(By.pkg(pkg).descStartsWith(name)), timeoutMs)
 
+    /** True once the card named [name] describes itself with [fragment] (a selector may only carry one desc condition, so one regex). */
     fun cardSays(name: String, fragment: String, timeoutMs: Long = 60_000): Boolean =
-        device.wait(Until.hasObject(By.pkg(pkg).descStartsWith(name).descContains(fragment)), timeoutMs)
+        device.wait(Until.hasObject(By.pkg(pkg).desc(Pattern.compile("(?s)${Pattern.quote(name)}.*${Pattern.quote(fragment)}.*"))), timeoutMs)
 
     private val installerPkg: Pattern = Pattern.compile(".*packageinstaller.*")
 

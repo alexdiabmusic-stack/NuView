@@ -16,6 +16,8 @@ data class AppCardUi(
     val channelLabel: String,
     /** The app's own launcher icon, read from the user's device (installed app or the verified download); null until available. */
     val officialIcon: ImageBitmap? = null,
+    /** Bundled brand artwork for the app; preferred over [officialIcon] so the tiles look the same before and after installing. */
+    val logo: ImageBitmap? = null,
     val guide: GuideUi? = null,
 )
 

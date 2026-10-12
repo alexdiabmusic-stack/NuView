@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -36,11 +37,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.FilterQuality
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
@@ -280,20 +283,24 @@ fun TvProgressBar(fraction: Float?, accent: Color, modifier: Modifier = Modifier
     }
 }
 
-/** The app's tile: its own launcher icon once known (from the user's device), otherwise a neutral vector glyph. */
+/**
+ * The app's tile: rounded-square artwork with a hairline edge and a soft shadow. Bundled brand logo first, then the app's
+ * own launcher icon once it is installed, otherwise a neutral vector glyph on the app's accent colour.
+ */
 @Composable
 fun AppIconTile(ui: AppCardUi, size: Dp, modifier: Modifier = Modifier) {
-    val radius = size * 0.24f
-    val shape = RoundedCornerShape(radius)
+    val shape = RoundedCornerShape(size * 0.24f)
+    val artwork = ui.logo ?: ui.officialIcon
     Box(
-        modifier.size(size).clip(shape)
-            .background(Brush.linearGradient(listOf(ui.accent.copy(alpha = 0.95f), ui.accent.copy(alpha = 0.55f).compositeOver(Palette.Background))), shape)
-            .border(1.dp, Color.White.copy(alpha = 0.18f), shape),
+        modifier.size(size)
+            .shadow(size * 0.09f, shape, clip = false, ambientColor = Color.Black, spotColor = Color.Black)
+            .clip(shape)
+            .then(if (artwork == null) Modifier.background(Brush.linearGradient(listOf(ui.accent.copy(alpha = 0.95f), ui.accent.copy(alpha = 0.55f).compositeOver(Palette.Background))), shape) else Modifier)
+            .border(1.dp, Color.White.copy(alpha = 0.16f), shape),
         contentAlignment = Alignment.Center,
     ) {
-        val icon = ui.officialIcon
-        if (icon != null) {
-            Image(bitmap = icon, contentDescription = null, modifier = Modifier.fillMaxWidth().fillMaxHeight(), contentScale = ContentScale.Crop)
+        if (artwork != null) {
+            Image(bitmap = artwork, contentDescription = null, modifier = Modifier.fillMaxSize(), contentScale = ContentScale.Crop, filterQuality = FilterQuality.High)
         } else {
             GlyphIcon(ui.glyph, Color.White, size * 0.56f)
         }

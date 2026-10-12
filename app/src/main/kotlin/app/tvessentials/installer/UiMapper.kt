@@ -24,7 +24,7 @@ object UiMapper {
         else -> Glyph.Download
     }
 
-    fun card(s: AppState, icon: ImageBitmap?): AppCardUi {
+    fun card(s: AppState, icon: ImageBitmap?, logo: ImageBitmap? = null): AppCardUi {
         val app = s.app
         return AppCardUi(
             card = CardDeriver.derive(s),
@@ -34,12 +34,13 @@ object UiMapper {
             accent = Palette.accent(app.accentColor),
             channelLabel = if (s.channel == Channel.BETA && Channel.BETA in app.channels) "Beta" else "",
             officialIcon = icon,
+            logo = logo,
             guide = app.guided?.let { GuideUi(it.officialUrl, it.downloaderCode, it.steps) },
         )
     }
 
-    fun details(s: AppState, icon: ImageBitmap?, nowMs: Long): DetailsUi {
-        val c = card(s, icon)
+    fun details(s: AppState, icon: ImageBitmap?, logo: ImageBitmap?, nowMs: Long): DetailsUi {
+        val c = card(s, icon, logo)
         val model = c.card
         return DetailsUi(
             card = c,

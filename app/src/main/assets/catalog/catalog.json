@@ -4,8 +4,8 @@
     {
       "id": "nuvio-tv",
       "displayName": "Nuvio TV",
-      "tagline": "Your media, beautifully organized",
-      "description": "A free, open-source media library for Android TV. Bring your own sources and Nuvio turns them into a library with artwork, ratings and subtitles.",
+      "tagline": "Stream and discover movies and TV shows in one sleek, easy-to-use app.",
+      "description": "Stream and discover movies and TV shows in one sleek, easy-to-use app.",
       "publisher": "Nuvio Media",
       "websiteUrl": "https://nuvio.tv",
       "iconKey": "library",
@@ -58,8 +58,9 @@
     {
       "id": "implayer",
       "displayName": "iMPlayer",
-      "tagline": "A premium live TV experience",
-      "description": "An IPTV player for Android TV. It includes no channels or playlists; you add your own legal sources.",
+      "tagline": "Premium IPTV player for watching live TV, sports, and channels with a modern interface.",
+      "description": "Premium IPTV player for watching live TV, sports, and channels with a modern interface.",
+      "disclosure": "iMPlayer is a player only. It includes no channels or playlists; you add your own legal sources.",
       "publisher": "iMPlayer",
       "websiteUrl": "https://implayer.tv",
       "iconKey": "antenna",
@@ -75,10 +76,17 @@
       },
       "allowedHosts": ["implayer.tv", "*.implayer.tv", "implayer.nyc3.cdn.digitaloceanspaces.com"],
       "trust": {
-        "signers": [],
+        "signers": [
+          {
+            "sha256": "e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766",
+            "label": "iMPlayer release key",
+            "since": "2026-10-12",
+            "note": "Pinned at the project owner's request. Measured by CI on the file served by https://implayer.tv/d on 2026-10-12 (package com.myiptvonline.implayer, version 4.1.6, versionCode 486). Single measurement from the same channel as the file."
+          }
+        ],
         "revoked": [],
         "allowLineageRotation": false,
-        "review": "NO REVIEWED CERTIFICATE YET. iMPlayer's official download is https://implayer.tv/d (from some networks it answers non-browser clients with a Cloudflare browser check; from a GitHub Actions runner on 2026-10-12 it redirected to the vendor's own storage bucket and served a ~98 MB universal APK: package com.myiptvonline.implayer, version 4.1.6, versionCode 486, minSdk 23, signing certificate SHA-256 e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766). That is a single sample obtained from the same channel as the file, with no independently published fingerprint to corroborate it, so it is NOT pinned. Until a maintainer confirms it out-of-band and adds it under trust.signers, this app is never installed automatically; the guided route is used instead. The Downloader code 82375 shown in the guide was supplied by the project owner; this build does not vouch for what it resolves to."
+        "review": "OWNER-APPROVED PIN. iMPlayer publishes no signing fingerprint and no release feed, so this certificate was taken from the vendor's own official download (https://implayer.tv/d, redirected to the vendor's storage bucket and served over HTTPS to a GitHub Actions runner on 2026-10-12: package com.myiptvonline.implayer, version 4.1.6, versionCode 486, minSdk 23, ~98 MB universal APK) and pinned at the project owner's explicit request so the app can install it with one press. It is a single measurement from the same channel as the file, not independently corroborated. From now on only an APK signed by this exact certificate is installed; any other signer fails closed with a signer-mismatch message and the guided route. Confirm it with the vendor or a second download before wider distribution. From some networks the official URL answers with a Cloudflare browser check, which the app reports and never bypasses. The Downloader code 82375 shown in the guided route was supplied by the project owner; this build does not vouch for what it resolves to."
       },
       "guided": {
         "officialUrl": "https://implayer.tv/",
@@ -94,8 +102,8 @@
     {
       "id": "smarttube",
       "displayName": "SmartTube",
-      "tagline": "YouTube without interruptions",
-      "description": "An independent, open-source YouTube client for Android TV with ad blocking and SponsorBlock support.",
+      "tagline": "Enjoy YouTube videos without ads, with background playback and additional features.",
+      "description": "Enjoy YouTube videos without ads, with background playback and additional features.",
       "publisher": "SmartTube project (yuliskov)",
       "websiteUrl": "https://smarttubeapp.github.io/",
       "disclosure": "SmartTube is an independent third-party YouTube client. It is not affiliated with, endorsed by, or sponsored by Google or YouTube.",

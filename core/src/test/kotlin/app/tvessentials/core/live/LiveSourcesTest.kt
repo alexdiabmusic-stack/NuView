@@ -11,12 +11,14 @@ import app.tvessentials.core.install.ApkVerifier
 import app.tvessentials.core.install.ExpectedApk
 import app.tvessentials.core.install.StorageGateway
 import app.tvessentials.core.install.Verification
+import app.tvessentials.core.install.VerifyError
 import app.tvessentials.core.net.HostPolicy
 import app.tvessentials.core.net.SafeHttp
 import app.tvessentials.core.source.DeviceProfile
 import app.tvessentials.core.source.DirectApkResolver
 import app.tvessentials.core.source.GitHubReleasesResolver
 import app.tvessentials.core.source.InMemoryHttpCache
+import app.tvessentials.core.source.ResolvedRelease
 import app.tvessentials.core.source.SourceFailure
 import app.tvessentials.core.source.SourceResult
 import app.tvessentials.core.testing.Fixtures
@@ -104,18 +106,32 @@ class LiveSourcesTest {
         val downloader = ApkDownloader(http, StorageGateway { Long.MAX_VALUE / 4 })
         var failures = 0
         for (app in catalog().filter { it.trust.signers.isNotEmpty() }) for (channel in app.supportedChannels) {
-            val (label, device) = arm64
-            val r = (resolve(app, channel, device) as? SourceResult.Success)?.release ?: run { failures++; println("LIVE-VERIFY ${app.id} ${channel.name}: could not resolve"); null } ?: continue
-            val dest = File(tmp.root, "${app.id}-${channel.name.lowercase()}.apk")
-            val dl = downloader.download(DownloadRequest(r.asset.url, dest, r.asset.sizeBytes, r.asset.sha256, HostPolicy(app.allowedHosts))) {}
-            val v = verifier.verify(dl.file, ExpectedApk(r.packageId, r.versionName, r.asset.sizeBytes, r.asset.sha256), app.trust, device, installed = null, archive = ::archiveInfo)
-            val text = when (v) {
-                is Verification.Passed -> "PASSED v${v.archive.versionName} (code ${v.archive.versionCode}) pkg=${v.archive.packageId} signer=${v.signer.label} sha256=${v.sha256.take(16)}…"
-                is Verification.Failed -> "REJECTED ${v.error}: ${v.detail}".also { failures++ }
+            // One download per distinct file; every device class that would receive that file verifies it (ABI, minSdk, signer).
+            val devicesByUrl = LinkedHashMap<String, MutableList<Pair<String, DeviceProfile>>>()
+            val releaseByUrl = HashMap<String, ResolvedRelease>()
+            for ((label, device) in listOf(arm64, fire32, x86)) {
+                val r = (resolve(app, channel, device) as? SourceResult.Success)?.release
+                if (r == null) { failures++; println("LIVE-VERIFY ${app.id} ${channel.name.lowercase()} [$label]: could not resolve"); continue }
+                devicesByUrl.getOrPut(r.asset.url) { mutableListOf() } += label to device
+                releaseByUrl[r.asset.url] = r
             }
-            println("LIVE-VERIFY ${app.id} ${channel.name.lowercase()} [$label] ${r.asset.fileName}: $text")
-            summary.append("| ${app.displayName} | ${channel.name.lowercase()} | verified download | $text |\n")
-            dest.delete()
+            for ((url, devices) in devicesByUrl) {
+                val r = releaseByUrl.getValue(url)
+                val dest = File(tmp.root, "${app.id}-${channel.name.lowercase()}-${(url.hashCode().toLong() and 0xffffffffL)}.apk")
+                val dl = downloader.download(DownloadRequest(r.asset.url, dest, r.asset.sizeBytes, r.asset.sha256, HostPolicy(app.allowedHosts))) {}
+                for ((label, device) in devices) {
+                    val v = verifier.verify(dl.file, ExpectedApk(r.packageId, r.versionName, r.asset.sizeBytes, r.asset.sha256), app.trust, device, installed = null, archive = ::archiveInfo)
+                    val text = when (v) {
+                        is Verification.Passed -> "PASSED v${v.archive.versionName} (code ${v.archive.versionCode}) pkg=${v.archive.packageId} signer=${v.signer.label} sha256=${v.sha256.take(16)}…"
+                        // An x86 emulator legitimately cannot run an arm-only build; the installer says so instead of installing it.
+                        is Verification.Failed -> if (v.error == VerifyError.INCOMPATIBLE_ABI && label == x86.first) "NOT RUNNABLE on $label (expected): ${v.detail}"
+                        else "REJECTED ${v.error}: ${v.detail}".also { failures++ }
+                    }
+                    println("LIVE-VERIFY ${app.id} ${channel.name.lowercase()} [$label] ${r.asset.fileName}: $text")
+                    summary.append("| ${app.displayName} | ${channel.name.lowercase()} | verified download [$label] | $text |\n")
+                }
+                dest.delete()
+            }
         }
         publish()
         assertTrue(failures == 0, "$failures real APK(s) failed verification against the catalog's trust policy")

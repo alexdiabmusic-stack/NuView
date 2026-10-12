@@ -101,8 +101,10 @@ class ManagerHarness(
     val pending: FakePending = FakePending(),
     val packages: FakePackages = FakePackages(),
     preferStable: Boolean = true,
+    unreviewed: Boolean = false,
 ) {
-    val app: AppDefinition = Fixtures.app(appId)
+    private val catalog = if (unreviewed) Fixtures.catalogWithUnreviewed(appId) else Fixtures.catalog
+    val app: AppDefinition = catalog.apps.first { it.id == appId }
     val goodSigner: String = app.trust.signers.firstOrNull()?.sha256 ?: "9".repeat(64)
     val installer = FakeInstaller(packages)
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
@@ -138,7 +140,7 @@ class ManagerHarness(
     }
 
     val manager = InstallManager(
-        catalog = Fixtures.catalog, device = device, repository = repository, downloader = downloader, downloads = cache,
+        catalog = catalog, device = device, repository = repository, downloader = downloader, downloads = cache,
         packages = packages, installer = installer, connectivity = ConnectivityGateway { online },
         storage = StorageGateway { freeBytes }, pending = pending, scope = scope, clock = { now },
         readyHoldMs = 40, successDisplayMs = 80, policyFactory = { fx.policy("api.github.com", "github.com", "*.githubusercontent.com", "implayer.tv") },

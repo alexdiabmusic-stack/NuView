@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -29,6 +30,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
@@ -87,16 +89,25 @@ fun AppCard(
         Column(Modifier.fillMaxSize().padding(horizontal = d.dp(24), vertical = d.dp(22))) {
             // Identity block takes whatever height is left; the status and the action below are measured first, so
             // however tight the screen or large the text, what the card says and does is never clipped.
-            Column(Modifier.weight(1f).fillMaxWidth().clipToBounds()) {
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
-                    AppIconTile(ui, d.dp(76))
-                    Spacer(Modifier.weight(1f))
-                    if (ui.channelLabel.isNotEmpty()) ChannelBadge(ui.channelLabel)
+            BoxWithConstraints(Modifier.weight(1f).fillMaxWidth().clipToBounds()) {
+                // The description gets as many lines (up to three) as fit; it ends in an ellipsis instead of being cut mid-line.
+                val density = LocalDensity.current
+                val fixed = d.dp(76) + d.dp(14) + with(density) { type.cardTitle.lineHeight.toDp() } + d.dp(4)
+                val lineHeight = with(density) { type.body.lineHeight.toDp() }
+                val lines = ((maxHeight - fixed) / lineHeight).toInt().coerceIn(0, 3)
+                Column(Modifier.fillMaxWidth()) {
+                    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
+                        AppIconTile(ui, d.dp(76))
+                        Spacer(Modifier.weight(1f))
+                        if (ui.channelLabel.isNotEmpty()) ChannelBadge(ui.channelLabel)
+                    }
+                    Spacer(Modifier.height(d.dp(14)))
+                    TvText(ui.name, type.cardTitle, maxLines = 1)
+                    if (lines > 0) {
+                        Spacer(Modifier.height(d.dp(4)))
+                        TvText(ui.tagline, type.body, color = Palette.TextSecondary, maxLines = lines)
+                    }
                 }
-                Spacer(Modifier.height(d.dp(14)))
-                TvText(ui.name, type.cardTitle, maxLines = 1)
-                Spacer(Modifier.height(d.dp(4)))
-                TvText(ui.tagline, type.body, color = Palette.TextSecondary, maxLines = 2)
             }
             Spacer(Modifier.height(d.dp(10)))
             CardBody(ui, c)

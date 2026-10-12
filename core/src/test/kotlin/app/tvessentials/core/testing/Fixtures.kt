@@ -11,6 +11,10 @@ object Fixtures {
     }
     fun app(id: String): AppDefinition = catalog.apps.first { it.id == id }
 
+    /** The same app as shipped, but with no reviewed signing certificate: exercises the guided-only path that must keep working for future catalog entries. */
+    fun unreviewed(id: String): AppDefinition = app(id).let { it.copy(trust = it.trust.copy(signers = emptyList())) }
+    fun catalogWithUnreviewed(id: String): Catalog = catalog.copy(apps = catalog.apps.map { if (it.id == id) unreviewed(id) else it })
+
     private const val HEX = "0123456789abcdef"
     fun fakeSha(seed: Int): String = buildString { repeat(64) { append(HEX[(seed * 7 + it * 3) % 16]) } }
 

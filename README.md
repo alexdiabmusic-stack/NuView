@@ -6,7 +6,7 @@ three apps from their official sources, with a remote-friendly interface and a s
 | App | What it is | Official source |
 |---|---|---|
 | **Nuvio TV** | Media app for Android TV (`com.nuvio.tv`) | [NuvioMedia/NuvioTV](https://github.com/NuvioMedia/NuvioTV) releases |
-| **iMPlayer** | IPTV player (`com.myiptvonline.implayer`), *you bring your own legal sources* | [implayer.tv](https://implayer.tv) (guided install, see below) |
+| **iMPlayer** | IPTV player (`com.myiptvonline.implayer`), *you bring your own legal sources* | [implayer.tv](https://implayer.tv) (official direct download, see below) |
 | **SmartTube** | Independent third-party YouTube client for TV (`org.smarttube.stable` / `.beta`) | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) releases |
 
 SmartTube is an independent third-party client; it is not affiliated with, endorsed by, or sponsored by Google or
@@ -39,13 +39,15 @@ matches a **pinned SHA-256** in the bundled catalog (SmartTube's pin is the post
 mismatch aborts and deletes the file. No silent, root, ADB or auto-confirm installs, ever. Full details and the honest list of
 limits: **[docs/SECURITY.md](docs/SECURITY.md)**.
 
-### iMPlayer is a guided install – on purpose
+### iMPlayer: one press, with a weaker trust basis
 
-No reviewed, independently confirmed signing certificate exists for iMPlayer's vendor download, and the installer will not
-install something it cannot verify. The iMPlayer card therefore shows guided steps (the official site, plus the
-Downloader code 82375 supplied by the project owner – check where it leads before you use it) and detects when the app is
-installed so it can offer *Open*. See
-[SECURITY.md](docs/SECURITY.md#imaplayer-why-it-is-guided-honestly) for how to enable one-tap install after you have verified a fingerprint.
+iMPlayer installs like the other two: one press on **Install** downloads the file from the vendor's own address
+(`implayer.tv`), checks it, and hands it to Android's installer. Unlike Nuvio TV and SmartTube, iMPlayer publishes no
+release feed or signing fingerprint, so the certificate pinned for it was measured from the vendor's own download on
+2026-10-12 and pinned at the project owner's explicit request. That is one sample from the same source as the file, so confirm
+it with the vendor before wider distribution. A different signer is refused. If the vendor's site shows a browser check, the
+app says so and offers guided steps (the official site, plus the Downloader code 82375 supplied by the project owner – check
+where it leads before using it). Details: [SECURITY.md](docs/SECURITY.md#imaplayer-an-owner-approved-pin-with-weaker-provenance).
 
 ## Get it on your Fire TV
 

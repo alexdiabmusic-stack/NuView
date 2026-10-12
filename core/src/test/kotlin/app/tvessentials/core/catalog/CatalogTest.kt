@@ -47,11 +47,13 @@ class CatalogTest {
         }
     }
 
-    @Test fun `an app without a reviewed certificate is explicit about it`() {
+    @Test fun `iMPlayer's pin is exactly the measured certificate and says whose decision it was`() {
         val im = catalog.apps.first { it.id == "implayer" }
-        assertTrue(im.trust.signers.isEmpty())
-        assertTrue(im.trust.review.contains("NO REVIEWED CERTIFICATE"))
-        assertEquals("82375", im.guided?.downloaderCode)
+        assertEquals("e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766", im.trust.signers.single().sha256)
+        assertTrue(im.trust.review.contains("OWNER-APPROVED"), "a pin without independent corroboration must say so")
+        assertTrue(!im.trust.allowLineageRotation, "no key rotation is accepted without a reviewed catalog change")
+        assertEquals("82375", im.guided?.downloaderCode, "the guided route stays as a fallback")
+        assertEquals(setOf("implayer.tv", "*.implayer.tv", "implayer.nyc3.cdn.digitaloceanspaces.com"), im.allowedHosts.toSet())
     }
 
     private fun mutate(f: (String) -> String) = CatalogParser.parse(f(text))

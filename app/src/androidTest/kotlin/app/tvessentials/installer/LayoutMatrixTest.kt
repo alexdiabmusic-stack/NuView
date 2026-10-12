@@ -43,7 +43,10 @@ class LayoutMatrixTest {
 
     @Test fun at720p() = verify("720p", "1280x720", 213)
     @Test fun at1080p() = verify("1080p", "1920x1080", 213)
-    @Test fun at4k() = verify("4k", "3840x2160", 320)
+    // The TV image's panel is capped at 1080p, so 4K itself cannot be exercised. The same layout code sees other
+    // screens only as a dp size, so these two densities stand in for the other common Android TV reference sizes.
+    @Test fun at1080pAs960dp() = verify("1080p_320dpi", "1920x1080", 320)
+    @Test fun at1080pAs1280dp() = verify("1080p_240dpi", "1920x1080", 240)
     @Test fun at1080pWithLargeText() = verify("1080p_font1.3", "1920x1080", 213, "1.3")
     @Test fun at720pWithLargestText() = verify("720p_font2.0", "1280x720", 213, "2.0")
 }

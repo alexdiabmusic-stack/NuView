@@ -17,6 +17,7 @@ import kotlin.test.assertTrue
 class CardDeriverTest {
     private val nuvio = Fixtures.app("nuvio-tv")
     private val implayer = Fixtures.app("implayer")
+    private val unreviewedApp = Fixtures.unreviewed("implayer")
     private val signer = nuvio.trust.signers.single().sha256
 
     private fun release(version: String? = "1.0.0", code: Long? = null, size: Long? = 73_746_627, app: String = "nuvio-tv", pkg: String = "com.nuvio.tv") = ResolvedRelease(
@@ -160,8 +161,14 @@ class CardDeriverTest {
         assertEquals(CardAction.OPEN_APP_INFO, c.primary)
     }
 
+    @Test fun `iMPlayer is offered for one-press install like the other apps`() {
+        val c = card(state(app = implayer, release = release(app = "implayer", pkg = "com.myiptvonline.implayer", version = "4.1.6")))
+        assertEquals(CardKind.INSTALL_AVAILABLE, c.kind)
+        assertEquals(CardAction.INSTALL, c.primary)
+    }
+
     @Test fun `without a reviewed certificate only the guided route is offered`() {
-        val c = card(state(app = implayer, release = release(app = "implayer", pkg = "com.myiptvonline.implayer", version = null)))
+        val c = card(state(app = unreviewedApp, release = release(app = "implayer", pkg = "com.myiptvonline.implayer", version = null)))
         assertEquals(CardKind.GUIDED_ONLY, c.kind)
         assertEquals(CardAction.SHOW_GUIDE, c.primary)
         assertEquals(VersionNote.UNVERIFIED, c.versionNote)
@@ -176,7 +183,7 @@ class CardDeriverTest {
 
     @Test fun `iMPlayer installed manually is detected and openable even though it can't be auto-updated`() {
         val inst = InstalledPackage("com.myiptvonline.implayer", "4.1.5", 415, setOf("a".repeat(64)))
-        val c = card(state(app = implayer, installed = inst, trusted = null, release = release(app = "implayer", pkg = "com.myiptvonline.implayer", version = null)))
+        val c = card(state(app = unreviewedApp, installed = inst, trusted = null, release = release(app = "implayer", pkg = "com.myiptvonline.implayer", version = null)))
         assertEquals(CardKind.INSTALLED, c.kind)
         assertEquals(CardAction.OPEN, c.primary)
     }

@@ -43,14 +43,15 @@ class MainViewModel(private val app: TvEssentialsApp) : ViewModel() {
     val reducedMotion = MutableStateFlow(MotionSettings.reduced(app))
 
     private val icons = MutableStateFlow<Map<String, ImageBitmap>>(emptyMap())
+    private val logos = MutableStateFlow<Map<String, ImageBitmap>>(emptyMap())
     private val iconKeys = HashMap<String, Long>()
     private val cacheBytes = MutableStateFlow(c.downloads.sizeBytes())
     private val autoCheck = MutableStateFlow(true)
     private val preferStable = MutableStateFlow(true)
 
-    val home: StateFlow<HomeUi> = combine(manager.state, c.connectivity.online, icons) { states, online, icons ->
+    val home: StateFlow<HomeUi> = combine(manager.state, c.connectivity.online, icons, logos) { states, online, icons, logos ->
         HomeUi(
-            cards = states.map { UiMapper.card(it, icons[it.app.id]) },
+            cards = states.map { UiMapper.card(it, icons[it.app.id], logos[it.app.id]) },
             online = online,
             checking = states.any { it.checking },
             installerVersion = c.versionName,
@@ -58,9 +59,9 @@ class MainViewModel(private val app: TvEssentialsApp) : ViewModel() {
         )
     }.stateIn(viewModelScope, SharingStarted.Eagerly, HomeUi(emptyList(), true, false, c.versionName))
 
-    val details: StateFlow<Map<String, DetailsUi>> = combine(manager.state, icons) { states, icons ->
+    val details: StateFlow<Map<String, DetailsUi>> = combine(manager.state, icons, logos) { states, icons, logos ->
         val now = System.currentTimeMillis()
-        states.associate { it.app.id to UiMapper.details(it, icons[it.app.id], now) }
+        states.associate { it.app.id to UiMapper.details(it, icons[it.app.id], logos[it.app.id], now) }
     }.stateIn(viewModelScope, SharingStarted.Eagerly, emptyMap())
 
     val settings: StateFlow<SettingsUi> = combine(manager.state, autoCheck, preferStable, cacheBytes) { states, auto, stable, bytes ->
@@ -96,6 +97,7 @@ class MainViewModel(private val app: TvEssentialsApp) : ViewModel() {
     private val lastPhase = HashMap<String, Phase>()
 
     init {
+        viewModelScope.launch(Dispatchers.IO) { logos.value = BrandLogos.loadAll(app) }
         viewModelScope.launch {
             val (auto, stable) = c.prefs.current()
             autoCheck.value = auto; preferStable.value = stable

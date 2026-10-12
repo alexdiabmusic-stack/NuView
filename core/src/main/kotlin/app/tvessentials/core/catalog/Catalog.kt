@@ -33,7 +33,7 @@ data class AppDefinition(
     val websiteUrl: String,
     /** Extra disclosure shown on details, e.g. "independent third-party client". */
     val disclosure: String? = null,
-    /** Key into the app's neutral icon set. Official artwork is only ever shown from the user's own device. */
+    /** Key into the neutral glyph set used when no logo is bundled for the app and its own launcher icon is not on the device yet. */
     val iconKey: String,
     /** Accent colour as #RRGGBB. */
     val accentColor: String,

@@ -44,9 +44,10 @@ class InstallManagerTest {
         packages: app.tvessentials.core.testing.FakePackages = app.tvessentials.core.testing.FakePackages(),
         device: app.tvessentials.core.source.DeviceProfile = app.tvessentials.core.source.DeviceProfile(28, listOf("arm64-v8a", "armeabi-v7a")),
         preferStable: Boolean = true,
+        unreviewed: Boolean = false,
     ): ManagerHarness {
         val fx = TlsFixture()
-        return ManagerHarness(tmp.root.resolve("h${System.nanoTime()}").also { it.mkdirs() }, fx, appId, device, http?.invoke(fx) ?: fx.http, free, online, pending, packages, preferStable).also { h = it }
+        return ManagerHarness(tmp.root.resolve("h${System.nanoTime()}").also { it.mkdirs() }, fx, appId, device, http?.invoke(fx) ?: fx.http, free, online, pending, packages, preferStable, unreviewed).also { h = it }
     }
 
     private suspend fun ManagerHarness.startAndSettle() {
@@ -429,8 +430,34 @@ class InstallManagerTest {
         assertIs<Phase.Failed>(h.state().phase.let { if (it is Phase.Failed) it else Phase.Failed(ErrorKind.UNEXPECTED) })
     }
 
-    @Test fun `an app without a reviewed certificate is never auto installed and shows the guided route`(): Unit = runBlocking {
+    @Test fun `iMPlayer installs through the same verified workflow as the other apps`(): Unit = runBlocking {
         val h = harness(appId = "implayer")
+        h.startAndSettle()
+        assertEquals(CardKind.INSTALL_AVAILABLE, h.card().kind)
+        assertEquals(CardAction.INSTALL, h.card().primary)
+        assertEquals(listOf(CardAction.SHOW_GUIDE), h.card().secondary, "the guided route stays available as a fallback")
+        h.manager.perform(h.appId, CardAction.INSTALL)
+        h.awaitState(what = "success") { it.phase is Phase.Succeeded }
+        assertEquals(1, h.installer.installCalls.get())
+        assertEquals(h.apkSha, h.installer.seenSha.single(), "only the verified bytes are handed to Android")
+    }
+
+    @Test fun `iMPlayer signed by any other certificate is refused and nothing is installed`(): Unit = runBlocking {
+        val h = harness(appId = "implayer")
+        h.packages.archiveFor = { f ->
+            val m = app.tvessentials.core.apk.ApkInspector.inspect(f).manifest
+            m?.let { app.tvessentials.core.apk.ArchiveInfo(it.packageId.orEmpty(), it.versionName, it.versionCode ?: 0, it.minSdk, setOf("b".repeat(64))) }
+        }
+        h.startAndSettle()
+        h.manager.perform(h.appId, CardAction.INSTALL)
+        h.awaitState(what = "failure") { it.phase is Phase.Failed }
+        assertEquals(ErrorKind.SIGNATURE_FAILED, (h.state().phase as Phase.Failed).error)
+        assertEquals(0, h.installer.installCalls.get())
+        assertEquals(0, h.cache.sizeBytes(), "the rejected file is deleted")
+    }
+
+    @Test fun `an app without a reviewed certificate is never auto installed and shows the guided route`(): Unit = runBlocking {
+        val h = harness(appId = "implayer", unreviewed = true)
         h.releaseResult = { SourceResult.Success(h.release()) }
         h.manager.start()
         h.awaitState(what = "release") { it.release != null }

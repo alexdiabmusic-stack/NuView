@@ -13,7 +13,7 @@ the maintainers did not review.**
 | Install only a package signed by a certificate whose SHA-256 is pinned in the catalog | Trust "whatever the server says" (including a signed-manifest server, which can only *select among* reviewed entries) |
 | Keep downloads in its private storage and delete them afterwards | Write to shared storage, expose files through a FileProvider, or leave APKs behind |
 | Work without an account, analytics, ads, Google Play Services or any credential | Send identifiers, tokens or cookies to anyone |
-| Show iMPlayer as "guided install" because no reviewed certificate exists for it (see below) | Pretend a signature was checked when it was not |
+| Show a "guided install" instead of installing an app that has no pinned certificate, or when its source blocks the download | Pretend a signature was checked when it was not |
 
 Permissions requested: `INTERNET`, `ACCESS_NETWORK_STATE`, `REQUEST_INSTALL_PACKAGES` (the merged manifest also contains
 AndroidX's own `<package>.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`, a signature-level permission private to this app). Nothing else
@@ -65,7 +65,7 @@ digests must be 64 hex characters. Changing a pin therefore requires a new, revi
 |---|---|---|---|
 | Nuvio TV | `com.nuvio.tv` | `1cba06fbdf978d0e3f9ad58de6ba3d69e24a948384adde3aed95451e830e5210` | `apksigner` on the publisher's official GitHub release assets 0.9.5-beta and 1.0.0 (identical); CI re-verifies the current stable *and* beta assets on every run |
 | SmartTube | `org.smarttube.stable`, `org.smarttube.beta` | `109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a` | `apksigner` on official release assets 31.94s, 32.56s and 32.56 (stable and beta share the key); certificate issued 2025-11-27 |
-| iMPlayer | `com.myiptvonline.implayer` | **none** (measured `e1cacb99…d766`, deliberately not pinned) | single unconfirmed sample – see below |
+| iMPlayer | `com.myiptvonline.implayer` | `e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766` | **owner-approved pin**: one measurement of the vendor's own download, same channel as the file, not independently confirmed – see below |
 
 > **Please confirm these fingerprints yourself.** They were measured from the publishers' official release assets over
 > HTTPS. A digest taken from the same place as the APK proves *consistency*, not *authenticity*. Cross-check them
@@ -87,7 +87,7 @@ key, and rotated to a new certificate (created 2025-11-27). Consequences for thi
   as a new `signers` entry (keep the old one only if existing installs must still update), and shipping a new installer.
 * The app shows the disclosure that SmartTube is an independent third-party client, not affiliated with Google/YouTube.
 
-### iMPlayer: why it is "guided", honestly
+### iMPlayer: an owner-approved pin with weaker provenance
 
 iMPlayer's official download (`https://implayer.tv/d`) is a vendor URL, not a release feed with signed metadata, and no
 independently published signing fingerprint exists to pin it against. The live CI job measured the current file on
@@ -101,22 +101,27 @@ independently published signing fingerprint exists to pin it against. The live C
 | File SHA-256 | `3f3b347cbc829d572f7431768639791e050a24e08e2759ee73b50f0481300bbd` |
 | Signing certificate SHA-256 | `e1cacb9974064e78d6aefe2d78b5eea6f30592887589a1254648749973d7d766` |
 
-That is **one sample, from the same channel as the file**. Pinning it would be trust-on-first-use, which is exactly what
-a pin is meant to avoid, so the app does **not** pin it. Instead it:
+That is **one sample, from the same channel as the file**. Pinning it is trust-on-first-use: if `implayer.tv` or its
+storage bucket had been serving something else when it was measured, that something would now be trusted. The project
+owner asked for one-press installation of iMPlayer and explicitly approved pinning this certificate, so it is pinned and
+the catalog says so (`review` begins "OWNER-APPROVED PIN"). What that buys and what it does not:
 
-* resolves and displays what the official URL currently serves (allowlist: `implayer.tv`, `*.implayer.tv`, and that one
-  bucket host);
-* **does not install it**: the card routes to the guided steps and detects when it has been installed. The Downloader
-  code shown there (82375) was supplied by the project owner; `aftv.news/82375` redirects to an AFTVnews page
-  (`go.aftvnews.com/82375`) and this build does not vouch for the final destination – check it yourself;
-* keeps reporting (`LIVE-MEASURE` lines in the live CI job) the package, version and signer of the current official
-  file, so you can see whether the certificate ever changes.
+* **Protects against** a later change: a different signer, a tampered or substituted file, a mirror, a redirect to another
+  host, a downgrade. All of these fail closed, and the guided route stays available as a fallback.
+* **Does not protect against** the file having been malicious when it was measured. Before wider distribution, confirm the
+  fingerprint with the vendor or from a second, independent download (`scripts/measure-apk.sh`).
+* If the vendor rotates its signing key, iMPlayer installs will be refused (signer mismatch) until the catalog is updated in
+  a reviewed release; that is the intended behaviour, not a bug.
+* iMPlayer is installed through exactly the same pipeline as the other apps: allowlisted HTTPS hosts (`implayer.tv`,
+  `*.implayer.tv` and that one bucket host), package id check, ABI/minSdk check, pinned signer, no downgrade, and Android's own
+  confirmation screen.
+* The live CI job downloads the real file on every run and verifies it against the pin for 64-bit, 32-bit and x86 device
+  classes, so a key change by the vendor shows up as a CI failure.
+* The Downloader code shown in the guided fallback (82375) was supplied by the project owner; `aftv.news/82375` redirects to
+  an AFTVnews page (`go.aftvnews.com/82375`) and this build does not vouch for the final destination.
 
-**To enable one-tap install for iMPlayer**, after confirming the certificate fingerprint above out-of-band (for example by
-downloading the APK yourself on another machine and running `scripts/measure-apk.sh`, and ideally by asking the vendor), add
-it to `trust.signers` for `implayer` in `catalog.json` and ship a new build. The live job will then also download and
-verify it on every run. From some networks the endpoint answers with a Cloudflare browser check; the app reports that
-clearly and does not try to get around it.
+From some networks the endpoint answers with a Cloudflare browser check; the app reports that clearly, offers the guided
+route, and does not try to get around it.
 
 ## Optional signed manifest source
 
